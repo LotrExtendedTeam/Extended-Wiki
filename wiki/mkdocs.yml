@@ -1,4 +1,59 @@
 site_name: Extended Wiki
 site_url: https://maximuslotro.github.io/Extended-Wiki/
+
+repo_url: https://github.com/maximuslotro/Extended-Wiki
+repo_name: Extended-Wiki
+edit_uri: edit/main/wiki/docs/
+
 theme:
-    name: material
+  name: material
+  color_mode: auto
+  user_color_mode_toggle: true
+  language: en
+  logo: icons/logo.png
+  favicon: icons/logo.png
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    #- navigation.tabs
+    #- navigation.sections
+    #- navigation.expand
+    - navigation.path
+    #- navigation.top
+    #- navigation.expand
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    tag:
+
+
+nav:
+  - Home: index.md
+  - Blocks:
+    - Obsidian: blocks/obsidian.md
+    - Dirt: blocks/dirt.md
+
+extra:
+  tags:
+    Blocks: blocks
+plugins:
+  - tags
+  - search
+  - pagelist
+  - htmlproofer
+extra_css:
+    - stylesheets/custom.css
