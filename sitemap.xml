@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://maximuslotro.github.io/Extended-Wiki/</loc>
-         <lastmod>2025-02-21</lastmod>
+         <lastmod>2025-04-29</lastmod>
+    </url>
+    <url>
+         <loc>https://maximuslotro.github.io/Extended-Wiki/blocks/dirt/</loc>
+         <lastmod>2025-04-29</lastmod>
+    </url>
+    <url>
+         <loc>https://maximuslotro.github.io/Extended-Wiki/blocks/obsidian/</loc>
+         <lastmod>2025-04-29</lastmod>
     </url>
 </urlset>

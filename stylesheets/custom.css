@@ -1,0 +1,152 @@
+.md-main {
+  background-color: #998f65;
+}
+
+/* Flip TOC (secondary sidebar) to the left side of content */
+.md-main__inner {
+	background-color: #e8deb5;
+	padding: 1rem;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row; /* This puts the TOC on the left */
+}
+
+.md-sidebar--secondary {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1rem;
+
+}
+
+.md-nav__title {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+
+.md-sidebar--primary {
+  order: -1; /* Put TOC before content */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.md-content {
+  margin-left: 2rem;
+  margin-right: 0;
+  //background-color: #90c3d1;
+
+}
+
+.md-nav__link--active {
+  border-radius: 0.2em;
+  padding: 0.2em;
+  outline: 0.1em solid;
+  margin-top: 0.1em !important;
+  padding-bottom: 0.3em;
+}
+
+/* Additional styling to fix glitches */
+
+.md-sidebar__inner {
+  padding-top: 0.1em;
+}
+
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  #box-shadow: initial;
+}
+
+/* Optional: adjust for responsiveness */
+@media screen and (max-width: 768px) {
+  .md-sidebar--secondary {
+    display: none;
+  }
+}
+
+.infobox {
+  float: right;
+  width: 300px;
+  margin: 0 0 1em 1em;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 0.9em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.infobox-header {
+  background: #444;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.infobox-image img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.infobox-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #ccc;
+}
+
+.infobox-row {
+  border: 1px solid #ccc;
+  border-right: none;
+  border-bottom: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+}
+
+.infobox-row .label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.infobox-row .value {
+  font-weight: normal;
+}
+
+/* Remove border-right on rightmost cells */
+.infobox-row:nth-child(2n) {
+  border-right: none;
+}
+
+/* Remove border-bottom on last row cells */
+.infobox-row:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
+.infobox-row span {
+  width: 48%;
+}
+
+.infobox-footer {
+  background: #eaeaea;
+  text-align: center;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .infobox {
+    float: none;
+    width: 100%;
+    margin: 1em 0;
+  }
+}
