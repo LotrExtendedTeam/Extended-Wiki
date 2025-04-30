@@ -15,7 +15,7 @@ show:
 
   <!-- Image Section -->
   <div class="infobox-image">
-    <img src="../../img/blocks/obsidian_block.png" alt="Obsidian Image">
+    <img src="../img/blocks/obsidian_block.png" alt="Obsidian Image">
   </div>
 
 
