@@ -1,75 +1,72 @@
-.md-main {
-  background-color: #998f65;
-}
-
-/* Flip TOC (secondary sidebar) to the left side of content */
+/*Set data for main view box of wiki*/
 .md-main__inner {
-	background-color: #e8deb5;
+	background-color: var(--md-default-bg-inner-color);
 	padding: 1rem;
 	border-radius: 8px;
 	display: flex;
-	flex-direction: row; /* This puts the TOC on the left */
+	flex-direction: row; /* Sort By Column */
+}
+.md-main__inner.md-grid {
+    max-width: 70rem;
 }
 
+/*Add padding around navigation*/
+.md-sidebar--primary {
+  padding: 1rem
+}
+
+/*Add padding around toc*/
 .md-sidebar--secondary {
-  margin-left: 0;
-  margin-right: 0;
   padding: 1rem;
-
 }
 
+/*Add a box arround lists*/
+.md-sidebar__inner {
+	background-color: var(--md-default-bg-color);
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	border-radius: 16px;
+}
+
+/*Remove background from side lists*/
 .md-nav__title {
   background-color: transparent !important;
   box-shadow: 0 0 0 transparent !important;
+  color : var(--md-title-color);
+}
+.md-nav__link {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+}
+.md-ellipsis {
+  color : var(--md-title-color);
 }
 
-.md-sidebar--primary {
-  order: -1; /* Put TOC before content */
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.md-content {
-  margin-left: 2rem;
-  margin-right: 0;
-  //background-color: #90c3d1;
-
-}
-
-.md-nav__link--active {
+/*Add a box arround the current selected list option*/
+/*.md-nav__link--active {
   border-radius: 0.2em;
   padding: 0.2em;
   outline: 0.1em solid;
   margin-top: 0.1em !important;
   padding-bottom: 0.3em;
+}*/
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+  box-shadow: initial;
 }
 
-/* Additional styling to fix glitches */
-
+/*Idk*/
 .md-sidebar__inner {
   padding-top: 0.1em;
 }
-
-.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
-  #box-shadow: initial;
-}
-
-/* Optional: adjust for responsiveness */
-@media screen and (max-width: 768px) {
-  .md-sidebar--secondary {
-    display: none;
-  }
-}
-
+/*               INFOBOX DATA                   */
 .infobox {
   float: right;
   width: 300px;
   margin: 0 0 1em 1em;
-  border: 1px solid #ccc;
-  background: #fff;
+  border: 1px solid var(--md-default-table-content-border-color);
+  background: var(--md-default-table-bg-color);
   font-size: 0.9em;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  border-radius: 16px;
   overflow: hidden;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -93,13 +90,15 @@
 .infobox-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid #ccc;
+  border: 1px solid var(--md-default-table-content-border-color);
+  border-left: none;
+  border-right: none;
 }
 
 .infobox-row {
-  border: 1px solid #ccc;
-  border-right: none;
-  border-bottom: none;
+  border: 1px solid var(--md-default-table-content-border-color);
+  border-left: none;
+  border-top: none;
   padding: 10px;
   text-align: center;
   font-size: 0.85em;
@@ -125,24 +124,31 @@
 }
 
 /* Remove border-bottom on last row cells */
-.infobox-row:nth-last-child(-n+2) {
+.infobox-row:nth-last-child(-n+1) {
   border-bottom: none;
 }
 
-.infobox-row span {
-  width: 48%;
-}
-
 .infobox-footer {
-  background: #eaeaea;
+  background: var(--md-default-table-footer-bg-color);
   text-align: center;
   padding: 8px;
   font-weight: bold;
   font-size: 1em;
-  color: #333;
-  border-top: 1px solid #ccc;
+  color: var(--md-default-table-footer-fg-color);
 }
 
+.infobox-footer-data {
+  text-align: center;
+  padding: 8px;
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*When on mobile, display infobox at top and filling screen*/
 @media screen and (max-width: 768px) {
   .infobox {
     float: none;
