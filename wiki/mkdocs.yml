@@ -45,33 +45,38 @@ theme:
 nav:
     - Home: index.md
     - Blocks: 
-        - All Blocks: blocks/blocks.md
-        - Wood Types:
-            - Banana: blocks/banana_wood.md
-            - Chestnut: blocks/chestnut_wood.md
-            - Plum: blocks/plum_wood.md
-            - Willow: blocks/willow_wood.md
+        - All Blocks: blocks.md
+        - Wood Types: 
+            - Banana: banana_wood.md
+            - Chestnut: chestnut_wood.md
+            - Plum: plum_wood.md
+            - Willow: willow_wood.md
         - Stones:
-            - Dirt: blocks/dirt.md
-            - Scorched Stone: blocks/scorched_stone.md
-            - Drystone: blocks/drystone.md
-            - Obsidian: blocks/obsidian.md
+            - Dirt: dirt.md
+            - Scorched Stone: scorched_stone.md
+            - Drystone: drystone.md
+            - Obsidian: obsidian.md
         - Ultiliy Blocks:
-            - Stone Grinder: blocks/stone_grinder.md
-            - Crucible: blocks/crucible.md
+            - Stone Grinder: stone_grinder.md
+            - Crucible: crucible.md
         - Food Blocks:
-            - Cheese Wheel: blocks/cheese_wheel.md
-            - Adged Cheese Wheel: blocks/adged_cheese_wheel.md
+            - Cheese Wheel: cheese_wheel.md
+            - Adged Cheese Wheel: adged_cheese_wheel.md
+    - Items: 
+        - All Items: items.md
+        - Food:
+            - Hobbit Pancake: hobbit_pancake.md
 
-
-extra:
-  tags:
-    Blocks: blocks
 plugins:
-  - tags
-  - search
-  - pagelist
-  - htmlproofer
+  - tags:
+      tags_allowed:
+        - Blocks
+        - Items
+  - search:
+  - htmlproofer:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
 extra_css:
     - stylesheets/custom.css
     - stylesheets/extra.css
