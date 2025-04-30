@@ -1,0 +1,20 @@
+[data-md-color-scheme="default"] {
+	--md-primary-fg-color: #4051b5;
+	--md-default-bg-color: #998f65;
+	--md-default-bg-inner-color: #e8deb5;
+	--md-default-table-bg-color: #e5e5e5 ;
+	--md-default-table-footer-bg-color: #bbbbbb;
+	--md-default-table-footer-fg-color: #333333;
+	--md-default-table-content-border-color: #464646;
+	--md-title-color: #0e191a;
+}
+[data-md-color-scheme="slate"] {
+	--md-primary-fg-color: #20285A;
+	--md-default-bg-color: #454236;
+	--md-default-bg-inner-color: #746F5A;
+	--md-default-table-bg-color: #7f7f7f;
+	--md-default-table-footer-bg-color: #5D5D5D;
+	--md-default-table-footer-fg-color: #c1c1c1;
+	--md-default-table-content-border-color: #000000;
+	--md-title-color: #b6baba;
+}

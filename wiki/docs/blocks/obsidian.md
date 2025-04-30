@@ -1,9 +1,11 @@
 ---
 tags:
   - Blocks
+show:
+  - toc
 ---
 
-<link rel="stylesheet" href="stylesheets/custom.css">
+####
 <div class="infobox">
   <!-- Header -->
   <div class="infobox-header">
@@ -20,7 +22,7 @@ tags:
   <div class="infobox-grid">
   <div class="infobox-row">
     <div class="label">Tool</div>
-    <div class="value">Pickaxe</div>
+    <div class="value">Pickaxe (Required)</div>
   </div>
   <div class="infobox-row">
     <div class="label">Physics Type</div>
@@ -54,15 +56,14 @@ tags:
     <div class="label">Flammable</div>
     <div class="value">No</div>
   </div>
-  <div class="infobox-row">
-    <div class="label"></div>
-    <div class="value"></div>
-  </div>
   </div>
 
   <!-- Footer -->
   <div class="infobox-footer">
     DROPS
+  </div>
+  <div class="infobox-footer-data">
+    Obsidian
   </div>
 </div>
 

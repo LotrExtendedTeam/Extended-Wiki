@@ -1,4 +1,4 @@
-site_name: Extended Wiki
+site_name: "LOTR: Renewed Extended Minecraft Mod Wiki"
 site_url: https://maximuslotro.github.io/Extended-Wiki/
 
 repo_url: https://github.com/maximuslotro/Extended-Wiki
@@ -16,7 +16,8 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
+      primary: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -24,16 +25,16 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: indigo
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
   features:
-    #- navigation.tabs
+    - navigation.tabs
     #- navigation.sections
     #- navigation.expand
-    - navigation.path
+    #- navigation.path
     #- navigation.top
-    #- navigation.expand
     - content.action.edit
   icon:
     repo: fontawesome/brands/github
@@ -42,10 +43,26 @@ theme:
 
 
 nav:
-  - Home: index.md
-  - Blocks:
-    - Obsidian: blocks/obsidian.md
-    - Dirt: blocks/dirt.md
+    - Home: index.md
+    - Blocks: 
+        - All Blocks: blocks/blocks.md
+        - Wood Types:
+            - Banana: blocks/banana_wood.md
+            - Chestnut: blocks/chestnut_wood.md
+            - Plum: blocks/plum_wood.md
+            - Willow: blocks/willow_wood.md
+        - Stones:
+            - Dirt: blocks/dirt.md
+            - Scorched Stone: blocks/scorched_stone.md
+            - Drystone: blocks/drystone.md
+            - Obsidian: blocks/obsidian.md
+        - Ultiliy Blocks:
+            - Stone Grinder: blocks/stone_grinder.md
+            - Crucible: blocks/crucible.md
+        - Food Blocks:
+            - Cheese Wheel: blocks/cheese_wheel.md
+            - Adged Cheese Wheel: blocks/adged_cheese_wheel.md
+
 
 extra:
   tags:
@@ -57,3 +74,4 @@ plugins:
   - htmlproofer
 extra_css:
     - stylesheets/custom.css
+    - stylesheets/extra.css
