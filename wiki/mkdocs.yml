@@ -34,7 +34,7 @@ theme:
     #- navigation.sections
     #- navigation.expand
     #- navigation.path
-    #- navigation.top
+    - navigation.top
     - content.action.edit
   icon:
     repo: fontawesome/brands/github
