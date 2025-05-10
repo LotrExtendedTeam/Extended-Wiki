@@ -14,7 +14,7 @@ show:
 
   <!-- Image Section -->
   <div class="infobox-image">
-    <img src="../img/dirt_block.png" alt="Dirt Image">
+    <img src="../img/blocks/dirt_block.png" alt="Dirt Image">
   </div>
 
 

@@ -72,7 +72,7 @@ show:
 
 ## Overview
 
-Obsidian is a nigh-indistructable freak of nature
+Obsidian is a nigh-indestructible freak of nature
 
 ## Obtaining
 
