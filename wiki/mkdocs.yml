@@ -30,12 +30,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
-    #- navigation.sections
-    #- navigation.expand
-    #- navigation.path
-    - navigation.top
-    - content.action.edit
+    - navigation.tabs #add top navigation bar with main catagories
+    - navigation.tracking # updates the URL bar with the current selected TOC section
+    - navigation.top #adds a button to jump to top of page
+    - navigation.path # does not do anything right now as its a sponser only option currently
+    - navigation.indexes #hide top level navigation duplication
+    - content.action.edit #add edit button on upper right corner
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -43,10 +43,14 @@ theme:
 
 
 nav:
-    - Home: index.md
-    - Blocks: 
+    - Home:
+        - Home: index.md
         - All Blocks: blocks.md
-        - Wood Types: 
+        - All Items: items.md
+        - Updates: updates.md
+    - Blocks:
+        - All Blocks: blocks.md
+        - Wood Types:
             - Banana: banana_wood.md
             - Chestnut: chestnut_wood.md
             - Plum: plum_wood.md
@@ -62,10 +66,12 @@ nav:
         - Food Blocks:
             - Cheese Wheel: cheese_wheel.md
             - Adged Cheese Wheel: adged_cheese_wheel.md
-    - Items: 
+    - Items:
         - All Items: items.md
         - Food:
             - Hobbit Pancake: hobbit_pancake.md
+    - Misc:
+        - Updates: updates.md
 
 plugins:
   - tags:
@@ -77,6 +83,12 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 extra_css:
     - stylesheets/custom.css
     - stylesheets/extra.css
