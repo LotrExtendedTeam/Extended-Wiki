@@ -83,6 +83,20 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
 
 markdown_extensions:
   - admonition
