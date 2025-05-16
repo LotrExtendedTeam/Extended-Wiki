@@ -31,7 +31,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs #add top navigation bar with main catagories
-    - navigation.tracking # updates the URL bar with the current selected TOC section
+    #- navigation.tracking # updates the URL bar with the current selected TOC section
     - navigation.top #adds a button to jump to top of page
     - navigation.path # does not do anything right now as its a sponser only option currently
     - navigation.indexes #hide top level navigation duplication
@@ -88,6 +88,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 extra_css:
     - stylesheets/custom.css

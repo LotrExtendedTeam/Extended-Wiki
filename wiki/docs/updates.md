@@ -6,8 +6,15 @@ show:
 # Updates
 	
 ##(Beta 1.7.3) (Apr 29, 2025)
-	
+ 
+Added Bree Villages 
+
 ??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.7.3 Release image](img/updates/ExtendedUpdate_1_7_3.png)
+		<figcaption>Beta 1.7.3 Release image</figcaption>
+	</figure>
+	
 	* Biomes
 		* Added Barrow Downs River (replaces rivers in the barrow downs to fix immersion breaking water color changes)
 	* Blocks
@@ -118,8 +125,15 @@ show:
 		* Barrow Downs now spawn with a the new Barrow Downs River biome
 	
 ##(Beta 1.7.Tolkien) (Mar 31, 2025)
-	
+
+April Fools update (Tolkien)
+
 ??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.7.Tolkien Release image](img/updates/ExtendedUpdate_1_7_T.png)
+		<figcaption>Beta 1.7.Tolkien Release image</figcaption>
+	</figure>
+	
 	* Entities
 		* Added J. R. R. Tolkien
 	* Misc
@@ -127,7 +141,14 @@ show:
 	 
 ##(Beta 1.7.2) (Feb 28, 2025)
 
+Hired Unit Fixes
+
 ??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.7.2 Release image](img/updates/ExtendedUpdate_1_7_2.png)
+		<figcaption>Beta 1.7.2 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Fixed Axes not mining Wattle and Daub blocks faster
 		* Ported Bree-land Banner
@@ -192,7 +213,14 @@ show:
 	
 ##(Beta 1.7.1) (Jan 21, 2025)
 
-??? Changelog	
+Bree Hamlets
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.7.1 Release image](img/updates/ExtendedUpdate_1_7_1.png)
+		<figcaption>Beta 1.7.1 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Crossed Wattle and Daub
 		* Added Large Flower Pots (every vanilla/renewed/extended pot placeable plant compatible)
@@ -268,7 +296,14 @@ show:
 	
 ##(Beta 1.7.0) (Nov 25, 2024)
 
-??? Changelog	
+Barrow Downs
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.7.0 Release image](img/updates/ExtendedUpdate_1_7_0.png)
+		<figcaption>Beta 1.7.0 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Ancient Rune block (two variants, use chisel to change)
 		* Added Large Clay Pot
@@ -334,7 +369,14 @@ show:
 	
 ##(Beta 1.6.2) (Sep 22, 2024)
 
-??? Changelog	
+Gundabad Uruks
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.6.2 Release image](img/updates/ExtendedUpdate_1_6_2.png)
+		<figcaption>Beta 1.6.2 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Ported Skull Goblet
 		* Added Goblin Bricks and Pillar
@@ -407,7 +449,14 @@ show:
 	
 ##(Beta 1.6.1) (Sep 7, 2024)
 
-??? Changelog	
+Gundabad encampments
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.6.1 Release image](img/updates/ExtendedUpdate_1_6_1.png)
+		<figcaption>Beta 1.6.1 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Bone Block Slab
 		* Added Bone Block Stairs
@@ -479,9 +528,16 @@ show:
 	
 ##(Beta 1.6.0) (Aug 7, 2024)
 
-This version was re-uploaded to fix a critical bug
+Gundabad Camps
 
-??? Changelog	
+Note: This version was re-uploaded to fix a critical bug
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.6.0 Release image](img/updates/ExtendedUpdate_1_6_0.png)
+		<figcaption>Beta 1.6.0 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Banana Branch
 		* Added Banana Wood
@@ -619,7 +675,8 @@ This version was re-uploaded to fix a critical bug
 	
 ##(Beta 1.5.2) (Jun 25, 2024)
 
-??? Changelog	
+Fixes a server crash with bedrolls and players spawning
+??? Changelog
 	* Blocks
 		* Fixed a bug with bedroll events and players spawning in servers for first time
 		* Fixed Hobbit and Dunedain banner’s dropping incorrectly (double or nothing drops)
@@ -634,7 +691,14 @@ This version was re-uploaded to fix a critical bug
 	
 ##(Beta 1.5.1) (Jun 21, 2024)
 
-??? Changelog	
+Added Ranger encampments
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.5.1 Release image](img/updates/ExtendedUpdate_1_5_1.png)
+		<figcaption>Beta 1.5.1 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Hanging Bananas
 		* Fixed an infinite berry glitch with bushes
@@ -704,7 +768,14 @@ This version was re-uploaded to fix a critical bug
 	
 ##(Beta 1.5.0) (May 14, 2024)
 
-??? Changelog	
+Added Ranger Camps
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.5.0 Release image](img/updates/ExtendedUpdate_1_5_0.png)
+		<figcaption>Beta 1.5.0 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Ability for Weapon Racks to have loot-tables
 		* Added Aged Cheese Wheel
@@ -830,8 +901,15 @@ This version was re-uploaded to fix a critical bug
 	
 ##(Beta 1.4.3) (Mar 31, 2024)
 
-This release was originally on March 30th, but was re-uploaded to fix a critical bug 
-??? Changelog	
+Large Hobbit Tavern and other Fixes
+
+Note: This release was originally on March 30th, but was re-uploaded to fix a critical bug 
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.4.3 Release image](img/updates/ExtendedUpdate_1_4_3.png)
+		<figcaption>Beta 1.4.3 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Allowed for plants to be placed on barren dirt
 	* Entities
@@ -863,7 +941,14 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.4.2) (Mar 27, 2024)
 
-??? Changelog	
+Large Hobbit Hole and fur beds
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.4.2 Release image](img/updates/ExtendedUpdate_1_4_2.jpg)
+		<figcaption>Beta 1.4.2 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Black Fur bed
 		* Added Gray Fur bed
@@ -898,7 +983,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.4.1) (Mar 16, 2024)
 
-??? Changelog	
+Fixes
+
+??? Changelog
 	* Blocks
 		* Fixed being unable to cut cheese wheels if not hungry or in creative
 		* Made all of Renewed's Torches Toggleable
@@ -920,7 +1007,14 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.4.0) (Mar 12, 2024)
 
-??? Changelog	
+SGSv5
+
+??? Changelog
+	<figure class="inline end" markdown>
+		![Beta 1.4.0 Release image](img/updates/ExtendedUpdate_1_4_0.png)
+		<figcaption>Beta 1.4.0 Release image</figcaption>
+	</figure>
+	
 	* Blocks
 		* Added Chestnut Branch
 		* Added Chestnut Wood
@@ -1070,7 +1164,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.3.0) (Feb 13, 2024)
 
-??? Changelog	
+Misc and hobbit stuff
+
+??? Changelog
 	* Blocks
 		* Added Gold Trimmed Rhûnic Brick Slab
 		* Added Gold Trimmed Rhûnic Brick Stairs
@@ -1128,7 +1224,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.2.1) (Jan 17, 2024)
 
-??? Changelog	
+Fix despawning hobbit traders
+
+??? Changelog
 	* Entities
 		* Stop Hobbit traders naturally despawning
 	* Misc
@@ -1137,7 +1235,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.2) (Jan 16, 2024)
 
-??? Changelog	
+Added Berries
+
+??? Changelog
 	* Blocks
 		* Added Blackberry Plant
 		* Added Blueberry Plant
@@ -1211,7 +1311,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.1) (Dec 31, 2023)
 
-??? Changelog	
+Leather Hat and hobbit trader spawn crashes
+
+??? Changelog
 	* Items
 		* Ported Leather Hat
 		* Fixed Morgul Blade being small when held in the hand
@@ -1267,7 +1369,9 @@ This release was originally on March 30th, but was re-uploaded to fix a critical
 	
 ##(Beta 1.0) (Dec 27, 2023)
 
-??? Changelog	
+Initial Release
+
+??? Changelog
 	* Blocks
 		* Added Packed Fur
 		* Added Packed Fur Slab
