@@ -6,15 +6,23 @@ show:
 # Updates
 	
 ##(Beta 1.7.3) (Apr 29, 2025)
- 
-Added Bree Villages 
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+Added Bree Villages
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_3.png" alt="Beta 1.7.3 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.3 Release image</p>
+</div>
+
+</div>
 
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.7.3 Release image](img/updates/ExtendedUpdate_1_7_3.png)
-		<figcaption>Beta 1.7.3 Release image</figcaption>
-	</figure>
-	
 	* Biomes
 		* Added Barrow Downs River (replaces rivers in the barrow downs to fix immersion breaking water color changes)
 	* Blocks
@@ -126,14 +134,22 @@ Added Bree Villages
 	
 ##(Beta 1.7.Tolkien) (Mar 31, 2025)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 April Fools update (Tolkien)
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_T.png" alt="Beta 1.7.Tolkien Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.Tolkien Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.7.Tolkien Release image](img/updates/ExtendedUpdate_1_7_T.png)
-		<figcaption>Beta 1.7.Tolkien Release image</figcaption>
-	</figure>
-	
 	* Entities
 		* Added J. R. R. Tolkien
 	* Misc
@@ -141,14 +157,22 @@ April Fools update (Tolkien)
 	 
 ##(Beta 1.7.2) (Feb 28, 2025)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Hired Unit Fixes
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_2.png" alt="Beta 1.7.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.2 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.7.2 Release image](img/updates/ExtendedUpdate_1_7_2.png)
-		<figcaption>Beta 1.7.2 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Fixed Axes not mining Wattle and Daub blocks faster
 		* Ported Bree-land Banner
@@ -213,14 +237,22 @@ Hired Unit Fixes
 	
 ##(Beta 1.7.1) (Jan 21, 2025)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Bree Hamlets
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_1.png" alt="Beta 1.7.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.1 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.7.1 Release image](img/updates/ExtendedUpdate_1_7_1.png)
-		<figcaption>Beta 1.7.1 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Crossed Wattle and Daub
 		* Added Large Flower Pots (every vanilla/renewed/extended pot placeable plant compatible)
@@ -296,14 +328,22 @@ Bree Hamlets
 	
 ##(Beta 1.7.0) (Nov 25, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Barrow Downs
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_0.png" alt="Beta 1.7.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.0 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.7.0 Release image](img/updates/ExtendedUpdate_1_7_0.png)
-		<figcaption>Beta 1.7.0 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Ancient Rune block (two variants, use chisel to change)
 		* Added Large Clay Pot
@@ -369,7 +409,20 @@ Barrow Downs
 	
 ##(Beta 1.6.2) (Sep 22, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Gundabad Uruks
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_6_2.png" alt="Beta 1.6.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.2 Release image</p>
+</div>
+
+</div>
 
 ??? Changelog
 	<figure class="inline end" markdown>
@@ -449,14 +502,22 @@ Gundabad Uruks
 	
 ##(Beta 1.6.1) (Sep 7, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Gundabad encampments
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_6_1.png" alt="Beta 1.6.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.1 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.6.1 Release image](img/updates/ExtendedUpdate_1_6_1.png)
-		<figcaption>Beta 1.6.1 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Bone Block Slab
 		* Added Bone Block Stairs
@@ -528,16 +589,24 @@ Gundabad encampments
 	
 ##(Beta 1.6.0) (Aug 7, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Gundabad Camps
 
-Note: This version was re-uploaded to fix a critical bug
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_6_0.png" alt="Beta 1.6.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.0 Release image</p>
+</div>
+
+</div>
+
+**Note:** This version was re-uploaded to fix a critical bug
 
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.6.0 Release image](img/updates/ExtendedUpdate_1_6_0.png)
-		<figcaption>Beta 1.6.0 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Banana Branch
 		* Added Banana Wood
@@ -691,14 +760,22 @@ Fixes a server crash with bedrolls and players spawning
 	
 ##(Beta 1.5.1) (Jun 21, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Added Ranger encampments
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_5_1.png" alt="Beta 1.5.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.1 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.5.1 Release image](img/updates/ExtendedUpdate_1_5_1.png)
-		<figcaption>Beta 1.5.1 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Hanging Bananas
 		* Fixed an infinite berry glitch with bushes
@@ -768,14 +845,22 @@ Added Ranger encampments
 	
 ##(Beta 1.5.0) (May 14, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Added Ranger Camps
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_5_0.png" alt="Beta 1.5.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.0 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.5.0 Release image](img/updates/ExtendedUpdate_1_5_0.png)
-		<figcaption>Beta 1.5.0 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Ability for Weapon Racks to have loot-tables
 		* Added Aged Cheese Wheel
@@ -901,15 +986,23 @@ Added Ranger Camps
 	
 ##(Beta 1.4.3) (Mar 31, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Large Hobbit Tavern and other Fixes
 
-Note: This release was originally on March 30th, but was re-uploaded to fix a critical bug 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_4_3.png" alt="Beta 1.4.3 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.3 Release image</p>
+</div>
+
+</div>
+
+**Note:*** This release was originally on March 30th, but was re-uploaded to fix a critical bug 
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.4.3 Release image](img/updates/ExtendedUpdate_1_4_3.png)
-		<figcaption>Beta 1.4.3 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Allowed for plants to be placed on barren dirt
 	* Entities
@@ -941,14 +1034,22 @@ Note: This release was originally on March 30th, but was re-uploaded to fix a cr
 	
 ##(Beta 1.4.2) (Mar 27, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 Large Hobbit Hole and fur beds
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_4_2.jpg" alt="Beta 1.4.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.2 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.4.2 Release image](img/updates/ExtendedUpdate_1_4_2.jpg)
-		<figcaption>Beta 1.4.2 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Black Fur bed
 		* Added Gray Fur bed
@@ -1007,14 +1108,22 @@ Fixes
 	
 ##(Beta 1.4.0) (Mar 12, 2024)
 
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
 SGSv5
 
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_4_0.png" alt="Beta 1.4.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.0 Release image</p>
+</div>
+
+</div>
+
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.4.0 Release image](img/updates/ExtendedUpdate_1_4_0.png)
-		<figcaption>Beta 1.4.0 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Added Chestnut Branch
 		* Added Chestnut Wood
