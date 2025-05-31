@@ -105,6 +105,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.snippets
+  - toc:
+      toc_depth: 3
 
 extra_css:
     - stylesheets/custom.css

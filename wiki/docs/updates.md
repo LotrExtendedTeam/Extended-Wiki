@@ -4,8 +4,77 @@ show:
 ---
 
 # Updates
-	
-##(Beta 1.7.3) (Apr 29, 2025)
+
+## (Beta 1.7.4) (May 31st, 2025) { #beta-1-7-4 data-toc-label="(Beta 1.7.4)" }
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+Bree cleanup and trader backend re-write
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_4.png" alt="Beta 1.7.4 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.4 Release image</p>
+</div>
+
+</div>
+
+??? Changelog
+	* Blocks
+		* Added Grass Voids (an internal block to block grass from spawning in buildings on generation)
+		* Allowed moss carpets to be placed on leaves and hedges
+		* Allowed plants to be placed and grow on full slab faces (except bottom)
+		* Berry Bushes now grow into Berry Hedges over a long period of time
+		* Fixed Renewed wool slabs and stairs not being flammable and not burning
+		* Fixed berry hedge blocks not having a shadow
+		* Fixed plants not growing on mud, mud grass or remains ore
+		* Made berry bushes slow players a tiny bit
+	* Config
+		* Added a server setting to enable aggressive captains (unlike current legacy mechanics where they don’t attack unless provoked)
+		* Added a server setting to enable aggressive traders(unlike current legacy mechanics where they don’t attack unless provoked)
+	* Entities
+		* Fixed NPC interaction disabling shield blocking (fixes close combat shield PvE)
+		* Fixed Mordor and Uruk archers fighting melee with bows
+	* Features
+		* Fixed Slab/Stair chairs not working in Singleplayer
+	* Hired Units
+		* Fixed a bug in which hired units only fast travelled with players when they were set to stationary
+		* Fixed hired units not re-equipping base armor
+	* Items
+		* Added Bucket of Cheese Curds (right click to separate into two items)
+		* Fixed cheese curds eating buckets to craft (recipe now gives bucket of cheese curds)
+		* Fixed the Ranger Captain egg so the colors match Legacy
+	* Localization
+		* Fixed several lang mistakes
+		* Fixed the config command not being localized
+	* Misc
+		* Added 1 new secret advancement in Extended (2 currently)
+		* Added 4 new advancements in Extended (23 currently)
+		* Added a recipe to convert Barren Dirt to Dirt
+		* Fixed hired unit dataGen not working for other mods
+		* Fixed npc marriage data not saving properly
+		* Removed the duplicated Barrow Downs advancements
+	* Structures
+		* Added a DataPack compatible structure sign randomizer system. 
+		* Added all new sign text lists for bree villages and hamlets, houses and professional buildings, as well as in hobbit houses and taverns
+		* Fixed hamlets spawning with up to 5 potter buildings (capped at 1 now)
+		* Fixed missing loot-tables and spawners in Bree Village stalls and tavern
+		* Updated Bree Village Butcher and Stonemason shops so they aren't confused for a house
+		* Updated all Bree structures to remove grass spawning inside buildings
+	* Textures/Models
+		* Fixed fur carpet block frill culling
+	* Trading
+		* Added different trader trade refusal messages
+		* Added legacy trader lockout and refresh logic after trading many items
+		* Finished entire trade system datapack compatible backend re-write
+		* Fixed traders not handling shift-click buying (no more having to buy one item at a time)
+		* Trader menu buttons are now greyed out if player is missing alignment
+	* WorldGen
+		* Fixed bonemeal spawning Athelas in the Barrow Downs
+
+## (Beta 1.7.3) (April 29th, 2025) { #beta-1-7-3 data-toc-label="(Beta 1.7.3)" }
 
 <div class="flex-row" markdown="block">
 
@@ -131,8 +200,8 @@ Added Bree Villages
 	* WorldGen
 		* Added Willow Trees and made them only spawn near bodies of water
 		* Barrow Downs now spawn with a the new Barrow Downs River biome
-	
-##(Beta 1.7.Tolkien) (Mar 31, 2025)
+
+## (Beta 1.7.Tolkien) (March 31st, 2025) { #beta-1-7-tolkien data-toc-label="(Beta 1.7.Tolkien)" }
 
 <div class="flex-row" markdown="block">
 
@@ -154,8 +223,8 @@ April Fools update (Tolkien)
 		* Added J. R. R. Tolkien
 	* Misc
 		* Fixed several critical bugs that couldn't wait until 1.7.3
-	 
-##(Beta 1.7.2) (Feb 28, 2025)
+
+## (Beta 1.7.2) (February 28th, 2025) { #beta-1-7-2 data-toc-label="(Beta 1.7.2)" }
 
 <div class="flex-row" markdown="block">
 
@@ -234,8 +303,8 @@ Hired Unit Fixes
 		* Updated Dunedain Shield texture
 	* Trading
 		* Fixed Oddment Collectors selling vanilla emeralds
-	
-##(Beta 1.7.1) (Jan 21, 2025)
+
+## (Beta 1.7.1) (January 21st, 2025) { #beta-1-7-1 data-toc-label="(Beta 1.7.1)" }
 
 <div class="flex-row" markdown="block">
 
@@ -325,8 +394,8 @@ Bree Hamlets
 		* Fixed Goofy breaking particles for the Reed Basket
 		* Removed very outdated legacy texture pack
 		* Updated Wildberry item and block textures
-	
-##(Beta 1.7.0) (Nov 25, 2024)
+
+## (Beta 1.7.0) (November 25th, 2024) { #beta-1-7-0 data-toc-label="(Beta 1.7.0)" }
 
 <div class="flex-row" markdown="block">
 
@@ -406,8 +475,8 @@ Barrow Downs
 		* Remains Ore now generates in the Dead marshes
 		* Remains Ore now spawns in swiss cheese like deposits
 		* Tweaked Barrow Downs colors
-	
-##(Beta 1.6.2) (Sep 22, 2024)
+
+## (Beta 1.6.2) (September 22nd, 2024) { #beta-1-6-2 data-toc-label="(Beta 1.6.2)" }
 
 <div class="flex-row" markdown="block">
 
@@ -499,8 +568,8 @@ Gundabad Uruks
 		* Raised Rivendell Wanderer’s required alignment to trade to 100
 	* WorldGen
 		* Fixed Berry Bushes(Plants) spawning outside of the Middle Earth dimension
-	
-##(Beta 1.6.1) (Sep 7, 2024)
+
+## (Beta 1.6.1) (September 7th, 2024) { #beta-1-6-1 data-toc-label="(Beta 1.6.1)" }
 
 <div class="flex-row" markdown="block">
 
@@ -586,8 +655,8 @@ Gundabad encampments
 		* Updated shift-click buying only buying a max of 64 items, not ultra-maxing out your inventory
 	* WorldGen
 		* Made Berry Bushes Spawn Naturally in approximately all the same legacy biomes
-	
-##(Beta 1.6.0) (Aug 7, 2024)
+
+## (Beta 1.6.0) (August 7th, 2024) { #beta-1-6-0 data-toc-label="(Beta 1.6.0)" }
 
 <div class="flex-row" markdown="block">
 
@@ -741,8 +810,8 @@ Gundabad Camps
 		* Added a tooltip that shows the cooldown and number of items left on a trade
 		* Allowed talking to traders even if you don't have the required alignment to trade/exchange coins with them
 		* Implemented new Wandering Trader system
-	
-##(Beta 1.5.2) (Jun 25, 2024)
+
+## (Beta 1.5.2) (June 25th, 2024) { #beta-1-5-2 data-toc-label="(Beta 1.5.2)" }
 
 Fixes a server crash with bedrolls and players spawning
 ??? Changelog
@@ -757,8 +826,8 @@ Fixes a server crash with bedrolls and players spawning
 		* Remove broken hacky fishing loot-table
 	* Structures
 		* Fixed structure block items being saved in some ranger tents
-	
-##(Beta 1.5.1) (Jun 21, 2024)
+
+## (Beta 1.5.1) (June 21st, 2024) { #beta-1-5-1 data-toc-label="(Beta 1.5.1)" }
 
 <div class="flex-row" markdown="block">
 
@@ -842,8 +911,8 @@ Added Ranger encampments
 	* Trading
 		* Fixed a few trader issues
 		* Restricted trading with traders to a set alignment threshold (trader specific value)
-	
-##(Beta 1.5.0) (May 14, 2024)
+
+## (Beta 1.5.0) (May 14th, 2024) { #beta-1-5-0 data-toc-label="(Beta 1.5.0)" }
 
 <div class="flex-row" markdown="block">
 
@@ -983,8 +1052,8 @@ Added Ranger Camps
 	* Trading
 		* Fixed a server crash when trading with traders
 		* Made Coins with custom NBT data not tradable
-	
-##(Beta 1.4.3) (Mar 31, 2024)
+
+## (Beta 1.4.3) (March 31st, 2024) { #beta-1-4-3 data-toc-label="(Beta 1.4.3)" }
 
 <div class="flex-row" markdown="block">
 
@@ -1031,8 +1100,8 @@ Large Hobbit Tavern and other Fixes
 		* Added coin total within pouches
 		* Added coin total within the crafting table
 		* Fixed coin totals being hidden when in creative
-	
-##(Beta 1.4.2) (Mar 27, 2024)
+
+## (Beta 1.4.2) (March 27th, 2024) { #beta-1-4-2 data-toc-label="(Beta 1.4.2)" }
 
 <div class="flex-row" markdown="block">
 
@@ -1081,8 +1150,8 @@ Large Hobbit Hole and fur beds
 	* Trade System
 		* Added coin total to the player inventory screen
 		* Added coin total within chests (including stone chests)
-	
-##(Beta 1.4.1) (Mar 16, 2024)
+
+## (Beta 1.4.1) (March 16th, 2024) { #beta-1-4-1 data-toc-label="(Beta 1.4.1)" }
 
 Fixes
 
@@ -1105,8 +1174,8 @@ Fixes
 		* Fixed Buggy Behavior when coins are dispensed when trading
 		* Added Total Coin Earnable to Trade GUI
 		* Fixed buggy behavior caused by clicking traders with a spawn egg
-	
-##(Beta 1.4.0) (Mar 12, 2024)
+
+## (Beta 1.4.0) (March 12th, 2024) { #beta-1-4-0 data-toc-label="(Beta 1.4.0)" }
 
 <div class="flex-row" markdown="block">
 
@@ -1270,8 +1339,8 @@ SGSv5
 		* Updated White Fur texture
 	* Trading System
 		* Ported NPC trading, Hobbit Bartender, Farmer, and Oddment Collector trades
-	
-##(Beta 1.3.0) (Feb 13, 2024)
+
+## (Beta 1.3.0) (February 13th, 2024) { #beta-1-3-0 data-toc-label="(Beta 1.3.0)" }
 
 Misc and hobbit stuff
 
@@ -1330,8 +1399,8 @@ Misc and hobbit stuff
 		* Remastered Angmar Dagger texture
 		* Remastered Dol Guldur Dagger texture
 		* Remastered the bottom texture of 9 renewed crafting tables (put in the renewed built-in pack)
-	
-##(Beta 1.2.1) (Jan 17, 2024)
+
+## (Beta 1.2.1) (January 17th, 2024) { #beta-1-2-1 data-toc-label="(Beta 1.2.1)" }
 
 Fix despawning hobbit traders
 
@@ -1341,8 +1410,8 @@ Fix despawning hobbit traders
 	* Misc
 		* Remove extra space hiding in Black Fur Bundle lang
 		* Added support for patch versions in the update checker
-	
-##(Beta 1.2) (Jan 16, 2024)
+
+## (Beta 1.2) (January 16th, 2024) { #beta-1-2-0 data-toc-label="(Beta 1.2)" }
 
 Added Berries
 
@@ -1417,8 +1486,8 @@ Added Berries
 		* Updated Topaz Ore texture
 		* Updated Topaz texture
 		* Updated White Fur texture
-	
-##(Beta 1.1) (Dec 31, 2023)
+
+## (Beta 1.1) (December 31st, 2023) { #beta-1-1-0 data-toc-label="(Beta 1.1)" }
 
 Leather Hat and hobbit trader spawn crashes
 
@@ -1475,8 +1544,8 @@ Leather Hat and hobbit trader spawn crashes
 		* Remastered Gundabad Crafting Table texture
 		* Remastered Half-Troll Crafting Table texture
 		* Remastered Morwaith Crafting Table texture
-	
-##(Beta 1.0) (Dec 27, 2023)
+
+## (Beta 1.0) (December 27th, 2023) { #beta-1-0-0 data-toc-label="(Beta 1.0)" }
 
 Initial Release
 
