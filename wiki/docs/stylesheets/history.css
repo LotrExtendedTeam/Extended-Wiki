@@ -87,3 +87,13 @@
     padding: 0 0.3em;
     border-radius: 4px;
 }
+
+.commit-change-positive {
+    color: green;
+}
+.commit-change-negative {
+    color: red;
+}
+.commit-change-neutral {
+    color: gray;
+}

@@ -35,11 +35,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const commitLink = `https://github.com/LotrExtendedTeam/Extended-Wiki/commit/${commit.full}`;
         const authorLink = `https://github.com/${commit.author}`;
         const sizeFormatted = commit.size.toLocaleString();
+        const netChange = commit.change;
+        const changeClass = netChange > 0 ? 'commit-change-positive'
+                  : netChange < 0 ? 'commit-change-negative'
+                  : 'commit-change-neutral';
+        const changeText = netChange > 0 ? `+${netChange.toLocaleString()}`
+                  : netChange < 0 ? `-${netChange.toLocaleString()}`
+                  : netChange.toLocaleString();
+
         li.innerHTML = `
           <code><a href="${commitLink}" target="_blank">(${commit.short})</a></code>
           ${formattedDate}
           <a href="${authorLink}" target="_blank">${commit.author}</a>
-          ... (${sizeFormatted} bytes) (+${commit.added})
+          ... (${sizeFormatted} bytes)
+          <span class="${changeClass}">(${changeText})</span>
           <em>(${commit.message})</em>
         `;
         list.appendChild(li);
