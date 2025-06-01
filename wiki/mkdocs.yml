@@ -73,6 +73,9 @@ nav:
     - Misc:
         - Updates: updates.md
 
+hooks:
+  - plugins\git_history.py
+
 plugins:
   - tags:
       tags_allowed:
@@ -117,6 +120,7 @@ markdown_extensions:
 extra_css:
     - stylesheets/custom.css
     - stylesheets/extra.css
+    - stylesheets/history.css
 
 extra_javascript:
     - javascripts/history.js
