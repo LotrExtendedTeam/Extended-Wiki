@@ -100,6 +100,10 @@ plugins:
   - social:
        enabled: !ENV [CI, false]
        cards: true
+       cards_layout_options:
+        background_color: "#998f65" 
+        color: "#e8deb5"
+
 
 markdown_extensions:
   - admonition
