@@ -74,7 +74,7 @@ nav:
         - Updates: updates.md
 
 hooks:
-  - docs\plugins\git_history.py
+  - docs/plugins/git_history.py
 
 plugins:
   - tags:
