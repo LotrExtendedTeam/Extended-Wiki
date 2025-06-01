@@ -31,7 +31,7 @@ jobs:
             "mkdocs-material[imaging]"
       - run: |
           cd wiki
-          mkdocs gh-deploy --config-file wiki/mkdocs.yml --force
+          mkdocs gh-deploy --config-file mkdocs.yml --force
 
   deploy_mkdocs:
     needs: build_mkdocs
