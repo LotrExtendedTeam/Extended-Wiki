@@ -1,0 +1,25 @@
+<!-- Custom Actions -->
+{% if page.edit_url %}
+  <div class="edit-history-dropdown md-content__button md-icon">
+    <button id="edit-history-toggle" title="{{ lang.t('action.edit') }}">⋮</button>
+    <div id="edit-history-menu" class="history-dropdown-content">
+      <a href="#" id="show-history-link">View history</a>
+      <a href="{{ page.edit_url }}" target="_blank">Edit page</a>
+      {# View Page button - try to get the blob version of the file #}
+      {% if "/edit/" in page.edit_url %}
+        {% set view_url = page.edit_url | replace("/edit/", "/blob/") %}
+      {% else %}
+        {% set view_url = page.edit_url | replace("/raw/", "/blob/") %}
+      {% endif %}
+      <a href="{{ view_url }}" target="_blank">View on GitHub</a>
+      {# View Page button - try to get the raw version of the file #}
+      {% if "/blob/" in page.edit_url %}
+        {% set view_url = page.edit_url | replace("/blob/", "/raw/") %}
+      {% else %}
+        {% set view_url = page.edit_url | replace("/edit/", "/raw/") %}
+      {% endif %}
+      <a href="{{ view_url }}" target="_blank">View raw </a>
+
+    </div>
+  </div>
+{% endif %}

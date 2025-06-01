@@ -1,6 +1,5 @@
 site_name: "LOTR: Renewed Extended Minecraft Mod Wiki"
 site_url: https://lotrextendedteam.github.io/Extended-Wiki/
-
 repo_url: https://github.com/LotrExtendedTeam/Extended-Wiki
 repo_name: Extended-Wiki
 edit_uri: edit/main/wiki/docs/
@@ -12,6 +11,7 @@ theme:
   language: en
   logo: icons/logo.png
   favicon: icons/logo.png
+  custom_dir: overrides
   palette:
 
     # Palette toggle for light mode
@@ -117,3 +117,6 @@ markdown_extensions:
 extra_css:
     - stylesheets/custom.css
     - stylesheets/extra.css
+
+extra_javascript:
+    - javascripts/history.js
