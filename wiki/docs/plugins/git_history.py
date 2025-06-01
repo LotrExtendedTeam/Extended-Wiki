@@ -62,7 +62,9 @@ def on_page_markdown(markdown, page: Page, config, files):
             # calculate file size change
             net_change = size_bytes - previous_size
             previous_size = size_bytes
-
+            # Cap message history at 50 chars
+            message = (message.strip()[:47] + "...") if len(message.strip()) > 50 else message.strip()
+            # Store indexed data
             history.append({
                 'short': short,
                 'full': full,
@@ -80,10 +82,14 @@ def on_page_markdown(markdown, page: Page, config, files):
     # Build html to inject into page
     injected = f'''
 <div id="history-modal" style="display:none;">
-  <div class="modal-content">
-    <span class="close-btn">&times;</span>
-    <h3>Edit History</h3>
-    <ul id="commit-list"></ul>
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
   </div>
 </div>
 <script id="page-history" type="application/json">{history_json}</script>

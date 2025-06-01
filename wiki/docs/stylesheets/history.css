@@ -48,16 +48,50 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#history-modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .modal-content {
     background: var(--md-default-bg-inner-color);
     margin: 10% auto;
     padding: 20px;
-    width: 80%;
-    max-width: 1200px;
     border-radius: 8px;
     position: relative;
+    
+    display: inline-block;
+    max-width: 90vw;
+    min-width: 300px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        display: block;
+        width: 95vw;
+        min-width: unset;
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.2em;
 }
 
 .close-btn {
