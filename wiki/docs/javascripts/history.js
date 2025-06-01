@@ -26,7 +26,22 @@ document.addEventListener('DOMContentLoaded', () => {
       list.innerHTML = '';
       history.forEach(commit => {
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${commit.date}</strong> - ${commit.author}: ${commit.message} <code>(${commit.short})</code>`;
+        // Format date
+        const date = new Date(commit.timestamp * 1000);
+        const formattedDate = date.toLocaleString('en-GB', {
+          day: '2-digit', month: 'long', year: 'numeric',
+          hour: '2-digit', minute: '2-digit', hour12: false
+        });
+        const commitLink = `https://github.com/LotrExtendedTeam/Extended-Wiki/commit/${commit.full}`;
+        const authorLink = `https://github.com/${commit.author}`;
+        const sizeFormatted = commit.size.toLocaleString();
+        li.innerHTML = `
+          <code><a href="${commitLink}" target="_blank">(${commit.short})</a></code>
+          ${formattedDate}
+          <a href="${authorLink}" target="_blank">${commit.author}</a>
+          ... (${sizeFormatted} bytes) (+${commit.added})
+          <em>(${commit.message})</em>
+        `;
         list.appendChild(li);
       });
       modal.style.display = 'block';
