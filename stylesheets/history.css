@@ -1,0 +1,133 @@
+/* Dropdown button and menu */
+.edit-history-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.edit-history-dropdown button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.history-dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: var(--md-default-bg-color);
+    min-width: 140px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 6px;
+    padding: 0.5em;
+}
+
+.history-dropdown-content a {
+    display: block;
+    padding: 0.3em 0;
+    color: var(--md-title-color);
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.history-dropdown-content a:hover {
+    background-color: var(--md-default-bg-inner-color);
+}
+
+.edit-history-dropdown.show .history-dropdown-content {
+    display: block;
+}
+
+/* History Info Modeling*/
+#history-modal {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#history-modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.modal-content {
+    background: var(--md-default-bg-inner-color);
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    
+    display: inline-block;
+    max-width: 90vw;
+    min-width: 300px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        display: block;
+        width: 95vw;
+        min-width: unset;
+    }
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#commit-list li {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+#commit-list a {
+    color: var(--md-typeset-a-color);
+    text-decoration: none;
+}
+
+#commit-list a:hover {
+    text-decoration: underline;
+}
+
+#commit-list code {
+    background: var(--md-code-bg-color);
+    padding: 0 0.3em;
+    border-radius: 4px;
+}
+
+.commit-change-positive {
+    color: green;
+}
+.commit-change-negative {
+    color: red;
+}
+.commit-change-neutral {
+    color: gray;
+}
