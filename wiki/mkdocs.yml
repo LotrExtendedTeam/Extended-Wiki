@@ -1,7 +1,7 @@
 site_name: "LOTR: Renewed Extended Minecraft Mod Wiki"
-site_url: https://maximuslotro.github.io/Extended-Wiki/
+site_url: https://lotrextendedteam.github.io/Extended-Wiki/
 
-repo_url: https://github.com/maximuslotro/Extended-Wiki
+repo_url: https://github.com/LotrExtendedTeam/Extended-Wiki
 repo_name: Extended-Wiki
 edit_uri: edit/main/wiki/docs/
 
@@ -97,6 +97,9 @@ plugins:
        background: white
        shadow: true
        manual: false
+  - social:
+       enabled: !ENV [CI, false]
+       cards: true
 
 markdown_extensions:
   - admonition
