@@ -2,6 +2,7 @@
 [data-md-color-scheme="default"] {
 	--md-primary-fg-color: #4051b5;
 	--md-default-bg-color: #998f65;
+  --md-default-bg-color-darker: #8a805b;
 	--md-default-bg-inner-color: #e8deb5;
 	--md-default-table-bg-color: #e5e5e5 ;
 	--md-default-table-footer-bg-color: #bbbbbb;
@@ -13,6 +14,7 @@
 [data-md-color-scheme="slate"] {
 	--md-primary-fg-color: #20285A;
 	--md-default-bg-color: #454236;
+  --md-default-bg-color-darker: #38362c;
 	--md-default-bg-inner-color: #746F5A;
 	--md-default-table-bg-color: #7f7f7f;
 	--md-default-table-footer-bg-color: #5D5D5D;

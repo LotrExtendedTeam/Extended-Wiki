@@ -24,19 +24,25 @@
 .md-sidebar__inner {
 	background-color: var(--md-default-bg-color);
 	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-	border-radius: 16px;
 }
 
 /*Remove background from side lists*/
 .md-nav__title {
-  background-color: transparent !important;
-  box-shadow: 0 0 0 transparent !important;
+  border-radius: 16px;
+  background-color: var(--md-default-bg-color-darker) !important; 
+  /*box-shadow: 0 0 0 transparent !important;*/
   color : var(--md-title-color);
+  text-align: center;
+}
+/*
+.md-nav__item > .md-nav__item--active > .md-nav__item--section > .md-nav__item--nested > .md-nav__link {
+  border-radius: 16px;
+  background-color: var(--md-default-bg-color-darker) !important; 
 }
 .md-nav__link {
   background-color: transparent !important;
   box-shadow: 0 0 0 transparent !important;
-}
+}*/
 .md-ellipsis {
   color : var(--md-title-color);
 }

@@ -74,8 +74,12 @@
     overflow-x: auto;
 }
 
-@media (max-width: 600px) {
+/*When on mobile, display history at top and filling screen*/
+@media screen and (max-width: 768px) {
     .modal-content {
+        float: none;
+        width: 100%;
+        margin: 1em 0;
         display: block;
         width: 95vw;
         min-width: unset;
