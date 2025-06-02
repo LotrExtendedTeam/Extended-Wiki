@@ -3,24 +3,10 @@ show:
   - toc
 ---
 
-# Updates
+# **Updates**
 
-## (Beta 1.7.4) (May 31st, 2025) { #beta-1-7-4 data-toc-label="(Beta 1.7.4)" }
-<div class="flex-row" markdown="block">
-
-<div markdown="block">
-
-Bree cleanup and trader backend re-write
-
-</div>
-
-<div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_4.png" alt="Beta 1.7.4 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.4 Release image</p>
-</div>
-
-</div>
-
+## **(Beta 1.7.4) (May 31st, 2025)** { #beta-1-7-4 data-toc-label="(Beta 1.7.4)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Grass Voids (an internal block to block grass from spawning in buildings on generation)
@@ -74,23 +60,23 @@ Bree cleanup and trader backend re-write
 	* WorldGen
 		* Fixed bonemeal spawning Athelas in the Barrow Downs
 
-## (Beta 1.7.3) (April 29th, 2025) { #beta-1-7-3 data-toc-label="(Beta 1.7.3)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Added Bree Villages
+Bree cleanup and trader backend re-write
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_3.png" alt="Beta 1.7.3 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.3 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_7_4.png" alt="Beta 1.7.4 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.4 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.7.3) (April 29th, 2025)** { #beta-1-7-3 data-toc-label="(Beta 1.7.3)" }
+---
 ??? Changelog
 	* Biomes
 		* Added Barrow Downs River (replaces rivers in the barrow downs to fix immersion breaking water color changes)
@@ -201,7 +187,28 @@ Added Bree Villages
 		* Added Willow Trees and made them only spawn near bodies of water
 		* Barrow Downs now spawn with a the new Barrow Downs River biome
 
-## (Beta 1.7.Tolkien) (March 31st, 2025) { #beta-1-7-tolkien data-toc-label="(Beta 1.7.Tolkien)" }
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+Added Bree Villages
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_7_3.png" alt="Beta 1.7.3 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.3 Release image</p>
+</div>
+
+</div>
+
+## **(Beta 1.7.Tolkien) (March 31st, 2025)** { #beta-1-7-tolkien data-toc-label="(Beta 1.7.Tolkien)" }
+---
+??? Changelog
+	* Entities
+		* Added J. R. R. Tolkien
+	* Misc
+		* Fixed several critical bugs that couldn't wait until 1.7.3
 
 <div class="flex-row" markdown="block">
 
@@ -218,29 +225,8 @@ April Fools update (Tolkien)
 
 </div>
 
-??? Changelog
-	* Entities
-		* Added J. R. R. Tolkien
-	* Misc
-		* Fixed several critical bugs that couldn't wait until 1.7.3
-
-## (Beta 1.7.2) (February 28th, 2025) { #beta-1-7-2 data-toc-label="(Beta 1.7.2)" }
-
-<div class="flex-row" markdown="block">
-
-<div markdown="block">
-
-Hired Unit Fixes
-
-</div>
-
-<div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_2.png" alt="Beta 1.7.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.2 Release image</p>
-</div>
-
-</div>
-
+## **(Beta 1.7.2) (February 28th, 2025)** { #beta-1-7-2 data-toc-label="(Beta 1.7.2)" }
+---
 ??? Changelog
 	* Blocks
 		* Fixed Axes not mining Wattle and Daub blocks faster
@@ -304,23 +290,23 @@ Hired Unit Fixes
 	* Trading
 		* Fixed Oddment Collectors selling vanilla emeralds
 
-## (Beta 1.7.1) (January 21st, 2025) { #beta-1-7-1 data-toc-label="(Beta 1.7.1)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Bree Hamlets
+Hired Unit Fixes
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_1.png" alt="Beta 1.7.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.1 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_7_2.png" alt="Beta 1.7.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.2 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.7.1) (January 21st, 2025)** { #beta-1-7-1 data-toc-label="(Beta 1.7.1)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Crossed Wattle and Daub
@@ -395,23 +381,23 @@ Bree Hamlets
 		* Removed very outdated legacy texture pack
 		* Updated Wildberry item and block textures
 
-## (Beta 1.7.0) (November 25th, 2024) { #beta-1-7-0 data-toc-label="(Beta 1.7.0)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Barrow Downs
+Bree Hamlets
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_0.png" alt="Beta 1.7.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.0 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_7_1.png" alt="Beta 1.7.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.1 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.7.0) (November 25th, 2024)** { #beta-1-7-0 data-toc-label="(Beta 1.7.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Ancient Rune block (two variants, use chisel to change)
@@ -476,23 +462,23 @@ Barrow Downs
 		* Remains Ore now spawns in swiss cheese like deposits
 		* Tweaked Barrow Downs colors
 
-## (Beta 1.6.2) (September 22nd, 2024) { #beta-1-6-2 data-toc-label="(Beta 1.6.2)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Gundabad Uruks
+Barrow Downs
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_2.png" alt="Beta 1.6.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.2 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_7_0.png" alt="Beta 1.7.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.0 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.6.2) (September 22nd, 2024)** { #beta-1-6-2 data-toc-label="(Beta 1.6.2)" }
+---
 ??? Changelog
 	<figure class="inline end" markdown>
 		![Beta 1.6.2 Release image](img/updates/ExtendedUpdate_1_6_2.png)
@@ -569,23 +555,23 @@ Gundabad Uruks
 	* WorldGen
 		* Fixed Berry Bushes(Plants) spawning outside of the Middle Earth dimension
 
-## (Beta 1.6.1) (September 7th, 2024) { #beta-1-6-1 data-toc-label="(Beta 1.6.1)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Gundabad encampments
+Gundabad Uruks
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_1.png" alt="Beta 1.6.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.1 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_6_2.png" alt="Beta 1.6.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.2 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.6.1) (September 7th, 2024)** { #beta-1-6-1 data-toc-label="(Beta 1.6.1)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Bone Block Slab
@@ -656,25 +642,23 @@ Gundabad encampments
 	* WorldGen
 		* Made Berry Bushes Spawn Naturally in approximately all the same legacy biomes
 
-## (Beta 1.6.0) (August 7th, 2024) { #beta-1-6-0 data-toc-label="(Beta 1.6.0)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Gundabad Camps
+Gundabad encampments
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_0.png" alt="Beta 1.6.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.0 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_6_1.png" alt="Beta 1.6.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.1 Release image</p>
 </div>
 
 </div>
 
-**Note:** This version was re-uploaded to fix a critical bug
-
+## **(Beta 1.6.0) (August 7th, 2024)** { #beta-1-6-0 data-toc-label="(Beta 1.6.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Banana Branch
@@ -811,9 +795,25 @@ Gundabad Camps
 		* Allowed talking to traders even if you don't have the required alignment to trade/exchange coins with them
 		* Implemented new Wandering Trader system
 
-## (Beta 1.5.2) (June 25th, 2024) { #beta-1-5-2 data-toc-label="(Beta 1.5.2)" }
+<div class="flex-row" markdown="block">
 
-Fixes a server crash with bedrolls and players spawning
+<div markdown="block">
+
+Gundabad Camps
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_6_0.png" alt="Beta 1.6.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.0 Release image</p>
+</div>
+
+</div>
+
+**Note:** This version was re-uploaded to fix a critical bug
+
+## **(Beta 1.5.2) (June 25th, 2024)** { #beta-1-5-2 data-toc-label="(Beta 1.5.2)" }
+---
 ??? Changelog
 	* Blocks
 		* Fixed a bug with bedroll events and players spawning in servers for first time
@@ -827,23 +827,10 @@ Fixes a server crash with bedrolls and players spawning
 	* Structures
 		* Fixed structure block items being saved in some ranger tents
 
-## (Beta 1.5.1) (June 21st, 2024) { #beta-1-5-1 data-toc-label="(Beta 1.5.1)" }
+Fixes a server crash with bedrolls and players spawning
 
-<div class="flex-row" markdown="block">
-
-<div markdown="block">
-
-Added Ranger encampments
-
-</div>
-
-<div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_5_1.png" alt="Beta 1.5.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.1 Release image</p>
-</div>
-
-</div>
-
+## **(Beta 1.5.1) (June 21st, 2024)** { #beta-1-5-1 data-toc-label="(Beta 1.5.1)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Hanging Bananas
@@ -912,23 +899,23 @@ Added Ranger encampments
 		* Fixed a few trader issues
 		* Restricted trading with traders to a set alignment threshold (trader specific value)
 
-## (Beta 1.5.0) (May 14th, 2024) { #beta-1-5-0 data-toc-label="(Beta 1.5.0)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Added Ranger Camps
+Added Ranger encampments
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_5_0.png" alt="Beta 1.5.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.0 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_5_1.png" alt="Beta 1.5.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.1 Release image</p>
 </div>
 
 </div>
 
+## **(Beta 1.5.0) (May 14th, 2024)** { #beta-1-5-0 data-toc-label="(Beta 1.5.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Ability for Weapon Racks to have loot-tables
@@ -1053,24 +1040,23 @@ Added Ranger Camps
 		* Fixed a server crash when trading with traders
 		* Made Coins with custom NBT data not tradable
 
-## (Beta 1.4.3) (March 31st, 2024) { #beta-1-4-3 data-toc-label="(Beta 1.4.3)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Large Hobbit Tavern and other Fixes
+Added Ranger Camps
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_3.png" alt="Beta 1.4.3 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.3 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_5_0.png" alt="Beta 1.5.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.0 Release image</p>
 </div>
 
 </div>
 
-**Note:*** This release was originally on March 30th, but was re-uploaded to fix a critical bug 
+## **(Beta 1.4.3) (March 31st, 2024)** { #beta-1-4-3 data-toc-label="(Beta 1.4.3)" }
+---
 ??? Changelog
 	* Blocks
 		* Allowed for plants to be placed on barren dirt
@@ -1101,23 +1087,24 @@ Large Hobbit Tavern and other Fixes
 		* Added coin total within the crafting table
 		* Fixed coin totals being hidden when in creative
 
-## (Beta 1.4.2) (March 27th, 2024) { #beta-1-4-2 data-toc-label="(Beta 1.4.2)" }
-
 <div class="flex-row" markdown="block">
 
 <div markdown="block">
 
-Large Hobbit Hole and fur beds
+Large Hobbit Tavern and other Fixes
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_2.jpg" alt="Beta 1.4.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.2 Release image</p>
+  <img src="../img/updates/ExtendedUpdate_1_4_3.png" alt="Beta 1.4.3 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.3 Release image</p>
 </div>
 
 </div>
 
+**Note:*** This release was originally on March 30th, but was re-uploaded to fix a critical bug 
+## **(Beta 1.4.2) (March 27th, 2024)** { #beta-1-4-2 data-toc-label="(Beta 1.4.2)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Black Fur bed
@@ -1151,10 +1138,23 @@ Large Hobbit Hole and fur beds
 		* Added coin total to the player inventory screen
 		* Added coin total within chests (including stone chests)
 
-## (Beta 1.4.1) (March 16th, 2024) { #beta-1-4-1 data-toc-label="(Beta 1.4.1)" }
+<div class="flex-row" markdown="block">
 
-Fixes
+<div markdown="block">
 
+Large Hobbit Hole and fur beds
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_4_2.jpg" alt="Beta 1.4.2 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.2 Release image</p>
+</div>
+
+</div>
+
+## **(Beta 1.4.1) (March 16th, 2024)** { #beta-1-4-1 data-toc-label="(Beta 1.4.1)" }
+---
 ??? Changelog
 	* Blocks
 		* Fixed being unable to cut cheese wheels if not hungry or in creative
@@ -1175,23 +1175,10 @@ Fixes
 		* Added Total Coin Earnable to Trade GUI
 		* Fixed buggy behavior caused by clicking traders with a spawn egg
 
-## (Beta 1.4.0) (March 12th, 2024) { #beta-1-4-0 data-toc-label="(Beta 1.4.0)" }
+Fixes
 
-<div class="flex-row" markdown="block">
-
-<div markdown="block">
-
-SGSv5
-
-</div>
-
-<div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_0.png" alt="Beta 1.4.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.0 Release image</p>
-</div>
-
-</div>
-
+## **(Beta 1.4.0) (March 12th, 2024)** { #beta-1-4-0 data-toc-label="(Beta 1.4.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Chestnut Branch
@@ -1340,10 +1327,23 @@ SGSv5
 	* Trading System
 		* Ported NPC trading, Hobbit Bartender, Farmer, and Oddment Collector trades
 
-## (Beta 1.3.0) (February 13th, 2024) { #beta-1-3-0 data-toc-label="(Beta 1.3.0)" }
+<div class="flex-row" markdown="block">
 
-Misc and hobbit stuff
+<div markdown="block">
 
+SGSv5
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_4_0.png" alt="Beta 1.4.0 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.0 Release image</p>
+</div>
+
+</div>
+
+## **(Beta 1.3.0) (February 13th, 2024)** { #beta-1-3-0 data-toc-label="(Beta 1.3.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Gold Trimmed Rhûnic Brick Slab
@@ -1400,10 +1400,10 @@ Misc and hobbit stuff
 		* Remastered Dol Guldur Dagger texture
 		* Remastered the bottom texture of 9 renewed crafting tables (put in the renewed built-in pack)
 
-## (Beta 1.2.1) (January 17th, 2024) { #beta-1-2-1 data-toc-label="(Beta 1.2.1)" }
+Misc and hobbit stuff
 
-Fix despawning hobbit traders
-
+## **(Beta 1.2.1) (January 17th, 2024)** { #beta-1-2-1 data-toc-label="(Beta 1.2.1)" }
+---
 ??? Changelog
 	* Entities
 		* Stop Hobbit traders naturally despawning
@@ -1411,10 +1411,10 @@ Fix despawning hobbit traders
 		* Remove extra space hiding in Black Fur Bundle lang
 		* Added support for patch versions in the update checker
 
-## (Beta 1.2) (January 16th, 2024) { #beta-1-2-0 data-toc-label="(Beta 1.2)" }
+Fix despawning hobbit traders
 
-Added Berries
-
+## **(Beta 1.2) (January 16th, 2024)** { #beta-1-2-0 data-toc-label="(Beta 1.2)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Blackberry Plant
@@ -1487,10 +1487,10 @@ Added Berries
 		* Updated Topaz texture
 		* Updated White Fur texture
 
-## (Beta 1.1) (December 31st, 2023) { #beta-1-1-0 data-toc-label="(Beta 1.1)" }
+Added Berries
 
-Leather Hat and hobbit trader spawn crashes
-
+## **(Beta 1.1) (December 31st, 2023)** { #beta-1-1-0 data-toc-label="(Beta 1.1)" }
+---
 ??? Changelog
 	* Items
 		* Ported Leather Hat
@@ -1545,10 +1545,10 @@ Leather Hat and hobbit trader spawn crashes
 		* Remastered Half-Troll Crafting Table texture
 		* Remastered Morwaith Crafting Table texture
 
-## (Beta 1.0) (December 27th, 2023) { #beta-1-0-0 data-toc-label="(Beta 1.0)" }
+Leather Hat and hobbit trader spawn crashes
 
-Initial Release
-
+## **(Beta 1.0) (December 27th, 2023)** { #beta-1-0-0 data-toc-label="(Beta 1.0)" }
+---
 ??? Changelog
 	* Blocks
 		* Added Packed Fur
@@ -1909,5 +1909,5 @@ Initial Release
 		* Remastered Red Rhûnic Pillar texture
 		* Remastered Obsidian Taurethrim Brick texture
 		* Remastered Obsidian Taurethrim Pillar texture
-	
-	
+
+Initial Release
