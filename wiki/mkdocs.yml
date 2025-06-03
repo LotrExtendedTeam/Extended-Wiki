@@ -31,7 +31,7 @@ theme:
 
     # Palette toggle for darker mode
     - media: "(prefers-color-scheme: dark)"
-    - scheme: pitch
+      scheme: pitch
       primary: indigo
       toggle:
         icon: material/brightness-3
