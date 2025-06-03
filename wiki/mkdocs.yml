@@ -23,11 +23,25 @@ theme:
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: indigo
       toggle:
         icon: material/brightness-4
+        name: Switch to darker mode
+
+    # Palette toggle for darker mode
+    - media: "(prefers-color-scheme: dark)"
+    - scheme: pitch
+      primary: indigo
+      toggle:
+        icon: material/brightness-3
+        name: Switch to midnight mode
+
+    # Palette toggle for midnight mode
+    - scheme: midnight
+      primary: indigo
+      toggle:
+        icon: material/brightness-1
         name: Switch to light mode
   features:
     - navigation.tabs #add top navigation bar with main catagories
@@ -121,6 +135,7 @@ extra_css:
     - stylesheets/custom.css
     - stylesheets/extra.css
     - stylesheets/history.css
+    - stylesheets/infobox.css
 
 extra_javascript:
     - javascripts/history.js

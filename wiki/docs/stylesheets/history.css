@@ -66,7 +66,7 @@
     padding: 20px;
     border-radius: 8px;
     position: relative;
-    
+
     display: inline-block;
     max-width: 90vw;
     min-width: 300px;
@@ -129,9 +129,11 @@
 .commit-change-positive {
     color: green;
 }
+
 .commit-change-negative {
     color: red;
 }
+
 .commit-change-neutral {
     color: gray;
 }
