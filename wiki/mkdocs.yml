@@ -89,7 +89,7 @@ nav:
 
 hooks:
   - docs/plugins/git_history.py
-
+  - docs/plugins/infobox_processor.py
 plugins:
   - tags:
       tags_allowed:
