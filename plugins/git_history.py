@@ -1,9 +1,7 @@
 import json
 import subprocess
 import logging
-import re
 import os
-from mkdocs.plugins import BasePlugin
 from mkdocs.structure.pages import Page
 log = logging.getLogger("mkdocs.plugins")
 
