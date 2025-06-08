@@ -51,7 +51,7 @@ theme:
     #- navigation.indexes #hide top level navigation duplication
     - content.action.edit #add edit button on upper right corner
     - toc.integrate #toc is rendered as part of the navigation sidebar
-    - navigation.prune # prune bloat navigation
+    #- navigation.prune # prune bloat navigation
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -59,8 +59,7 @@ theme:
 
 
 nav:
-    - Home:
-        - Home: index.md
+    - index.md
     - Blocks:
         - All Blocks: blocks.md
         - Wood Types:
