@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 <!-- How to add inpage css<link rel="stylesheet" href="../stylesheets/custom.css">-->
 # Welcome

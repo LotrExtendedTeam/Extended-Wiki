@@ -48,8 +48,10 @@ theme:
     #- navigation.tracking # updates the URL bar with the current selected TOC section
     - navigation.top #adds a button to jump to top of page
     - navigation.path # does not do anything right now as its a sponser only option currently
-    - navigation.indexes #hide top level navigation duplication
+    #- navigation.indexes #hide top level navigation duplication
     - content.action.edit #add edit button on upper right corner
+    - toc.integrate #toc is rendered as part of the navigation sidebar
+    - navigation.prune # prune bloat navigation
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -59,9 +61,6 @@ theme:
 nav:
     - Home:
         - Home: index.md
-        - All Blocks: blocks.md
-        - All Items: items.md
-        - Updates: updates.md
     - Blocks:
         - All Blocks: blocks.md
         - Wood Types:
