@@ -1,6 +1,7 @@
 /*Set data for main view box of wiki*/
 .md-main__inner {
   background-color: var(--md-default-bg-inner-color);
+  /*background-color: color-mix(in srgb, var(--md-default-bg-inner-color) 75%, transparent);*/
   padding: 1rem;
   border-radius: 8px;
   display: flex;
@@ -9,44 +10,59 @@
   color: var(--md-default-fg-color);
 }
 
+/*
+.md-main__inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('../img/blocks/obsidian_block.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  z-index: -1;
+  pointer-events: none;
+}*/
+
 .md-main__inner.md-grid {
   max-width: 70rem;
 }
 
 /*Add padding around navigation*/
 .md-sidebar--primary {
-  padding: 1rem
-}
-
-/*Add padding around toc*/
-.md-sidebar--secondary {
-  padding: 1rem;
+  padding: 0.5rem
 }
 
 /*Add a box arround lists*/
 .md-sidebar__inner {
   background-color: var(--md-default-bg-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
 }
 
 /*Remove background from side lists*/
-.md-nav__title {
+/*.md-nav__title {
   border-radius: 16px;
   background-color: var(--md-default-bg-color-darker) !important;
-  /*box-shadow: 0 0 0 transparent !important;*/
+  color: var(--md-title-color);
+  text-align: center;
+}*/
+#__nav_1_label,
+#__nav_2_label,
+#__nav_3_label,
+#__nav_4_label{
+  border-radius: 16px;
+  background-color: var(--md-default-bg-color-darker) !important;
+  box-shadow: 0 0 0 transparent !important;
   color: var(--md-title-color);
   text-align: center;
 }
 
-/*
-.md-nav__item > .md-nav__item--active > .md-nav__item--section > .md-nav__item--nested > .md-nav__link {
-  border-radius: 16px;
-  background-color: var(--md-default-bg-color-darker) !important; 
-}
-.md-nav__link {
-  background-color: transparent !important;
-  box-shadow: 0 0 0 transparent !important;
-}*/
 .md-ellipsis {
   color: var(--md-title-color);
 }
@@ -59,11 +75,9 @@
   margin-top: 0.1em !important;
   padding-bottom: 0.3em;
 }*/
-.md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
-  box-shadow: initial;
-}
 
-/*Idk*/
-.md-sidebar__inner {
-  padding-top: 0.1em;
-}
+
+/* TODO fix toc hidden pages showing TOC in sidebar
+.md-nav--primary .md-nav__link[for=__toc] ~ .md-nav {
+  display: none;
+}*/

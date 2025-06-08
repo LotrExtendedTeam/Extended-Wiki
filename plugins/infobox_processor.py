@@ -90,7 +90,7 @@ def on_page_markdown(markdown, page: Page, config, files):
                 'reach': 'Reach',
                 'knockback': 'Knockback Bonus',
                 'durability': 'Durability',
-                'Damage': 'damage',
+                'damage': 'Damage',
                 'renewable': 'Renewable',
                 'stack': 'Stackability',
             }
