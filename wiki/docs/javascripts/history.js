@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.getElementById('edit-history-toggle');
 
   const viewBtn = document.getElementById('show-history-link');
-  const modalWrapper = document.getElementById('history-modal-wrapper');
   const modal = document.getElementById('history-modal');
 
   const closeBtn = document.querySelector('.close-btn');
@@ -66,11 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   window.addEventListener('click', (e) => {
-    console.log('Clicked element:', e.target); // ← log the element clicked
-    if (e.target === modal || e.target == modalWrapper) {
-      modal.style.display = 'none';
-    }
-    if (e.target == modalWrapper) {
+    if (e.target === modal) {
       modal.style.display = 'none';
     }
   });

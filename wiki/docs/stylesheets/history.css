@@ -58,6 +58,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    pointer-events: none; /* Allow clicks through it */
 }
 
 .modal-content {
@@ -72,6 +73,7 @@
     min-width: 300px;
     box-sizing: border-box;
     overflow-x: auto;
+    pointer-events: auto;
 }
 
 /*When on mobile, display history at top and filling screen*/
