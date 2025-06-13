@@ -2,7 +2,7 @@
 .infobox {
     float: right;
     width: 300px;
-    margin: 0 0 1em 1em;
+    margin: 0 0 0.5em 0.5em;
     border: 1px solid var(--md-default-table-content-border-color);
     background: var(--md-default-table-bg-color);
     font-size: 0.9em;

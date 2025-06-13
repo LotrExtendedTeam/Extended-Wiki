@@ -65,18 +65,3 @@
   --md-admonition-fg-color: var(--md-default-fg-color);
   --md-admonition-bg-color: var(--md-default-bg-color);
 }
-
-/* Add support for text and image side-by-side in updates page */
-.flex-row {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-.flex-row>div {
-  flex: 1;
-}
-
-.flex-row>div:first-child {
-  flex: 2;
-}
