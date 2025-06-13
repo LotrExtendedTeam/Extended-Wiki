@@ -10,7 +10,6 @@ def on_pre_build(config):
 
 def on_page_markdown(markdown, page: Page, config, files):
     file_path = page.file.abs_src_path
-    log.info(">>> Git History Injector: processing "+page.url)
 
     try:
         result = subprocess.run(
