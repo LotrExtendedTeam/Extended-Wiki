@@ -7,7 +7,6 @@ def on_pre_build(config):
     log.info(">>> Infobox Porcessor: Present")
 
 def on_page_markdown(markdown, page: Page, config, files):
-    log.info(">>> Infobox Processor: processing " + page.url)
 
     INFOBOX_RE = re.compile(r'::infobox\n(.*?)\n::end-infobox', re.DOTALL)
 
