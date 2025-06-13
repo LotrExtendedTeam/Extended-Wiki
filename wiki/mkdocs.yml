@@ -134,6 +134,7 @@ extra_css:
     - stylesheets/extra.css
     - stylesheets/history.css
     - stylesheets/infobox.css
+    - stylesheets/flex-row.css
 
 extra_javascript:
     - javascripts/history.js

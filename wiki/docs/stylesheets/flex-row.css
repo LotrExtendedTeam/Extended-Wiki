@@ -1,0 +1,32 @@
+/* Add support for text and image side-by-side in updates page */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;           /* Allow children to wrap */
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+/* Right column (e.g. image or infobox) */
+.flex-row > div:last-child {
+  flex: 0 0 300px;           /* Fixed width image column */
+  max-width: 300px;
+}
+
+/* Left column (e.g. text) */
+.flex-row > div:first-child {
+  flex: 1 1 0%;              /* Flexible text column */
+  min-width: 0;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+
+  .flex-row > div {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+}
