@@ -29,6 +29,8 @@
     color: var(--md-title-color);
     text-decoration: none;
     border-radius: 6px;
+    text-align: center;        /* Center the text */
+    justify-content: center;   /* If using flex children later */
 }
 
 .history-dropdown-content a:hover {
@@ -72,8 +74,11 @@
     max-width: 90vw;
     min-width: 300px;
     box-sizing: border-box;
-    overflow-x: auto;
     pointer-events: auto;
+
+    max-height: 80vh;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 /*When on mobile, display history at top and filling screen*/
@@ -85,6 +90,9 @@
         display: block;
         width: 95vw;
         min-width: unset;
+
+        max-height: 90vh;
+        overflow-y: auto;
     }
 }
 
