@@ -8,8 +8,8 @@ hide:
 
 This Wiki is heavily under construction.
 
-Check out the [Blocks](blocks.md) category
+Check out the [Blocks](wiki/blocks.md) category
 
-An Example page that should always be complete is [Obsidian](obsidian.md) and [Updates](updates.md)
+An Example page that should always be complete is [Obsidian](wiki/obsidian.md) and [Updates](wiki/updates.md)
 
 test

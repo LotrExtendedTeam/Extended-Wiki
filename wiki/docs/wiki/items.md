@@ -3,7 +3,7 @@ show:
   - toc
 ---
 
-# Items
+# All Items
 
 <!-- material/tags { include: [Items] } -->
 

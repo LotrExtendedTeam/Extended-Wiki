@@ -61,29 +61,29 @@ theme:
 nav:
     - index.md
     - Blocks:
-        - All Blocks: blocks.md
+        - All Blocks: wiki/blocks.md
         - Wood Types:
-            - Banana: banana_wood.md
-            - Chestnut: chestnut_wood.md
-            - Plum: plum_wood.md
-            - Willow: willow_wood.md
+            - Banana: wiki/banana_wood.md
+            - Chestnut: wiki/chestnut_wood.md
+            - Plum: wiki/plum_wood.md
+            - Willow: wiki/willow_wood.md
         - Stones:
-            - Dirt: dirt.md
-            - Scorched Stone: scorched_stone.md
-            - Drystone: drystone.md
-            - Obsidian: obsidian.md
+            - Dirt: wiki/dirt.md
+            - Scorched Stone: wiki/scorched_stone.md
+            - Drystone: wiki/drystone.md
+            - Obsidian: wiki/obsidian.md
         - Ultiliy Blocks:
-            - Stone Grinder: stone_grinder.md
-            - Crucible: crucible.md
+            - Stone Grinder: wiki/stone_grinder.md
+            - Crucible: wiki/crucible.md
         - Food Blocks:
-            - Cheese Wheel: cheese_wheel.md
-            - Adged Cheese Wheel: adged_cheese_wheel.md
+            - Cheese Wheel: wiki/cheese_wheel.md
+            - Adged Cheese Wheel: wiki/adged_cheese_wheel.md
     - Items:
-        - All Items: items.md
+        - All Items: wiki/items.md
         - Food:
-            - Hobbit Pancake: hobbit_pancake.md
+            - Hobbit Pancake: wiki/hobbit_pancake.md
     - Misc:
-        - Updates: updates.md
+        - Updates: wiki/updates.md
 
 hooks:
   - docs/plugins/git_history.py
