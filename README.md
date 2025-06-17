@@ -1,10 +1,10 @@
 # Extended-Wiki
-The static site repository for hosting Extended's Wiki
+The static site repository for hosting Extended's Wiki built off of [MkDocs](https://github.com/squidfunk/mkdocs-material)
 
 
 
 ## Contributing
-1. To work with mkdocs, first fork the repo and clone it to your local machine.
+1. To work with mkdocs, first fork the repository to your own account and then clone it to your local machine.
 2. If you don't have Python or pip installed, I would recommend installing it, as later steps require it.
 3. Next run the following command to set up all the required packages for a local instance.
 ~~~
@@ -21,3 +21,22 @@ The static site repository for hosting Extended's Wiki
 ### Note
 - Do not contribute to the gh-pages branch, as this branch is created automatically when the Docs Deploy workflow is run.
 - Also don't edit any Github workflows, your PR will not be accepted if you edit them, unless we deem it absolutely necessary.
+
+## License
+* Extended Wiki
+  - (c) 2025 LotrExtendedTeam
+  - [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/LotrExtendedTeam/Extended-Wiki/blob/main/LICENSE)
+## Attributions
+* Mkdocs Material
+  - (c) 2016-2025 Martin Donath
+  - [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://squidfunk.github.io/mkdocs-material/license/)
+* mkdocs-htmlproofer-plugin
+  - (c) 2018 Lukas Geiter
+  - [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/blob/main/LICENSE.md)
+* mkdocs-git-revision-date-localized-plugin
+  - (c) 2018 Terry Zhao
+  - (c) 2019 Tim Vink
+  - [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin/blob/master/LICENSE)
+* MkDocs GLightbox
+  - (c) 2022 Blueswen
+  - [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://github.com/blueswen/mkdocs-glightbox/blob/main/LICENSE)
