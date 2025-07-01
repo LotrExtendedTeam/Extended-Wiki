@@ -10,6 +10,11 @@
   color: var(--md-default-fg-color);
 }
 
+.md-content {
+  background-color: var(--md-default-bg-inner-color-darker);
+  border-radius: 8px;
+}
+
 /*
 .md-main__inner::before {
   content: "";

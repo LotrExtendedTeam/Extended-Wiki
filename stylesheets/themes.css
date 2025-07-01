@@ -1,11 +1,12 @@
 /* Light mode theme*/
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #4051b5;
-  --md-default-fg-color: #000000de;
+  --md-default-fg-color: #000000;
   --md-default-fg-color--light: #111111de;
   --md-default-bg-color: #998f65;
   --md-default-bg-color-darker: #8a805b;
   --md-default-bg-inner-color: #e8deb5;
+  --md-default-bg-inner-color-darker: #cfc6a3;
   --md-default-table-bg-color: #e5e5e5;
   --md-default-table-footer-bg-color: #bbbbbb;
   --md-default-table-footer-fg-color: #333333;
@@ -18,11 +19,12 @@
 /* Dark mode theme*/
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #20285A;
-  --md-default-fg-color: #bdbdb9ee;
+  --md-default-fg-color: #bdbdb9;
   --md-default-fg-color--light: #c7c7c2ee;
   --md-default-bg-color: #454236;
   --md-default-bg-color-darker: #38362c;
   --md-default-bg-inner-color: #746F5A;
+  --md-default-bg-inner-color-darker: #64604e;
   --md-default-table-bg-color: #7f7f7f;
   --md-default-table-footer-bg-color: #5D5D5D;
   --md-default-table-footer-fg-color: #c1c1c1;
@@ -35,11 +37,12 @@
 /* Darker mode theme*/
 [data-md-color-scheme="pitch"] {
   --md-primary-fg-color: #161c3f;
-  --md-default-fg-color: #ffffffef;
+  --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #ffffff;
   --md-default-bg-color: #292720;
   --md-default-bg-color-darker: #1d1c17;
   --md-default-bg-inner-color: #4e4b3d;
+  --md-default-bg-inner-color-darker: #3f3d32;
   --md-default-table-bg-color: #5a5a5a;
   --md-default-table-footer-bg-color: #353535;
   --md-default-table-footer-fg-color: #afaeae;
@@ -57,6 +60,7 @@
   --md-default-bg-color: #181713;
   --md-default-bg-color-darker: #0c0c0a;
   --md-default-bg-inner-color: #201f19;
+  --md-default-bg-inner-color-darker: #13120f;
   --md-default-table-bg-color: #292929;
   --md-default-table-footer-bg-color: #131313;
   --md-default-table-footer-fg-color: #afaeae;
