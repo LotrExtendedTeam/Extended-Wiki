@@ -82,6 +82,10 @@ nav:
         - All Items: wiki/items.md
         - Food:
             - Hobbit Pancake: wiki/hobbit_pancake.md
+    - Entities:
+        - All Entities: wiki/entities.md
+        - Hostile:
+            - Barrow Wights: wiki/barrow_wight.md
     - Misc:
         - Updates: wiki/updates.md
 
@@ -93,6 +97,7 @@ plugins:
       tags_allowed:
         - Blocks
         - Items
+        - Entities
   - search:
   - htmlproofer:
   - git-revision-date-localized:
@@ -131,7 +136,7 @@ markdown_extensions:
 
 extra_css:
     - stylesheets/custom.css
-    - stylesheets/extra.css
+    - stylesheets/themes.css
     - stylesheets/history.css
     - stylesheets/infobox.css
     - stylesheets/flex-row.css
