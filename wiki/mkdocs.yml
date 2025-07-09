@@ -87,7 +87,12 @@ nav:
         - Hostile:
             - Barrow Wights: wiki/barrow_wight.md
     - Misc:
+        - wiki/miscellaneous.md
         - Updates: wiki/updates.md
+        - WorldGen:
+            - Template Pools: wiki/template_pool.md
+            - Structure Processors: wiki/structure_processor.md
+            - Structure Sign Texts: wiki/structure_sign_text.md
 
 hooks:
   - docs/plugins/git_history.py
