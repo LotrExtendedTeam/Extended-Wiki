@@ -1,14 +1,27 @@
 import logging
 import re
+import markdown
 from mkdocs.structure.pages import Page
 log = logging.getLogger("mkdocs.plugins")
 
 def on_pre_build(config):
     log.info(">>> Infobox Porcessor: Present")
 
-def on_page_markdown(markdown, page: Page, config, files):
+def on_page_markdown(markdown_content, page: Page, config, files):
 
     INFOBOX_RE = re.compile(r'::infobox\n(.*?)\n::end-infobox', re.DOTALL)
+
+    def markdown_to_html(text):
+        """Convert markdown text to HTML, handling inline markdown elements."""
+        if not text:
+            return text
+        # Create a markdown instance with common extensions
+        md = markdown.Markdown(extensions=['extra', 'codehilite'])
+        # Convert markdown to HTML and strip the wrapping <p> tags for inline content
+        html = md.convert(text).strip()
+        if html.startswith('<p>') and html.endswith('</p>') and html.count('<p>') == 1:
+            html = html[3:-4]  # Remove wrapping <p></p> tags
+        return html
 
     def render_infobox(match):
         block = match.group(1).strip()
@@ -45,7 +58,7 @@ def on_page_markdown(markdown, page: Page, config, files):
             for key, value in entries.items():
                 html.append('<div class="infobox-row">')
                 html.append(f'<div class="label">{key.title()}</div>')
-                html.append(f'<div class="value">{value}</div>')
+                html.append(f'<div class="value">{markdown_to_html(value)}</div>')
                 html.append('</div>')
             html.append('</div>')
         else:
@@ -82,6 +95,7 @@ def on_page_markdown(markdown, page: Page, config, files):
                 grid_fields = {
                     'armor': 'Armor Points',
                     'hitpoints': 'Hit Points',
+                    'faction': 'Faction',
                 }
             elif(box_type=='tool'):
                 grid_fields = {
@@ -109,7 +123,7 @@ def on_page_markdown(markdown, page: Page, config, files):
                     value = entries[key]
                     html.append('<div class="infobox-row">')
                     html.append(f'<div class="label">{label}</div>')
-                    html.append(f'<div class="value">{value}</div>')
+                    html.append(f'<div class="value">{markdown_to_html(value)}</div>')
                     html.append('</div>')
             html.append('</div>')
         if footer:
@@ -119,5 +133,5 @@ def on_page_markdown(markdown, page: Page, config, files):
         html.append('</div>')
         return '\n'.join(html)
 
-    new_markdown = INFOBOX_RE.sub(render_infobox, markdown)
+    new_markdown = INFOBOX_RE.sub(render_infobox, markdown_content)
     return new_markdown

@@ -76,18 +76,18 @@ nav:
             - Stone Grinder: wiki/stone_grinder.md
             - Crucible: wiki/crucible.md
         - Food Blocks:
-            - Cheese Wheel: wiki/cheese_wheel.md
-            - Adged Cheese Wheel: wiki/adged_cheese_wheel.md
+            - Cheese Wheel: wiki/items/cheese_wheel.md
+            - Aged Cheese Wheel: wiki/items/aged_cheese_wheel.md
     - Items:
         - All Items: wiki/items.md
         - Food:
-            - Hobbit Pancake: wiki/hobbit_pancake.md
+            - Hobbit Pancake: wiki/items/hobbit_pancake.md
     - Entities:
         - All Entities: wiki/entities.md
         - Passive:
-            - Hobbit Farmer: wiki/hobbit_farmer.md
+            - Hobbit Farmer: wiki/npcs/hobbit_farmer.md
         - Hostile:
-            - Barrow Wights: wiki/barrow_wight.md
+            - Barrow Wights: wiki/npcs/barrow_wight.md
     - Misc:
         - wiki/miscellaneous.md
         - Updates: wiki/updates.md
@@ -105,6 +105,7 @@ plugins:
         - Blocks
         - Items
         - Entities
+        - Factions
   - search:
   - htmlproofer:
   - git-revision-date-localized:
