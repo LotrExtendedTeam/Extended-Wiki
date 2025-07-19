@@ -78,7 +78,7 @@ plugins:
         - Factions
         - Biomes
   - literate-nav:
-      nav_file: SUMMARY.txt
+      nav_file: nav.txt
   #- htmlproofer      (ignored for now as it fails file check with our custom link re-mapping system)
   - git-revision-date-localized:
       enable_creation_date: true
