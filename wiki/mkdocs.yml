@@ -84,6 +84,8 @@ nav:
             - Hobbit Pancake: wiki/hobbit_pancake.md
     - Entities:
         - All Entities: wiki/entities.md
+        - Passive:
+            - Hobbit Farmer: wiki/hobbit_farmer.md
         - Hostile:
             - Barrow Wights: wiki/barrow_wight.md
     - Misc:

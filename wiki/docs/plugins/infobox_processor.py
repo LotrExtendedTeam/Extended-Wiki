@@ -78,6 +78,11 @@ def on_page_markdown(markdown, page: Page, config, files):
                     'renewable': 'Renewable',
                     'stack': 'Stackability',
                 }
+            elif(box_type=='entity'):
+                grid_fields = {
+                    'armor': 'Armor Points',
+                    'hitpoints': 'Hit Points',
+                }
             elif(box_type=='tool'):
                 grid_fields = {
                     'rarity': 'Rarity tier',
