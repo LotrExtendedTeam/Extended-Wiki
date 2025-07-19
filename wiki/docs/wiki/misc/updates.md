@@ -480,11 +480,6 @@ Barrow Downs
 ## **(Beta 1.6.2) (September 22nd, 2024)** { #beta-1-6-2 data-toc-label="(Beta 1.6.2)" }
 ---
 ??? Changelog
-	<figure class="inline end" markdown>
-		![Beta 1.6.2 Release image](img/updates/ExtendedUpdate_1_6_2.png)
-		<figcaption>Beta 1.6.2 Release image</figcaption>
-	</figure>
-	
 	* Blocks
 		* Ported Skull Goblet
 		* Added Goblin Bricks and Pillar

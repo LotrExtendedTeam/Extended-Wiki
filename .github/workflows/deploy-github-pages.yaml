@@ -28,6 +28,7 @@ jobs:
             mkdocs-htmlproofer-plugin
             mkdocs-git-revision-date-localized-plugin
             mkdocs-glightbox
+            mkdocs-literate-nav
             "mkdocs-material[imaging]"
       - run: mkdocs gh-deploy --config-file wiki/mkdocs.yml --force
 

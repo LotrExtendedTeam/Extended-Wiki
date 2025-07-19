@@ -9,7 +9,7 @@ show:
 ::infobox
 type: food
 title: Hobbit Pancake
-image: ../../img/items/hobbit_pancake.png
+image: items/hobbit_pancake.png
 rarity: Common
 saturation: 0.6
 hunger: 4
