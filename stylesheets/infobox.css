@@ -97,3 +97,20 @@
         margin: 1em 0;
     }
 }
+
+/* Float the infobox/admonition right and wrap text around it */
+.md-typeset .admonition, 
+.md-typeset .infobox {
+  float: right;
+  width: 300px;
+  margin: 0 0 1em 2em;
+}
+
+@media (max-width: 768px) {
+  .md-typeset .admonition,
+  .md-typeset .infobox {
+    float: none;
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
