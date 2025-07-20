@@ -62,70 +62,78 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                 html.append('</div>')
             html.append('</div>')
         else:
-            grid_fields = {}
-            if(box_type=='block'):
-                grid_fields = {
-                    'rarity': 'Rarity tier',
-                    'tool': 'Tool',
-                    'physics': 'Physics Type',
-                    'renewable': 'Renewable',
-                    'stack': 'Stackability',
-                    'hardness': 'Hardness',
-                    'resistance': 'Blast Resistance',
-                    'luminous': 'Luminous',
-                    'transparency': 'Transparent',
-                    'flammable': 'Flammable',
-                }
-            elif(box_type=='item'):
-                grid_fields = {
-                    'rarity': 'Rarity tier',
-                    'tab': 'Tab',
-                    'renewable': 'Renewable',
-                    'stack': 'Stackability',
-                }
-            elif(box_type=='armor'):
-                grid_fields = {
-                    'rarity': 'Rarity tier',
-                    'armor': 'Armor Points',
-                    'toughness': 'Toughness',
-                    'renewable': 'Renewable',
-                    'stack': 'Stackability',
-                }
-            elif(box_type=='entity'):
-                grid_fields = {
-                    'armor': 'Armor Points',
-                    'hitpoints': 'Hit Points',
-                    'faction': 'Faction',
-                }
-            elif(box_type=='tool'):
-                grid_fields = {
-                    'rarity': 'Rarity tier',
-                    'tab': 'Tab',
-                    'damage': 'Damage',
-                    'speed': 'Speed',
-                    'reach': 'Reach',
-                    'knockback': 'Knockback Bonus',
-                    'durability': 'Durability',
-                    'renewable': 'Renewable',
-                    'stack': 'Stackability',
-                }
-            elif(box_type=='food'):
-                grid_fields = {
-                    'rarity': 'Rarity tier',
-                    'saturation': 'Saturation',
-                    'hunger': 'Restores',
-                    'renewable': 'Renewable',
-                    'stack': 'Stackability',
-                }
-            html.append('<div class="infobox-grid">')
-            for key, label in grid_fields.items():
-                if key in entries:
-                    value = entries[key]
-                    html.append('<div class="infobox-row">')
-                    html.append(f'<div class="label">{label}</div>')
-                    html.append(f'<div class="value">{markdown_to_html(value)}</div>')
-                    html.append('</div>')
-            html.append('</div>')
+            if(box_type=='version'):
+                html.append('<div class="infobox-grid">')
+                html.append('<div class="infobox-row">')
+                html.append(f'<div class="label">{key.title()}</div>')
+                html.append(f'<div class="value">{markdown_to_html(value)}</div>')
+                html.append('</div>')
+                html.append('</div>')
+            else:
+                grid_fields = {}
+                if(box_type=='block'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'tool': 'Tool',
+                        'physics': 'Physics Type',
+                        'renewable': 'Renewable',
+                        'stack': 'Stackability',
+                        'hardness': 'Hardness',
+                        'resistance': 'Blast Resistance',
+                        'luminous': 'Luminous',
+                        'transparency': 'Transparent',
+                        'flammable': 'Flammable',
+                    }
+                elif(box_type=='item'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'tab': 'Tab',
+                        'renewable': 'Renewable',
+                        'stack': 'Stackability',
+                    }
+                elif(box_type=='armor'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'armor': 'Armor Points',
+                        'toughness': 'Toughness',
+                        'renewable': 'Renewable',
+                        'stack': 'Stackability',
+                    }
+                elif(box_type=='entity'):
+                    grid_fields = {
+                        'armor': 'Armor Points',
+                        'hitpoints': 'Hit Points',
+                        'faction': 'Faction',
+                    }
+                elif(box_type=='tool'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'tab': 'Tab',
+                        'damage': 'Damage',
+                        'speed': 'Speed',
+                        'reach': 'Reach',
+                        'knockback': 'Knockback Bonus',
+                        'durability': 'Durability',
+                        'renewable': 'Renewable',
+                        'stack': 'Stackability',
+                    }
+                elif(box_type=='food'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'saturation': 'Saturation',
+                        'hunger': 'Restores',
+                        'renewable': 'Renewable',
+                        'stack': 'Stackability',
+                    }
+                html.append('<div class="infobox-grid">')
+                for key, label in grid_fields.items():
+                    if key in entries:
+                        value = entries[key]
+                        html.append('<div class="infobox-row">')
+                        html.append(f'    <div class="label">{label}</div>')
+                        html.append(f'    <div class="value">{markdown_to_html(value)}</div>')
+                        html.append('</div>')
+                html.append('</div>')
         if footer:
             html.append(f'<div class="infobox-footer">{footer}</div>')
         if footer_data:
