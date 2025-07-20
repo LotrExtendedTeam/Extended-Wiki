@@ -63,11 +63,18 @@ def on_page_markdown(markdown_content, page: Page, config, files):
             html.append('</div>')
         else:
             if(box_type=='version'):
-                html.append('<div class="infobox-grid">')
-                html.append('<div class="infobox-row">')
-                html.append(f'<div class="label">{key.title()}</div>')
-                html.append(f'<div class="value">{markdown_to_html(value)}</div>')
-                html.append('</div>')
+                html.append('<div class="infobox-version-wrapper">')
+                html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                if "date" in entries:
+                    html.append(f'<div><em>Published {entries["date"]}</em></div>')
+                    html.append('<div class="version-spacer"></div>')
+                if "curseforgelink" in entries:
+                    html.append(f'<div><a href="{entries["curseforgelink"]}">Curseforge</a></div>')
+                if "modrinthlink" in entries:
+                    html.append(f'<div><a href="{entries["modrinthlink"]}">Modrinth</a></div>')
+                if "changeloglink" in entries:
+                    html.append('<div class="version-spacer"></div>')
+                    html.append(f'<div><a href="{entries["changeloglink"]}">Changelog</a></div>')
                 html.append('</div>')
             else:
                 grid_fields = {}

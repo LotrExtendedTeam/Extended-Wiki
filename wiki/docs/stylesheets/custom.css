@@ -15,6 +15,10 @@
   border-radius: 8px;
 }
 
+.md-typeset h1, .md-typeset h2 {
+  font-weight: 600;
+}
+
 /*
 .md-main__inner::before {
   content: "";
