@@ -38,4 +38,4 @@ Below is a list of features that are currently implemented in the mod.
 - Bows for factions that have been done so far have been ported
 - Some new blocks/items such as new furs, new drystones and new lanterns!
 - Many new remastered textures!
-- Bug fixes for some bugs in Renewed itself and support for later Java versions
+- Bug fixes for some [bugs in Renewed itself](/Extended-Wiki/wiki/misc/renewed_bug_fixes/) and support for later Java versions

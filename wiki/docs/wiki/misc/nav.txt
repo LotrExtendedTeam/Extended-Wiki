@@ -1,3 +1,4 @@
 * [Miscellaneous](Miscellaneous.md)
 * [Updates](Updates.md)
 * [WorldGen](worldgen/)
+* [Renewed Bug Fixes](renewed_bug_fixes.md)
