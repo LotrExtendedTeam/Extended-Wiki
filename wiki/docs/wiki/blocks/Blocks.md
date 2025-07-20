@@ -11,7 +11,7 @@ show:
 
 There are many block in Middle Earth
 
-## Naturaly Spawning
+## Naturally Spawning
 
 
 ## Player Generates

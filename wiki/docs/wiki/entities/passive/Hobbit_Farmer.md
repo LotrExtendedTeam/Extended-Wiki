@@ -10,9 +10,10 @@ show:
 ::infobox
 type: entity
 title: Hobbit Farmer
-image: ../img/entities/hobbit_farmer.png
-armor: 5
-hitpoints: 20
+image: entities/hobbit_farmer.png
+armor: 0
+hitpoints: 16
+faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
 ::end-infobox
 
 # Hobbit Farmer
@@ -38,4 +39,3 @@ Hobbit farmers will buy items that they need for farming. These include all type
 ## Trivia
 
 - Hobbit Farmers were the second NPC ever ported to Extended
-
