@@ -133,12 +133,12 @@
 
 /* Infobox link styling */
 .infobox a {
-    color: white !important;
+    /*color: white !important;*/
     text-decoration: underline;
     font-weight: 500;
 }
 
 .infobox a:hover {
-    color: #e0e0e0 !important;
+    color: #000000 !important;
     text-decoration: underline;
 }
