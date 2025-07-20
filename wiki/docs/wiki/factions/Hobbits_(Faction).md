@@ -9,6 +9,8 @@ show:
 
 # Hobbits
 
+## NPCs
+- [Hobbit Farmers](/Extended-Wiki/wiki/Hobbit_Farmer) spawn in Hobbit Barns
 
 ## History
 - 1.3.0: The Hobbit faction and Shire was mostly considered complete for the time being

@@ -10,10 +10,10 @@ show:
 ::infobox
 type: entity
 title: Hobbit Farmer
-image: /Extended-Wiki/wiki/img/entities/hobbit_farmer.png
+image: entities/hobbit_farmer.png
 armor: 0
 hitpoints: 16
-faction: [Hobbits](/Extended-Wiki/wiki/factions/hobbits)
+faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
 ::end-infobox
 
 # Hobbit Farmer

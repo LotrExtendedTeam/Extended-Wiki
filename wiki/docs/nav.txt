@@ -1,0 +1,7 @@
+* [Home](index.md)
+* [Blocks](wiki/blocks/)
+* [Entities](wiki/entities/)
+* [Factions](wiki/factions/)
+* [Items](wiki/items/)
+* [World](wiki/world/)
+* [Misc](wiki/misc/)
