@@ -97,3 +97,48 @@
         margin: 1em 0;
     }
 }
+
+/* Float the infobox/admonition right and wrap text around it */
+.md-typeset .admonition, 
+.md-typeset .infobox {
+  float: right;
+  width: 300px;
+  margin: 0 0 1em 2em;
+}
+
+@media (max-width: 768px) {
+  .md-typeset .admonition,
+  .md-typeset .infobox {
+    float: none;
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
+
+.infobox-version-wrapper {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox-version-wrapper strong {
+    font-size: 1.2em;
+}
+
+.version-spacer {
+    height: 10px;
+}
+
+/* Infobox link styling */
+.infobox a {
+    /*color: white !important;*/
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.infobox a:hover {
+    color: #000000 !important;
+    text-decoration: underline;
+}

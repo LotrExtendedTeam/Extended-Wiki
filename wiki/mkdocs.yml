@@ -4,6 +4,12 @@ repo_url: https://github.com/LotrExtendedTeam/Extended-Wiki
 repo_name: Extended-Wiki
 edit_uri: edit/main/wiki/docs/
 
+validation:
+  links:
+    absolute_links: ignore
+    anchors: warn
+    unrecognized_links: warn
+
 theme:
   name: material
   color_mode: auto
@@ -57,54 +63,23 @@ theme:
     edit: material/pencil
     tag:
 
-
-nav:
-    - index.md
-    - Blocks:
-        - All Blocks: wiki/blocks.md
-        - Wood Types:
-            - Banana: wiki/banana_wood.md
-            - Chestnut: wiki/chestnut_wood.md
-            - Plum: wiki/plum_wood.md
-            - Willow: wiki/willow_wood.md
-        - Stones:
-            - Dirt: wiki/dirt.md
-            - Scorched Stone: wiki/scorched_stone.md
-            - Drystone: wiki/drystone.md
-            - Obsidian: wiki/obsidian.md
-        - Ultiliy Blocks:
-            - Stone Grinder: wiki/stone_grinder.md
-            - Crucible: wiki/crucible.md
-        - Food Blocks:
-            - Cheese Wheel: wiki/cheese_wheel.md
-            - Adged Cheese Wheel: wiki/adged_cheese_wheel.md
-    - Items:
-        - All Items: wiki/items.md
-        - Food:
-            - Hobbit Pancake: wiki/hobbit_pancake.md
-    - Entities:
-        - All Entities: wiki/entities.md
-        - Hostile:
-            - Barrow Wights: wiki/barrow_wight.md
-    - Misc:
-        - wiki/miscellaneous.md
-        - Updates: wiki/updates.md
-        - WorldGen:
-            - Template Pools: wiki/template_pool.md
-            - Structure Processors: wiki/structure_processor.md
-            - Structure Sign Texts: wiki/structure_sign_text.md
-
 hooks:
-  - docs/plugins/git_history.py
-  - docs/plugins/infobox_processor.py
+  - docs/hooks/git_history.py
+  - docs/hooks/infobox_processor.py
+  - docs/hooks/flatten_urls.py
+
 plugins:
+  - search
   - tags:
       tags_allowed:
         - Blocks
         - Items
         - Entities
-  - search:
-  - htmlproofer:
+        - Factions
+        - Biomes
+  - literate-nav:
+      nav_file: nav.txt
+  #- htmlproofer      (ignored for now as it fails file check with our custom link re-mapping system)
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Items
+  - Blocks
 show:
   - toc
 ---
@@ -14,7 +14,6 @@ show:
 
   <!-- Image Section -->
   <div class="infobox-image">
-    <img src="../img/dirt_block.png" alt="Dirt Image">
   </div>
 
 
