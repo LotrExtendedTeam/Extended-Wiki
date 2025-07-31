@@ -88,22 +88,23 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > > - Maximum distance the structure can attempt to place blocks from its origin.
 > > - **Only handled on the root structure piece**
 > >
-> > **max_depth**: `7` (default)
+> > **max_depth**: `-1` (default)
 > >
 > > - The maximum recursive generation depth when structures call children.
-> > - **Only handled on the root structure piece**
-> >
-> > **shift_structure_up_by**: `0` (default)
-> >
-> > - The vertical offset (in blocks) to shift the structure upward during placement. A value of <code>0</code> will not apply any vertical offset.
-> > - Additionaly a negative offset will shift the structure downwards during placement.
-> > - This is used in the case that a structure should float off the ground, or the bottom the the structure is not at ground level part of the structure.
+> > - The structure generator sets a default value of `7`, giving the piece value other than `-1` will override the generator value.
 > > - **Only handled on the root structure piece**
 > >
 > > **chunk_corner_offset**: `7` (default)
 > >
 > > - The offset applied to chunk corner coordinates for centering structures on generation. (value between `0` and `15`).
 > > - **Only handled on the root structure piece**
+> >
+> > **ground_level_delta**: `1` (default)
+> >
+> > - The vertical offset (in blocks) to shift the structure piece downwards during placement. A value of <code>1</code> will apply the regular vanilla offset.
+> > - Additionaly a negative offset will shift the structure upwards during placement.
+> > - This is used in the case that a structure should float off the ground, or the bottom the the structure is not at ground level part of the structure.
+> > - (This hooks into an un-used method in vanilla that defaults to shifting a piece down by 1)
 > >
 > > **ignore_bb_checks**: `false` (default)
 > >
@@ -116,15 +117,33 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > >
 > > **blacklist_name**: `"NOTSET"` (default)
 > >
-> > - A custom identifier used for some pieces skip using the certian piece if another piece with the same blacklistable name was already spawned (used to have only one smithy in a village for example).
+> > - A custom identifier used for some pieces skip using the certian piece if another piece with the same blacklistable name was already spawned. (Used to have only one smithy in a village for example.)
 > >
 > > **snap_to_water_height**: `false` (default)
 > >
-> > - If `true`, will attempt to align the structure piece's Y position to the water surface height (y=62) when generating.
-> > 
+> > - If `true`, will attempt to align the structure piece's Y position to the water surface height (y=62) when generating, if projecting to heightmap.
+> >
+> > **should_protect_y_level**: `true` (default)
+> >
+> > - If `true`, piece will not be used if it attempt to spawn below `protectable_y_level`.
+> >
+> > **protectable_y_level**: `12` (default)
+> >
+> > - The minimum height at which the piece can spawn. (Use to disable pieces from spawning to deep, and breaking bedrock.)
+> >
+> > **reset_max_depth**: `false` (default)
+> >
+> > - If `true`, the current depth stack (relative to max-depth) will be reset to zero.
+> > - **Only applicable to non-root pieces**
+> >
+> > **disable_spawn_above_ground**: `false` (default)
+> >
+> > - If `true`, the piece will not spawn if the center of the pacement is at or above ground level. (Used to stop mineshafts from spawning above ground.)
+> > - **Only applicable to non-root pieces**
+> >
 > > **foundation_block**
 > >
-> > - Define a blockstate that is used as a foundation for a single piece structure (hopefully).
+> > - Define a blockstate that is used as a foundation for the given structure piece underside
 > >
 > > > **Name**: `"minecraft:air"` (default)
 > > >
