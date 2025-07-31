@@ -63,8 +63,13 @@ def on_page_markdown(markdown_content, page: Page, config, files):
             html.append('</div>')
         else:
             if(box_type=='version'):
-                html.append('<div class="infobox-version-wrapper">')
-                html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                if "changeloglink" in entries:
+                    html.append('<div class="infobox-version-wrapper">')
+                    #html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                    html.append(f'<div><a href="{entries["changeloglink"]}"><strong>v{entries.get("name", "Unknown")}</strong></a></div>')
+                else:
+                    html.append('<div class="infobox-version-wrapper">')
+                    html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
                 if "date" in entries:
                     html.append(f'<div><em>Published {entries["date"]}</em></div>')
                     html.append('<div class="version-spacer"></div>')

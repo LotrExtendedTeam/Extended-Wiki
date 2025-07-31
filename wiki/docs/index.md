@@ -7,11 +7,11 @@ hide:
 ::infobox
 type: version
 title: The Latest Version is:
-name: 1.7.4
-date: May 31st, 2025
-curseforgelink: https://www.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6603102
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.7.4
-changeloglink: /Extended-Wiki/wiki/Updates/#beta-1-7-4
+name: 1.8.0
+date: July 30th, 2025
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6831228
+modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.8.0
+changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-8-0
 ::end-infobox
 # Home
 
