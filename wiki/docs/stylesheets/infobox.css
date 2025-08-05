@@ -21,11 +21,22 @@
     font-size: 1.1em;
 }
 
+.infobox-image {
+    width: 100%;
+    overflow: hidden;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* optional */
+    box-sizing: border-box;
+}
+
 .infobox-image img {
-    width: 60%;
+    width: 100%;
     height: auto;
+    object-fit: contain;
+    image-rendering: pixelated; /* or pixelated for crisp icons */
     display: block;
-    margin: 0 auto;
 }
 
 .infobox-grid {
