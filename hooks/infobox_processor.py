@@ -50,7 +50,9 @@ def on_page_markdown(markdown_content, page: Page, config, files):
 
         if image:
             html.append('<div class="infobox-image">')
-            html.append(f'<a href="/Extended-Wiki/wiki/img/{image}"><img src="/Extended-Wiki/wiki/img/{image}" alt="{image_alt}"></a>')
+            html.append('<a href="/Extended-Wiki/wiki/img/{image}">')
+            html.append(f'<img src="/Extended-Wiki/wiki/img/{image}" alt="{image_alt}">')
+            html.append('</a>')
             html.append('</div>')
 
         if(box_type=='custom'):
