@@ -8,7 +8,7 @@ The static site repository for hosting Extended's Wiki built off of [MkDocs](htt
 2. If you don't have Python or pip installed, I would recommend installing it, as later steps require it.
 3. Next run the following command to set up all the required packages for a local instance.
 ~~~
- pip install mkdocs-material mkdocs-htmlproofer-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-literate-nav "mkdocs-material[imaging]"
+ pip install mkdocs-material mkdocs-htmlproofer-plugin mkdocs-git-revision-date-localized-plugin mkdocs-glightbox mkdocs-literate-nav "mkdocs-material[imaging]" imageio
 ~~~
 4. With your shell of choice, run the following command to start the live-reloading local-instance docs server.
 ~~~

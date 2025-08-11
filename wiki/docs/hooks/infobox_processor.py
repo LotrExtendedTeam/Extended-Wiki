@@ -134,15 +134,17 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                 elif(box_type=='food'):
                     grid_fields = {
                         'rarity': 'Rarity tier',
+                        'renewable': 'Renewable',
                         'saturation': 'Saturation',
                         'hunger': 'Restores',
-                        'renewable': 'Renewable',
                         'stack': 'Stackability',
                     }
                 html.append('<div class="infobox-grid">')
                 for key, label in grid_fields.items():
                     if key in entries:
                         value = entries[key]
+                        if isinstance(value, str):
+                            value = value.replace('||', '<br>')  # replace literal "||" with HTML break
                         html.append('<div class="infobox-row">')
                         html.append(f'    <div class="label">{label}</div>')
                         html.append(f'    <div class="value">{markdown_to_html(value)}</div>')
