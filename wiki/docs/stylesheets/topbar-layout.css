@@ -1,0 +1,11 @@
+.md-tabs__item--active {
+  background-color: var(--md-primary-fg-select-color);
+}
+
+.md-tabs__link:hover {
+  color: #ff6400;
+}
+
+.md-tabs__link:focus {
+  color: #ff9600;
+}

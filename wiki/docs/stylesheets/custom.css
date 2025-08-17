@@ -2,49 +2,45 @@
 .md-main__inner {
   background-color: var(--md-default-bg-inner-color);
   /*background-color: color-mix(in srgb, var(--md-default-bg-inner-color) 75%, transparent);*/
-  padding: 1rem;
   border-radius: 8px;
-  display: flex;
   flex-direction: row;
-  /* Sort By Column */
   color: var(--md-default-fg-color);
 }
 
+/* Use to debug page layers
+* {
+  background: rgb(0 100 0 / 0.1) !important;
+}*/
+
+/* Content expands to fill remaining space */
 .md-content {
+  flex: 1;           /* take up leftover space */
+  min-width: 0;      /* prevent overflow issues */
+  padding: 0;          /* remove padding */
   background-color: var(--md-default-bg-inner-color-darker);
   border-radius: 8px;
+  font-size: 0.875rem;
 }
 
 .md-typeset h1, .md-typeset h2 {
   font-weight: 600;
 }
 
-/*
-.md-main__inner::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  background-image: url('../img/blocks/obsidian_block.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-
-  z-index: -1;
-  pointer-events: none;
-}*/
-
+/* Make the main container full-width and use flexbox */
 .md-main__inner.md-grid {
-  max-width: 70rem;
+  max-width: none;   /* remove restriction */
+  width: 100%;       /* full width */
+  margin: 0;
+  padding: 0.5rem;     /* tiny padding around everything */
+  display: flex;
+  gap: 1rem;           /* space between sidebar & content */
+  box-sizing: border-box;
 }
 
-/*Add padding around navigation*/
+/* Sidebar stays at fixed width */
 .md-sidebar--primary {
-  padding: 0.5rem
+  padding: 0;          /* remove padding inside */
+  flex: 0 0 240px;   /* fixed width (adjust to taste) */
 }
 
 /*Add a box arround lists*/
@@ -64,12 +60,16 @@
 #__nav_1_label,
 #__nav_2_label,
 #__nav_3_label,
-#__nav_4_label{
+#__nav_4_label,
+#__nav_5_label,
+#__nav_6_label,
+#__nav_7_label{
   border-radius: 16px;
-  background-color: var(--md-default-bg-color-darker) !important;
+  background-color: var(--md-default-bg-color-darker);
   box-shadow: 0 0 0 transparent !important;
   color: var(--md-title-color);
   text-align: center;
+  justify-content: center; /* horizontal centering */
 }
 
 .md-ellipsis {
