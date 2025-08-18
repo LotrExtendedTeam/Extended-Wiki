@@ -1,12 +1,13 @@
 /* Light mode theme*/
 [data-md-color-scheme="default"] {
   --md-primary-fg-color: #4051b5;
+  --md-primary-fg-select-color: #6373d0;
   --md-default-fg-color: #000000;
   --md-default-fg-color--light: #111111de;
   --md-default-bg-color: #998f65;
   --md-default-bg-color-darker: #8a805b;
-  --md-default-bg-inner-color: #e8deb5;
-  --md-default-bg-inner-color-darker: #cfc6a3;
+  --md-default-bg-inner-color: #e7d8cac0;
+  --md-default-bg-inner-color-darker: #bda790c0;
   --md-default-table-bg-color: #e5e5e5;
   --md-default-table-footer-bg-color: #bbbbbb;
   --md-default-table-footer-fg-color: #333333;
@@ -19,6 +20,7 @@
 /* Dark mode theme*/
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #20285A;
+  --md-primary-fg-select-color: #3a437e;
   --md-default-fg-color: #bdbdb9;
   --md-default-fg-color--light: #c7c7c2ee;
   --md-default-bg-color: #454236;
@@ -37,6 +39,7 @@
 /* Darker mode theme*/
 [data-md-color-scheme="pitch"] {
   --md-primary-fg-color: #161c3f;
+  --md-primary-fg-select-color: #2a3469;
   --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #ffffff;
   --md-default-bg-color: #292720;
@@ -55,6 +58,7 @@
 /* Midnight mode theme*/
 [data-md-color-scheme="midnight"] {
   --md-primary-fg-color: #0d1127;
+  --md-primary-fg-select-color: #222b5e;
   --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #ffffff;
   --md-default-bg-color: #181713;

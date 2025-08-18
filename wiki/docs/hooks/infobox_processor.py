@@ -50,7 +50,9 @@ def on_page_markdown(markdown_content, page: Page, config, files):
 
         if image:
             html.append('<div class="infobox-image">')
-            html.append(f'<a href="/Extended-Wiki/wiki/img/{image}"><img src="/Extended-Wiki/wiki/img/{image}" alt="{image_alt}"></a>')
+            html.append('<a href="/Extended-Wiki/wiki/img/{image}">')
+            html.append(f'<img src="/Extended-Wiki/wiki/img/{image}" alt="{image_alt}">')
+            html.append('</a>')
             html.append('</div>')
 
         if(box_type=='custom'):
@@ -63,8 +65,13 @@ def on_page_markdown(markdown_content, page: Page, config, files):
             html.append('</div>')
         else:
             if(box_type=='version'):
-                html.append('<div class="infobox-version-wrapper">')
-                html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                if "changeloglink" in entries:
+                    html.append('<div class="infobox-version-wrapper">')
+                    #html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                    html.append(f'<div><a href="{entries["changeloglink"]}"><strong>v{entries.get("name", "Unknown")}</strong></a></div>')
+                else:
+                    html.append('<div class="infobox-version-wrapper">')
+                    html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
                 if "date" in entries:
                     html.append(f'<div><em>Published {entries["date"]}</em></div>')
                     html.append('<div class="version-spacer"></div>')
@@ -127,15 +134,17 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                 elif(box_type=='food'):
                     grid_fields = {
                         'rarity': 'Rarity tier',
+                        'renewable': 'Renewable',
                         'saturation': 'Saturation',
                         'hunger': 'Restores',
-                        'renewable': 'Renewable',
                         'stack': 'Stackability',
                     }
                 html.append('<div class="infobox-grid">')
                 for key, label in grid_fields.items():
                     if key in entries:
                         value = entries[key]
+                        if isinstance(value, str):
+                            value = value.replace('||', '<br>')  # replace literal "||" with HTML break
                         html.append('<div class="infobox-row">')
                         html.append(f'    <div class="label">{label}</div>')
                         html.append(f'    <div class="value">{markdown_to_html(value)}</div>')

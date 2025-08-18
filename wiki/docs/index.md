@@ -7,11 +7,11 @@ hide:
 ::infobox
 type: version
 title: The Latest Version is:
-name: 1.7.4
-date: May 31st, 2025
-curseforgelink: https://www.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6603102
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.7.4
-changeloglink: /Extended-Wiki/wiki/Updates/#beta-1-7-4
+name: 1.8.0
+date: July 30th, 2025
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6831228
+modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.8.0
+changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-8-0
 ::end-infobox
 # Home
 
@@ -24,9 +24,9 @@ This wiki, like the mod, is also under active development and will be continue t
 ## Current Features
 Below is a list of features that are currently implemented in the mod.
 
-- 4 [Factions](/Extended-Wiki/wiki/Factions) and their traders/NPCs have all been ported (Hobbits, Rangers, Gundabad Orcs, and Bree)
-- All 4 Factions now have naturally generating structures (including many new ones!)
-- NPC hiring for Bree, Gundabad, and Rangers
+- 5 [Factions](/Extended-Wiki/wiki/Factions) and their traders/NPCs have all been ported (Hobbits, Rangers, Gundabad Orcs, Bree, and Blue Mountains)
+- All 5 Factions now have naturally generating structures (including many new ones!)
+- NPC hiring for Bree, Blue Mountains, Gundabad, and Rangers
 - The entire trade system has been ported and is functional
 - 5 Wandering Traders spawn throughout the world (Elves, Dwarves, Oddment Collectors, and a new Bree-land Merchant)
 - Banner Protection has been ported (very useful for servers!)

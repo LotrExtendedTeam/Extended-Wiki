@@ -67,6 +67,7 @@ hooks:
   - docs/hooks/git_history.py
   - docs/hooks/infobox_processor.py
   - docs/hooks/flatten_urls.py
+  - docs/hooks/gif_maker.py
 
 plugins:
   - search
@@ -88,14 +89,14 @@ plugins:
        loop: false
        effect: zoom
        slide_effect: slide
-       width: 100%
+       width: auto
        height: auto
        zoomable: true
        draggable: true
-       auto_caption: false
+       auto_caption: true
        caption_position: bottom
-       background: white
-       shadow: true
+       background: 74b9ff
+       shadow: false
        manual: false
   - social:
        enabled: !ENV [CI, false]
@@ -120,6 +121,9 @@ extra_css:
     - stylesheets/history.css
     - stylesheets/infobox.css
     - stylesheets/flex-row.css
+    - stylesheets/glightbox.css
+    - stylesheets/topbar-layout.css
 
 extra_javascript:
     - javascripts/history.js
+    - javascripts/glightbox.js
