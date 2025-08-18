@@ -91,7 +91,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > > **max_depth**: `-1` (default)
 > >
 > > - The maximum recursive generation depth when structures call children.
-> > - The structure generator sets a default value of `7`, giving the piece value other than `-1` will override the generator value.
+> > - The structure generator sets a default value of `7`, giving the piece a value other than `-1` will override the generator value.
 > > - **Only handled on the root structure piece**
 > >
 > > **chunk_corner_offset**: `7` (default)
