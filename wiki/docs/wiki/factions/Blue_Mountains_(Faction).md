@@ -10,7 +10,11 @@ show:
 # Blue Mountains
 
 ## NPCs
+- [Blue Mountains Bartenders](/Extended-Wiki/wiki/Blue_Dwarven_Bartender) spawn in Blue Mountain Settlement taverns
+- [Blue Mountains Butchers](/Extended-Wiki/wiki/Blue_Dwarven_Butcher) spawn in Blue Mountain Settlement trader halls
 - [Blue Mountains Miners](/Extended-Wiki/wiki/Blue_Dwarven_Miner) spawn randomly underground
+- [Blue Mountains Smiths](/Extended-Wiki/wiki/Blue_Dwarven_Smith) spawn in Blue Mountain Settlement forges and in surface smithies
+- [Blue Mountains Stonemasons](/Extended-Wiki/wiki/Blue_Dwarven_Stonemason) spawn in Blue Mountain Settlement trader halls
 
 ## History
 - 1.8.1:
