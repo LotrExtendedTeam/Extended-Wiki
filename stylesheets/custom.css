@@ -30,7 +30,7 @@
 .md-main__inner.md-grid {
   max-width: none;   /* remove restriction */
   width: 100%;       /* full width */
-  margin: 0;
+  margin: 20px 0;
   padding: 0.5rem;     /* tiny padding around everything */
   display: flex;
   gap: 1rem;           /* space between sidebar & content */
