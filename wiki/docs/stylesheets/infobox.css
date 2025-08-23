@@ -112,8 +112,10 @@
     }
 }
 
+/*disabled due to the fact that its messing up every admonition in the wiki
+and is this really needed anymore? I disabled it and don't see any difference.*/
 /* Float the infobox/admonition right and wrap text around it */
-.md-typeset .admonition, 
+/*.md-typeset .admonition, 
 .md-typeset .infobox {
   float: right;
   width: 300px;
@@ -127,7 +129,7 @@
     width: 100%;
     margin: 0 0 1em 0;
   }
-}
+}*/
 
 .infobox-version-wrapper {
     padding: 10px;

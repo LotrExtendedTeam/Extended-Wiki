@@ -33,4 +33,4 @@ show:
 
 ## Trivia
 
-- The Blue Mountains completely overhaulled undergound generation of structures as no previous faction spawned structures undergound in a meaningfull way.
+- The Blue Mountains completely overhauled underground generation of structures as no previous faction spawned structures underground in a meaningful way.

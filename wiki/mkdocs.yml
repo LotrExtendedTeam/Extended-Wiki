@@ -3,6 +3,8 @@ site_url: https://lotrextendedteam.github.io/Extended-Wiki/
 repo_url: https://github.com/LotrExtendedTeam/Extended-Wiki
 repo_name: Extended-Wiki
 edit_uri: edit/main/wiki/docs/
+copyright: |
+  &copy; 2025 maximuslotro, LotrExtendedTeam
 
 validation:
   links:
@@ -50,21 +52,23 @@ theme:
         icon: material/brightness-1
         name: Switch to light mode
   features:
-    - navigation.tabs #add top navigation bar with main catagories
+    - navigation.tabs #add top navigation bar with main categories
     #- navigation.tracking # updates the URL bar with the current selected TOC section
     - navigation.top #adds a button to jump to top of page
-    - navigation.path # does not do anything right now as its a sponser only option currently
+    - navigation.path # does not do anything right now as its a sponsor only option currently
     #- navigation.indexes #hide top level navigation duplication
-    - content.action.edit #add edit button on upper right corner
     - toc.integrate #toc is rendered as part of the navigation sidebar
     #- navigation.prune # prune bloat navigation
+    - content.action.edit #add edit button on upper right corner
+    - content.code.copy #render a button on the right side of code to copy
+    - content.code.select #render a button on the right side of code to select
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
     tag:
 
 hooks:
-  - docs/hooks/git_history.py
+  #- docs/hooks/git_history.py
   - docs/hooks/infobox_processor.py
   - docs/hooks/flatten_urls.py
   - docs/hooks/gif_maker.py
@@ -108,10 +112,14 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list
-  - md_in_html
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.blocks.caption
   - pymdownx.snippets
+  - attr_list
+  - md_in_html
   - toc:
       toc_depth: 3
 

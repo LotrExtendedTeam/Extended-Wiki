@@ -28,7 +28,7 @@ Like other Hobbits they are passive mobs and will not fight the player unless at
 
 Players who have neutral or positive alignment with Hobbits can trade with bartenders. Upon trading with then, the player will be bestowed the advancement "**Welcome Customer**". Additionally, if the player sells pipeweed leaf to the bartender, the player will be bestowed the advancement "**Street Credit**".
 
-Hobbit bartenders sell goods to their patrons. This includes a varity of cooked meats, drinks, pancakes, and pipeweed. They also sell cookery such as mugs, plates, and the hobbit oven and crafting table.
+Hobbit bartenders sell goods to their patrons. This includes a variety of cooked meats, drinks, pancakes, and pipeweed. They also sell cookery such as mugs, plates, and the hobbit oven and crafting table.
 
 Hobbit bartenders will also buy goods for their tavern. These include raw meats, salt, buckets, clay cookery. They also will but pipeweed leaf and four-leaf clovers.
 
@@ -40,13 +40,13 @@ Hobbit bartenders will also buy goods for their tavern. These include raw meats,
 - 1.6.1:
     - Added seven missing trades back to their trade pool
 - 1.6.0:
-    - Bartenders recieved dedicated speechbanks
+    - Bartenders received dedicated speechbanks
 - 1.4.0: 
     - Trading was introduced and added the ability for bartenders to be traded with
 - 1.2:
     - Fixed Hobbit Bartenders either not spawning in taverns, or causing the game to crash when spawning.
 - 1.0:
-    - Initialy ported in the first update of Extended
+    - Initially ported in the first update of Extended
 
 ## Trivia
 

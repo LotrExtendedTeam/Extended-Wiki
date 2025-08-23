@@ -31,7 +31,7 @@ Hedgehogs are passive animals and will flee when attacked. When fleeing, if ther
 
 If a baby hedgehog is following its parent and the parent hides in a hedge, the baby will also hide in a nearby hedge until it feels safe.
 
-Additionaly like [Foxes](https://minecraft.wiki/w/Fox), hedgehogs will seek shelter when a thunderstorm occures.
+Additionally like [Foxes](https://minecraft.wiki/w/Fox), hedgehogs will seek shelter when a thunderstorm occurs.
 
 ### Breeding
 

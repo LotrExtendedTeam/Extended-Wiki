@@ -36,11 +36,11 @@ Hobbit farmers will buy items that they need for farming. These include all type
 - 1.8.0:
     - Fixed held coins being rendered over items
 - 1.6.0:
-    - Farmers recieved dedicated speechbanks
+    - Farmers received dedicated speechbanks
 - 1.4.0: 
     - Trading was introduced and added the ability for farmers to be traded with
 - 1.1:
-    - Initialy ported in the first update of Extended
+    - Initially ported in the first update of Extended
 
 ## Trivia
 

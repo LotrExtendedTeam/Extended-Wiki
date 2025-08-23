@@ -38,7 +38,7 @@ They also spawn via stone chests under certain conditions:
 
 ## Behaviour
 
-Barrow wights are hostile to all other creatues and will go out of their way to eliminate all in their radius.
+Barrow wights are hostile to all other creatures and will go out of their way to eliminate all in their radius.
 
 ## History
 

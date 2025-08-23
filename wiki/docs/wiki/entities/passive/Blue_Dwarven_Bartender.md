@@ -18,11 +18,7 @@ faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
 
 # Blue Mountains Bartender
 
-### STILL NEEDS WRITING
-
-Blue Mountain Miners are an elusive trader that can spawn naturally in the [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Unlike most other traders, Miners will naturally despawn according the despawn logic Minecraft uses for entities.
-
-Blue Mountain Miners are usually found in the caves, and all structures that generate under the ground in Blue Mountains. They carry carry a Blue Dwarven Pickaxe and a silver coin.
+Blue Mountain Bartenders are a trader that spawn inside taverns in Blue Mountain Settlements. They carry carry a piece of wooden bug and a silver coin.
 
 ## Behavior
 
@@ -30,15 +26,15 @@ By default, Bartenders don't attack unless provoked, but they will fight back ag
 
 ## Trading
 
-Miners will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
+Bartenders will not trade with players unless they have +10 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). 
 
-Blue Mountains Miners sell their mining spoilers from their diggings. This includes gemstones, raw ores, powders, coal and glowstone dust.
+Blue Mountain Bartenders sell an assorted mix of food and drink. This includes cooked meats, stews, bread, plates, mugs, ale and mead. They also sell pipeweed and pipes rarely.
 
-Blue Mountains Miners buy supplies for their mining adventures. They primarily buy cooked meats such as duck, mutton, porkchops, as well as bread and gammon. They also buy new pickaxes so to replenish their worn ones. 
+Blue Mountain Bartenders buy supplied for their tavern. This primarily includes raw meats, wheat, pipeweed leaf, and buckets.
 
 ## History
 - 1.8.0: Added with the Blue Mountains update
 
 ## Trivia
 
-- Blue Mountain Bartenders were the first dwarven bartenders to be added.
+- Blue Mountain Bartenders were the first non-legacy dwarven trader to be added as well as the first dwarven bartender npc.

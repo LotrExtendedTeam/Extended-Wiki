@@ -18,11 +18,7 @@ faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
 
 # Blue Mountains Butcher
 
-### STILL NEEDS WRITING
-
-Blue Mountain Miners are an elusive trader that can spawn naturally in the [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Unlike most other traders, Miners will naturally despawn according the despawn logic Minecraft uses for entities.
-
-Blue Mountain Miners are usually found in the caves, and all structures that generate under the ground in Blue Mountains. They carry carry a Blue Dwarven Pickaxe and a silver coin.
+Blue Mountain Butchers currently spawn exclusively in the Blue Mountains Settlement trader hall. They carry carry a piece of [raw beef](https://minecraft.wiki/w/Raw_Beef) and a silver coin.
 
 ## Behavior
 
@@ -30,11 +26,11 @@ By default, Butchers don't attack unless provoked, but they will fight back agai
 
 ## Trading
 
-Miners will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
+Butchers will not trade with players unless they have +50 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)).
 
-Blue Mountains Miners sell their mining spoilers from their diggings. This includes gemstones, raw ores, powders, coal and glowstone dust.
+Blue Mountain Butchers sell primarily only raw meats as well as leather, feathers and horns.
 
-Blue Mountains Miners buy supplies for their mining adventures. They primarily buy cooked meats such as duck, mutton, porkchops, as well as bread and gammon. They also buy new pickaxes so to replenish their worn ones. 
+Blue Mountain Butchers buy supplies for their job. This includes wheat, salt, string, assorted types of daggers, and leads.
 
 ## History
 - 1.8.1: Added to fill out the Blue Mountain settlement trader halls

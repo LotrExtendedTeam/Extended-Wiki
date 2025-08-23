@@ -39,7 +39,7 @@ Pool JSON format
 > > > > **projection**: `rigid` or `terrain_matching` (required)
 > > > >
 > > > > - Defines the terrain projection type. Can be `rigid` to place a fixed structure (like a house), or `terrain_matching` to match the terrain height (like a village road).
-> > > > Additional fields are available depending on the spicific **element_type** defined.
+> > > > Additional fields are available depending on the specific **element_type** defined.
 
 
 Element JSON formats
@@ -102,7 +102,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > > **ground_level_delta**: `1` (default)
 > >
 > > - The vertical offset (in blocks) to shift the structure piece downwards during placement. A value of <code>1</code> will apply the regular vanilla offset.
-> > - Additionaly a negative offset will shift the structure upwards during placement.
+> > - Additionally a negative offset will shift the structure upwards during placement.
 > > - This is used in the case that a structure should float off the ground, or the bottom the the structure is not at ground level part of the structure.
 > > - (This hooks into an un-used method in vanilla that defaults to shifting a piece down by 1)
 > >
@@ -113,11 +113,11 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > >
 > > **apply_waterlogging**: `true` (default)
 > >
-> > - If `true`, liquids in the structure piece propergate through waterloggable blocks. If `false`, liquids are not allowed to spread.
+> > - If `true`, liquids in the structure piece propagate through waterloggable blocks. If `false`, liquids are not allowed to spread.
 > >
 > > **blacklist_name**: `"NOTSET"` (default)
 > >
-> > - A custom identifier used for some pieces skip using the certian piece if another piece with the same blacklistable name was already spawned. (Used to have only one smithy in a village for example.)
+> > - A custom identifier used for some pieces skip using the certain piece if another piece with the same blacklistable name was already spawned. (Used to have only one smithy in a village for example.)
 > >
 > > **snap_to_water_height**: `false` (default)
 > >
@@ -138,7 +138,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > >
 > > **disable_spawn_above_ground**: `false` (default)
 > >
-> > - If `true`, the piece will not spawn if the center of the pacement is at or above ground level. (Used to stop mineshafts from spawning above ground.)
+> > - If `true`, the piece will not spawn if the center of the placement is at or above ground level. (Used to stop mineshafts from spawning above ground.)
 > > - **Only applicable to non-root pieces**
 > >
 > > **foundation_block**
@@ -151,4 +151,4 @@ A pool element represents a single piece of a jigsaw structure but with addition
 > > >
 > > > **Properties**: `Todo properly define` (default unset)
 > > >
-> > > - Holds a key-value pair repersentation of a non-default blockstate present in **Name**
+> > > - Holds a key-value pair representation of a non-default blockstate present in **Name**

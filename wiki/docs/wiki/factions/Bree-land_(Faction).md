@@ -16,7 +16,7 @@ show:
 
 ## History
 - 1.7.1
-    - The Bree-land Sherriff was ported and Bree-land Guards could be hired. 
+    - The Bree-land Sheriff was ported and Bree-land Guards could be hired. 
     - Added Bree-land Potters and ported Bree-land Farmers. 
     - Added Bree-land Hamlets
 - 1.7.0: The Bree-land wandering Merchant was added

@@ -5,6 +5,93 @@ show:
 
 # **Updates**
 
+## **(Beta 1.8.1) (August 20th, 2025)** { #beta-1-8-1 data-toc-label="(Beta 1.8.1)" }
+---
+??? Changelog
+	* Blocks
+		* Added the ability to “clip” berry bushes with shears to disable growing berries and growing into hedges
+		* Allowed bars and glass to connect to vertical slabs
+		* Lowered the light level of Morgul Lanterns and Torches (14->12)
+		* Made all 6 Birdcage types rotatable
+		* Ported placeable Glass Bottles
+	* Entities
+		* Added Blue Mountains Butchers
+		* Added Blue Mountains Stonemasons
+		* Added Hedgehogs
+		* Make Hedgehogs hide in hedges when scared
+		* Added a domesticated duck variant
+		* Made domesticated ducks genderless
+		* Wild Ducks now tend to stay away from the player
+		* Fixed male Ducks being able to lay eggs
+		* Ported Wild Boars
+		* Made boars group attack when provoked
+		* Made Wild Boars spawn in the Blue Mountains and the Iron Hills
+		* Added five variants for wild boars (similar to horses)
+		* Fixed Dwarven Miners not spawning in the Iron Hills
+		* Fixed several Bree NPCs not having speechbanks
+		* Port Blue Mountains Axe Throwers
+	* Hired Units
+		* Fixed units having holding their base idle weapon on reload instead of player given weapons
+		* Units don't cost coins anymore when hired by creative players
+	* Items
+		* Added Halt/Ready/Summon functionality to the Horn of Command
+		* Added Leather Boar Armor
+		* Ported Blue Dwarven Boar Armor
+		* Ported Dwarven Boar Armor
+		* Ported Glass Bottles vessels
+	* Localization
+		* Fixed BM Merchants leave message missing player name
+	* Misc
+		* Added loot tables for Middle Earth fishing finally
+		* Fixed Blue Mountains Shields being made on ranger crafting tables
+		* Fixed Double Bronze advancement not being obtainable on forges other than the Alloy Forge
+		* Fixed ELOTR-13 biome dataGen crash
+		* Fixed Secrets Of Eol advancement not being obtainable
+		* Fixed Tolkien crashing some servers when spawning
+		* Fixed crafting and Forging advancements not being bestowed when shift-clicking items out of the result slot
+		* Updated several foods with proper saturation values
+	* Sounds
+		* Added all-new sounds for boars
+		* Added all-new sounds for hedgehogs
+	* Structures
+		* Added despawnable visiting traders to Blue Mountain Settlement trader halls
+		* Fixed crystals spawning inside Blue Mountain Settlements
+		* Fixed settlements sometimes spawn so low that the shaft does not spawn
+		* Fixed silverfish spawning in BM settlement housing (332 blocks exterminated)
+		* Re-worked the Blue Mountains Settlements room decorations and add new rooms
+	* Textures
+		* Added all-new model and texture for Glass Bottles
+		* Fixed crucible block model orientation on place
+	* Trading
+		* Fixed items not shift-clicking into the player sell row slots
+		* Fixed traders player sell row items being sometimes lost on GUI close
+	* Textures
+		* Added a new texture for when horns are in their ready units mode
+		* Added all-new Wild Boar skin, armor and armor item textures
+		* Fixed duck wing and neck pivot points (old model enableable via config)
+		* Fixed z-fighting on the top of the rope model
+		* Re-worked vessel rendering to allow for non-flat render types
+	* WorldGen
+		* Added a new underground blob generator that also processes slabs and stairs (mines look better when rock deposits also modify slabs and stairs)
+
+
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+This update finished what the extended team could not finish for the initial 1.8.0 release. This includes [Wild Hogs]() and [Blue Dwarven Axe Throwers]().
+Additionally, this update reworked the design off several parts of the Blue Mountains Settlements. Lastly, [Hedgehogs](/Extended-Wiki/wiki/Hedgehogs) were added, after being a concept for over a year.
+
+</div>
+
+<div style="flex: 1;">
+  <img src="../img/updates/ExtendedUpdate_1_8_1.png" alt="Beta 1.8.1 Release image" style="max-width: 100%; height: auto;" />
+  <p style="text-align: center; font-size: 0.9em;">Beta 1.8.1 Release image</p>
+</div>
+
+</div>
+
 ## **(Beta 1.8.0) (July 30th, 2025)** { #beta-1-8-0 data-toc-label="(Beta 1.8.0)" }
 ---
 ??? Changelog
@@ -52,7 +139,7 @@ show:
 		* Added backend support for most NPC types to be potentially hireable in the future
 		* Added dedicated namebanks for blue dwarves
 		* Fixed Bree Brewers not being aligned to Bree (they now require alignment to trade)
-		* Fixed Bree Sheriffs not carrying Bree Sheilds
+		* Fixed Bree Sheriffs not carrying Bree Shields
 		* Fixed Dwarf, Elf, Orc, and Hobbit traders rendering coins in offhand, even if they are equipped with an item in their offhand
 		* Fixed a Renewed bug where Hobbits don’t run from Wargs
 		* Fixed a rare bug that caused captains to be hireable by players
@@ -103,7 +190,7 @@ show:
 		* Added 1 new secret advancement in Extended (3 currently)
 		* Added 117 advancements from Legacy (51.2% currently ported)
 		* Added 5 new advancements in Extended (28 currently)
-		* Added Dorwinion, Near Harad, Rhun, and some missed advancements
+		* Added Dorwinion, Near Harad, Rhûn, and some missed advancements
 		* Added recipes for Dead Moss Vines (formerly Mordor Moss Vines) and Birdcages
 		* Added support for crafting tables and furnace use and craft advancements
 		* Fixed the Minecraft bug in the Advancement screen that causes the change pages buttons to never show in Vanilla (1.12.2->1.21.7+) (should show if more than 26 advancement categories are present)
@@ -140,7 +227,7 @@ show:
 		* Once and for all fixed structures spawning underwater (might still have rare edge cases, report them if found)
 		* Rewrote structure foundation generator to work on any piece
 	* WorldGen
-		* Added Lapiz Ore to the Blue Mountains
+		* Added Lapis Ore to the Blue Mountains
 		* Added Maple trees to the Shire
 		* Fixed Willow Vines not spawning on Willow Trees
 		* Made Luigon the main stone type, and stone as the blobs in the Blue Mountains
@@ -182,7 +269,7 @@ Blue Mountains Port
 	* Features
 		* Fixed Slab/Stair chairs not working in Singleplayer
 	* Hired Units
-		* Fixed a bug in which hired units only fast travelled with players when they were set to stationary
+		* Fixed a bug in which hired units only fast traveled with players when they were set to stationary
 		* Fixed hired units not re-equipping base armor
 	* Items
 		* Added Bucket of Cheese Curds (right click to separate into two items)
@@ -644,7 +731,7 @@ Barrow Downs
 		* Added Goblin Brick Wall
 		* Added Goblin Pillar
 		* Added Goblin Pillar Slab
-		* Fixed Rope dupping as fast as wild rabbits
+		* Fixed Rope duping as fast as wild rabbits
 		* Fixed Stone Chest not using the new open/close sounds
 	* Entities
 		* Ported Gundabad Uruk

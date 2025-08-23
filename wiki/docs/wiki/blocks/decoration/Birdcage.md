@@ -47,4 +47,4 @@ Crafting or in structures
 
 ## History
 
-- idk when we actualy added them
+- idk when we actually added them

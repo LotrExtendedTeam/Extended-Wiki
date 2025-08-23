@@ -18,11 +18,7 @@ faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
 
 # Blue Mountains Smith
 
-### STILL NEEDS WRITING
-
-Blue Mountain Miners are an elusive trader that can spawn naturally in the [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Unlike most other traders, Miners will naturally despawn according the despawn logic Minecraft uses for entities.
-
-Blue Mountain Miners are usually found in the caves, and all structures that generate under the ground in Blue Mountains. They carry carry a Blue Dwarven Pickaxe and a silver coin.
+Blue Mountain Smiths can be found in smithy structures that spawn spawn around the Blue Mountains, as well as in a forge room that can be found in Blue Mountain Settlements. They carry carry a Smithy Hammer and a silver coin.
 
 ## Behavior
 
@@ -30,15 +26,15 @@ By default, Smiths don't attack unless provoked, but they will fight back agains
 
 ## Trading
 
-Miners will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
+Smiths will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
 
-Blue Mountains Miners sell their mining spoilers from their diggings. This includes gemstones, raw ores, powders, coal and glowstone dust.
+Blue Mountains Smiths sell the goods of their forge. This includes blue dwarven armor and equipment. They also can sell blue dwarven bars and crafting table.
 
-Blue Mountains Miners buy supplies for their mining adventures. They primarily buy cooked meats such as duck, mutton, porkchops, as well as bread and gammon. They also buy new pickaxes so to replenish their worn ones. 
+Blue Mountains Smiths buy many supplies, for both their job and stomach. This includes ingots of most metals, as well as most gemstones. They also buy most kinds of cooked meats.
 
 ## History
 - 1.8.0: Ported with the Blue Mountains update
 
 ## Trivia
 
-- Blue Mountain Miners were the first naturally spawning non-permanent trader added.
+- Blue Mountain Smiths were the first dwarven smith the be ported in Extended.

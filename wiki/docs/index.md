@@ -7,11 +7,11 @@ hide:
 ::infobox
 type: version
 title: The Latest Version is:
-name: 1.8.0
-date: July 30th, 2025
-curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6831228
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.8.0
-changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-8-0
+name: 1.8.1
+date: August 20th, 2025
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6909303
+modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.8.1
+changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-8-1
 ::end-infobox
 # Home
 
@@ -33,9 +33,9 @@ Below is a list of features that are currently implemented in the mod.
 - Many achievements have been ported (some new ones have been added as well)
 - 4 trees have been ported (Chestnut, Willow, Banana, and Plum)
 - Most items and blocks from Legacy have been ported
-- [Translations](https://lotrextendedteam.github.io/Extended-Localization/) for several langauges including overrides and updates to Renewed itself where necessary
+- [Translations](https://lotrextendedteam.github.io/Extended-Localization/) for several languages including overrides and updates to Renewed itself where necessary
 - Fellowships have been ported (currently can only be used with commands)
 - Bows for factions that have been done so far have been ported
-- Some new blocks/items such as new furs, new drystones and new lanterns!
+- Some new blocks/items such as new furs, new drystone types and new lanterns!
 - Many new remastered textures!
 - Bug fixes for some [bugs in Renewed itself](/Extended-Wiki/wiki/renewed_bug_fixes/) and support for later Java versions
