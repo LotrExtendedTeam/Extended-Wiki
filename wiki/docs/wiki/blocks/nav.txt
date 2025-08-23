@@ -1,4 +1,5 @@
 * [All Blocks](Blocks.md)
+* [Decoration Blocks](decoration/)
 * [Food Blocks](foods/)
 * [Stones](stones/)
 * [Utility Blocks](utility/)

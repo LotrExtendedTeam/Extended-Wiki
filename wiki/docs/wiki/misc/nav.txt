@@ -2,3 +2,4 @@
 * [Updates](Versions.md)
 * [WorldGen](worldgen/)
 * [Renewed Bug Fixes](renewed_bug_fixes.md)
+* [Wiki Syntax Documentation](documentation/Markdown_Syntax.md)
