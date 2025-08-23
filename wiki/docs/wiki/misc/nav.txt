@@ -1,5 +1,5 @@
 * [Miscellaneous](Miscellaneous.md)
 * [Updates](Versions.md)
 * [WorldGen](worldgen/)
-* [Renewed Bug Fixes](renewed_bug_fixes.md)
+* [Renewed Bug Fixes](Renewed_Bug_Fixes.md)
 * [Wiki Syntax Documentation](documentation/Markdown_Syntax.md)

@@ -11,9 +11,11 @@ The following known bugs from Renewed are fixed in the latest version of Extende
 - LOTR-242 — Reflection breaks in Java 17 (02/01/2023) (in Renewed on Java 12+)
 - LOTR-142 — Dunlending chestplate item icon doesn't match the texture (01/01/2022)
 
+---
 Additionally the Extended team has developed their own bug tracker for Renewed bugs:
 
 Open:
+
 - ELOTR-15 — Slabs fail to flip and rotate correctly with WorldEdit (08/12/2025)
 - ELOTR-13 — Stray pixel on Umbar Soldiers (06/09/2025)
 - ELOTR-11 — Athelas is being registered in the flower pool (05/15/2025)
@@ -24,6 +26,7 @@ Open:
 - ELOTR-1 — Matches infinitely restock in player inventory  (02/24/2024)
 
 Fixed:
+
 - ELOTR-16 — Renewed Biome dataGen crashes servers (08/13/2025)
 - ELOTR-14 — Hobbits do not run from Wargs (06/22/2025)
 - ELOTR-12 — Wool and fur slabs don't burn (06/09/2025)

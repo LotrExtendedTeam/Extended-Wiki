@@ -115,7 +115,6 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.caret
   - pymdownx.mark
-  - pymdownx.tilde
   - pymdownx.blocks.caption
   - pymdownx.snippets
   - attr_list
