@@ -3,10 +3,10 @@ from pathlib import Path
 import re
 log = logging.getLogger("mkdocs.plugins")
 # Define the folders  to strip here directly
-strip_folders = ['items', 'blocks', 'entities', 'passive', 'hostile','factions', 'misc', 'foods', 'utility', 'woods', 'stones', 'worldgen', 'world', 'biomes', 'decoration']
+strip_folders = ['items', 'blocks', 'entities', 'passive', 'hostile','factions', 'misc', 'foods', 'utility', 'woods', 'stones', 'worldgen', 'world', 'biomes', 'decoration', 'documentation']
 
 def on_pre_build(config):
-    log.info(">>> Flatten Urls Porcessor: Present")
+    log.info(">>> Flatten Urls Processor: Present")
 
 def on_files(files, config):
     for file in files:
