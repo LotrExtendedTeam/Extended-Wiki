@@ -1,6 +1,8 @@
 ---
 show:
   - toc
+alias:
+  - biomes
 ---
 
 # All Biomes

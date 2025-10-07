@@ -1,6 +1,12 @@
 ---
 show:
   - toc
+alias:
+  - ver
+  - version
+  - versions
+  - update
+  - updates
 ---
 
 # **Updates**
@@ -81,7 +87,7 @@ show:
 <div markdown="block">
 
 This update finished what the extended team could not finish for the initial 1.8.0 release. This includes [Wild Hogs]() and [Blue Dwarven Axe Throwers]().
-Additionally, this update reworked the design off several parts of the Blue Mountains Settlements. Lastly, [Hedgehogs](/Extended-Wiki/wiki/Hedgehogs) were added, after being a concept for over a year.
+Additionally, this update reworked the design off several parts of the Blue Mountains Settlements. Lastly, [[hedgehog|Hedgehogs]] were added, after being a concept for over a year.
 
 </div>
 

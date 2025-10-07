@@ -1,6 +1,8 @@
 ---
 show:
   - toc
+alias:
+  - factions
 ---
 
 # All Factions

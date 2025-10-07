@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - blue_mountains_butcher
 ---
 
 ####
@@ -26,7 +28,7 @@ By default, Butchers don't attack unless provoked, but they will fight back agai
 
 ## Trading
 
-Butchers will not trade with players unless they have +50 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)).
+Butchers will not trade with players unless they have +50 alignment with [[blue_mountain_faction|Blue Mountains]].
 
 Blue Mountain Butchers sell primarily only raw meats as well as leather, feathers and horns.
 

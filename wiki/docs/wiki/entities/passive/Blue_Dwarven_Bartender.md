@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - blue_mountains_bartender
 ---
 
 ####
@@ -26,7 +28,7 @@ By default, Bartenders don't attack unless provoked, but they will fight back ag
 
 ## Trading
 
-Bartenders will not trade with players unless they have +10 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). 
+Bartenders will not trade with players unless they have +10 alignment with [[blue_mountain_faction|Blue Mountains]]. 
 
 Blue Mountain Bartenders sell an assorted mix of food and drink. This includes cooked meats, stews, bread, plates, mugs, ale and mead. They also sell pipeweed and pipes rarely.
 

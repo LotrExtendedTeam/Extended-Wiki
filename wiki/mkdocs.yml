@@ -75,6 +75,7 @@ hooks:
 
 plugins:
   - search
+  - alias
   - tags:
       tags_allowed:
         - Blocks

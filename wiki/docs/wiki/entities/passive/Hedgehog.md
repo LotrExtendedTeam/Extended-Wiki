@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - hedgehog
 ---
 
 ####

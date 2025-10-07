@@ -1,6 +1,8 @@
 ---
 show:
   - toc
+alias:
+  - blocks
 ---
 
 # All Blocks

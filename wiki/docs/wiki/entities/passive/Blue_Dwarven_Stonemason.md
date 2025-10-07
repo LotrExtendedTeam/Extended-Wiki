@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - blue_mountains_stonemason
 ---
 
 ####
@@ -26,7 +28,7 @@ By default, Stonemasons don't attack unless provoked, but they will fight back a
 
 ## Trading
 
-Stonemasons will not trade with players unless they have +50 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)).
+Stonemasons will not trade with players unless they have +50 alignment with [[blue_mountain_faction|Blue Mountains]].
 
 Blue Mountains Stonemasons sell all kinds of stone, drystone, and Luigon brick variants. They also sell light blue clay tiling, stonecutters, and a blue Mountains crafting table.
 

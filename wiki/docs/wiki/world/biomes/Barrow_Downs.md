@@ -3,6 +3,8 @@ tags:
   - Biomes
 show:
   - toc
+alias:
+  - barrow_downs
 ---
 
 ####
@@ -12,7 +14,7 @@ show:
 The Barrow Downs is a dangerous region.
 
 ## NPCs
-- [Barrow Wights](/Extended-Wiki/wiki/Barrow_Wight) spawn randomly in the biome, they also spawn in Barrows
+- [[barrow_wight|Barrow Wights]] spawn randomly in the biome, they also spawn in Barrows
 
 ## History
 

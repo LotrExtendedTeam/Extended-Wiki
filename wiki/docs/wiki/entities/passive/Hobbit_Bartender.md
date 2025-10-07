@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - hobbit_bartender
 ---
 
 ####
@@ -26,7 +28,7 @@ Like other Hobbits they are passive mobs and will not fight the player unless at
 
 ## Trading
 
-Players who have neutral or positive alignment with Hobbits can trade with bartenders. Upon trading with then, the player will be bestowed the advancement "**Welcome Customer**". Additionally, if the player sells pipeweed leaf to the bartender, the player will be bestowed the advancement "**Street Credit**".
+Players who have neutral or positive alignment with [[hobbit_faction|Hobbits]] can trade with bartenders. Upon trading with then, the player will be bestowed the advancement "**Welcome Customer**". Additionally, if the player sells pipeweed leaf to the bartender, the player will be bestowed the advancement "**Street Credit**".
 
 Hobbit bartenders sell goods to their patrons. This includes a variety of cooked meats, drinks, pancakes, and pipeweed. They also sell cookery such as mugs, plates, and the hobbit oven and crafting table.
 

@@ -95,12 +95,12 @@ Links between pages and sites can be made using the format:
 For inner-wiki linking, use the following format.  
 
 ``` title="Inner-wiki page linking"
-[Hedgehogs](/Extended-Wiki/wiki/Hedgehog) can be found here on this wiki.
+[[hedgehog|Hedgehogs]] can be found here on this wiki.
 ```
 
 <div class="result" markdown>
 
-[Hedgehogs](/Extended-Wiki/wiki/Hedgehog) can be found here on this wiki.
+[[hedgehog|Hedgehogs]] can be found here on this wiki.
 
 </div>
 

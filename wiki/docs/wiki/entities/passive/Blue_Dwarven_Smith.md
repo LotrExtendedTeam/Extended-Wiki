@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - blue_mountains_smith
 ---
 
 ####
@@ -26,7 +28,7 @@ By default, Smiths don't attack unless provoked, but they will fight back agains
 
 ## Trading
 
-Smiths will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
+Smiths will not trade with players unless they have +100 alignment with [[blue_mountain_faction|Blue Mountains]]. Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
 
 Blue Mountains Smiths sell the goods of their forge. This includes blue dwarven armor and equipment. They also can sell blue dwarven bars and crafting table.
 

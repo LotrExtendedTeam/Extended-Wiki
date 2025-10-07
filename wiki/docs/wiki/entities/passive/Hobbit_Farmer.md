@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - hobbit_farmer
 ---
 
 ####
@@ -26,7 +28,7 @@ Like other Hobbits they are passive mobs and will not fight the player unless at
 
 ## Trading
 
-Players who have neutral or positive alignment with Hobbits can trade with the farmers. Upon trading with then, the player will be bestowed the advancement "**Farmer Maggot's Cousin**". Additionally, if the player buys potatoes from the farmer, the player will be bestowed the advancement "**Boil 'Em, Mash 'Em...**".
+Players who have neutral or positive alignment with [[hobbit_faction|Hobbits]] can trade with the farmers. Upon trading with then, the player will be bestowed the advancement "**Farmer Maggot's Cousin**". Additionally, if the player buys potatoes from the farmer, the player will be bestowed the advancement "**Boil 'Em, Mash 'Em...**".
 
 Hobbit farmers sell products from their farms. This includes vegetables such as carrots, potatoes, lettuce and pipe-weed leaves. They also sell a variety of seeds, as well as items from the barn: wool, leads, buckets of milk, etc.
 

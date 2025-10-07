@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - blue_mountains_miner
 ---
 
 ####
@@ -18,7 +20,7 @@ faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
 
 # Blue Mountains Miner
 
-Blue Mountain Miners exclusively spawn naturally in the [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Unlike most other traders, Miners will naturally despawn according the despawn logic Minecraft uses for entities.
+Blue Mountain Miners exclusively spawn naturally in the [[blue_mountain_faction|Blue Mountains]]. Unlike most other traders, Miners will naturally despawn according the despawn logic Minecraft uses for entities.
 
 Blue Mountain Miners are usually found in the caves, and all structures that generate under the ground in Blue Mountains. They carry carry a Blue Dwarven Pickaxe and a silver coin.
 
@@ -28,7 +30,7 @@ By default, Miners don't attack unless provoked, but they will fight back agains
 
 ## Trading
 
-Miners will not trade with players unless they have +100 alignment with [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction)). Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
+Miners will not trade with players unless they have +100 alignment with [[blue_mountain_faction|Blue Mountains]]. Upon trading with then, the player will be bestowed the advancement "**Blue Riches**".
 
 Blue Mountain Miners sell their mining spoilers from their diggings. This includes gemstones, raw ores, powders, coal and glowstone dust.
 

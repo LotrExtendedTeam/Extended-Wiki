@@ -3,6 +3,9 @@ tags:
   - Factions
 show:
   - toc
+alias:
+  - hobbit_faction
+  - hobbits_faction
 ---
 
 ####
@@ -13,8 +16,8 @@ The hobbits of the Shire are a peaceful faction of nature loving little folk.
 
 When attacked, hobbits will attempt to flee. Additionally, the mere presence of Orcs or Wargs will cause hobbits to run for their lives.
 ## NPCs
-- [Hobbit Bartender](/Extended-Wiki/wiki/Hobbit_Bartender) spawn in Hobbit Taverns
-- [Hobbit Farmers](/Extended-Wiki/wiki/Hobbit_Farmer) spawn in Hobbit Barns
+- [[hobbit_bartender|Hobbit Bartender]] spawn in Hobbit Taverns
+- [[hobbit_bartender|Hobbit Farmers]] spawn in Hobbit Barns
 
 ## History
 - 1.7.2:

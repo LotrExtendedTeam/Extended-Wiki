@@ -3,6 +3,8 @@ tags:
   - Entities
 show:
   - toc
+alias:
+  - barrow_wight
 ---
 
 ####
@@ -22,7 +24,7 @@ Barrow wights are evil spirits that reside in the barrow downs.
 
 ## Spawning
 
-Barrow wights naturally spawn during dusk and night in the [Barrow Downs](/Extended-Wiki/wiki/Barrow_Downs/).
+Barrow wights naturally spawn during dusk and night in the [[barrow_downs|Barrow Downs]].
 
 They also spawn via stone chests under certain conditions:
 

@@ -2,6 +2,10 @@
 hide:
   - toc
   - navigation
+alias:
+  - home
+  - main
+  - index
 ---
 <!-- How to add inpage css<link rel="stylesheet" href="../stylesheets/custom.css">-->
 ::infobox
@@ -24,7 +28,7 @@ This wiki, like the mod, is also under active development and will be continue t
 ## Current Features
 Below is a list of features that are currently implemented in the mod.
 
-- 5 [Factions](/Extended-Wiki/wiki/Factions) and their traders/NPCs have all been ported (Hobbits, Rangers, Gundabad Orcs, Bree, and Blue Mountains)
+- 5 [[factions|Factions]] and their traders/NPCs have all been ported (Hobbits, Rangers, Gundabad Orcs, Bree, and Blue Mountains)
 - All 5 Factions now have naturally generating structures (including many new ones!)
 - NPC hiring for Bree, Blue Mountains, Gundabad, and Rangers
 - The entire trade system has been ported and is functional
@@ -38,4 +42,4 @@ Below is a list of features that are currently implemented in the mod.
 - Bows for factions that have been done so far have been ported
 - Some new blocks/items such as new furs, new drystone types and new lanterns!
 - Many new remastered textures!
-- Bug fixes for some [bugs in Renewed itself](/Extended-Wiki/wiki/renewed_bug_fixes/) and support for later Java versions
+- Bug fixes for some [[renewed-bugs|bugs in Renewed itself]] and support for later Java versions

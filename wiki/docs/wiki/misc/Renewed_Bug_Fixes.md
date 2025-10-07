@@ -1,6 +1,8 @@
 ---
 show:
   - toc
+alias:
+  - renewed-bugs
 ---
 
 # **Renewed Bug Fixes**

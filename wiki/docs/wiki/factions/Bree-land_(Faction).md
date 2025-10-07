@@ -3,6 +3,8 @@ tags:
   - Factions
 show:
   - toc
+alias:
+  - bree_faction
 ---
 
 ####

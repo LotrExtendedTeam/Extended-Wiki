@@ -3,6 +3,8 @@ tags:
   - Factions
 show:
   - toc
+alias:
+  - gundabad_faction
 ---
 
 ####

@@ -3,6 +3,8 @@ tags:
   - Factions
 show:
   - toc
+alias:
+  - blue_mountain_faction
 ---
 
 ####
@@ -10,11 +12,11 @@ show:
 # Blue Mountains
 
 ## NPCs
-- [Blue Mountains Bartenders](/Extended-Wiki/wiki/Blue_Dwarven_Bartender) spawn in Blue Mountain Settlement taverns
-- [Blue Mountains Butchers](/Extended-Wiki/wiki/Blue_Dwarven_Butcher) spawn in Blue Mountain Settlement trader halls
-- [Blue Mountains Miners](/Extended-Wiki/wiki/Blue_Dwarven_Miner) spawn randomly underground
-- [Blue Mountains Smiths](/Extended-Wiki/wiki/Blue_Dwarven_Smith) spawn in Blue Mountain Settlement forges and in surface smithies
-- [Blue Mountains Stonemasons](/Extended-Wiki/wiki/Blue_Dwarven_Stonemason) spawn in Blue Mountain Settlement trader halls
+- [[blue_mountains_bartender|Blue Mountains Bartenders]] spawn in Blue Mountain Settlement taverns
+- [[blue_mountains_butcher|Blue Mountains Butchers]] spawn in Blue Mountain Settlement trader halls
+- [[blue_mountains_miner|Blue Mountains Miners]] spawn randomly underground
+- [[blue_mountains_smith|Blue Mountains Smiths]] spawn in Blue Mountain Settlement forges and in surface smithies
+- [[blue_mountains_stonemason|Blue Mountains Stonemasons]] spawn in Blue Mountain Settlement trader halls
 
 ## History
 - 1.8.1:
