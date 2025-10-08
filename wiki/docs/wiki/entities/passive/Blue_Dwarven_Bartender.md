@@ -15,7 +15,7 @@ title: Blue Mountains Bartender
 image: entities/blue_mountains_bartender.png
 armor: 0
 hitpoints: 20
-faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
+faction: [[blue_mountain_faction|Blue Mountains]]
 ::end-infobox
 
 # Blue Mountains Bartender

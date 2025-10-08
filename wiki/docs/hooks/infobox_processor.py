@@ -7,7 +7,7 @@ log = logging.getLogger("mkdocs.plugins")
 def on_pre_build(config):
     log.info(">>> Infobox Porcessor: Present")
 
-def on_page_markdown(markdown_content, page: Page, config, files):
+def on_page_content(markdown_content, page: Page, config, files):
 
     INFOBOX_RE = re.compile(r'::infobox\n(.*?)\n::end-infobox', re.DOTALL)
 
@@ -50,7 +50,6 @@ def on_page_markdown(markdown_content, page: Page, config, files):
 
         if image:
             html.append('<div class="infobox-image">')
-            #html.append('<a href="/Extended-Wiki/wiki/img/{image}">')
             html.append(f'<img src="/Extended-Wiki/wiki/img/{image}" alt="{image_alt}">')
             html.append('</a>')
             html.append('</div>')
@@ -65,23 +64,22 @@ def on_page_markdown(markdown_content, page: Page, config, files):
             html.append('</div>')
         else:
             if(box_type=='version'):
-                if "changeloglink" in entries:
+                if "versionlink" in entries:
                     html.append('<div class="infobox-version-wrapper">')
-                    #html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
-                    html.append(f'<div><a href="{entries["changeloglink"]}"><strong>v{entries.get("name", "Unknown")}</strong></a></div>')
-                else:
-                    html.append('<div class="infobox-version-wrapper">')
-                    html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                    value = entries["versionlink"]
+                    # Wrap inner text of <a> in <strong> tags
+                    value = re.sub(r'(<a\b[^>]*>)(.*?)(</a>)', r'\1<strong>\2</strong>\3', value)
+                    html.append(f'<div>{value}</div>')
                 if "date" in entries:
                     html.append(f'<div><em>Published {entries["date"]}</em></div>')
                     html.append('<div class="version-spacer"></div>')
                 if "curseforgelink" in entries:
-                    html.append(f'<div><a href="{entries["curseforgelink"]}">Curseforge</a></div>')
+                    html.append(f'<div>{entries["curseforgelink"]}</div>')
                 if "modrinthlink" in entries:
-                    html.append(f'<div><a href="{entries["modrinthlink"]}">Modrinth</a></div>')
+                    html.append(f'<div>{entries["modrinthlink"]}</div>')
                 if "changeloglink" in entries:
                     html.append('<div class="version-spacer"></div>')
-                    html.append(f'<div><a href="{entries["changeloglink"]}">Changelog</a></div>')
+                    html.append(f'<div>{entries["changeloglink"]}</div>')
                 html.append('</div>')
             else:
                 grid_fields = {}

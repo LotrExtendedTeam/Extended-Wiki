@@ -13,9 +13,10 @@ type: version
 title: The Latest Version is:
 name: 1.8.1
 date: August 20th, 2025
-curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6909303
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.8.1
-changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-8-1
+curseforgelink: [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/6909303)
+modrinthlink: [Modrinth](https://modrinth.com/mod/lotr-renewed-extended/version/1.8.1)
+versionlink: [[versions#beta-1-8-1|v1.8.1]]
+changeloglink: [[versions#beta-1-8-1|Changelog]]
 ::end-infobox
 # Home
 

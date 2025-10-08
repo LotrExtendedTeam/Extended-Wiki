@@ -15,7 +15,7 @@ title: Hobbit Farmer
 image: entities/hobbit_farmer.png
 armor: 0
 hitpoints: 16
-faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
+faction: [[hobbit_faction|Hobbits]]
 ::end-infobox
 
 # Hobbit Farmer
