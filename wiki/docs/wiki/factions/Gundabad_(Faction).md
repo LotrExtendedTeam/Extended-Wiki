@@ -17,9 +17,13 @@ alias:
 ## History
 - 1.6.2
     - Ported Gundabad Uruks, Uruk Archers
-    - Ported GundabadUruk Armor and Gundabad Uruk Bows
-- 1.6.1: Added Gundabad Orc Traders
-- 1.6.0: Introduced Gundabad Orc Camps
+    - Ported Gundabad Uruk Armor and Gundabad Uruk Bows
+- 1.6.1:
+    - Ported Gundabad Orc Traders
+- 1.6.0:
+    - Ported Gundabad Orc Camps
+- Renewed 4.1:
+    - Ported Gundabad Orcs
 
 ## Trivia
 

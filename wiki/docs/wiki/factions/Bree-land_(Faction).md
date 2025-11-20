@@ -17,11 +17,22 @@ alias:
 - There are many Bree-land traders that are ported in Extended and they can be found in Bree-land Hamlets and Villages
 
 ## History
+- 1.8.0
+    - Added Bree Hobbit Potters
+    - Ported Bree Hobbit Bakers, Brewers, Butchers, Florists, and Innkeepers
+- 1.7.3
+    - Added Bree Cheesemongers, Leatherworkers, and Stablemasters
+    - Ported Bree Bakers, Brewers, Butchers, Florists, Innkeepers, Lumbermen, Smiths, and Stonemasons
+    - Ported Bree Villages
 - 1.7.1
-    - The Bree-land Sheriff was ported and Bree-land Guards could be hired. 
-    - Added Bree-land Potters and ported Bree-land Farmers. 
+    - Added Bree-land Potters
     - Added Bree-land Hamlets
-- 1.7.0: The Bree-land wandering Merchant was added
+    - Added Bree Hamlets
+    - Ported Bree-land Farmers and Sheriffs
+- 1.7.0: 
+    - Added Bree-land wandering Merchants
+- Renewed 5.0:
+    - Ported Bree Men, Hobbits, and Guards
 
 ## Trivia
 
