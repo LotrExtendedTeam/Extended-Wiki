@@ -123,13 +123,13 @@ A pool element represents a single piece of a jigsaw structure but with addition
         <li><strong>max_depth</strong>: <code>-1</code> (default)
           <ul>
             <li>The maximum recursive generation depth when structures call children.</li>
-            <li>The structure generator sets a default value of 7; giving the piece a value other than -1 will override the generator value.</li>
+            <li>The structure generator sets a default value of <code>7</code>; giving the piece a value other than <code>-1</code> will override the generator value.</li>
             <li><strong>Only handled on the root structure piece</strong></li>
           </ul>
         </li>
         <li><strong>chunk_corner_offset</strong>: <code>7</code> (default)
           <ul>
-            <li>The offset applied to chunk corner coordinates for centering structures on generation. (value between 0 and 15).</li>
+            <li>The offset applied to chunk corner coordinates for centering structures on generation. (value between <code>0</code> and <code>15</code>).</li>
             <li><strong>Only handled on the root structure piece</strong></li>
           </ul>
         </li>
@@ -150,6 +150,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
         <li><strong>apply_waterlogging</strong>: <code>true</code> (default)
           <ul>
             <li>If true, liquids in the structure piece propagate through waterloggable blocks. If false, liquids are not allowed to spread.</li>
+            <li>(This hooks into an unused method in vanilla that determines if waterlogging should be applied for the piece)</li>
           </ul>
         </li>
         <li><strong>blacklist_name</strong>: <code>NOTSET</code> (default)

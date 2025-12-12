@@ -29,29 +29,17 @@
 .display-tree li li::before {
     content: "";
     position: absolute;
-    top: 0.7em;/* centers horizontal line vertically */
-    /*top: 0;*/
+    top: 0;
     left: -1px;
     width: 11px;
-    /*height: 15px;*/
+    height: 18px;
     border-bottom: 1px solid var(--md-default-fg-color);
 }
 
-/*
-.display-tree li li:last-child {
-    border-left-color: transparent;
+.display-tree li li:last-child:not(.display-tree-continue) {
+  border-color:transparent
 }
-
-.display-tree li li:last-child::before {
-    border-bottom-color: transparent;
-}*/
-
-/* fix last-child dangling vertical line */
-.display-tree li li:last-child {
-    height: 0.7rem;
-}
-
-/* strong keys formatting */
-.display-tree strong {
-    font-weight: 600;
+.display-tree li li:last-child:not(.display-tree-continue)::before {
+  border-left:1px solid var(--md-default-fg-color);
+  width:10px
 }
