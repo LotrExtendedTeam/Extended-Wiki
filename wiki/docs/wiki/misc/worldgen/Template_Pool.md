@@ -16,8 +16,7 @@ Template pools are defined and configured using JSON files located within a data
 
 Extended adds it's own jigsaw piece type in addition to Minecraft's [Jigsaw Pieces](https://minecraft.wiki/w/Template_pool#Pool_elements). This page documents the format of Extended's `lotrextended:extended_single_pool_element` type and how it integrates and differs from vanilla's `minecraft:single_pool_element`.
 
-Pool JSON format
----
+## Pool JSON format
 <div class="display-tree">
   <ul>
     <li>
@@ -59,10 +58,9 @@ Pool JSON format
   </ul>
 </div>
 
-Element JSON formats
----
+## Element JSON formats
 
-**Vanilla Single Element**  
+### **Vanilla Single Element** { #vanilla_element data-toc-label="Vanilla Element" }
 A pool element represents a single piece of a jigsaw structure.
 <div class="display-tree">
   <ul>
@@ -72,7 +70,7 @@ A pool element represents a single piece of a jigsaw structure.
         <li><strong>element_type</strong>: <code>minecraft:single_pool_element</code> (required)</li>
         <li><strong>projection</strong>: See above (required)</li>
         <li>
-          <strong>location</strong>: <code>example:flower_forest/village_house</code> (required)
+          <strong>location</strong>: <code>namespace:path_to_structure_file</code> (required)
           <ul>
             <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
           </ul>
@@ -90,7 +88,7 @@ A pool element represents a single piece of a jigsaw structure.
 </div>
 
 
-**Extended Single Pool Element**  
+### **Extended Single Pool Element**   { #extended_element data-toc-label="Extended Element" }
 A pool element represents a single piece of a jigsaw structure but with additional fields to facilitate the needs of extended's structures.
 <div class="display-tree">
   <ul>
@@ -103,7 +101,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
           </ul>
         </li>
         <li><strong>projection</strong>: See above (required)</li>
-        <li><strong>location</strong>: <code>example:flower_forest/village_house</code> (required)
+        <li><strong>location</strong>: <code>namespace:path_to_structure_file</code> (required)
           <ul>
             <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
           </ul>
