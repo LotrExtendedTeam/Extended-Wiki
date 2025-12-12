@@ -1,0 +1,45 @@
+/* Tree container */
+.display-tree {
+    /*margin: 1rem 0;*/
+    list-style-type: none !important;
+}
+
+/* global UL reset for this component */
+.display-tree ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+.display-tree li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style-type: none !important;
+}
+
+/* each LI entry */
+.display-tree li li {
+    position: relative;
+    padding-left:13px !important;
+    margin-left:7px !important;
+    border-left:1px solid var(--md-default-fg-color);
+    margin-bottom: 0;
+}
+
+/* vertical branch */
+.display-tree li li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 11px;
+    height: 18px;
+    border-bottom: 1px solid var(--md-default-fg-color);
+}
+
+.display-tree li li:last-child:not(.display-tree-continue) {
+  border-color:transparent
+}
+.display-tree li li:last-child:not(.display-tree-continue)::before {
+  border-left:1px solid var(--md-default-fg-color);
+  width:10px
+}
