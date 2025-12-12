@@ -18,137 +18,187 @@ Extended adds it's own jigsaw piece type in addition to Minecraft's [Jigsaw Piec
 
 Pool JSON format
 ---
-
-> The root tag
->
-> > **fallback**: (required)
-> >
-> > - A fallback template pool `<namespace>/worldgen/template_pool/<path>`
-> > - Used in the case structures in this pool can't generate.
-> >
-> > **elements**: A list of elements to randomly select from.
-> > > An element.
-> > > > **weight**: `int` (required)
-> > > >
-> > > > - How likely this element is to be chosen when using this pool. Value between 1 and 150 (inclusive).
-> > > >
-> > > > **element_type**: `namespace:type`(required)
-> > > >
-> > > > - The type of the pool element. See below.
-> > > >
-> > > > **projection**: `rigid` or `terrain_matching` (required)
-> > > >
-> > > > - Defines the terrain projection type. Can be `rigid` to place a fixed structure (like a house), or `terrain_matching` to match the terrain height (like a village road).
-> > > > Additional fields are available depending on the specific **element_type** defined.
-
+<div class="display-tree">
+  <ul>
+    <li>
+      The root tag
+      <ul>
+        <li><strong>fallback</strong>: (required)
+          <ul>
+            <li>A fallback template pool <code>&lt;namespace&gt;/worldgen/template_pool/&lt;path&gt;</code></li>
+            <li>Used in the case structures in this pool can't generate.</li>
+            <li>Can be left as <code>minecraft:empty</code></li>
+          </ul>
+        </li>
+        <li><strong>elements</strong>: A list of elements to randomly select from.
+          <ul>
+            <li>An element
+              <ul>
+                <li><strong>weight</strong>: <code>int</code> (required)
+                  <ul>
+                    <li>How likely this element is to be chosen when using this pool. Value between <code>1</code> and <code>150</code> (inclusive).</li>
+                  </ul>
+                </li>
+                <li><strong>element_type</strong>: <code>namespace:type</code> (required)
+                  <ul>
+                    <li>The type of the pool element. See below.</li>
+                  </ul>
+                </li>
+                <li><strong>projection</strong>: <code>rigid</code> or <code>terrain_matching</code> (required)
+                  <ul>
+                    <li>Defines the terrain projection type. Can be <code>rigid</code> to place a fixed structure (like a house), or <code>terrain_matching</code> to match the terrain height (like a village road).</li>
+                    <li>Additional fields are available depending on the specific <strong>element_type</strong> defined.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
 
 Element JSON formats
 ---
 
 **Vanilla Single Element**  
 A pool element represents a single piece of a jigsaw structure.
-> The element
->
-> > **element_type**: `"minecraft:single_pool_element"` (required)
-> >
-> > - Identifies this as an extended single pool element.
-> >
-> > **projection**: See above (required)
-> >
-> > **location**: `example:flower_forest/village_house` (required)
-> >
-> > - The location of the structure file for this entry. Located in `data/<namespace>/structure/<path>`
-> >
-> > **processors**: `namespace:path_to_a_processor_list` (required)
-> >
-> > - The processor list applied before placement. See [Processor List](https://minecraft.wiki/w/Processor_list).
-> > - Can be left as `"minecraft:empty"`
+<div class="display-tree">
+  <ul>
+    <li>
+      The element
+      <ul>
+        <li><strong>element_type</strong>: <code>minecraft:single_pool_element</code> (required)</li>
+        <li><strong>projection</strong>: See above (required)</li>
+        <li>
+          <strong>location</strong>: <code>example:flower_forest/village_house</code> (required)
+          <ul>
+            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
+          </ul>
+        </li>
+        <li>
+          <strong>processors</strong>: <code>namespace:path_to_a_processor_list</code> (required)
+          <ul>
+            <li>The processor list applied before placement. See <a href="https://minecraft.wiki/w/Processor_list">Processor List</a>.</li>
+            <li> Can be left as <code>minecraft:empty</code></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 
 **Extended Single Pool Element**  
 A pool element represents a single piece of a jigsaw structure but with additional fields to facilitate the needs of extended's structures.
-> The element
->
-> > **element_type**: `"lotrextended:extended_single_pool_element"` (required)
-> >
-> > - Identifies this as an extended single pool element.
-> >
-> > **projection**: See above (required)
-> >
-> > **location**: `example:flower_forest/village_house` (required)
-> >
-> > - The location of the structure file for this entry. Located in `data/<namespace>/structure/<path>` 
-> >
-> > **processors**: `namespace:path_to_a_processor_list` (required)
-> >
-> > - The processor list applied before placement. See [Processor List](https://minecraft.wiki/w/Processor_list).
-> > - Can be left as `"minecraft:empty"`
-> >
-> > **max_place_distance**: `80` (default)
-> >
-> > - Maximum distance the structure can attempt to place blocks from its origin.
-> > - **Only handled on the root structure piece**
-> >
-> > **max_depth**: `-1` (default)
-> >
-> > - The maximum recursive generation depth when structures call children.
-> > - The structure generator sets a default value of `7`, giving the piece a value other than `-1` will override the generator value.
-> > - **Only handled on the root structure piece**
-> >
-> > **chunk_corner_offset**: `7` (default)
-> >
-> > - The offset applied to chunk corner coordinates for centering structures on generation. (value between `0` and `15`).
-> > - **Only handled on the root structure piece**
-> >
-> > **ground_level_delta**: `1` (default)
-> >
-> > - The vertical offset (in blocks) to shift the structure piece downwards during placement. A value of <code>1</code> will apply the regular vanilla offset.
-> > - Additionally a negative offset will shift the structure upwards during placement.
-> > - This is used in the case that a structure should float off the ground, or the bottom the the structure is not at ground level part of the structure.
-> > - (This hooks into an un-used method in vanilla that defaults to shifting a piece down by 1)
-> >
-> > **ignore_bb_checks**: `false` (default)
-> >
-> > - If `true`, bypasses bounding box intersection checks, allowing overlapping structures. When enabled, generates a minimal bounding box at the point of connection (used for things such as lampposts).
-> > - **Disables having children**
-> >
-> > **apply_waterlogging**: `true` (default)
-> >
-> > - If `true`, liquids in the structure piece propagate through waterloggable blocks. If `false`, liquids are not allowed to spread.
-> >
-> > **blacklist_name**: `"NOTSET"` (default)
-> >
-> > - A custom identifier used for some pieces skip using the certain piece if another piece with the same blacklistable name was already spawned. (Used to have only one smithy in a village for example.)
-> >
-> > **snap_to_water_height**: `false` (default)
-> >
-> > - If `true`, will attempt to align the structure piece's Y position to the water surface height (y=62) when generating, if projecting to heightmap.
-> >
-> > **should_protect_y_level**: `true` (default)
-> >
-> > - If `true`, piece will not be used if it attempt to spawn below `protectable_y_level`.
-> >
-> > **protectable_y_level**: `12` (default)
-> >
-> > - The minimum height at which the piece can spawn. (Use to disable pieces from spawning to deep, and breaking bedrock.)
-> >
-> > **reset_max_depth**: `false` (default)
-> >
-> > - If `true`, the current depth stack (relative to max-depth) will be reset to zero.
-> > - **Only applicable to non-root pieces**
-> >
-> > **disable_spawn_above_ground**: `false` (default)
-> >
-> > - If `true`, the piece will not spawn if the center of the placement is at or above ground level. (Used to stop mineshafts from spawning above ground.)
-> > - **Only applicable to non-root pieces**
-> >
-> > **foundation_block**
-> >
-> > - Define a blockstate that is used as a foundation for the given structure piece underside
-> >
-> > > **Name**: `"minecraft:air"` (default)
-> > >
-> > > - Changing the field to anything but `minecraft:air` will effectively enable foundation placement.
-> > >
-> > > **Properties**: `Todo properly define` (default unset)
-> > >
-> > > - Holds a key-value pair representation of a non-default blockstate present in **Name**
+<div class="display-tree">
+  <ul>
+    <li>
+      The element
+      <ul>
+        <li><strong>element_type</strong>: <code>lotrextended:extended_single_pool_element</code> (required)
+          <ul>
+            <li>Identifies this as an extended single pool element.</li>
+          </ul>
+        </li>
+        <li><strong>projection</strong>: See above (required)</li>
+        <li><strong>location</strong>: <code>example:flower_forest/village_house</code> (required)
+          <ul>
+            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
+          </ul>
+        </li>
+        <li><strong>processors</strong>: <code>namespace:path_to_a_processor_list</code> (required)
+          <ul>
+            <li>The processor list applied before placement. See <a href="https://minecraft.wiki/w/Processor_list">Processor List</a>.</li>
+            <li>Can be left as <code>minecraft:empty</code></li>
+          </ul>
+        </li>
+        <li><strong>max_place_distance</strong>: <code>80</code> (default)
+          <ul>
+            <li>Maximum distance the structure can attempt to place blocks from its origin.</li>
+            <li><strong>Only handled on the root structure piece</strong></li>
+          </ul>
+        </li>
+        <li><strong>max_depth</strong>: <code>-1</code> (default)
+          <ul>
+            <li>The maximum recursive generation depth when structures call children.</li>
+            <li>The structure generator sets a default value of 7; giving the piece a value other than -1 will override the generator value.</li>
+            <li><strong>Only handled on the root structure piece</strong></li>
+          </ul>
+        </li>
+        <li><strong>chunk_corner_offset</strong>: <code>7</code> (default)
+          <ul>
+            <li>The offset applied to chunk corner coordinates for centering structures on generation. (value between 0 and 15).</li>
+            <li><strong>Only handled on the root structure piece</strong></li>
+          </ul>
+        </li>
+        <li><strong>ground_level_delta</strong>: <code>1</code> (default)
+          <ul>
+            <li>The vertical offset (in blocks) to shift the structure piece downwards during placement. A value of <code>1</code> will apply the regular vanilla offset.</li>
+            <li>Additionally, a negative offset will shift the structure upwards during placement.</li>
+            <li>This is used in the case that a structure should float off the ground, or the bottom of the structure is not at ground level.</li>
+            <li>(This hooks into an unused method in vanilla that defaults to shifting a piece down by 1)</li>
+          </ul>
+        </li>
+        <li><strong>ignore_bb_checks</strong>: <code>false</code> (default)
+          <ul>
+            <li>If true, bypasses bounding box intersection checks, allowing overlapping structures. When enabled, generates a minimal bounding box at the point of connection (used for things such as lampposts).</li>
+            <li><strong>Disables having children</strong></li>
+          </ul>
+        </li>
+        <li><strong>apply_waterlogging</strong>: <code>true</code> (default)
+          <ul>
+            <li>If true, liquids in the structure piece propagate through waterloggable blocks. If false, liquids are not allowed to spread.</li>
+          </ul>
+        </li>
+        <li><strong>blacklist_name</strong>: <code>NOTSET</code> (default)
+          <ul>
+            <li>A custom identifier used for some pieces to skip using the certain piece if another piece with the same blacklistable name was already spawned. (Used to have only one smithy in a village, for example.)</li>
+          </ul>
+        </li>
+        <li><strong>snap_to_water_height</strong>: <code>false</code> (default)
+          <ul>
+            <li>If true, will attempt to align the structure piece's Y position to the water surface height (y=62) when generating, if projecting to heightmap.</li>
+          </ul>
+        </li>
+        <li><strong>should_protect_y_level</strong>: <code>true</code> (default)
+          <ul>
+            <li>If true, piece will not be used if it attempts to spawn below <code>protectable_y_level</code>.</li>
+          </ul>
+        </li>
+        <li><strong>protectable_y_level</strong>: <code>12</code> (default)
+          <ul>
+            <li>The minimum height at which the piece can spawn. (Used to disable pieces from spawning too deep, and breaking bedrock.)</li>
+          </ul>
+        </li>
+        <li><strong>reset_max_depth</strong>: <code>false</code> (default)
+          <ul>
+            <li>If true, the current depth stack (relative to max-depth) will be reset to zero.</li>
+            <li><strong>Only applicable to non-root pieces</strong></li>
+          </ul>
+        </li>
+        <li><strong>disable_spawn_above_ground</strong>: <code>false</code> (default)
+          <ul>
+            <li>If true, the piece will not spawn if the center of the placement is at or above ground level. (Used to stop mineshafts from spawning above ground.)</li>
+            <li><strong>Only applicable to non-root pieces</strong></li>
+          </ul>
+        </li>
+        <li><strong>foundation_block</strong>
+          <ul>
+            <li><strong>Name</strong>: <code>minecraft:air</code> (default)
+              <ul>
+                <li>Changing the field to anything but <code>minecraft:air</code> will effectively enable foundation placement.</li>
+              </ul>
+            </li>
+            <li><strong>Properties</strong>: Todo properly define (default unset)
+              <ul>
+                <li>Holds a key-value pair representation of a non-default blockstate present in <strong>Name</strong></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

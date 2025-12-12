@@ -131,6 +131,7 @@ extra_css:
     - stylesheets/flex-row.css
     - stylesheets/glightbox.css
     - stylesheets/topbar-layout.css
+    - stylesheets/tree.css
 
 extra_javascript:
     - javascripts/history.js
