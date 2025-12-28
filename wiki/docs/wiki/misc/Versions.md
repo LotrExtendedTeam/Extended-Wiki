@@ -11,6 +11,101 @@ alias:
 
 # **Updates**
 
+## **(Beta 1.9.1) (December 25th, 2025)** { #beta-1-9.1 data-toc-label="(Beta 1.9.1)" }
+---
+??? Changelog
+	* Blocks
+		* Added scroll/paper/maps/banner pattern to bookshelf slots
+		* Changed Chimney Pots to only very rarely produce embers
+		* Fixed placed a book not swinging the players hand
+		* Fixed placed a book taking two books
+		* Large Pots are now waterloggable
+		* Made bookshelves with filled inventory its own block
+	* Config
+		* Added a server config setting to disable Imladris lore structure
+		* Added a server config setting to disable bandit encounters
+		* Added a server config setting to disable fixed structures
+		* Added a server config setting to disable tolkien spawning
+		* Added a server config setting to disable wandering trader spawning
+		* Added a server config setting to enable decreased hunger exhaustion
+	* Entities
+		* Fixed Elrond not respawning when killed
+		* Fixed entity spawners debug render being offset
+		* Fixed entity spawners in structures being attackable in survival
+		* Fixed left handed NPCs still holding trade coins in the wrong hand
+		* Fixed sometimes every entity in render distance wanting to target any loaded bandit
+		* Fixed tamed boars participating in group agro against owner
+		* Replaced the targeting AI used by every NPC added by Extended
+		* Wargs eyes now glow
+	* Features
+		* Added Bell Ringing
+		* Added legacy decreased hunger level (fyi this was x0.3)
+	* Hired Units
+		* Fixed hired unit base item’s names showing in chat on kills
+		* Fixed hired units not targeting bandits
+	* Items
+		* Added Eregion armor
+		* Changed held horn rotation to face outward
+		* Fixed Rivendell bow not having a drawing animation
+	* Localization
+		* Added speechbanks for Elrond
+		* Fixed Lothlorien banner patterns not being accented (ó)
+		* Fixed thrown axes not having localized death messages
+	* Loot Tables
+		* NPCs can now rarely drop scrolls
+	* Misc
+		* Added 3 advancements from Legacy (52.6% currently ported)
+		* Added 5 new advancements in Extended (44 currently)
+		* Added 5 redstoneless recipes (dropper, dispenser, target block, note block, piston
+	* Modifiers
+		* Added the ability to reforge/repair lotr pipes
+		* Fixed armor uuid attributes not being unique (resulting in partial protection being applied)
+		* Fixed banes being earnable on any item
+		* Fixed books of true silver not applying on the anvil
+		* Fixed bow tooltips not applying modifiers
+		* Fixed bronze tier scrolls giving iron tier modifiers
+		* Fixed modifier scrolls granting stats when held
+		* Fixed modifiers granting stats on non-applicable items
+		* Fixed renaming non-repairable items
+		* Fixed sluggish modifier not working, granting x1.75 instead of x0.75
+		* Fixed vanilla bows not applying ranged launch speed factor
+		* Fixed vanilla bows not having tooltips
+		* Fixed vanilla fishing rod, bow, shears and crossbow not being reforgable
+		* Reduce anvil damage chance from 12% to 6%
+		* Reduce anvil item cost increase levels to legacy thresholds
+	* Structures
+		* Added Eregion Ruins
+		* Added Imladris lore build (The Last Homely House)
+		* Added better water checking algorithm for some structure spawning
+		* Added more animal spawning in some Bree structures
+		* Added stacked food for shire, bree and ranger plates
+		* Fix larger entities suffocating when spawning (horses in stables)
+		* Fixed Blue Mountain Settlement stairs allowing dirt to block doors
+		* Slightly increase rarity of Bree and Rivendell structures
+		* Updated all Rivendell structures with new blocks and designs
+	* Textures
+		* Fixed some banner pattern textures being pixel offset
+	* Trading
+		* Fixed an issue where loading an empty trade pools deletes the npc
+		* Fixed an issue where trade pools decrease the global trade pool index
+	* WorldGen
+		* Added sparse moors grass to Rivendell biome
+
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+This update continued work on the [[high_elves_faction|High Elven]] factions by adding Imladris (The Last Homely House) lore build as well as ruins in Eregion. The update also completed Feast Mode by adding the decreased hunger rate present in legacy. Bell Ringing was also first introduced. Otherwise most everything else was bug fixes galore.
+</div>
+
+<div style="flex: 1;">
+	<img src="../img/updates/ExtendedUpdate_1_9_1.png" alt="Beta 1.9.1 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.9.1 Release image</p>
+</div>
+
+</div>
+
 ## **(Beta 1.9.0) (November 19th, 2025)** { #beta-1-9.0 data-toc-label="(Beta 1.9.0)" }
 ---
 ??? Changelog
@@ -173,13 +268,13 @@ alias:
 
 <div markdown="block">
 
-This update started the work on the [[high_elves_faction|High Elven]] factions in Eriador. Other than just adding Rivendell Npcs and overhauling the biome layout, this update also ported three key legacy features. Bandits and bandit encounters, feast more (eating past the full point), and the modifier system (a lore friendly replacement for vanilla enchantments).
+This update started the work on the [[high_elves_faction|High Elven]] factions in Eriador. Other than just adding Rivendell Npcs and overhauling the biome layout, this update also ported three key legacy features. Bandits and bandit encounters, Feast Mode (eating past the full point), and the modifier system (a lore friendly replacement for vanilla enchantments).
 
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_9_0.png" alt="Beta 1.9.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.9.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_9_0.png" alt="Beta 1.9.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.9.0 Release image</p>
 </div>
 
 </div>
@@ -265,8 +360,8 @@ Additionally, this update reworked the design off several parts of the Blue Moun
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_8_1.png" alt="Beta 1.8.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.8.1 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_8_1.png" alt="Beta 1.8.1 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.8.1 Release image</p>
 </div>
 
 </div>
@@ -421,8 +516,8 @@ Blue Mountains Port
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_8_0.png" alt="Beta 1.8.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.8.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_8_0.png" alt="Beta 1.8.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.8.0 Release image</p>
 </div>
 
 </div>
@@ -491,8 +586,8 @@ Bree cleanup and trader backend re-write
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_4.png" alt="Beta 1.7.4 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.4 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_4.png" alt="Beta 1.7.4 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.4 Release image</p>
 </div>
 
 </div>
@@ -618,8 +713,8 @@ Added Bree Villages
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_3.png" alt="Beta 1.7.3 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.3 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_3.png" alt="Beta 1.7.3 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.3 Release image</p>
 </div>
 
 </div>
@@ -641,8 +736,8 @@ April Fools update (Tolkien)
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_T.png" alt="Beta 1.7.Tolkien Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.Tolkien Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_T.png" alt="Beta 1.7.Tolkien Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.Tolkien Release image</p>
 </div>
 
 </div>
@@ -721,8 +816,8 @@ Hired Unit Fixes
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_2.png" alt="Beta 1.7.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.2 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_2.png" alt="Beta 1.7.2 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.2 Release image</p>
 </div>
 
 </div>
@@ -812,8 +907,8 @@ Bree Hamlets
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_1.png" alt="Beta 1.7.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.1 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_1.png" alt="Beta 1.7.1 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.1 Release image</p>
 </div>
 
 </div>
@@ -893,8 +988,8 @@ Barrow Downs
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_7_0.png" alt="Beta 1.7.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.7.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_7_0.png" alt="Beta 1.7.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.7.0 Release image</p>
 </div>
 
 </div>
@@ -981,8 +1076,8 @@ Gundabad Uruks
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_2.png" alt="Beta 1.6.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.2 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_6_2.png" alt="Beta 1.6.2 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.6.2 Release image</p>
 </div>
 
 </div>
@@ -1068,8 +1163,8 @@ Gundabad encampments
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_1.png" alt="Beta 1.6.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.1 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_6_1.png" alt="Beta 1.6.1 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.6.1 Release image</p>
 </div>
 
 </div>
@@ -1221,8 +1316,8 @@ Gundabad Camps
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_6_0.png" alt="Beta 1.6.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.6.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_6_0.png" alt="Beta 1.6.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.6.0 Release image</p>
 </div>
 
 </div>
@@ -1325,8 +1420,8 @@ Added Ranger encampments
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_5_1.png" alt="Beta 1.5.1 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.1 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_5_1.png" alt="Beta 1.5.1 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.5.1 Release image</p>
 </div>
 
 </div>
@@ -1466,8 +1561,8 @@ Added Ranger Camps
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_5_0.png" alt="Beta 1.5.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.5.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_5_0.png" alt="Beta 1.5.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.5.0 Release image</p>
 </div>
 
 </div>
@@ -1513,8 +1608,8 @@ Large Hobbit Tavern and other Fixes
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_3.png" alt="Beta 1.4.3 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.3 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_4_3.png" alt="Beta 1.4.3 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.4.3 Release image</p>
 </div>
 
 </div>
@@ -1564,8 +1659,8 @@ Large Hobbit Hole and fur beds
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_2.jpg" alt="Beta 1.4.2 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.2 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_4_2.jpg" alt="Beta 1.4.2 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.4.2 Release image</p>
 </div>
 
 </div>
@@ -1753,8 +1848,8 @@ SGSv5
 </div>
 
 <div style="flex: 1;">
-  <img src="../img/updates/ExtendedUpdate_1_4_0.png" alt="Beta 1.4.0 Release image" style="max-width: 100%; height: auto;" />
-  <p style="text-align: center; font-size: 0.9em;">Beta 1.4.0 Release image</p>
+	<img src="../img/updates/ExtendedUpdate_1_4_0.png" alt="Beta 1.4.0 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.4.0 Release image</p>
 </div>
 
 </div>

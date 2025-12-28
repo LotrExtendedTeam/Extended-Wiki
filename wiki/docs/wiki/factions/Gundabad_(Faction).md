@@ -12,16 +12,19 @@ alias:
 # Gundabad
 
 ## NPCs
-- [Gundabad Orcs](/Extended-Wiki/wiki/Gundabad_Orc) and [Uruks](/Extended-Wiki/wiki/Gundabad_Uruk) spawn throughout much of Eriador during the night. They can also be found in Orc Camps, Ruins, and other structures.
+- [[gundabad_orc|Gundabad Orc]] spawn in randomly around Eriador during the night and in Gundabad camps and settlements
+- [[gundabad_orc_archer|Gundabad Orc Archer]] spawn in randomly around Eriador during the night and in Gundabad camps and settlements
+- [[gundabad_orc_chieftain|Gundabad Orc Chieftain]] spawn in Gundabad camps and settlements
+- [[gundabad_orc_scrounger|Gundabad Orc Scrounger]] spawn in Gundabad camps and settlements
+- [[gundabad_uruk|Gundabad Uruk]] spawn in randomly around Eriador during the night
+- [[gundabad_uruk_archer|Gundabad Uruk Archer]] spawn in randomly around Eriador during the night
 
 ## History
 - 1.6.2
     - Ported Gundabad Uruks, Uruk Archers
-    - Ported Gundabad Uruk Armor and Gundabad Uruk Bows
 - 1.6.1:
-    - Ported Gundabad Orc Traders
-- 1.6.0:
-    - Ported Gundabad Orc Camps
+    - Ported Gundabad Orc Chieftain
+    - Ported Gundabad Orc Scrounger
 - Renewed 4.1:
     - Ported Gundabad Orcs
 

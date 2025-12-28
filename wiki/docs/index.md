@@ -11,11 +11,11 @@ alias:
 ::infobox
 type: version
 title: The Latest Version is:
-name: 1.9.0
-date: November 19th, 2025
-curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/7241438
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.9.0
-changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-9.0
+name: 1.9.1
+date: December 25th, 2025
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/7379124
+modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.9.1
+changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-9.1
 ::end-infobox
 # Home
 
