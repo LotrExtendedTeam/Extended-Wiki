@@ -12,7 +12,7 @@ Each structure piece within a template pool represents a structure template, whi
 During world generation, the jigsaw system randomly selects structure pieces from the pool, using weighted probabilities defined within the pool’s JSON configuration. This allows for variability and replayability, ensuring structures feel organic and diverse each time they generate.
 
 Template pools are defined and configured using JSON files located within a data pack under:  
-- `data/<namespace>/worldgen/template_pool`
+- `data/<namespace>/worldgen/template_pool/`
 
 Extended adds it's own jigsaw piece type in addition to Minecraft's [Jigsaw Pieces](https://minecraft.wiki/w/Template_pool#Pool_elements). This page documents the format of Extended's `lotrextended:extended_single_pool_element` type and how it integrates and differs from vanilla's `minecraft:single_pool_element`.
 
@@ -72,7 +72,7 @@ A pool element represents a single piece of a jigsaw structure.
         <li>
           <strong>location</strong>: <code>namespace:path_to_structure_file</code> (required)
           <ul>
-            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
+            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;.json</code></li>
           </ul>
         </li>
         <li>
@@ -103,7 +103,7 @@ A pool element represents a single piece of a jigsaw structure but with addition
         <li><strong>projection</strong>: See above (required)</li>
         <li><strong>location</strong>: <code>namespace:path_to_structure_file</code> (required)
           <ul>
-            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;</code></li>
+            <li>The location of the structure file for this entry. Located in <code>data/&lt;namespace&gt;/structure/&lt;path&gt;.json</code></li>
           </ul>
         </li>
         <li><strong>processors</strong>: <code>namespace:path_to_a_processor_list</code> (required)
