@@ -20,33 +20,62 @@ faction: Hostile
 
 # Barrow Wight
 
-Barrow wights are evil spirits that reside in the barrow downs.
+Barrow-wights are ancient, malevolent spirits that haunt the tombs and hills of the [[barrow_downs|Barrow Downs]]. Bound to cursed relics and burial mounds, they emerge to defend their domain from intruders.
 
 ## Spawning
 
-Barrow wights naturally spawn during dusk and night in the [[barrow_downs|Barrow Downs]].
+Barrow-wights can appear in two primary ways: **natural spawning** and **stone chest spawning**.
 
-They also spawn via stone chests under certain conditions:
+### Natural Spawning
+- Spawn naturally during **dusk and night**
+- Only occurs in the [[barrow_downs|Barrow Downs]]
 
-*  If a chest is placed by a player, Wights can only spawn from it if you are in the barrow downs, and cursed.
-*  If a chest is naturally generated, there are two options:
-  *  If the chest was never opened before, there is a server config-set chance to spawn. (Default value is a 50% chance)
-     *  If config is 0, Wights only spawn when the player is cursed.
-     *  If config is 100, a Wight will always spawn.
-     *  Between these, wights will only spawn randomly, depending on the server config-set value.
-     *  After initial spawn, the chest can't have anymore forced spawns (like legacy).
-        * In addition, if the chest failed the random chance to force spawn, if will wait to spawn a Wight until the next open, at which point it will run the chance spawn check again. (So checking previously opened chests could spawn a Wight, depending on the server chance value not spawning one already)
-  *  If the chest had previously been opened, and the the chest had successfully spawned a Wight by config set chance, then Wights will only spawn if the player is cursed.
+### Stone Chest Spawning
+
+Barrow-wights may emerge when interacting with **stone chests**, depending on how the chest was created and the player’s status.
+
+#### Player-Placed Chests
+- Wights will **only** spawn if:
+  - The chest is in the Barrow Downs  
+  - The player is **cursed**
+
+#### Naturally Generated Chests
+
+Naturally generated chests follow special spawning rules:
+
+- **Unopened Chests**
+	- Have a **configurable chance** to spawn a Barrow-wight on first open  
+	- Default chance: **50%**  
+	- Config set behavior:
+		- **0%** → Wights spawn *only* if the player is cursed  
+		- **100%** → A Wight always spawns  
+		- **1–99%** → Spawn chance is rolled when opened  
+    - Additional rules:
+        - If a Wight successfully spawns, the chest will never force another spawn  
+        - If the spawn chance fails, the chest will retry the roll on the **next open**  
+- **Previously Opened Chests**
+	- If the chest already spawned a Wight via config chance:  
+	- Future spawns require the player to be **cursed**  
 
 ## Behaviour
 
-Barrow wights are hostile to all other creatures and will go out of their way to eliminate all in their radius.
+Barrow-wights are hostile to all creatures and will aggressively pursue targets within their detection radius. Once engaged, they will attempt to eliminate all nearby threats.
+
+## Strategy
+
+- Avoid opening stone chests while cursed
+- Engage during daylight where possible to limit natural spawns
+- Ranged combat is safer than melee encounters
+
+## Lore
+
+[Barrow-wights](https://tolkiengateway.net/wiki/Barrow-wights) are said to be spirits of ancient kings and warriors, corrupted and bound to their tombs by dark sorcery. They linger among the burial mounds, guarding cursed treasures and punishing those who disturb the dead.
 
 ## History
 
-- 1.7.1: Fixed hitbox collisions issues and changed spawning mechanics from chests
-- 1.7.0: Ported them
+- 1.7.1: Fixed hitbox collision issues and revised chest spawning mechanics
+- 1.7.0: Initial port
 
 ## Trivia
 
-- IDk
+- Barrow-wights can be forced to spawn entirely through chest interaction

@@ -6,7 +6,7 @@ alias:
 ---
 
 # **Renewed Bug Fixes**
-In addition the ported features from Legacy and other new features that Extended introduced we are also trying to fix bugs that were present in Renewed.
+In addition the ported features from Legacy and other new features that Extended introduced, we are also trying to fix bugs that were present in Renewed.
 
 The following known bugs from Renewed are fixed in the latest version of Extended:
 
