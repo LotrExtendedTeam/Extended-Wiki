@@ -18,7 +18,7 @@ Example of windows path (will be diffrent for every person):
 ~~~
 Then start the live-reloading mkdocs site with this command:
 ~~~
- mkdocs serve --config-file wiki/mkdocs.yml
+ mkdocs serve --livereload --config-file wiki/mkdocs.yml
 ~~~
 5. Now every change you make to your wiki instance will be reflected live in your web browser.
 6. When you are satisfied your changes, open a PR to the main repo to have your changes/additions added to the wiki.

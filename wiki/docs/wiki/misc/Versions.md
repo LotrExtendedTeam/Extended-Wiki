@@ -11,7 +11,152 @@ alias:
 
 # **Updates**
 
-## **(Beta 1.9.1) (December 25th, 2025)** { #beta-1-9.1 data-toc-label="(Beta 1.9.1)" }
+## **(Beta 1.9.3) (February 7th, 2026)** { #beta-1-9-3 data-toc-label="(Beta 1.9.3)" }
+---
+??? Changelog
+	* Blocks
+		* Added Carved Red Angmar Brick
+		* Added Cracked Red Angmar Brick (slab, stairs wall)
+		* Added Mossy Red Angmar Brick (slab, stairs wall)
+		* Added Red Angmar Brick (slab, stairs wall)
+		* Added Red Angmar Pillar (pillar, slab)
+		* Added Snowy Red Angmar Brick (slab, stairs wall)
+	* Modifiers
+		* Fixed interacting with armor causing the game to crash
+	* Structures
+		* Added a Lindon Castle variant to Lindon Towers (1/50 chance)
+		* Fixed fur in gundabad camps disappearing
+		* Ported Lindon Halls
+	* Textures
+		* Fixed Snowy Angmar Brick texture using a different color pallet than Angmar Brick
+		* Remastered High Elven (Lindon) Gate textures (Renewed Pack)
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+This small update's main purpose was fixing major issues and adding just a bit of content in the form of Lindon Halls, a Lindon Castle, and a few new Angmar blocks
+</div>
+
+<div style="flex: 1;">
+	<img src="../img/updates/ExtendedUpdate_1_9_3.png" alt="Beta 1.9.3 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.9.3 Release image</p>
+</div>
+
+</div>
+
+## **(Beta 1.9.2) (February 6th, 2026)** { #beta-1-9-2 data-toc-label="(Beta 1.9.2)" }
+---
+??? Changelog
+	* Biomes
+		* Added Gorgoroth River biome
+		* Added Mordor River biome
+		* Added Morgul Vale River biome
+		* Added Nurn River biome
+	* Blocks
+		* Added Chalk Path Slabs
+		* Added Meteorite
+		* Added Mordor Dirt Path Slabs
+		* Added Mordor Dirt Slabs
+		* Added Snow Path Slabs
+		* Added Snow Slabs
+		* Fixed Dirt, Coarse Dirt, Grass, Grass Path, Podzol, and Mycelium slabs not breaking faster with shovels
+		* Fixed enchanting tables not being breakable when enchanting is disabled
+		* Fixed placing banners in water not waterlogging the banner
+		* Renamed Packed fur to Matted fur and changed recipe (more like a tent block now instead of a storage block)
+	* Config
+		* Added a client config setting to enable larger unit health bars
+		* Added a server config setting to disable tower hills lore towers
+		* Added a server config setting to change the ME map internal command for instant teleport
+	* Entities
+		* Added Lindon Florists
+		* Added Lindon Weavers
+		* Fixed Barrow Wights not spawning when breaking stone chests by hand instead of opening the chest
+		* Fixed Elrond and Imladris Guard having an incorrect max health
+		* Fixed some captains incorrectly wearing helmets
+		* Made captains now only hold a shield during melee combat
+		* Ported Lindon Lords
+		* Ported Lindon Smiths
+	* GUI
+		* Fixed the banner configuration screen whitelist entries breaking when resizing the minecraft window
+		* Fixed the client settings menu alignment bar slider having unreasonable bounds
+		* Potentially fixed the rare coin convert container crash
+	* Hired Units
+		* Added a smaller, more compact, unit health bar
+		* Fixed Rivendell units not holding Rivendell bows
+		* Fixed hired units not teleporting onto slabs and stairs
+		* Fixed units loading with base health instead of previous current health
+	* Items
+		* Added Eregion Shield
+		* Added Lindon Shield
+		* Added Sky-iron
+		* Buffed Galvorn protection (to dwarven levels, since it’s much harder to obtain now)
+		* Ported Galvorn Armor
+		* Ported Lindon Bows
+	* Loot Tables
+		* Fixed Books of True Silver spawning too much in some chests and not in some BM ones
+		* Removed mithril ore from BM mine chests
+	* Misc
+		* Added 5 new advancements in Extended (49 currently)
+		* Added 7 advancements from Legacy (53.7% currently ported)
+		* Added cheaper legacy based recipe for anvils (6 ingots and a block VS vanilla 4 ingots and three blocks)
+		* Backported the 1.21.5 loadstone recipe
+		* Fixed Ethir Anduin advancement title and For Gondor advancement description
+		* Fixed Falling on crops, and interacting with item frames and armor stands from bypassing Minecraft server spawn protection
+		* Fixed fur and beam slabs being usable in recipes that required wooden slabs
+		* Fixed many recipes unlocking when obtaining the recipe output item
+		* Fixed willow boats not being burnable for fuel
+		* Obsidian dwarven brick can now be crafted on a Blue Mountains crafting table			
+	* Modifiers
+		* Fishing Rods can now have both fishing speed and luck
+		* Fixed armor protection modifies being applicable to armors it it makes the protection better than mithril
+		* Fixed bowstring instead of string being used for vanilla bows on anvils
+		* Fixed dig speed modifiers not working
+		* Fixed infernal bows setting targets alight when damaged via melee combat
+		* Ranged Knockback and Launch speed modifiers can now be applied to vanilla crossbows
+	* Structures
+		* Added Lindon Villages
+		* Added Tower Hills Lore Towers (Elostirion and the two others)
+		* Fixed Imladris not having proper chunk smoothing on the left edge
+		* Fixed a few structures not having chests and/or loot-tables
+		* Fixed the Blue Mountain Settlement's main room sometimes failing to generate
+		* Ported Generic Tower Hills Towers
+		* Ported Lindon Towers
+		* Removed white fur tents from Gundabad Camps
+		* Fixed entity spawners not spawning entities randomly inside structures
+		* All spawned entities are persistent now unless we purposely want them to despawn
+		* Increased the minimum spawn from player value to prevent entities appearing right next to the player
+		* Increased the maximum spawn from player value to fix entities not spawning because the player is too far away, but then finds an empty structure when getting to the structure before the next spawn time
+		* Entity spawners now force spawns on their first tick, so a structure is populated, even if a player teleports inside it, loading the spawner for the first time
+	* Textures
+		* Added an all new epic model for Galvorn Armor
+		* Updated Dunedain banner texture to be more vibrant
+		* Updated Eregion armor textures (as per community input)
+	* Trading
+		* Fixed multiple drink potencies of the same drink being sold from traders at the same time
+		* Fixed negative oddment collector alignment not stopping trading
+		* Fixed wandering traders saying they spawned nearby for every player on a server instead of saying the name of the player they spawned by
+		* Gundabad Scavengers and Oddment Collectors now buy all fur types
+	* WorldGen
+		* Added Meteorite Impact craters
+		* Added lapis ore generation to the Blue Mountains
+		* Replaced all rivers in mordor with new river variants
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+This update moves focus westward to Lindon, with the [[high_elves_faction|High Elven]] factions receiving new structures in the form of Lindon Villages and Towers, as well as the Tower Hills, the second lore structure. Additionally, throughout Lindon and sparsely elsewhere, you can encounter meteorites, from which you can craft Galvorn Armour; Mordor Rivers were added as a biome; hired units now have a health bar displayed; many bug fixes. 
+</div>
+
+<div style="flex: 1;">
+	<img src="../img/updates/ExtendedUpdate_1_9_2.png" alt="Beta 1.9.2 Release image" style="max-width: 100%; height: auto;" />
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.9.2 Release image</p>
+</div>
+
+</div>
+
+## **(Beta 1.9.1) (December 25th, 2025)** { #beta-1-9-1 data-toc-label="(Beta 1.9.1)" }
 ---
 ??? Changelog
 	* Blocks
@@ -106,7 +251,7 @@ This update continued work on the [[high_elves_faction|High Elven]] factions by 
 
 </div>
 
-## **(Beta 1.9.0) (November 19th, 2025)** { #beta-1-9.0 data-toc-label="(Beta 1.9.0)" }
+## **(Beta 1.9.0) (November 19th, 2025)** { #beta-1-9-0 data-toc-label="(Beta 1.9.0)" }
 ---
 ??? Changelog
 	* Biomes
