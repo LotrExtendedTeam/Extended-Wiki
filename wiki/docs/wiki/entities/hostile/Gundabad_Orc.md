@@ -50,7 +50,8 @@ Gundabad Orcs recieved their name for the sacking of a dwarven mountain fortress
 
 ## History 
 
-Added in the original Legacy and Renewed mods.
+- Renewed 4.1
+   - Ported Gundabad Orcs
 
 ## Trivia
 
