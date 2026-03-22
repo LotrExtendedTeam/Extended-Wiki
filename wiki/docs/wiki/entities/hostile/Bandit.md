@@ -20,11 +20,11 @@ faction: Hostile
 
 # Bandit
 
-Bandits are men who live across Middle Earth, constantly scouting for victims to loot.
+Bandits are men who live across Middle Earth, constantly scouting for victims to loot. They are rogues that can steal from players and are not aligned with any particular faction.
 
 ## Spawning
 
-Bandits randomly spawn in groups of one to four arround 20 blocks away from a random player. Different biomes have different chances for bandits to spawn, in general; they spawn commonly in the wilds, uncommonly in most settled biomes, rairly in peacefull biomes like the shire, and never in several completely un-inhabited biomes.
+Bandits randomly spawn in groups of one to four around 20 blocks away from a random player. Different biomes have different chances for bandits to spawn, in general; they spawn commonly in the wilds, uncommonly in most settled biomes, rarely in peaceful biomes like the shire, and never in several completely un-inhabited biomes.
 
 ## Behaviour
 
@@ -32,13 +32,13 @@ Bandits will run up to the nearest player and take items from their inventory an
 
 ## Strategy
 
-- Stay vigalent when walking in the wilds
-- Hire some units to gaurd you, as hired units attack bandits on sight
-- Pillar up to excape when you see several npcs rushing you
+- Stay vigilent when walking in the wilds
+- Hire some units to guard you, as hired units attack bandits on sight
+- Pillar up to escape when you see several Bandits rushing you
 
 ## Lore
 
-Bandits are technicaly the hostile faction, but carry dunlanding appearances and names.
+Bandits are technically a hostile faction, but carry dunlanding appearances and names.
 
 ## History
 
