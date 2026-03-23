@@ -18,7 +18,7 @@ hitpoints: 18
 faction: Gundabad
 ::end-infobox
 
-# Bandit
+# Gundabad Orc
 
 Gundabad Orcs are a breed of Orcs that inhabit the Misty Mountains and a large part of the region of Eriador.
 
