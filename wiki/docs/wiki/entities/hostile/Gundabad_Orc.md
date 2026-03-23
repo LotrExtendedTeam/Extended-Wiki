@@ -38,6 +38,11 @@ Like all Orcs, Gundabad Orcs prefer darkness, and in direct sunlight they are su
 
 If a player's Gundabad alignment is -500 or lower, Gundabad Orcs will often flee from them in terror - but only when the player is facing them. If the player looks away, the fleeing Orcs will turn around and attack from behind. This does not apply to Gundabad Orcs that spawn in invasions or that are hired by players, which never flee regardless of an enemy player's alignment. Warg-Riders also do not flee, as the Wargs they are mounted on control their pathing. 
 
+## Equipment
+
+Gundabad Orcs spawn with a large variety of weapons and armor. 
+
+
 ## Strategy 
 
 - If you want to avoid conflict with Orcs, make sure to sleep through the night when travelling through Orc territories.

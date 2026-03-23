@@ -1,0 +1,4 @@
+site_name: Extended Wiki
+docs_dir: wiki
+theme:
+  name: material
