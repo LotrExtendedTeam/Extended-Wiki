@@ -82,6 +82,8 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                 if "changeloglink" in entries:
                     html.append('<div class="version-spacer"></div>')
                     html.append(f'<div><a href="{entries["changeloglink"]}">Changelog</a></div>')
+                if "discordlink" in entries:
+                    html.append(f'<div><a href="{entries["discordlink"]}">Discord</a></div>')
                 html.append('</div>')
             else:
                 grid_fields = {}
