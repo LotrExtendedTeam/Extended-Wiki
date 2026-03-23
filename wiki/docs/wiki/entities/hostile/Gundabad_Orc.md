@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: entity
 title: Gundabad Orc
-image:
+image: entities/gundabad_orc.png
 armor: varies (see below)
 hitpoints: 18
 faction: Gundabad
