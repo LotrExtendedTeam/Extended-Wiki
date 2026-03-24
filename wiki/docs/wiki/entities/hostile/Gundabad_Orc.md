@@ -40,6 +40,10 @@ If a player's Gundabad alignment is -500 or lower, Gundabad Orcs will often flee
 
 ## Strategy 
 
+Gundabad Orcs use a random assortment of armour and tools, including bronze, bone, fur and others.
+
+## Strategy 
+
 - If you want to avoid conflict with Orcs, make sure to sleep through the night when travelling through Orc territories.
 - When fighting Orcs, use long ranged weapons like spears as basic Orcs are smaller and have a shorter reach.
 - Try to draw them away and fight them one at a time, because many Orcs can overwhelm you, especially with insufficient equipment.
