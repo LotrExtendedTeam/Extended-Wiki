@@ -4,7 +4,7 @@ tags:
 show:
  - toc
 alias:
- - gundabad orc
+ - gundabad_orc
 ---
 
 ####
