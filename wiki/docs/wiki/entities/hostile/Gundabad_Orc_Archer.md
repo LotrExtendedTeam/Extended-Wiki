@@ -4,7 +4,7 @@ tags:
 show:
  - toc
 alias:
- - gundabad orc archer
+ - gundabad_orc_archer
 ---
 
 ####
