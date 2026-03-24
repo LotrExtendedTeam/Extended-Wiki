@@ -15,7 +15,7 @@ title: Gundabad Orc Archer
 image:entities/gundabad_orc_archer.png
 armor: varies (see below)
 hitpoints: 18
-faction: Gundabad
+faction: (/Extended-Wiki/wiki/Gundabad(Faction))
 ::end-infobox
 
 # Gundabad Orc Archer
