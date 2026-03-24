@@ -15,7 +15,7 @@ title: Gundabad Orc
 image: entities/gundabad_orc.png
 armor: varies (see below)
 hitpoints: 18
-faction: Gundabad
+faction: (/Extended-Wiki/wiki/Gundabad(Faction))
 ::end-infobox
 
 # Gundabad Orc
