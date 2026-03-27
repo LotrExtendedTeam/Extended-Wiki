@@ -19,7 +19,10 @@
         {% set view_url = page.edit_url | replace("/edit/", "/raw/") %}
       {% endif %}
       <a href="{{ view_url }}" target="_blank">View raw </a>
-
+      <!-- Custom editor button -->
+      <a href="#" onclick='openEditor("{{ page.edit_url }}"); return false;'>
+        Edit in Web Editor
+      </a>
     </div>
   </div>
 {% endif %}

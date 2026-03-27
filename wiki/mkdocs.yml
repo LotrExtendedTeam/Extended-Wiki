@@ -68,10 +68,11 @@ theme:
     tag:
 
 hooks:
-  - docs/hooks/git_history.py
+#  - docs/hooks/git_history.py
   - docs/hooks/infobox_processor.py
   - docs/hooks/flatten_urls.py
   - docs/hooks/gif_maker.py
+  - docs/hooks/page_editor_injector.py
 
 plugins:
   - search
@@ -137,7 +138,9 @@ extra_css:
     - stylesheets/glightbox.css
     - stylesheets/topbar-layout.css
     - stylesheets/tree.css
+    - stylesheets/editor-styling.css
 
 extra_javascript:
     - javascripts/history.js
     - javascripts/glightbox.js
+    - javascripts/editor.js

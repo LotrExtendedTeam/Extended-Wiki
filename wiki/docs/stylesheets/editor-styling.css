@@ -1,0 +1,67 @@
+#editorModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  z-index: 9999;
+}
+
+#editorBox {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 90%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+#editorHeader {
+  background: #222;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#editorHeader button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#editorHeader button:hover {
+  background: #666;
+}
+
+#editorHeader input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#editor {
+  flex: 1;
+  resize: vertical;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+#diffView {
+  white-space: pre-wrap;
+  font-family: monospace;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+#progressLog {
+  border: 1px solid #444;
+  border-radius: 4px;
+}
