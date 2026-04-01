@@ -36,6 +36,36 @@ def on_page_markdown(markdown, page: Page, config, files):
     <div id="progressLog" style="background:#111; color:#0f0; font-size:12px; padding:8px; height:120px; overflow-y:auto; margin-top:5px;"></div>
   </div>
 </div>
+<div id="edit-modal-overlay" class="edit-modal-overlay" onclick="closeSelection(event)">
+  
+  <div class="edit-modal" onclick="event.stopPropagation()">
+    
+    <button class="edit-modal-close" onclick="closeSelection()">&times;</button>
+
+    <div class="edit-modal-header">
+      <h2 class="edit-modal-title">Choose Editing Method</h2>
+    </div>
+
+    <div class="edit-modal-divider"></div>
+
+    <div class="edit-modal-actions">
+      
+      <a id="edit-github" class="md-button md-button--primary" target="_blank" data-md-component="button">
+        Edit on GitHub
+      </a>
+
+      <a id="edit-anon" class="md-button" data-md-component="button">
+        Edit Anonymously
+      </a>
+
+      <a id="edit-tolken" class="md-button" data-md-component="button">
+        Edit with Tolken
+      </a>
+
+    </div>
+
+  </div>
+</div>
 '''
 
     return markdown + injected

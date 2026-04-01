@@ -1,3 +1,99 @@
+/* Overlay */
+.edit-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 30, 30, 0.6);
+  /*display: none;
+  align-items: center;
+  justify-content: center;*/
+  display: none;
+  z-index: 1000;
+}
+
+/* Modal */
+.edit-modal {
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: var(--md-shadow-z3);
+  padding: 0; /* remove unnecessary top/bottom space */
+  position: absolute;
+  top: 80px; /* initial top will be overridden by animation */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  animation: slideDownFade 0.25s ease forwards;
+}
+
+/* Header */
+.edit-modal-header {
+  text-align: center; /* center the title */
+}
+
+/* Title */
+.edit-modal-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Divider line */
+.edit-modal-divider {
+  height: 1px;
+  background: var(--md-default-table-content-border-color);
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+/* Content area */
+.edit-modal-actions {
+  padding: 0.75rem 1.25rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Buttons rounded and styled */
+.edit-modal-actions .md-button {
+  border-radius: 999px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Close button */
+.edit-modal-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--md-default-fg-color--light);
+}
+
+.edit-modal-close:hover {
+  color: var(--md-accent-fg-color);
+}
+
+/* Animation */
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    top: 50px;  /* start higher */
+  }
+  to {
+    opacity: 1;
+    top: 100px; /* final top distance */
+  }
+}
+
+
 #editorModal {
   position: fixed;
   inset: 0;

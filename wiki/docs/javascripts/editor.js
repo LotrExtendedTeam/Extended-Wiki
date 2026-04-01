@@ -310,3 +310,24 @@ async function submitEdit() {
     console.error(err);
   }
 }
+
+//NEw code
+function openSelection(editUrl) {
+  const overlay = document.getElementById("edit-modal-overlay");
+
+  // Set links dynamically
+  document.getElementById("edit-github").href = editUrl;
+
+  // Customize these as needed
+  document.getElementById("edit-anon").href = editUrl + "?anonymous=true";
+  document.getElementById("edit-tolken").href = editUrl + "?tolken=true";
+
+  overlay.style.display = "flex";
+}
+
+function closeSelection(event) {
+  // Only close if clicking outside modal or explicitly called
+  if (!event || event.target.id === "edit-modal-overlay") {
+    document.getElementById("edit-modal-overlay").style.display = "none";
+  }
+}
