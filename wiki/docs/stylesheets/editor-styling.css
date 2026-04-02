@@ -40,6 +40,7 @@
   margin: 0;
   font-weight: 600;
   font-size: 1.25rem;
+  color: var(--md-default-fg-color);
 }
 
 /* Divider line */
@@ -63,6 +64,7 @@
   border-radius: 999px;
   font-weight: 500;
   text-align: center;
+  color: var(--md-default-fg-color);
 }
 
 /* Close button */
@@ -91,6 +93,14 @@
     opacity: 1;
     top: 100px; /* final top distance */
   }
+}
+#pat-token-container input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#pat-token-container button {
+  flex: 1;
 }
 
 

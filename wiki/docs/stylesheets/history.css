@@ -9,6 +9,7 @@
     border: none;
     font-size: 24px;
     cursor: pointer;
+    color: var(--md-default-fg-color);
 }
 
 .history-dropdown-content {
@@ -146,4 +147,9 @@
 
 .commit-change-neutral {
     color: gray;
+}
+
+.history-error {
+    color: red;
+    font-style: italic;
 }

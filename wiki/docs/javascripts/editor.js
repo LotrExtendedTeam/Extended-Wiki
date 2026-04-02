@@ -312,6 +312,8 @@ async function submitEdit() {
 }
 
 //NEw code
+const STORAGE_KEY = "github_pat";
+
 function openSelection(editUrl) {
   const overlay = document.getElementById("edit-modal-overlay");
 
@@ -319,9 +321,35 @@ function openSelection(editUrl) {
   document.getElementById("edit-github").href = editUrl;
 
   // Customize these as needed
-  document.getElementById("edit-anon").href = editUrl + "?anonymous=true";
-  document.getElementById("edit-tolken").href = editUrl + "?tolken=true";
+  const anonButton = document.getElementById("edit-anon");
+  anonButton.onclick = function(e) {
+    e.preventDefault();
+    openEditor(editUrl);
+  }
 
+  const container = document.getElementById("pat-token-container");
+  container.style.display = "none";
+
+  const existingToken = loadToken();
+  if(existingToken){
+    container.style.display = "flex";
+    const tokenInput = document.getElementById("pat-token-input");
+    tokenInput.value = existingToken;
+  }
+  // Wire the token button to show input field
+  const tokenButton = document.getElementById("edit-token");
+  tokenButton.onclick = function(e) {
+    e.preventDefault();
+
+    const container = document.getElementById("pat-token-container");
+    container.style.display = "flex";
+
+    const tokenInput = document.getElementById("pat-token-input");
+    const existingToken = loadToken();
+    if (existingToken) {
+      tokenInput.value = existingToken;
+    }
+  };
   overlay.style.display = "flex";
 }
 
@@ -331,3 +359,31 @@ function closeSelection(event) {
     document.getElementById("edit-modal-overlay").style.display = "none";
   }
 }
+
+function saveToken(token) {
+  localStorage.setItem(STORAGE_KEY, token);
+}
+
+function loadToken() {
+  return localStorage.getItem(STORAGE_KEY);
+}
+
+function clearToken() {
+  localStorage.removeItem(STORAGE_KEY);
+  document.getElementById("pat-token-input").value = "";
+  alert("Token cleared");
+}
+
+// Save button
+document.getElementById("save-pat").addEventListener("click", function() {
+  const token = document.getElementById("pat-token-input").value.trim();
+  if (!token) {
+    alert("Please enter a token");
+    return;
+  }
+  saveToken(token);
+  alert("Token saved!");
+});
+
+// Clear button
+document.getElementById("clear-pat").addEventListener("click", clearToken);

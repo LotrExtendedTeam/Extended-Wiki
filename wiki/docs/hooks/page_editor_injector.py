@@ -10,6 +10,17 @@ def on_pre_build(config):
 
 def on_page_markdown(markdown, page: Page, config, files):
     injected = f'''
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
 <div id="editorModal" style="display:none;">
   <div id="editorBox">
     <div id="editorHeader">
@@ -58,10 +69,23 @@ def on_page_markdown(markdown, page: Page, config, files):
         Edit Anonymously
       </a>
 
-      <a id="edit-tolken" class="md-button" data-md-component="button">
-        Edit with Tolken
+      <a id="edit-token" class="md-button" data-md-component="button">
+        Edit with Token
       </a>
 
+      <div id="pat-token-container" style="display:none; flex-direction: column; gap:0.5rem;">
+        <input 
+          type="password" 
+          id="pat-token-input" 
+          placeholder="Enter GitHub PAT..." 
+          class="md-input"
+          style="padding:0.5rem; border-radius:8px; border:1px solid var(--md-default-table-content-border-color);"
+        />
+        <div style="display:flex; gap:0.5rem;">
+          <button id="save-pat" class="md-button md-button--primary">Save Token</button>
+          <button id="clear-pat" class="md-button">Clear Token</button>
+        </div>
+      </div>
     </div>
 
   </div>

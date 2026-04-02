@@ -102,17 +102,6 @@ def on_page_markdown(markdown, page: Page, config, files):
     history_json = json.dumps(history)
     # Build html to inject into page
     injected = f'''
-<div id="history-modal" style="display:none;">
-  <div id="history-modal-wrapper">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3>Edit History</h3>
-        <span class="close-btn">&times;</span>
-      </div>
-      <ul id="commit-list"></ul>
-    </div>
-  </div>
-</div>
 <script id="page-history" type="application/json">{history_json}</script>
 '''
 

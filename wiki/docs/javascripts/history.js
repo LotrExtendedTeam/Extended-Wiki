@@ -20,40 +20,60 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  if (viewBtn && modal && raw && list) {
+  if (viewBtn && modal && list) {
     viewBtn.addEventListener('click', (e) => {
       e.preventDefault();
-      const history = JSON.parse(raw.textContent);
-      list.innerHTML = '';
-      history.forEach(commit => {
+      if(raw){
+        try{
+          const history = JSON.parse(raw.textContent);
+          if (history.length === 0) {
+            const li = document.createElement('li');
+            li.textContent = 'No edits found.';
+            list.appendChild(li);
+          }else{
+            list.innerHTML = '';
+            history.forEach(commit => {
+              const li = document.createElement('li');
+              // Format date
+              const date = new Date(commit.timestamp * 1000);
+              const formattedDate = date.toLocaleString('en-GB', {
+                day: '2-digit', month: 'long', year: 'numeric',
+                hour: '2-digit', minute: '2-digit', hour12: false
+              });
+              const commitLink = `https://github.com/LotrExtendedTeam/Extended-Wiki/commit/${commit.full}`;
+              const authorLink = `https://github.com/${commit.author}`;
+              const sizeFormatted = commit.size.toLocaleString();
+              const netChange = commit.change;
+              const changeClass = netChange > 0 ? 'commit-change-positive'
+                        : netChange < 0 ? 'commit-change-negative'
+                        : 'commit-change-neutral';
+              const changeText = netChange > 0 ? `+${netChange.toLocaleString()}`
+                        : netChange < 0 ? `-${netChange.toLocaleString()}`
+                        : netChange.toLocaleString();
+      
+              li.innerHTML = `
+                <code><a href="${commitLink}" target="_blank">(${commit.short})</a></code>
+                ${formattedDate}
+                <a href="${authorLink}" target="_blank">${commit.author}</a>
+                ... (${sizeFormatted} bytes)
+                <span class="${changeClass}">(${changeText})</span>
+                <em>(${commit.message})</em>
+              `;
+              list.appendChild(li);
+            });
+          }
+        } catch (err) {
+          const li = document.createElement('li');
+          li.textContent = '⚠️ Failed to load history (invalid data).';
+          li.classList.add('history-error'); // optional styling
+          list.appendChild(li);
+        }
+      } else {
         const li = document.createElement('li');
-        // Format date
-        const date = new Date(commit.timestamp * 1000);
-        const formattedDate = date.toLocaleString('en-GB', {
-          day: '2-digit', month: 'long', year: 'numeric',
-          hour: '2-digit', minute: '2-digit', hour12: false
-        });
-        const commitLink = `https://github.com/LotrExtendedTeam/Extended-Wiki/commit/${commit.full}`;
-        const authorLink = `https://github.com/${commit.author}`;
-        const sizeFormatted = commit.size.toLocaleString();
-        const netChange = commit.change;
-        const changeClass = netChange > 0 ? 'commit-change-positive'
-                  : netChange < 0 ? 'commit-change-negative'
-                  : 'commit-change-neutral';
-        const changeText = netChange > 0 ? `+${netChange.toLocaleString()}`
-                  : netChange < 0 ? `-${netChange.toLocaleString()}`
-                  : netChange.toLocaleString();
-
-        li.innerHTML = `
-          <code><a href="${commitLink}" target="_blank">(${commit.short})</a></code>
-          ${formattedDate}
-          <a href="${authorLink}" target="_blank">${commit.author}</a>
-          ... (${sizeFormatted} bytes)
-          <span class="${changeClass}">(${changeText})</span>
-          <em>(${commit.message})</em>
-        `;
+        li.textContent = '⚠️ History is unavailable.';
+        li.classList.add('history-error'); // optional styling
         list.appendChild(li);
-      });
+      }
       modal.style.display = 'block';
     });
   }
