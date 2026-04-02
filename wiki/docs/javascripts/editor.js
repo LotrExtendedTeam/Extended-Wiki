@@ -314,6 +314,23 @@ async function submitEdit() {
 //NEw code
 const STORAGE_KEY = "github_pat";
 
+const toggleBtn = document.getElementById("toggle-token");
+const container = document.getElementById("pat-token-container");
+let isExpanded = false;
+
+toggleBtn.addEventListener("click", function() {
+  isExpanded = !isExpanded;
+
+  if (isExpanded) {
+    container.style.maxHeight = container.scrollHeight + "px";
+  } else {
+    container.style.maxHeight = "0";
+  }
+
+  // Update icon
+  toggleBtn.textContent = isExpanded ? "▾" : "▸";
+});
+
 function openSelection(editUrl) {
   const overlay = document.getElementById("edit-modal-overlay");
 
@@ -327,32 +344,47 @@ function openSelection(editUrl) {
     openEditor(editUrl);
   }
 
+  // Reset token container state
   const container = document.getElementById("pat-token-container");
-  container.style.display = "none";
+  container.style.maxHeight = "0"; // collapsed
+  isExpanded = false;
+  
+  const toggleBtn = document.getElementById("toggle-token");
+  toggleBtn.textContent = "▸"; // collapsed icon
 
-  const existingToken = loadToken();
-  if(existingToken){
-    container.style.display = "flex";
-    const tokenInput = document.getElementById("pat-token-input");
-    tokenInput.value = existingToken;
-  }
-  // Wire the token button to show input field
   const tokenButton = document.getElementById("edit-token");
   tokenButton.onclick = function(e) {
     e.preventDefault();
 
     const container = document.getElementById("pat-token-container");
+    const opening = container.style.display == "none";
     container.style.display = "flex";
 
     const tokenInput = document.getElementById("pat-token-input");
     const existingToken = loadToken();
     if (existingToken) {
-      tokenInput.value = existingToken;
+      tokenInput.value = existingToken.trim();
+    }
+    const token = tokenInput.value.trim();
+
+    if (!token && !opening) {
+      container.style.maxHeight = container.scrollHeight + "px";
+      const error = document.getElementById("pat-error");
+      error.style.display = "block";
+
+      // Restart animation cleanly
+      tokenInput.classList.remove("flash-shake-error");
+      void tokenInput.offsetWidth; // force reflow
+      tokenInput.classList.add("flash-shake-error");
+      return;
     }
   };
   overlay.style.display = "flex";
 }
-
+document.getElementById("pat-token-input").addEventListener("input", function() {
+  this.classList.remove("flash-shake-error");
+  document.getElementById("pat-error").style.display = "none";
+});
 function closeSelection(event) {
   // Only close if clicking outside modal or explicitly called
   if (!event || event.target.id === "edit-modal-overlay") {
@@ -371,14 +403,22 @@ function loadToken() {
 function clearToken() {
   localStorage.removeItem(STORAGE_KEY);
   document.getElementById("pat-token-input").value = "";
-  alert("Token cleared");
 }
-
+document.getElementById("pat-token-input").addEventListener("input", function() {
+  this.classList.remove("flash-shake-error");
+  document.getElementById("pat-error").style.display = "none";
+});
 // Save button
 document.getElementById("save-pat").addEventListener("click", function() {
   const token = document.getElementById("pat-token-input").value.trim();
   if (!token) {
-    alert("Please enter a token");
+    const error = document.getElementById("pat-error");
+    error.style.display = "block";
+    // Restart animation cleanly
+    const tokenInput = document.getElementById("pat-token-input");
+    tokenInput.classList.remove("flash-shake-error");
+    void tokenInput.offsetWidth; // force reflow
+    tokenInput.classList.add("flash-shake-error");
     return;
   }
   saveToken(token);
@@ -386,4 +426,9 @@ document.getElementById("save-pat").addEventListener("click", function() {
 });
 
 // Clear button
-document.getElementById("clear-pat").addEventListener("click", clearToken);
+document.getElementById("clear-pat").addEventListener("click", function(){
+  clearToken()
+  const tokenInput = document.getElementById("pat-token-input");
+  tokenInput.classList.remove("flash-shake-error");
+  document.getElementById("pat-error").style.display = "none";
+});

@@ -69,11 +69,14 @@ def on_page_markdown(markdown, page: Page, config, files):
         Edit Anonymously
       </a>
 
-      <a id="edit-token" class="md-button" data-md-component="button">
-        Edit with Token
-      </a>
+      <div style="display:flex; align-items:center; gap:0.5rem;">
+        <a id="edit-token" class="md-button md-button--primary" target="_blank" data-md-component="button" style="flex:1;">
+          Edit with Token
+        </a>
+        <button id="toggle-token" class="token-toggle-btn">+</button>
+      </div>
 
-      <div id="pat-token-container" style="display:none; flex-direction: column; gap:0.5rem;">
+      <div id="pat-token-container" style="display:flex; overflow:hidden; max-height:0; flex-direction: column; gap:0.5rem; transition: max-height 0.25s ease;">
         <input 
           type="password" 
           id="pat-token-input" 
@@ -81,6 +84,9 @@ def on_page_markdown(markdown, page: Page, config, files):
           class="md-input"
           style="padding:0.5rem; border-radius:8px; border:1px solid var(--md-default-table-content-border-color);"
         />
+        <div id="pat-error" style="display:none; color:#ff4d4f; font-size:0.85rem;">
+          Please enter a GitHub token
+        </div>
         <div style="display:flex; gap:0.5rem;">
           <button id="save-pat" class="md-button md-button--primary">Save Token</button>
           <button id="clear-pat" class="md-button">Clear Token</button>
