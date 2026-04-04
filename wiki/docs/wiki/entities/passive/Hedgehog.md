@@ -26,13 +26,13 @@ hitpoints: 8
 
 Hedgehogs commonly spawn in the following biomes:  
 - Anduin Vale  
-- Breeland and the Chetwood  
+- [[bree-land|Bree-land]] and the Chetwood  
 - Eriador and the Eriador Downs  
 - Minhiriath  
 - Lindon  
 - Rivendell and Rivendell Hills  
 - Rohan and the Wold  
-- The Shire and Shire Woodlands  
+- [[the_shire|the Shire]] and Shire Woodlands  
 - Woodland Realm  
 
 They can also **rarely** spawn in:  

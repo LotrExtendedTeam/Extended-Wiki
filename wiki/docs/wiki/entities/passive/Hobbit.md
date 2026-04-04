@@ -20,7 +20,7 @@ faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
 
 # Hobbit
 
-Hobits can be found across the shire. They also spawn inside of hobbit holes and houses.
+Hobits can be found across [[the_shire|the Shire]], as well as the region of [[bree-land|Bree-land]]. They also spawn inside of hobbit holes and houses, taverns, and many other structures.
 
 ## Behavior
 
