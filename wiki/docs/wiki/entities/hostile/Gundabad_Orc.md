@@ -15,7 +15,7 @@ title: Gundabad Orc
 image: entities/gundabad_orc.png
 armor: varies (see below)
 hitpoints: 18
-faction: Gundabad
+faction: (/Extended-Wiki/wiki/Gundabad(Faction))
 ::end-infobox
 
 # Gundabad Orc
@@ -37,6 +37,10 @@ Gundabad Orcs are generally considered easy prey for good players, as they often
 Like all Orcs, Gundabad Orcs prefer darkness, and in direct sunlight they are subjected to slowness and weakness effects, making them easier to fight in the daytime.
 
 If a player's Gundabad alignment is -500 or lower, Gundabad Orcs will often flee from them in terror - but only when the player is facing them. If the player looks away, the fleeing Orcs will turn around and attack from behind. This does not apply to Gundabad Orcs that spawn in invasions or that are hired by players, which never flee regardless of an enemy player's alignment. Warg-Riders also do not flee, as the Wargs they are mounted on control their pathing. 
+
+## Strategy 
+
+Gundabad Orcs use a random assortment of armour and tools, including bronze, bone, fur and others.
 
 ## Strategy 
 
