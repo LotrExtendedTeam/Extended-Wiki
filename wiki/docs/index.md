@@ -13,7 +13,7 @@ type: version
 title: The Latest Version is:
 name: 1.9.3
 date: February 7th, 2026
-curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/7379124
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/7587801
 modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.9.3
 changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-9.3
 ::end-infobox
