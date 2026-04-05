@@ -10,7 +10,7 @@ GIF_BLOCK_RE = re.compile(r"```gif\s*(.*?)```", re.DOTALL)
 log = logging.getLogger("mkdocs.plugins")
 
 def on_pre_build(config):
-    log.info(">>> Gif Maker Porcessor: Present")
+    log.info(">>> Gif Maker Processor: Present")
 
 @event_priority(100)
 def on_page_markdown(markdown, page, config, files):
