@@ -1,0 +1,12 @@
+.tabbed-set label{
+	max-width: 5%;
+}
+.tabbed-set .tabbed-content {
+	max-width: 100%;
+}
+.craftingrecipe table {
+	border-spacing: 0px;
+}
+.craftingrecipe td {
+	padding: 0px;
+}
