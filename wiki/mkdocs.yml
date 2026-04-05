@@ -123,6 +123,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.blocks.caption
   - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - toc:
@@ -137,6 +140,7 @@ extra_css:
     - stylesheets/glightbox.css
     - stylesheets/topbar-layout.css
     - stylesheets/tree.css
+    - stylesheets/craftingtabs.css
 
 extra_javascript:
     - javascripts/history.js
