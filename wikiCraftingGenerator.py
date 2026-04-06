@@ -282,7 +282,8 @@ def format_item_url(item_id):
         # LOTR wiki uses underscores instead of spaces
         words = name.replace("-", "_").split("_")
         formatted_name = "_".join(word.capitalize() for word in words)
-        return f"https://lotrextendedteam.github.io/Extended-Wiki/wiki/{formatted_name}/"
+        #return f"https://lotrextendedteam.github.io/Extended-Wiki/wiki/{formatted_name}/"
+        return f"null"
     else:
         # fallback for other namespaces
         return f"#"
