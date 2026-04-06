@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:high_elven_chain",
+    "lotr:orc_chain",
+    "minecraft:chain"
+  ]
+}

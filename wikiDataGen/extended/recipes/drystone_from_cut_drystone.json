@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lotr:cut_drystone"
+    }
+  ],
+  "result": {
+    "item": "lotr:drystone"
+  }
+}

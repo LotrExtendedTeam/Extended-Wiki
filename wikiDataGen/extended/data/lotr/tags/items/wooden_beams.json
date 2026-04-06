@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:banana_beam",
+    "lotr:chestnut_beam",
+    "lotr:ebony_beam",
+    "lotr:plum_beam",
+    "lotr:willow_beam"
+  ]
+}

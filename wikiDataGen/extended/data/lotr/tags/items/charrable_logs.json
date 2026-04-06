@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:banana_log",
+    "lotr:chestnut_log",
+    "lotr:ebony_log",
+    "lotr:plum_log",
+    "lotr:willow_log"
+  ]
+}
