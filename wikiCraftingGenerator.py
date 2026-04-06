@@ -283,14 +283,14 @@ def format_item_url(item_id):
         words = name.replace("-", "_").split("_")
         formatted_name = "_".join(word.capitalize() for word in words)
         #return f"https://lotrextendedteam.github.io/Extended-Wiki/wiki/{formatted_name}/"
-        return f"null"
+        return f"#"
     else:
         # fallback for other namespaces
         return f"#"
 
 def format_image_path(item_id):
     name = item_id.split(":")[-1]
-    return f"assets/images/items/{name}.png"
+    return f"items/{name}.png"
 
 def process_file(path):
     with open(path) as f:

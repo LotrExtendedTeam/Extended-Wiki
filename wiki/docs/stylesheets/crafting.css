@@ -65,9 +65,14 @@
 }
 
 .slot img {
-  width: 28px;
-  height: 28px;
+  width: 16px;
+  height: 16px;
   pointer-events: none;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated; /* or pixelated for crisp icons */
+  display: block;
 }
 
 /* EMPTY SLOT */
