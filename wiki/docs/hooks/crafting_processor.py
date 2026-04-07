@@ -1,5 +1,6 @@
 import logging
 import re
+import os
 import json
 from mkdocs.structure.pages import Page
 import html
@@ -12,7 +13,7 @@ CRAFTING_RE = re.compile(r"\{\{\s*crafting:(.*?)\s*\}\}", re.DOTALL)
 RECIPES = {}
 ITEMS = {}
 TAGS = {}
-IMG_PATH = "/Extended-Wiki/wiki/img/"
+URL_PATH = "/Extended-Wiki/wiki/img/"
 
 # --- LOAD DATA ---
 def on_pre_build(config):
@@ -60,18 +61,23 @@ def get_item(item_id):
         "image": "missing.png"
     })
 
+def getImage(imagePath):
+    local_path = "wiki/docs/wiki/img/" + imagePath if imagePath else None
+    if local_path and os.path.exists(local_path):
+        return URL_PATH + imagePath
+    log.warning(f"Missing image: {imagePath}")
+    return URL_PATH + "items/unknown.png"
+
 # --- SLOT RENDER ---
 def render_slot(item_id):
     if item_id is None:
         return '<div class="slot empty"></div>'
 
     item = get_item(item_id)
+
     return f'''
-    <a href="{item["url"]}" 
-       class="slot" 
-       data-glightbox="skip" 
-       data-name="{html.escape(item["name"])}">
-        <img src="{IMG_PATH}{item["image"]}">
+    <a href="{item["url"]}" class="slot" data-name="{html.escape(item["name"])}">
+        <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
     </a>
     '''
 
@@ -83,7 +89,7 @@ def render_output(output):
 
     return f'''
     <a href="{item["url"]}" class="crafting-output slot" data-name="{item["name"]}">
-        <img src="{IMG_PATH}{item["image"]}">
+        <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
         {count_html}
     </a>
     '''
@@ -111,15 +117,12 @@ def render_recipe(recipe_id):
     info_html = render_info(recipe)
 
     html = ['<div class="crafting-box">']
-    html.append(f'<div class="crafting-title">{recipe["title"]}</div>')
     html.append(f'<div class="crafting-body">')
-    html.append(f'<div class="crafting-grid">')
-    html.append(f'{grid_html}')
-    html.append(f'</div>')
+    html.append(f'<img class="crafting-gui off-glb" src="/Extended-Wiki/wiki/img/gui/crafting_grid.png" alt="Crafting GUI">')
+    html.append(f'<div class="crafting-title-overlay">{recipe["title"]}</div>')
+    html.append(f'<div class="crafting-grid">{grid_html}</div>')
     html.append(f'{output_html}')
-    html.append(f'<div class="crafting-info">')
-    html.append(f'{info_html}')
-    html.append(f'</div>')
+    #html.append(f'<div class="crafting-info">{info_html}</div>')
     html.append(f'</div>')
     html.append(f'</div>')
     return '\n'.join(html)

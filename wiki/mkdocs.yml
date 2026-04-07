@@ -143,4 +143,3 @@ extra_css:
 extra_javascript:
     - javascripts/history.js
     - javascripts/glightbox.js
-    - javascripts/crafting.js

@@ -41,6 +41,10 @@ Hobbit Pancakes can be obtained in a variety of ways outside crafting:
 ## Crafting
 
 {{crafting:hobbit_pancake}}
+  
+{{crafting:hobbit_pancake_syrup}}
+  
+{{crafting:hobbit_pancake_syrup_butter}}
 
 ## History
 

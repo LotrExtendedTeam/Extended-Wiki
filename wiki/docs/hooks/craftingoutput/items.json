@@ -2751,19 +2751,19 @@
     "name": "Hobbit Pancake",
     "tooltip": "Hobbit Pancake",
     "image": "items/hobbit_pancake.png",
-    "url": "#"
+    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
   },
   "lotr:hobbit_pancake_syrup": {
     "name": "Hobbit Pancake Syrup",
-    "tooltip": "Hobbit Pancake Syrup",
+    "tooltip": "Hobbit Pancake with Syrup",
     "image": "items/hobbit_pancake_syrup.png",
-    "url": "#"
+    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
   },
   "lotr:hobbit_pancake_syrup_butter": {
     "name": "Hobbit Pancake Syrup Butter",
-    "tooltip": "Hobbit Pancake Syrup Butter",
+    "tooltip": "Hobbit Pancake with Syrup and Butter",
     "image": "items/hobbit_pancake_syrup_butter.png",
-    "url": "#"
+    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
   },
   "lotr:ice_brick": {
     "name": "Ice Brick",
@@ -3116,8 +3116,8 @@
   "lotr:maple_syrup": {
     "name": "Maple Syrup",
     "tooltip": "Maple Syrup",
-    "image": "items/maple_syrup.png",
-    "url": "#"
+    "image": "items/renewed/maple_syrup.png",
+    "url": "https://lotrminecraftmod.fandom.com/wiki/Maple_Syrup"
   },
   "lotr:mirk_shroom": {
     "name": "Mirk Shroom",
@@ -5726,13 +5726,13 @@
   "minecraft:blue_dye": {
     "name": "Blue Dye",
     "tooltip": "Blue Dye",
-    "image": "items/blue_dye.png",
+    "image": "items/minecraft/blue_dye.png",
     "url": "https://minecraft.wiki/w/Blue_Dye"
   },
   "minecraft:brick": {
     "name": "Brick",
     "tooltip": "Brick",
-    "image": "items/brick.png",
+    "image": "items/minecraft/brick.png",
     "url": "https://minecraft.wiki/w/Brick"
   },
   "minecraft:bricks": {
@@ -5744,7 +5744,7 @@
   "minecraft:clay": {
     "name": "Clay",
     "tooltip": "Clay",
-    "image": "items/clay.png",
+    "image": "items/minecraft/clay_ball.png",
     "url": "https://minecraft.wiki/w/Clay"
   },
   "minecraft:coal_block": {
@@ -5762,31 +5762,31 @@
   "minecraft:cod": {
     "name": "Cod",
     "tooltip": "Cod",
-    "image": "items/cod.png",
+    "image": "items/minecraft/cod.png",
     "url": "https://minecraft.wiki/w/Cod"
   },
   "minecraft:egg": {
     "name": "Egg",
     "tooltip": "Egg",
-    "image": "items/egg.png",
+    "image": "items/minecraft/egg.png",
     "url": "https://minecraft.wiki/w/Egg"
   },
   "minecraft:glowstone_dust": {
     "name": "Glowstone Dust",
     "tooltip": "Glowstone Dust",
-    "image": "items/glowstone_dust.png",
+    "image": "items/minecraft/glowstone_dust.png",
     "url": "https://minecraft.wiki/w/Glowstone_Dust"
   },
   "minecraft:gold_ingot": {
     "name": "Gold Ingot",
     "tooltip": "Gold Ingot",
-    "image": "items/gold_ingot.png",
+    "image": "items/minecraft/gold_ingot.png",
     "url": "https://minecraft.wiki/w/Gold_Ingot"
   },
   "minecraft:gold_nugget": {
     "name": "Gold Nugget",
     "tooltip": "Gold Nugget",
-    "image": "items/gold_nugget.png",
+    "image": "items/minecraft/gold_nugget.png",
     "url": "https://minecraft.wiki/w/Gold_Nugget"
   },
   "minecraft:granite": {
@@ -5798,43 +5798,43 @@
   "minecraft:green_dye": {
     "name": "Green Dye",
     "tooltip": "Green Dye",
-    "image": "items/green_dye.png",
+    "image": "items/minecraft/green_dye.png",
     "url": "https://minecraft.wiki/w/Green_Dye"
   },
   "minecraft:gunpowder": {
     "name": "Gunpowder",
     "tooltip": "Gunpowder",
-    "image": "items/gunpowder.png",
+    "image": "items/minecraft/gunpowder.png",
     "url": "https://minecraft.wiki/w/Gunpowder"
   },
   "minecraft:iron_ingot": {
     "name": "Iron Ingot",
     "tooltip": "Iron Ingot",
-    "image": "items/iron_ingot.png",
+    "image": "items/minecraft/iron_ingot.png",
     "url": "https://minecraft.wiki/w/Iron_Ingot"
   },
   "minecraft:iron_nugget": {
     "name": "Iron Nugget",
     "tooltip": "Iron Nugget",
-    "image": "items/iron_nugget.png",
+    "image": "items/minecraft/iron_nugget.png",
     "url": "https://minecraft.wiki/w/Iron_Nugget"
   },
   "minecraft:lava_bucket": {
     "name": "Lava Bucket",
     "tooltip": "Lava Bucket",
-    "image": "items/lava_bucket.png",
+    "image": "items/minecraft/lava_bucket.png",
     "url": "https://minecraft.wiki/w/Lava_Bucket"
   },
   "minecraft:leather": {
     "name": "Leather",
     "tooltip": "Leather",
-    "image": "items/leather.png",
+    "image": "items/minecraft/leather.png",
     "url": "https://minecraft.wiki/w/Leather"
   },
   "minecraft:milk_bucket": {
     "name": "Milk Bucket",
     "tooltip": "Milk Bucket",
-    "image": "items/milk_bucket.png",
+    "image": "items/minecraft/milk_bucket.png",
     "url": "https://minecraft.wiki/w/Milk_Bucket"
   },
   "minecraft:packed_ice": {
@@ -5846,13 +5846,13 @@
   "minecraft:paper": {
     "name": "Paper",
     "tooltip": "Paper",
-    "image": "items/paper.png",
+    "image": "items/minecraft/paper.png",
     "url": "https://minecraft.wiki/w/Paper"
   },
   "minecraft:potato": {
     "name": "Potato",
     "tooltip": "Potato",
-    "image": "items/potato.png",
+    "image": "items/minecraft/potato.png",
     "url": "https://minecraft.wiki/w/Potato"
   },
   "minecraft:red_sandstone": {
@@ -5876,7 +5876,7 @@
   "minecraft:snowball": {
     "name": "Snowball",
     "tooltip": "Snowball",
-    "image": "items/snowball.png",
+    "image": "items/minecraft/snowball.png",
     "url": "https://minecraft.wiki/w/Snowball"
   },
   "minecraft:stone": {
@@ -5888,7 +5888,7 @@
   "minecraft:string": {
     "name": "String",
     "tooltip": "String",
-    "image": "items/string.png",
+    "image": "items/minecraft/string.png",
     "url": "https://minecraft.wiki/w/String"
   },
   "minecraft:torch": {
@@ -5906,25 +5906,25 @@
   "minecraft:water_bucket": {
     "name": "Water Bucket",
     "tooltip": "Water Bucket",
-    "image": "items/water_bucket.png",
+    "image": "items/minecraft/water_bucket.png",
     "url": "https://minecraft.wiki/w/Water_Bucket"
   },
   "minecraft:wheat": {
     "name": "Wheat",
     "tooltip": "Wheat",
-    "image": "items/wheat.png",
+    "image": "items/minecraft/wheat.png",
     "url": "https://minecraft.wiki/w/Wheat"
   },
   "minecraft:white_dye": {
     "name": "White Dye",
     "tooltip": "White Dye",
-    "image": "items/white_dye.png",
+    "image": "items/minecraft/white_dye.png",
     "url": "https://minecraft.wiki/w/White_Dye"
   },
   "minecraft:yellow_dye": {
     "name": "Yellow Dye",
     "tooltip": "Yellow Dye",
-    "image": "items/yellow_dye.png",
+    "image": "items/minecraft/yellow_dye.png",
     "url": "https://minecraft.wiki/w/Yellow_Dye"
   }
 }
