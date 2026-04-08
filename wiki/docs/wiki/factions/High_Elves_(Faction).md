@@ -27,13 +27,19 @@ The **High Elves** are a faction of ancient and power elves who reside in two ar
 - Lindon:
     - [[lindon_elf|Lindon Elf]] spawn randomly throughout Lindon
     - [[lindon_warrior|Lindon Warrior]] spawn randomly throughout Lindon
-
+    - [[lindon_florist|Lindon Florist]] spawn in florist houses in lindon villages
+    - [[lindon_lord|Lindon Lord]] spawn in lindon castles and sometimes towers
+    - [[lindon_smith|Lindon Smith]] spawn in smithy building in lindon villages
+    - [[lindon_weaver|Lindon Weaver]] spawn in weaver houses in lindon villages
 ## History
+- 1.9.2:
+    - Added Lindon Florists and Weavers
+    - Ported Lindon Lords and Smiths
 - 1.9.1:
     - Added Imladris Guards
 - 1.9.0:
-    - Ported Rivendell Smithies and Captains
     - Added Rivendell Weavers and Elrond
+    - Ported Rivendell Smithies and Captains
 - Renewed 4.2:
     - Ported Lindon Elves and Warriors
     - Ported Rivendell Elves and Warriors

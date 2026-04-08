@@ -19,8 +19,12 @@ Orcs don't spawn here as the rangers of Eriador guard the borders of this land -
 - Many types of Bree-men spawn all over the biome, guarding their lands from [[gundabad_orc|Gundabad Orcs]].
 
 ## History
-- Renewed 2.0
-      Original Port
+- 1.7.3:
+    - Ported Bree Villages
+- 1.7.1:
+    - Added Bree Hamlets
+- Renewed 2.0:
+    - Original Port
 
 
 ## Trivia

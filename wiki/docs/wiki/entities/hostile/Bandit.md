@@ -42,7 +42,8 @@ Bandits are technically a hostile faction, but carry dunlanding appearances and 
 
 ## History
 
-- 1.9.0: Initial port
+- 1.9.0: 
+    - Initial port
 
 ## Trivia
 

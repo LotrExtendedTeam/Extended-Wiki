@@ -5,6 +5,7 @@ show:
   - toc
 alias:
   - blue_mountain_faction
+  - blue_mountains_faction
 ---
 
 ####

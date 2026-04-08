@@ -35,7 +35,8 @@ Blue Mountain Butchers sell primarily only raw meats as well as leather, feather
 Blue Mountain Butchers buy supplies for their job. This includes wheat, salt, string, assorted types of daggers, and leads.
 
 ## History
-- 1.8.1: Added to fill out the Blue Mountain settlement trader halls
+- 1.8.1:
+    - Added to fill out the Blue Mountain settlement trader halls
 
 ## Trivia
 

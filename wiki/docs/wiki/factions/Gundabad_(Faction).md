@@ -20,7 +20,7 @@ alias:
 - [[gundabad_uruk_archer|Gundabad Uruk Archer]] spawn in randomly around Eriador during the night
 
 ## History
-- 1.6.2
+- 1.6.2:
     - Ported Gundabad Uruks, Uruk Archers
 - 1.6.1:
     - Ported Gundabad Orc Chieftain
