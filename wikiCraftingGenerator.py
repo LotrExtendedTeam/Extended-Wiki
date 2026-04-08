@@ -255,9 +255,9 @@ def parse_result(data):
     return {"item": result, "count": 1}
 
 def normalize_recipe_type(rtype):
-    if rtype in ["minecraft:shaped", "lotr:faction_shaped"]:
+    if rtype in ["minecraft:crafting_shaped", "lotr:faction_shaped"]:
         return "shaped"
-    elif rtype in ["minecraft:shapeless", "lotr:faction_shapeless"]:
+    elif rtype in ["minecraft:crafting_shapeless", "lotr:faction_shapeless"]:
         return "shapeless"
     return None
 
@@ -292,12 +292,16 @@ def format_image_path(item_id):
     name = item_id.split(":")[-1]
     return f"items/{name}.png"
 
+def is_valid_item_id(item_id):
+    return isinstance(item_id, str) and ":" in item_id
+
 def process_file(path):
     with open(path) as f:
         data = json.load(f)
     rtype = data.get("type", "")
     normalized_type = normalize_recipe_type(rtype)
     if not normalized_type:
+        log.warning(f"Found unknown recipe type: {rtype}")
         return None
     if normalized_type == "shaped":
         grid = parse_shaped(data)
@@ -305,6 +309,15 @@ def process_file(path):
         grid = parse_shapeless(data)
     result = parse_result(data)
     recipe_id = os.path.splitext(os.path.basename(path))[0]
+
+    for y, row in enumerate(grid):
+        for x, ing in enumerate(row):
+            if ing and not ing.startswith("#") and not is_valid_item_id(ing):
+                log.warning(f"[{recipe_id}] Invalid item id '{ing}' at [{y},{x}] in file {path}")
+
+    if not is_valid_item_id(result["item"]):
+        log.warning(f"[{recipe_id}] Invalid output item '{result['item']}' in file {path}")
+    
     table = data.get("table")
     title = get_recipe_title(rtype, table, result["item"])
     recipe_data = {
