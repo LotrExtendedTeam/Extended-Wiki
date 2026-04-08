@@ -20,7 +20,7 @@ faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
 
 # Hobbit Farmer
 
-Hobbit Farmers are usually found on the second story of Hobbit Farmhouses. They carry an iron hoe and a silver coin and wear a Leather Hat.
+Hobbit Farmers are usually found on the second story of Hobbit Farmhouses, scattered across [[the_shire|the Shire]]. They carry an iron hoe and a silver coin and wear a Leather Hat.
 
 ## Behavior
 

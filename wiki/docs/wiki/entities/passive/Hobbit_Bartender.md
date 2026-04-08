@@ -20,7 +20,7 @@ faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
 
 # Hobbit Bartender
 
-Hobbit Bartender are usually found on the main floor of Hobbit Taverns and Large Hobbit Taverns. They carry an wooden mug and a silver coin.
+Hobbit Bartender are usually found on the main floor of Hobbit Taverns and Large Hobbit Taverns of [[the_shire|the Shire]]. They carry an wooden mug and a silver coin.
 
 ## Behavior
 

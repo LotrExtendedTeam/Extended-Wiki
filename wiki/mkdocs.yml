@@ -124,6 +124,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.blocks.caption
   - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - toc:
