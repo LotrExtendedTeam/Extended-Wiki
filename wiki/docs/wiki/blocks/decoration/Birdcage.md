@@ -42,7 +42,12 @@ Birdcages will be able to capture birds in the future
 
 ## Obtaining
 
-Crafting or in structures
+{{crafting:wooden_birdcage}}
+{{crafting:bronze_birdcage}}
+{{crafting:iron_birdcage}}
+{{crafting:silver_birdcage}}
+{{crafting:golden_birdcage}}
+{{crafting:mithril_birdcage}}
 
 
 ## History

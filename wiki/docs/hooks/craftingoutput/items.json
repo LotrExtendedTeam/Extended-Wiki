@@ -1430,7 +1430,7 @@
   "lotr:bronze_ingot": {
     "name": "Bronze Ingot",
     "tooltip": "Bronze Ingot",
-    "image": "items/bronze_ingot.png",
+    "image": "items/renewed/bronze_ingot.png",
     "url": "#"
   },
   "lotr:bronze_lantern": {
@@ -7556,7 +7556,7 @@
   "lotr:mithril_ingot": {
     "name": "Mithril Ingot",
     "tooltip": "Mithril Ingot",
-    "image": "items/mithril_ingot.png",
+    "image": "items/renewed/mithril_ingot.png",
     "url": "#"
   },
   "lotr:mithril_leggings": {
@@ -10634,7 +10634,7 @@
   "lotr:silver_ingot": {
     "name": "Silver Ingot",
     "tooltip": "Silver Ingot",
-    "image": "items/silver_ingot.png",
+    "image": "items/renewed/silver_ingot.png",
     "url": "#"
   },
   "lotr:silver_mallorn_torch": {
