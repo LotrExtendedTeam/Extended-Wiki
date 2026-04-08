@@ -35,7 +35,8 @@ Blue Mountains Smiths sell the goods of their forge. This includes blue dwarven 
 Blue Mountains Smiths buy many supplies, for both their job and stomach. This includes ingots of most metals, as well as most gemstones. They also buy most kinds of cooked meats.
 
 ## History
-- 1.8.0: Ported with the Blue Mountains update
+- 1.8.0:
+    - Ported with the Blue Mountains update
 
 ## Trivia
 

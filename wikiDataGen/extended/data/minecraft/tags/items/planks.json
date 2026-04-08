@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:banana_planks",
+    "lotr:chestnut_planks",
+    "lotr:ebony_planks",
+    "lotr:plum_planks",
+    "lotr:willow_planks"
+  ]
+}

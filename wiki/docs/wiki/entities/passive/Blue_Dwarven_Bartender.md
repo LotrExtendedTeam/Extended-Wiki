@@ -35,7 +35,8 @@ Blue Mountain Bartenders sell an assorted mix of food and drink. This includes c
 Blue Mountain Bartenders buy supplied for their tavern. This primarily includes raw meats, wheat, pipeweed leaf, and buckets.
 
 ## History
-- 1.8.0: Added with the Blue Mountains update
+- 1.8.0:
+    - Added with the Blue Mountains update
 
 ## Trivia
 

@@ -29,10 +29,10 @@ Hedgehogs commonly spawn in the following biomes:
 - [[bree-land|Bree-land]] and the Chetwood  
 - Eriador and the Eriador Downs  
 - Minhiriath  
-- Lindon  
+- [[lindon_biome|Lindon]]  
 - Rivendell and Rivendell Hills  
 - Rohan and the Wold  
-- [[the_shire|the Shire]] and Shire Woodlands  
+- [[the_shire|The Shire]] and Shire Woodlands  
 - Woodland Realm  
 
 They can also **rarely** spawn in:  

@@ -29,9 +29,9 @@ This wiki, like the mod, is also under active development and will be continue t
 ## Current Features
 Below is a list of features that are currently implemented in the mod.
 
-- 6 [[factions|Factions]] and their traders/NPCs have all been ported (Hobbits, Rangers, Gundabad Orcs, Bree, Blue Mountains, and Rivendell)
+- 6 [[factions|Factions]] and their traders/NPCs have all been ported ([[hobbit_faction|Hobbits]], [[ranger_north_faction|Rangers]], [[gundabad_faction|Gundabad Orcs]], [[bree_faction|Bree]], [[blue_mountains_faction|Blue Mountains]], and [[high_elves_faction|High Elves]])
 - All 6 Factions now have naturally generating structures (including many new ones!)
-- NPC hiring for Bree, Blue Mountains, Gundabad, Rangers, and Rivendell
+- NPC hiring for Bree, Blue Mountains, Gundabad, Rangers, and High Elves
 - The entire trade system has been ported and is functional
 - 5 Wandering Traders spawn throughout the world (Elves, Dwarves, Oddment Collectors, and a new Bree-land Merchant)
 - Banner Protection has been ported (very useful for servers!)

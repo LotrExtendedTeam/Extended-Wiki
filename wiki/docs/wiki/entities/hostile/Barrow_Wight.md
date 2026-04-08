@@ -73,8 +73,10 @@ Barrow-wights are hostile to all creatures and will aggressively pursue targets 
 
 ## History
 
-- 1.7.1: Fixed hitbox collision issues and revised chest spawning mechanics
-- 1.7.0: Initial port
+- 1.7.1: 
+    - Fixed hitbox collision issues and revised chest spawning mechanics
+- 1.7.0: 
+    - Initial port
 
 ## Trivia
 

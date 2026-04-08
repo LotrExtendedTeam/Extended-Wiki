@@ -95,7 +95,7 @@ Links between pages and sites can be made using the format:
 For inner-wiki linking, use the following format.  
 
 ``` title="Inner-wiki page linking"
-[[hedgehog|Hedgehogs]] can be found here on this wiki.
+\[[hedgehog|Hedgehogs]] can be found here on this wiki.
 ```
 
 <div class="result" markdown>
@@ -106,8 +106,8 @@ For inner-wiki linking, use the following format.
 
 !!! warning "Custom formatting info"
 
-    Note the use of `/Extended-Wiki/wiki/` in front of the markdown file name of the page.
-    There is special logic in page to facilitate the "compressing" of the wiki page structure and as such, using the full file path of the connecting page will result in a broken link.
+    Please use page alias tags to link pages inside the wiki, this will ensure links are not broken easily.  
+    There is special logic usedto facilitate the "compressing" of the wiki page structure and as such, using the full file path of the connecting page will result in a broken link.
 
 ---
 #### External linking

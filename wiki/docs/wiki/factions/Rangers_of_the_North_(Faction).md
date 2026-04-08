@@ -3,6 +3,8 @@ tags:
   - Factions
 show:
   - toc
+alias:
+  - ranger_north_faction
 ---
 
 ####
@@ -10,10 +12,14 @@ show:
 # Rangers of the North
 
 ## NPCs
-- [Dúnedain Rangers](/Extended-Wiki/wiki/Dunedain_Ranger) spawn throughout much of Eriador during the day. They can also be found in Ranger Camps, Houses, and other structures.
+- [[dunedain_ranger|Dúnedain Rangers]] spawn throughout much of Eriador during the day. They can also be found in Ranger Camps, Houses, and other structures.
+- [[dunedain_captain|Captain of the North]] spawn sometimes in ranger camps, encampments, and in captain tents.
 
 ## History
-- 1.5.0: Ranger NPCs and many ranger structures were introduced
+- 1.7.2:
+    - Ported Ranger of the North Captains
+- 1.5.0:
+    - Ported Dunedain Rangers
 
 ## Trivia
 

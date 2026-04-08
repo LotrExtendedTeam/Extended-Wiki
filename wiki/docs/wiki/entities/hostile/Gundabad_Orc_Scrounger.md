@@ -45,8 +45,8 @@ Gundabad Orcs recieved their name for the sacking of a dwarven mountain fortress
 
 ## History 
 
-- Renewed Extended 1.6.1
-   - Ported Gundabad Orc Scroungers
+- 1.6.1:
+    - Ported Gundabad Orc Scroungers
 
 ## Trivia
 

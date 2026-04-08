@@ -37,7 +37,8 @@ Blue Mountain Miners sell their mining spoilers from their diggings. This includ
 Blue Mountain Miners buy supplies for their mining adventures. They primarily buy cooked meats such as duck, mutton, porkchops, as well as bread and gammon. They also buy new pickaxes so to replenish their worn ones. 
 
 ## History
-- 1.8.0: Ported with the Blue Mountains update
+- 1.8.0:
+    - Ported with the Blue Mountains update
 
 ## Trivia
 

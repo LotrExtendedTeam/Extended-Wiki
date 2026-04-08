@@ -40,51 +40,11 @@ Hobbit Pancakes can be obtained in a variety of ways outside crafting:
 
 ## Crafting
 
-TODO craft generators (crude attempt below)
-
-=== "<img src="../img/blocks/wooden_birdcage.png" alt="Hobbit Crafting Table" style="max-width: 100%; height: 100%;"/>"
-
-    | Ingredients                       | Crafting recipe |
-    | :----------:                      | :-------------: |
-    | Duck egg + Wheat + Bucket of Milk | <img src="../img/gui/crafting.png" alt="Crafting grid" style="max-width: 100%; height: auto;" /> |
-    | Egg + Wheat + Bucket of Milk      | <img src="../img/gui/crafting.png" alt="Crafting grid" style="max-width: 100%; height: auto;" /> |
-
-=== "<img src="../img/blocks/wooden_birdcage.png" alt="Hobbit Crafting Table" style="max-width: 100%; height: 100%;"/>"
-
-    <table>
-      <tr>
-        <td>
-          <p>Ingredients</p>
-        </td>
-        <td>
-          <p>Crafting recipe</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>Duck egg + Wheat + Bucket of Milk</p>
-        </td>
-        <td>
-          <table style="background-image: url('../img/gui/crafting.png'); border-spacing: 6px; border: 0px; width: 120px; height: 66px;">
-            <tr style="height: 16px">
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-            </tr>
-            <tr style="height: 16px">
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-            </tr>
-            <tr style="height: 16px">
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-              <td style="padding: 1px"><img src="../img/items/egg.png"></td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
+{{crafting:hobbit_pancake}}
+  
+{{crafting:hobbit_pancake_syrup}}
+  
+{{crafting:hobbit_pancake_syrup_butter}}
 
 ## History
 

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lotr:banana_boat",
+    "lotr:chestnut_boat",
+    "lotr:ebony_boat",
+    "lotr:plum_boat",
+    "lotr:willow_boat"
+  ]
+}

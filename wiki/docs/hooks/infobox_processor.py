@@ -4,12 +4,12 @@ import markdown
 from mkdocs.structure.pages import Page
 log = logging.getLogger("mkdocs.plugins")
 
+INFOBOX_RE = re.compile(r'::infobox\n(.*?)\n::end-infobox', re.DOTALL)
+
 def on_pre_build(config):
-    log.info(">>> Infobox Porcessor: Present")
+    log.info(">>> Infobox Processor: Present")
 
 def on_page_markdown(markdown_content, page: Page, config, files):
-
-    INFOBOX_RE = re.compile(r'::infobox\n(.*?)\n::end-infobox', re.DOTALL)
 
     def markdown_to_html(text):
         """Convert markdown text to HTML, handling inline markdown elements."""
