@@ -111,7 +111,7 @@ def render_crafting_grid(content):
         rows_html.append(f'<div class="crafting-row">{pair_html}</div>')
 
     html = ['<div class="crafting-grid-layout">']
-    html.append(f'{''.join(rows_html)}')
+    html.append(''.join(rows_html))
     html.append(f'</div>')
     return '\n'.join(html)
 
