@@ -1,9 +1,39 @@
 /* === CRAFTING BOX === */
+/* Main wrapper - vertical stacking of rows */
+.crafting-grid-layout {
+  display: flex;
+  flex-direction: column;   /* stack rows vertically */
+  gap: 16px;                /* vertical spacing between rows */
+  margin-top: 10px;
+  background-color: #ffffff30;
+}
+
+/* Row container - horizontal alignment of boxes */
+.crafting-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  border-bottom: 1px solid #756f6f;
+  padding-left: 8px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Crafting box inside column: left aligned */
+.crafting-row .crafting-box {
+  justify-self: start; /* aligns to left of its column */
+  margin-bottom: 0px;
+}
+
+.crafting-row:last-child {
+  border-bottom: none;     /* remove line after last row */
+}
+
 /* Crafting box */
 .crafting-box {
   width: 260px;
   height: 160px;
-  overflow: hidden;
   font-family: sans-serif;
   position: relative;
   margin-bottom: 20px;

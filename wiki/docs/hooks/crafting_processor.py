@@ -8,6 +8,7 @@ import html
 log = logging.getLogger("mkdocs.plugins")
 
 CRAFTING_RE = re.compile(r"\{\{\s*crafting:(.*?)\s*\}\}", re.DOTALL)
+CRAFTING_GRID_RE = re.compile(r"\{\{\s*craftinggrid:(.*?)\s*\}\}", re.DOTALL)
 
 # --- GLOBAL STORAGE ---
 RECIPES = {}
@@ -100,6 +101,20 @@ def render_info(recipe):
         return "Shapeless"
     return "Shaped"
 
+def render_crafting_grid(content):
+    recipe_ids = [r.strip() for r in content.split(",") if r.strip()]
+
+    rows_html = []
+    for i in range(0, len(recipe_ids), 2):  # group every 2
+        pair = recipe_ids[i:i+2]
+        pair_html = ''.join(render_recipe(r) for r in pair)
+        rows_html.append(f'<div class="crafting-row">{pair_html}</div>')
+
+    html = ['<div class="crafting-grid-layout">']
+    html.append(f'{''.join(rows_html)}')
+    html.append(f'</div>')
+    return '\n'.join(html)
+
 # --- MAIN RENDER ---
 def render_recipe(recipe_id):
     recipe = RECIPES.get(recipe_id)
@@ -114,7 +129,7 @@ def render_recipe(recipe_id):
     )
 
     output_html = render_output(recipe["output"])
-    info_html = render_info(recipe)
+    #info_html = render_info(recipe)
 
     html = ['<div class="crafting-box">']
     html.append(f'<div class="crafting-body">')
@@ -129,10 +144,17 @@ def render_recipe(recipe_id):
 
 # --- MARKDOWN HOOK ---
 def on_page_markdown(markdown_content, page: Page, config, files):
-    def render(match):
+    def render_grid(match):
+        content = match.group(1)
+        return render_crafting_grid(content)
+
+    def render_single(match):
         recipe_id = match.group(1).strip()
-        html = render_recipe(recipe_id)
         return render_recipe(recipe_id)
 
-    new_markdown = CRAFTING_RE.sub(render, markdown_content)
-    return new_markdown
+    # IMPORTANT: process grid first
+    markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
+
+    # then individual crafting blocks
+    markdown_content = CRAFTING_RE.sub(render_single, markdown_content)
+    return markdown_content
