@@ -1,0 +1,171 @@
+/* === CRAFTING BOX === */
+/* Main wrapper - vertical stacking of rows */
+.crafting-grid-layout {
+  display: flex;
+  flex-direction: column;   /* stack rows vertically */
+  gap: 16px;                /* vertical spacing between rows */
+  margin-top: 10px;
+  background-color: #ffffff30;
+}
+
+/* Row container - horizontal alignment of boxes */
+.crafting-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  border-bottom: 1px solid #756f6f;
+  padding-left: 8px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Crafting box inside column: left aligned */
+.crafting-row .crafting-box {
+  justify-self: start; /* aligns to left of its column */
+  margin-bottom: 0px;
+}
+
+.crafting-row:last-child {
+  border-bottom: none;     /* remove line after last row */
+}
+
+/* Crafting box */
+.crafting-box {
+  width: 260px;
+  height: 160px;
+  font-family: sans-serif;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: visible; /* allow tooltips to appear outside box */
+}
+
+/* Crafting body container */
+.crafting-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* GUI image as background */
+.crafting-gui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
+  z-index: 0; /* behind everything */
+  pointer-events: none;
+}
+
+/* Title overlay: left-aligned on top */
+.crafting-title-overlay {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+  z-index: 2;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+/* Grid */
+.crafting-grid {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 32px);
+  grid-template-rows: repeat(3, 32px);
+  gap: 4px;
+  z-index: 1;
+}
+
+/* SLOT */
+.slot {
+  position: relative;
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.slot img {
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  image-rendering: pixelated; /* or pixelated for crisp icons */
+  display: block;
+}
+
+/* Output slot */
+.crafting-output {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+
+.crafting-output img {
+  width: 40px;
+  height: 40px;
+}
+
+/* STACK COUNT (Minecraft style) */
+.count {
+  position: absolute;
+  bottom: 1px;
+  right: 3px;
+  font-size: 14px;
+  color: #ffffff;
+  text-shadow: 
+    2px 2px 0px #3f3f3f;
+  pointer-events: none;
+}
+
+/* INFO */
+.crafting-info {
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+/* === TOOLTIP SYSTEM (DELAYED) === */
+.slot:not(.empty)::after{
+  content: attr(data-name);
+  position: absolute;
+  bottom: 115%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgb(33, 33, 33);
+  color: #ffffff;
+  padding: 3px 6px;
+  font-size: 11px;
+  white-space: nowrap;
+  border: 1px solid #5a575a;
+  border-radius: 2px;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.1s ease;
+  transition-delay: 0.15s; /* ~150ms delay */
+  z-index: 3; /* make tooltip above everything */
+}
+
+.slot:not(.empty):hover::after {
+  opacity: 1;
+}
