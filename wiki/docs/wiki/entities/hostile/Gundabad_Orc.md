@@ -38,7 +38,11 @@ Like all Orcs, Gundabad Orcs prefer darkness, and in direct sunlight they are su
 
 If a player's Gundabad alignment is -500 or lower, Gundabad Orcs will often flee from them in terror - but only when the player is facing them. If the player looks away, the fleeing Orcs will turn around and attack from behind. This does not apply to Gundabad Orcs that spawn in invasions or that are hired by players, which never flee regardless of an enemy player's alignment. Warg-Riders also do not flee, as the Wargs they are mounted on control their pathing. 
 
-## Strategy 
+## Hiring
+
+Gundabad Orcs can be hired from [[gundabad_orc_chieftain|Gundabad Orc Chieftains]] for 25 silver coins. Your alignment must be at least 100+ with the Gundabad Orcs to hire them.
+
+## Equipment
 
 Gundabad Orcs use a random assortment of armour and tools, including bronze, bone, fur and others.
 
