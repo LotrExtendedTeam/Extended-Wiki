@@ -13,7 +13,7 @@ alias:
 type: entity
 title: Gundabad Orc Chieftain
 image: entities/gundabad_orc_chieftain.png
-armor: Gundabad Uruk Armour (no helmet)
+armor: 15
 hitpoints: 25
 faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
 ::end-infobox
@@ -32,6 +32,10 @@ Camps are not guaranteed to house a chieftain; camps sometimes have [[gundabad_o
 
 Like other traders and commanders, Gundabad Orc Chieftains do not seek out foes to target, even if enemy players or NPCs come within their sight range. If attacked, or if a fellow Gundabad NPC is killed within their sight range, they will fight the offender. 
 If a player is friendly with Gundabad but does not have enough alignment to hire from them, they will refuse to trade and instead greet the player with a hail of insults.
+
+## Equipment
+
+Gundabad Orc Chieftains have some of the best equipment in the game, wearing full Gundabad Uruk armour aside from a helmet. They wield a Gundabad Uruk Cleaver, a melee weapon dealing 8 damage, equal to a sword.
 
 ## Strategy 
 
