@@ -13,7 +13,7 @@ alias:
 type: entity
 title: Gundabad Uruk Archer
 image:entities/gundabad_uruk_archer.png
-armor: varies (see below)
+armor: 17
 hitpoints: 18
 faction: (/Extended-Wiki/wiki/Gundabad(Faction))
 ::end-infobox
@@ -32,8 +32,13 @@ Typically, they spawn in groups, though these groups aren't as large as bands of
 Gundabad Uruk Archers will attack any foes of Gundabad, be they players with negative Gundabad alignment or enemy NPCs. When an enemy approaches, archers will close until they're within 16 blocks of their foe and then start shooting.
 If the enemy then closes to melee range, the archer will charge them with a knife to kill them.
 
-Uruk Archers use the same set of armour that normal Uruks do, giving the wearer lots of armour.
+## Equipment
 
+Uruk Archers use the same set of armour that normal Uruks do, giving the wearer 17 points of armour. They always carry Gundabad longbows and occasionally shield with the eye of Sauron on them.
+
+## Hiring
+
+Gundabad Uruk Archers can be hired from [[gundabad_orc_chieftain|Gundabad Orc Chieftains]] for 50 silver coins. Your alignment must be at least 400+ with the Gundabad Orcs to hire them.
 
 ## Strategy 
 
