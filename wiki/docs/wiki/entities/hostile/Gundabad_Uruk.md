@@ -13,7 +13,7 @@ alias:
 type: entity
 title: Gundabad Uruk
 image: entities/gundabad_uruk.png
-armor: Gundabad Uruk Armour
+armor: 17
 hitpoints: 25
 faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
 ::end-infobox
@@ -31,6 +31,14 @@ Typically, they spawn in groups, though these groups aren't as large as bands of
 ## Behaviour
 
 Gundabad Uruks will attack any foes of Gundabad, be they players with negative Gundabad alignment or enemy NPCs. When not in combat, they will wander aimlessly like the other Gundabad Orcs.
+
+## Equipment
+
+Gundabad Uruks have some of the strongest armour in the game, wearing a full set of Gundabad Uruk armour. They carry heavy weapons that deal equal damage to dwarven weapons, and usually wield shields emblazoned with the eye of Sauron.
+
+## Hiring
+
+Gundabad Uruks can be hired from [[gundabad_orc_chieftain|Gundabad Orc Chieftains]] for 30 silver coins. Your alignment must be at least 350+ with the Gundabad Orcs to hire them.
 
 ## Strategy 
 

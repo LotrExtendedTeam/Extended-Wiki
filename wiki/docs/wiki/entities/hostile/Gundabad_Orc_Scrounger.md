@@ -13,7 +13,7 @@ alias:
 type: entity
 title: Gundabad Orc Scrounger
 image: entities/gundabad_orc_scrounger.png
-armor: varies (see below)
+armor: 9
 hitpoints: 18
 faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
 ::end-infobox
@@ -32,6 +32,10 @@ Gundabad Orc Scroungers spawn only in Gundabad Camps, which can be found across 
 Gundabad Orc Scroungers spend most of their time wandering around the camps where they spawn, waiting to make a shady deal with friendly passers-by. They will occasionally speak to allied players unprompted, offering to trade. They rarely go far from their camps, and if they aren't killed they can be found regularly around the centre of the camp. As Orcs, Gundabad Orc Scroungers are subjected to slowness and weakness effects when exposed to the Sun.
 
 They will attack anyone who kills a fellow Gundabad NPC within their sight range, fighting with their small daggers.
+
+## Equipment
+
+Gundabad Orc Scrounger wear only fur skins which makes them a weaker orc, giving them 9 points of armour. They carry only a dagger in terms of weapons.
 
 ## Strategy 
 
