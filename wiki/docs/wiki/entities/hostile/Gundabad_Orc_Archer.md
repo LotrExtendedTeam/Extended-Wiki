@@ -44,6 +44,9 @@ If a player's Gundabad alignment is -500 or lower, Gundabad Orc Archers will oft
 
 Like other Gundabad Orcs, Gundabad Orc Archers use a haphazard, randomized mix of equipment from different sets.
 
+## Hiring
+
+Gundabad Orc Archers can be hired from [[gundabad_orc_chieftain|Gundabad Orc Chieftains]] for 50 silver coins. Your alignment must be at least 150+ with the Gundabad Orcs to hire them.
 
 ## Strategy 
 
