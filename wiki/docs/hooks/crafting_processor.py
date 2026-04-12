@@ -53,13 +53,13 @@ def get_item(item_id):
             return {
                 "name": f"Missing tag: {tag_name}",
                 "url": "#",
-                "image": "missing.png"
+                "image": "unknown.png"
             }
 
     return ITEMS.get(item_id, {
         "name": f"Missing: {item_id}",
         "url": "#",
-        "image": "missing.png"
+        "image": "unknown.png"
     })
 
 def getImage(imagePath):
@@ -67,7 +67,7 @@ def getImage(imagePath):
     if local_path and os.path.exists(local_path):
         return URL_PATH + imagePath
     log.warning(f"Missing image: {imagePath}")
-    return URL_PATH + "items/unknown.png"
+    return URL_PATH + "unknown.png"
 
 # --- SLOT RENDER ---
 def render_slot(item_id):

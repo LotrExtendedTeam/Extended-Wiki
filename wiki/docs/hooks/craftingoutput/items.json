@@ -278,7 +278,7 @@
   "lotr:apple_planks": {
     "name": "Apple Planks",
     "tooltip": "Apple Planks",
-    "image": "items/apple_planks.png",
+    "image": "blocks/renewed/apple_planks.png",
     "url": "#"
   },
   "lotr:apple_pressure_plate": {
@@ -434,7 +434,7 @@
   "lotr:aspen_planks": {
     "name": "Aspen Planks",
     "tooltip": "Aspen Planks",
-    "image": "items/aspen_planks.png",
+    "image": "blocks/renewed/aspen_planks.png",
     "url": "#"
   },
   "lotr:aspen_pressure_plate": {
@@ -578,7 +578,7 @@
   "lotr:banana_planks": {
     "name": "Banana Planks",
     "tooltip": "Banana Planks",
-    "image": "items/banana_planks.png",
+    "image": "blocks/banana_planks.png",
     "url": "#"
   },
   "lotr:banana_pressure_plate": {
@@ -716,7 +716,7 @@
   "lotr:beech_planks": {
     "name": "Beech Planks",
     "tooltip": "Beech Planks",
-    "image": "items/beech_planks.png",
+    "image": "blocks/renewed/beech_planks.png",
     "url": "#"
   },
   "lotr:beech_pressure_plate": {
@@ -1376,7 +1376,7 @@
   "lotr:bronze_bars": {
     "name": "Bronze Bars",
     "tooltip": "Bronze Bars",
-    "image": "items/bronze_bars.png",
+    "image": "blocks/renewed/bronze_bars.png",
     "url": "#"
   },
   "lotr:bronze_birdcage": {
@@ -1778,7 +1778,7 @@
   "lotr:cedar_planks": {
     "name": "Cedar Planks",
     "tooltip": "Cedar Planks",
-    "image": "items/cedar_planks.png",
+    "image": "blocks/renewed/cedar_planks.png",
     "url": "#"
   },
   "lotr:cedar_pressure_plate": {
@@ -1976,7 +1976,7 @@
   "lotr:charred_planks": {
     "name": "Charred Planks",
     "tooltip": "Charred Planks",
-    "image": "items/charred_planks.png",
+    "image": "blocks/renewed/charred_planks.png",
     "url": "#"
   },
   "lotr:charred_pressure_plate": {
@@ -2126,7 +2126,7 @@
   "lotr:cherry_planks": {
     "name": "Cherry Planks",
     "tooltip": "Cherry Planks",
-    "image": "items/cherry_planks.png",
+    "image": "blocks/renewed/cherry_planks.png",
     "url": "#"
   },
   "lotr:cherry_pressure_plate": {
@@ -2246,7 +2246,7 @@
   "lotr:chestnut_planks": {
     "name": "Chestnut Planks",
     "tooltip": "Chestnut Planks",
-    "image": "items/chestnut_planks.png",
+    "image": "blocks/chestnut_planks.png",
     "url": "#"
   },
   "lotr:chestnut_pressure_plate": {
@@ -3116,7 +3116,7 @@
   "lotr:culumalda_planks": {
     "name": "Culumalda Planks",
     "tooltip": "Culumalda Planks",
-    "image": "items/culumalda_planks.png",
+    "image": "blocks/renewed/culumalda_planks.png",
     "url": "#"
   },
   "lotr:culumalda_pressure_plate": {
@@ -3302,7 +3302,7 @@
   "lotr:cypress_planks": {
     "name": "Cypress Planks",
     "tooltip": "Cypress Planks",
-    "image": "items/cypress_planks.png",
+    "image": "blocks/renewed/cypress_planks.png",
     "url": "#"
   },
   "lotr:cypress_pressure_plate": {
@@ -4244,7 +4244,7 @@
   "lotr:ebony_planks": {
     "name": "Ebony Planks",
     "tooltip": "Ebony Planks",
-    "image": "items/ebony_planks.png",
+    "image": "blocks/ebony_planks.png",
     "url": "#"
   },
   "lotr:ebony_pressure_plate": {
@@ -4622,7 +4622,7 @@
   "lotr:fir_planks": {
     "name": "Fir Planks",
     "tooltip": "Fir Planks",
-    "image": "items/fir_planks.png",
+    "image": "blocks/renewed/fir_planks.png",
     "url": "#"
   },
   "lotr:fir_pressure_plate": {
@@ -5018,7 +5018,7 @@
   "lotr:gold_bars": {
     "name": "Gold Bars",
     "tooltip": "Gold Bars",
-    "image": "items/gold_bars.png",
+    "image": "blocks/renewed/gold_bars.png",
     "url": "#"
   },
   "lotr:gold_chandelier": {
@@ -5612,7 +5612,7 @@
   "lotr:green_oak_planks": {
     "name": "Green Oak Planks",
     "tooltip": "Green Oak Planks",
-    "image": "items/green_oak_planks.png",
+    "image": "blocks/renewed/green_oak_planks.png",
     "url": "#"
   },
   "lotr:green_oak_pressure_plate": {
@@ -6122,7 +6122,7 @@
   "lotr:holly_planks": {
     "name": "Holly Planks",
     "tooltip": "Holly Planks",
-    "image": "items/holly_planks.png",
+    "image": "blocks/renewed/holly_planks.png",
     "url": "#"
   },
   "lotr:holly_pressure_plate": {
@@ -6368,7 +6368,7 @@
   "lotr:lairelosse_planks": {
     "name": "Lairelosse Planks",
     "tooltip": "Lairelosse Planks",
-    "image": "items/lairelosse_planks.png",
+    "image": "blocks/renewed/lairelosse_planks.png",
     "url": "#"
   },
   "lotr:lairelosse_pressure_plate": {
@@ -6494,7 +6494,7 @@
   "lotr:larch_planks": {
     "name": "Larch Planks",
     "tooltip": "Larch Planks",
-    "image": "items/larch_planks.png",
+    "image": "blocks/renewed/larch_planks.png",
     "url": "#"
   },
   "lotr:larch_pressure_plate": {
@@ -6650,7 +6650,7 @@
   "lotr:lebethron_planks": {
     "name": "Lebethron Planks",
     "tooltip": "Lebethron Planks",
-    "image": "items/lebethron_planks.png",
+    "image": "blocks/renewed/lebethron_planks.png",
     "url": "#"
   },
   "lotr:lebethron_pressure_plate": {
@@ -7124,7 +7124,7 @@
   "lotr:mallorn_planks": {
     "name": "Mallorn Planks",
     "tooltip": "Mallorn Planks",
-    "image": "items/mallorn_planks.png",
+    "image": "blocks/renewed/mallorn_planks.png",
     "url": "#"
   },
   "lotr:mallorn_pressure_plate": {
@@ -7268,7 +7268,7 @@
   "lotr:maple_planks": {
     "name": "Maple Planks",
     "tooltip": "Maple Planks",
-    "image": "items/maple_planks.png",
+    "image": "blocks/renewed/maple_planks.png",
     "url": "#"
   },
   "lotr:maple_pressure_plate": {
@@ -7430,7 +7430,7 @@
   "lotr:mirk_oak_planks": {
     "name": "Mirk Oak Planks",
     "tooltip": "Mirk Oak Planks",
-    "image": "items/mirk_oak_planks.png",
+    "image": "blocks/renewed/mirk_oak_planks.png",
     "url": "#"
   },
   "lotr:mirk_oak_pressure_plate": {
@@ -7496,7 +7496,7 @@
   "lotr:mithril_bars": {
     "name": "Mithril Bars",
     "tooltip": "Mithril Bars",
-    "image": "items/mithril_bars.png",
+    "image": "blocks/renewed/mithril_bars.png",
     "url": "#"
   },
   "lotr:mithril_birdcage": {
@@ -9140,7 +9140,7 @@
   "lotr:pear_planks": {
     "name": "Pear Planks",
     "tooltip": "Pear Planks",
-    "image": "items/pear_planks.png",
+    "image": "blocks/renewed/pear_planks.png",
     "url": "#"
   },
   "lotr:pear_pressure_plate": {
@@ -9272,7 +9272,7 @@
   "lotr:pine_planks": {
     "name": "Pine Planks",
     "tooltip": "Pine Planks",
-    "image": "items/pine_planks.png",
+    "image": "blocks/renewed/pine_planks.png",
     "url": "#"
   },
   "lotr:pine_pressure_plate": {
@@ -9464,7 +9464,7 @@
   "lotr:plum_planks": {
     "name": "Plum Planks",
     "tooltip": "Plum Planks",
-    "image": "items/plum_planks.png",
+    "image": "blocks/renewed/plum_planks.png",
     "url": "#"
   },
   "lotr:plum_pressure_plate": {
@@ -10370,7 +10370,7 @@
   "lotr:rotten_planks": {
     "name": "Rotten Planks",
     "tooltip": "Rotten Planks",
-    "image": "items/rotten_planks.png",
+    "image": "blocks/renewed/rotten_planks.png",
     "url": "#"
   },
   "lotr:rotten_pressure_plate": {
@@ -10568,7 +10568,7 @@
   "lotr:silver_bars": {
     "name": "Silver Bars",
     "tooltip": "Silver Bars",
-    "image": "items/silver_bars.png",
+    "image": "blocks/renewed/silver_bars.png",
     "url": "#"
   },
   "lotr:silver_birdcage": {
@@ -12896,7 +12896,7 @@
   "lotr:willow_planks": {
     "name": "Willow Planks",
     "tooltip": "Willow Planks",
-    "image": "items/willow_planks.png",
+    "image": "blocks/willow_planks.png",
     "url": "#"
   },
   "lotr:willow_pressure_plate": {
@@ -13481,6 +13481,12 @@
     "image": "items/cracked_stone_bricks.png",
     "url": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
   },
+  "minecraft:cyan_dye": {
+    "name": "Cyan Dye",
+    "tooltip": "Cyan Dye",
+    "image": "items/cyan_dye.png",
+    "url": "https://minecraft.wiki/w/Cyan_Dye"
+  },
   "minecraft:cyan_stained_glass": {
     "name": "Cyan Stained Glass",
     "tooltip": "Cyan Stained Glass",
@@ -13526,7 +13532,7 @@
   "minecraft:dirt": {
     "name": "Dirt",
     "tooltip": "Dirt",
-    "image": "items/dirt.png",
+    "image": "blocks/minecraft/dirt.png",
     "url": "https://minecraft.wiki/w/Dirt"
   },
   "minecraft:egg": {
@@ -13580,7 +13586,7 @@
   "minecraft:grass_block": {
     "name": "Grass Block",
     "tooltip": "Grass Block",
-    "image": "items/grass_block.png",
+    "image": "blocks/minecraft/grass_block.png",
     "url": "https://minecraft.wiki/w/Grass_Block"
   },
   "minecraft:grass_path": {
@@ -13594,6 +13600,12 @@
     "tooltip": "Gravel",
     "image": "items/gravel.png",
     "url": "https://minecraft.wiki/w/Gravel"
+  },
+  "minecraft:gray_dye": {
+    "name": "Gray Dye",
+    "tooltip": "Gray Dye",
+    "image": "items/gray_dye.png",
+    "url": "https://minecraft.wiki/w/Gray_Dye"
   },
   "minecraft:gray_stained_glass": {
     "name": "Gray Stained Glass",
@@ -13652,7 +13664,7 @@
   "minecraft:iron_bars": {
     "name": "Iron Bars",
     "tooltip": "Iron Bars",
-    "image": "items/iron_bars.png",
+    "image": "blocks/minecraft/iron_bars.png",
     "url": "https://minecraft.wiki/w/Iron_Bars"
   },
   "minecraft:iron_horse_armor": {
@@ -13739,6 +13751,12 @@
     "image": "items/light_blue_wool.png",
     "url": "https://minecraft.wiki/w/Light_Blue_Wool"
   },
+  "minecraft:light_gray_dye": {
+    "name": "Light Gray Dye",
+    "tooltip": "Light Gray Dye",
+    "image": "items/light_gray_dye.png",
+    "url": "https://minecraft.wiki/w/Light_Gray_Dye"
+  },
   "minecraft:light_gray_stained_glass": {
     "name": "Light Gray Stained Glass",
     "tooltip": "Light Gray Stained Glass",
@@ -13756,6 +13774,12 @@
     "tooltip": "Light Gray Wool",
     "image": "items/light_gray_wool.png",
     "url": "https://minecraft.wiki/w/Light_Gray_Wool"
+  },
+  "minecraft:lime_dye": {
+    "name": "Lime Dye",
+    "tooltip": "Lime Dye",
+    "image": "items/lime_dye.png",
+    "url": "https://minecraft.wiki/w/Lime_Dye"
   },
   "minecraft:lime_stained_glass": {
     "name": "Lime Stained Glass",
@@ -13850,7 +13874,7 @@
   "minecraft:obsidian": {
     "name": "Obsidian",
     "tooltip": "Obsidian",
-    "image": "items/obsidian.png",
+    "image": "blocks/minecraft/obsidian.png",
     "url": "https://minecraft.wiki/w/Obsidian"
   },
   "minecraft:orange_dye": {

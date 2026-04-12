@@ -17,39 +17,6 @@
     "minecraft:infested_cobblestone",
     "minecraft:mossy_cobblestone"
   ],
-  "forge:dyes/black": [
-    "minecraft:black_dye"
-  ],
-  "forge:dyes/brown": [
-    "minecraft:brown_dye"
-  ],
-  "forge:dyes/cyan": [
-    "minecraft:cyan_dye"
-  ],
-  "forge:dyes/gray": [
-    "minecraft:gray_dye"
-  ],
-  "forge:dyes/light_blue": [
-    "minecraft:light_blue_dye"
-  ],
-  "forge:dyes/light_gray": [
-    "minecraft:light_gray_dye"
-  ],
-  "forge:dyes/lime": [
-    "minecraft:lime_dye"
-  ],
-  "forge:dyes/magenta": [
-    "minecraft:magenta_dye"
-  ],
-  "forge:dyes/orange": [
-    "minecraft:orange_dye"
-  ],
-  "forge:dyes/pink": [
-    "minecraft:pink_dye"
-  ],
-  "forge:dyes/purple": [
-    "minecraft:purple_dye"
-  ],
   "forge:eggs": [
     "lotr:duck_egg",
     "minecraft:egg"
@@ -68,24 +35,6 @@
   "forge:horns": [
     "lotr:horn",
     "lotr:kine_of_araw_horn"
-  ],
-  "forge:ingots/brick": [
-    "minecraft:brick"
-  ],
-  "forge:ingots/copper": [
-    "lotr:copper_ingot"
-  ],
-  "forge:ingots/gold": [
-    "minecraft:gold_ingot"
-  ],
-  "forge:ingots/mithril": [
-    "lotr:mithril_ingot"
-  ],
-  "forge:ingots/silver": [
-    "lotr:silver_ingot"
-  ],
-  "forge:ingots/tin": [
-    "lotr:tin_ingot"
   ],
   "forge:leather": [
     "minecraft:leather"
@@ -153,9 +102,6 @@
     "lotr:cherry_wood",
     "lotr:stripped_cherry_log",
     "lotr:stripped_cherry_wood"
-  ],
-  "lotr:clay_balls": [
-    "minecraft:clay_ball"
   ],
   "lotr:clovers": [
     "lotr:clover",
