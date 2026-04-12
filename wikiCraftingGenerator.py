@@ -391,7 +391,6 @@ def main():
     for item in sorted(all_items):
         generated = {
             "name": format_item_name(item),
-            "tooltip": format_item_name(item),
             "url": format_item_url(item),
             "image": format_image_path(item)
         }
@@ -403,7 +402,8 @@ def main():
             for key, value in generated.items():
                 if key not in items_data[item] or not items_data[item][key]:
                     items_data[item][key] = value
-
+        if ("tooltip" in items_data[item] and "name" in items_data[item] and items_data[item]["tooltip"] == items_data[item]["name"]):
+            del items_data[item]["tooltip"]
     # Validate recipes
     valid_recipes = {k: v for k, v in recipes.items() if validate_recipe(v, all_items, flat_tags, k)}
 

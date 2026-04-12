@@ -75,9 +75,9 @@ def render_slot(item_id):
         return '<div class="slot empty"></div>'
 
     item = get_item(item_id)
-
+    display_name = item.get("tooltip") or item["name"]
     return f'''
-    <a href="{item["url"]}" class="slot" data-name="{html.escape(item["name"])}">
+    <a href="{item["url"]}" class="slot" data-name="{html.escape(display_name)}">
         <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
     </a>
     '''
@@ -87,9 +87,9 @@ def render_output(output):
     item = get_item(output["item"])
     count = output.get("count", 1)
     count_html = f'<span class="count">{count}</span>' if count > 1 else ""
-
+    display_name = item.get("tooltip") or item["name"]
     return f'''
-    <a href="{item["url"]}" class="crafting-output slot" data-name="{item["name"]}">
+    <a href="{item["url"]}" class="crafting-output slot" data-name="{html.escape(display_name)}">
         <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
         {count_html}
     </a>
