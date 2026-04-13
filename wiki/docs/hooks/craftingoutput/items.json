@@ -1,32 +1,32 @@
 {
   "lotr:acacia_beam": {
     "name": "Acacia Beam",
-    "image": "items/acacia_beam.png",
+    "image": "blocks/renewed/acacia_beam.png",
     "url": "#"
   },
   "lotr:acacia_beam_slab": {
     "name": "Acacia Beam Slab",
-    "image": "items/acacia_beam_slab.png",
+    "image": "blocks/renewed/acacia_beam_slab.png",
     "url": "#"
   },
   "lotr:acacia_branch": {
     "name": "Acacia Branch",
-    "image": "items/acacia_branch.png",
+    "image": "blocks/renewed/acacia_branch.png",
     "url": "#"
   },
   "lotr:acacia_log_slab": {
     "name": "Acacia Log Slab",
-    "image": "items/acacia_log_slab.png",
+    "image": "blocks/renewed/acacia_log_slab.png",
     "url": "#"
   },
   "lotr:acacia_wood_slab": {
     "name": "Acacia Wood Slab",
-    "image": "items/acacia_wood_slab.png",
+    "image": "blocks/renewed/acacia_wood_slab.png",
     "url": "#"
   },
   "lotr:acacia_wood_stairs": {
     "name": "Acacia Wood Stairs",
-    "image": "items/acacia_wood_stairs.png",
+    "image": "blocks/renewed/acacia_wood_stairs.png",
     "url": "#"
   },
   "lotr:ale": {
@@ -171,12 +171,12 @@
   },
   "lotr:apple_beam": {
     "name": "Apple Beam",
-    "image": "items/apple_beam.png",
+    "image": "blocks/renewed/apple_beam.png",
     "url": "#"
   },
   "lotr:apple_beam_slab": {
     "name": "Apple Beam Slab",
-    "image": "items/apple_beam_slab.png",
+    "image": "blocks/renewed/apple_beam_slab.png",
     "url": "#"
   },
   "lotr:apple_boat": {
@@ -186,12 +186,12 @@
   },
   "lotr:apple_branch": {
     "name": "Apple Branch",
-    "image": "items/apple_branch.png",
+    "image": "blocks/renewed/apple_branch.png",
     "url": "#"
   },
   "lotr:apple_button": {
     "name": "Apple Button",
-    "image": "items/apple_button.png",
+    "image": "blocks/renewed/apple_button.png",
     "url": "#"
   },
   "lotr:apple_crumble": {
@@ -216,17 +216,17 @@
   },
   "lotr:apple_leaves": {
     "name": "Apple Leaves",
-    "image": "items/apple_leaves.png",
+    "image": "blocks/renewed/apple_leaves.png",
     "url": "#"
   },
   "lotr:apple_log": {
     "name": "Apple Log",
-    "image": "items/apple_log.png",
+    "image": "blocks/renewed/apple_log.png",
     "url": "#"
   },
   "lotr:apple_log_slab": {
     "name": "Apple Log Slab",
-    "image": "items/apple_log_slab.png",
+    "image": "blocks/renewed/apple_log_slab.png",
     "url": "#"
   },
   "lotr:apple_planks": {
@@ -236,7 +236,7 @@
   },
   "lotr:apple_pressure_plate": {
     "name": "Apple Pressure Plate",
-    "image": "items/apple_pressure_plate.png",
+    "image": "blocks/renewed/apple_pressure_plate.png",
     "url": "#"
   },
   "lotr:apple_sign": {
@@ -246,32 +246,32 @@
   },
   "lotr:apple_slab": {
     "name": "Apple Slab",
-    "image": "items/apple_slab.png",
+    "image": "blocks/renewed/apple_slab.png",
     "url": "#"
   },
   "lotr:apple_stairs": {
     "name": "Apple Stairs",
-    "image": "items/apple_stairs.png",
+    "image": "blocks/renewed/apple_stairs.png",
     "url": "#"
   },
   "lotr:apple_trapdoor": {
     "name": "Apple Trapdoor",
-    "image": "items/apple_trapdoor.png",
+    "image": "blocks/renewed/apple_trapdoor.png",
     "url": "#"
   },
   "lotr:apple_wood": {
     "name": "Apple Wood",
-    "image": "items/apple_wood.png",
+    "image": "blocks/renewed/apple_wood.png",
     "url": "#"
   },
   "lotr:apple_wood_slab": {
     "name": "Apple Wood Slab",
-    "image": "items/apple_wood_slab.png",
+    "image": "blocks/renewed/apple_wood_slab.png",
     "url": "#"
   },
   "lotr:apple_wood_stairs": {
     "name": "Apple Wood Stairs",
-    "image": "items/apple_wood_stairs.png",
+    "image": "blocks/renewed/apple_wood_stairs.png",
     "url": "#"
   },
   "lotr:arnor_brick": {
@@ -306,12 +306,12 @@
   },
   "lotr:aspen_beam": {
     "name": "Aspen Beam",
-    "image": "items/aspen_beam.png",
+    "image": "blocks/renewed/aspen_beam.png",
     "url": "#"
   },
   "lotr:aspen_beam_slab": {
     "name": "Aspen Beam Slab",
-    "image": "items/aspen_beam_slab.png",
+    "image": "blocks/renewed/aspen_beam_slab.png",
     "url": "#"
   },
   "lotr:aspen_boat": {
@@ -321,12 +321,12 @@
   },
   "lotr:aspen_branch": {
     "name": "Aspen Branch",
-    "image": "items/aspen_branch.png",
+    "image": "blocks/renewed/aspen_branch.png",
     "url": "#"
   },
   "lotr:aspen_button": {
     "name": "Aspen Button",
-    "image": "items/aspen_button.png",
+    "image": "blocks/renewed/aspen_button.png",
     "url": "#"
   },
   "lotr:aspen_door": {
@@ -346,17 +346,17 @@
   },
   "lotr:aspen_leaves": {
     "name": "Aspen Leaves",
-    "image": "items/aspen_leaves.png",
+    "image": "blocks/renewed/aspen_leaves.png",
     "url": "#"
   },
   "lotr:aspen_log": {
     "name": "Aspen Log",
-    "image": "items/aspen_log.png",
+    "image": "blocks/renewed/aspen_log.png",
     "url": "#"
   },
   "lotr:aspen_log_slab": {
     "name": "Aspen Log Slab",
-    "image": "items/aspen_log_slab.png",
+    "image": "blocks/renewed/aspen_log_slab.png",
     "url": "#"
   },
   "lotr:aspen_planks": {
@@ -366,7 +366,7 @@
   },
   "lotr:aspen_pressure_plate": {
     "name": "Aspen Pressure Plate",
-    "image": "items/aspen_pressure_plate.png",
+    "image": "blocks/renewed/aspen_pressure_plate.png",
     "url": "#"
   },
   "lotr:aspen_sign": {
@@ -376,32 +376,32 @@
   },
   "lotr:aspen_slab": {
     "name": "Aspen Slab",
-    "image": "items/aspen_slab.png",
+    "image": "blocks/renewed/aspen_slab.png",
     "url": "#"
   },
   "lotr:aspen_stairs": {
     "name": "Aspen Stairs",
-    "image": "items/aspen_stairs.png",
+    "image": "blocks/renewed/aspen_stairs.png",
     "url": "#"
   },
   "lotr:aspen_trapdoor": {
     "name": "Aspen Trapdoor",
-    "image": "items/aspen_trapdoor.png",
+    "image": "blocks/renewed/aspen_trapdoor.png",
     "url": "#"
   },
   "lotr:aspen_wood": {
     "name": "Aspen Wood",
-    "image": "items/aspen_wood.png",
+    "image": "blocks/renewed/aspen_wood.png",
     "url": "#"
   },
   "lotr:aspen_wood_slab": {
     "name": "Aspen Wood Slab",
-    "image": "items/aspen_wood_slab.png",
+    "image": "blocks/renewed/aspen_wood_slab.png",
     "url": "#"
   },
   "lotr:aspen_wood_stairs": {
     "name": "Aspen Wood Stairs",
-    "image": "items/aspen_wood_stairs.png",
+    "image": "blocks/renewed/aspen_wood_stairs.png",
     "url": "#"
   },
   "lotr:asphodel": {
@@ -416,12 +416,12 @@
   },
   "lotr:banana_beam": {
     "name": "Banana Beam",
-    "image": "items/banana_beam.png",
+    "image": "blocks/banana_beam.png",
     "url": "#"
   },
   "lotr:banana_beam_slab": {
     "name": "Banana Beam Slab",
-    "image": "items/banana_beam_slab.png",
+    "image": "blocks/banana_beam_slab.png",
     "url": "#"
   },
   "lotr:banana_boat": {
@@ -436,12 +436,12 @@
   },
   "lotr:banana_bread": {
     "name": "Banana Bread",
-    "image": "items/banana_bread.png",
+    "image": "blocks/banana_bread.png",
     "url": "#"
   },
   "lotr:banana_button": {
     "name": "Banana Button",
-    "image": "items/banana_button.png",
+    "image": "blocks/banana_button.png",
     "url": "#"
   },
   "lotr:banana_cake": {
@@ -466,17 +466,17 @@
   },
   "lotr:banana_leaves": {
     "name": "Banana Leaves",
-    "image": "items/banana_leaves.png",
+    "image": "blocks/banana_leaves.png",
     "url": "#"
   },
   "lotr:banana_log": {
     "name": "Banana Log",
-    "image": "items/banana_log.png",
+    "image": "blocks/banana_log.png",
     "url": "#"
   },
   "lotr:banana_log_slab": {
     "name": "Banana Log Slab",
-    "image": "items/banana_log_slab.png",
+    "image": "blocks/banana_log_slab.png",
     "url": "#"
   },
   "lotr:banana_planks": {
@@ -486,7 +486,7 @@
   },
   "lotr:banana_pressure_plate": {
     "name": "Banana Pressure Plate",
-    "image": "items/banana_pressure_plate.png",
+    "image": "blocks/banana_pressure_plate.png",
     "url": "#"
   },
   "lotr:banana_sign": {
@@ -496,32 +496,32 @@
   },
   "lotr:banana_slab": {
     "name": "Banana Slab",
-    "image": "items/banana_slab.png",
+    "image": "blocks/banana_slab.png",
     "url": "#"
   },
   "lotr:banana_stairs": {
     "name": "Banana Stairs",
-    "image": "items/banana_stairs.png",
+    "image": "blocks/banana_stairs.png",
     "url": "#"
   },
   "lotr:banana_trapdoor": {
     "name": "Banana Trapdoor",
-    "image": "items/banana_trapdoor.png",
+    "image": "blocks/banana_trapdoor.png",
     "url": "#"
   },
   "lotr:banana_wood": {
     "name": "Banana Wood",
-    "image": "items/banana_wood.png",
+    "image": "blocks/banana_wood.png",
     "url": "#"
   },
   "lotr:banana_wood_slab": {
     "name": "Banana Wood Slab",
-    "image": "items/banana_wood_slab.png",
+    "image": "blocks/banana_wood_slab.png",
     "url": "#"
   },
   "lotr:banana_wood_stairs": {
     "name": "Banana Wood Stairs",
-    "image": "items/banana_wood_stairs.png",
+    "image": "blocks/banana_wood_stairs.png",
     "url": "#"
   },
   "lotr:barren_dirt": {
@@ -541,12 +541,12 @@
   },
   "lotr:beech_beam": {
     "name": "Beech Beam",
-    "image": "items/beech_beam.png",
+    "image": "blocks/renewed/beech_beam.png",
     "url": "#"
   },
   "lotr:beech_beam_slab": {
     "name": "Beech Beam Slab",
-    "image": "items/beech_beam_slab.png",
+    "image": "blocks/renewed/beech_beam_slab.png",
     "url": "#"
   },
   "lotr:beech_boat": {
@@ -556,12 +556,12 @@
   },
   "lotr:beech_branch": {
     "name": "Beech Branch",
-    "image": "items/beech_branch.png",
+    "image": "blocks/renewed/beech_branch.png",
     "url": "#"
   },
   "lotr:beech_button": {
     "name": "Beech Button",
-    "image": "items/beech_button.png",
+    "image": "blocks/renewed/beech_button.png",
     "url": "#"
   },
   "lotr:beech_door": {
@@ -581,17 +581,17 @@
   },
   "lotr:beech_leaves": {
     "name": "Beech Leaves",
-    "image": "items/beech_leaves.png",
+    "image": "blocks/renewed/beech_leaves.png",
     "url": "#"
   },
   "lotr:beech_log": {
     "name": "Beech Log",
-    "image": "items/beech_log.png",
+    "image": "blocks/renewed/beech_log.png",
     "url": "#"
   },
   "lotr:beech_log_slab": {
     "name": "Beech Log Slab",
-    "image": "items/beech_log_slab.png",
+    "image": "blocks/renewed/beech_log_slab.png",
     "url": "#"
   },
   "lotr:beech_planks": {
@@ -601,7 +601,7 @@
   },
   "lotr:beech_pressure_plate": {
     "name": "Beech Pressure Plate",
-    "image": "items/beech_pressure_plate.png",
+    "image": "blocks/renewed/beech_pressure_plate.png",
     "url": "#"
   },
   "lotr:beech_sign": {
@@ -611,32 +611,32 @@
   },
   "lotr:beech_slab": {
     "name": "Beech Slab",
-    "image": "items/beech_slab.png",
+    "image": "blocks/renewed/beech_slab.png",
     "url": "#"
   },
   "lotr:beech_stairs": {
     "name": "Beech Stairs",
-    "image": "items/beech_stairs.png",
+    "image": "blocks/renewed/beech_stairs.png",
     "url": "#"
   },
   "lotr:beech_trapdoor": {
     "name": "Beech Trapdoor",
-    "image": "items/beech_trapdoor.png",
+    "image": "blocks/renewed/beech_trapdoor.png",
     "url": "#"
   },
   "lotr:beech_wood": {
     "name": "Beech Wood",
-    "image": "items/beech_wood.png",
+    "image": "blocks/renewed/beech_wood.png",
     "url": "#"
   },
   "lotr:beech_wood_slab": {
     "name": "Beech Wood Slab",
-    "image": "items/beech_wood_slab.png",
+    "image": "blocks/renewed/beech_wood_slab.png",
     "url": "#"
   },
   "lotr:beech_wood_stairs": {
     "name": "Beech Wood Stairs",
-    "image": "items/beech_wood_stairs.png",
+    "image": "blocks/renewed/beech_wood_stairs.png",
     "url": "#"
   },
   "lotr:beeswax": {
@@ -646,32 +646,32 @@
   },
   "lotr:birch_beam": {
     "name": "Birch Beam",
-    "image": "items/birch_beam.png",
+    "image": "blocks/renewed/birch_beam.png",
     "url": "#"
   },
   "lotr:birch_beam_slab": {
     "name": "Birch Beam Slab",
-    "image": "items/birch_beam_slab.png",
+    "image": "blocks/renewed/birch_beam_slab.png",
     "url": "#"
   },
   "lotr:birch_branch": {
     "name": "Birch Branch",
-    "image": "items/birch_branch.png",
+    "image": "blocks/renewed/birch_branch.png",
     "url": "#"
   },
   "lotr:birch_log_slab": {
     "name": "Birch Log Slab",
-    "image": "items/birch_log_slab.png",
+    "image": "blocks/renewed/birch_log_slab.png",
     "url": "#"
   },
   "lotr:birch_wood_slab": {
     "name": "Birch Wood Slab",
-    "image": "items/birch_wood_slab.png",
+    "image": "blocks/renewed/birch_wood_slab.png",
     "url": "#"
   },
   "lotr:birch_wood_stairs": {
     "name": "Birch Wood Stairs",
-    "image": "items/birch_wood_stairs.png",
+    "image": "blocks/renewed/birch_wood_stairs.png",
     "url": "#"
   },
   "lotr:black_carved_gondor_brick": {
@@ -791,7 +791,7 @@
   },
   "lotr:blackroot_stick": {
     "name": "Blackroot Stick",
-    "image": "items/blackroot_stick.png",
+    "image": "items/renewed/blackroot_stick.png",
     "url": "#"
   },
   "lotr:blubber": {
@@ -1426,12 +1426,12 @@
   },
   "lotr:cedar_beam": {
     "name": "Cedar Beam",
-    "image": "items/cedar_beam.png",
+    "image": "blocks/renewed/cedar_beam.png",
     "url": "#"
   },
   "lotr:cedar_beam_slab": {
     "name": "Cedar Beam Slab",
-    "image": "items/cedar_beam_slab.png",
+    "image": "blocks/renewed/cedar_beam_slab.png",
     "url": "#"
   },
   "lotr:cedar_boat": {
@@ -1441,12 +1441,12 @@
   },
   "lotr:cedar_branch": {
     "name": "Cedar Branch",
-    "image": "items/cedar_branch.png",
+    "image": "blocks/renewed/cedar_branch.png",
     "url": "#"
   },
   "lotr:cedar_button": {
     "name": "Cedar Button",
-    "image": "items/cedar_button.png",
+    "image": "blocks/renewed/cedar_button.png",
     "url": "#"
   },
   "lotr:cedar_door": {
@@ -1466,17 +1466,17 @@
   },
   "lotr:cedar_leaves": {
     "name": "Cedar Leaves",
-    "image": "items/cedar_leaves.png",
+    "image": "blocks/renewed/cedar_leaves.png",
     "url": "#"
   },
   "lotr:cedar_log": {
     "name": "Cedar Log",
-    "image": "items/cedar_log.png",
+    "image": "blocks/renewed/cedar_log.png",
     "url": "#"
   },
   "lotr:cedar_log_slab": {
     "name": "Cedar Log Slab",
-    "image": "items/cedar_log_slab.png",
+    "image": "blocks/renewed/cedar_log_slab.png",
     "url": "#"
   },
   "lotr:cedar_planks": {
@@ -1486,42 +1486,42 @@
   },
   "lotr:cedar_pressure_plate": {
     "name": "Cedar Pressure Plate",
-    "image": "items/cedar_pressure_plate.png",
+    "image": "blocks/renewed/cedar_pressure_plate.png",
     "url": "#"
   },
   "lotr:cedar_sign": {
     "name": "Cedar Sign",
-    "image": "items/cedar_sign.png",
+    "image": "blocks/renewed/cedar_sign.png",
     "url": "#"
   },
   "lotr:cedar_slab": {
     "name": "Cedar Slab",
-    "image": "items/cedar_slab.png",
+    "image": "blocks/renewed/cedar_slab.png",
     "url": "#"
   },
   "lotr:cedar_stairs": {
     "name": "Cedar Stairs",
-    "image": "items/cedar_stairs.png",
+    "image": "blocks/renewed/cedar_stairs.png",
     "url": "#"
   },
   "lotr:cedar_trapdoor": {
     "name": "Cedar Trapdoor",
-    "image": "items/cedar_trapdoor.png",
+    "image": "blocks/renewed/cedar_trapdoor.png",
     "url": "#"
   },
   "lotr:cedar_wood": {
     "name": "Cedar Wood",
-    "image": "items/cedar_wood.png",
+    "image": "blocks/renewed/cedar_wood.png",
     "url": "#"
   },
   "lotr:cedar_wood_slab": {
     "name": "Cedar Wood Slab",
-    "image": "items/cedar_wood_slab.png",
+    "image": "blocks/renewed/cedar_wood_slab.png",
     "url": "#"
   },
   "lotr:cedar_wood_stairs": {
     "name": "Cedar Wood Stairs",
-    "image": "items/cedar_wood_stairs.png",
+    "image": "blocks/renewed/cedar_wood_stairs.png",
     "url": "#"
   },
   "lotr:chalk": {
@@ -1681,7 +1681,7 @@
   },
   "lotr:charred_wood_slab": {
     "name": "Charred Wood Slab",
-    "image": "items/charred_wood_slab.png",
+    "image": "blocks/renewed/charred_wood_slab.png",
     "url": "#"
   },
   "lotr:charred_wood_stairs": {
@@ -1806,7 +1806,7 @@
   },
   "lotr:cherry_wood_slab": {
     "name": "Cherry Wood Slab",
-    "image": "items/cherry_wood_slab.png",
+    "image": "blocks/renewed/cherry_wood_slab.png",
     "url": "#"
   },
   "lotr:cherry_wood_stairs": {
@@ -1816,12 +1816,12 @@
   },
   "lotr:chestnut_beam": {
     "name": "Chestnut Beam",
-    "image": "items/chestnut_beam.png",
+    "image": "blocks/chestnut_beam.png",
     "url": "#"
   },
   "lotr:chestnut_beam_slab": {
     "name": "Chestnut Beam Slab",
-    "image": "items/chestnut_beam_slab.png",
+    "image": "blocks/chestnut_beam_slab.png",
     "url": "#"
   },
   "lotr:chestnut_boat": {
@@ -1831,12 +1831,12 @@
   },
   "lotr:chestnut_branch": {
     "name": "Chestnut Branch",
-    "image": "items/chestnut_branch.png",
+    "image": "blocks/chestnut_branch.png",
     "url": "#"
   },
   "lotr:chestnut_button": {
     "name": "Chestnut Button",
-    "image": "items/chestnut_button.png",
+    "image": "blocks/chestnut_button.png",
     "url": "#"
   },
   "lotr:chestnut_door": {
@@ -1856,17 +1856,17 @@
   },
   "lotr:chestnut_leaves": {
     "name": "Chestnut Leaves",
-    "image": "items/chestnut_leaves.png",
+    "image": "blocks/chestnut_leaves.png",
     "url": "#"
   },
   "lotr:chestnut_log": {
     "name": "Chestnut Log",
-    "image": "items/chestnut_log.png",
+    "image": "blocks/chestnut_log.png",
     "url": "#"
   },
   "lotr:chestnut_log_slab": {
     "name": "Chestnut Log Slab",
-    "image": "items/chestnut_log_slab.png",
+    "image": "blocks/chestnut_log_slab.png",
     "url": "#"
   },
   "lotr:chestnut_planks": {
@@ -1876,7 +1876,7 @@
   },
   "lotr:chestnut_pressure_plate": {
     "name": "Chestnut Pressure Plate",
-    "image": "items/chestnut_pressure_plate.png",
+    "image": "blocks/chestnut_pressure_plate.png",
     "url": "#"
   },
   "lotr:chestnut_sign": {
@@ -1886,32 +1886,32 @@
   },
   "lotr:chestnut_slab": {
     "name": "Chestnut Slab",
-    "image": "items/chestnut_slab.png",
+    "image": "blocks/chestnut_slab.png",
     "url": "#"
   },
   "lotr:chestnut_stairs": {
     "name": "Chestnut Stairs",
-    "image": "items/chestnut_stairs.png",
+    "image": "blocks/chestnut_stairs.png",
     "url": "#"
   },
   "lotr:chestnut_trapdoor": {
     "name": "Chestnut Trapdoor",
-    "image": "items/chestnut_trapdoor.png",
+    "image": "blocks/chestnut_trapdoor.png",
     "url": "#"
   },
   "lotr:chestnut_wood": {
     "name": "Chestnut Wood",
-    "image": "items/chestnut_wood.png",
+    "image": "blocks/chestnut_wood.png",
     "url": "#"
   },
   "lotr:chestnut_wood_slab": {
     "name": "Chestnut Wood Slab",
-    "image": "items/chestnut_wood_slab.png",
+    "image": "blocks/chestnut_wood_slab.png",
     "url": "#"
   },
   "lotr:chestnut_wood_stairs": {
     "name": "Chestnut Wood Stairs",
-    "image": "items/chestnut_wood_stairs.png",
+    "image": "blocks/chestnut_wood_stairs.png",
     "url": "#"
   },
   "lotr:chimney_pot": {
@@ -2631,7 +2631,7 @@
   },
   "lotr:culumalda_wood_slab": {
     "name": "Culumalda Wood Slab",
-    "image": "items/culumalda_wood_slab.png",
+    "image": "blocks/renewed/culumalda_wood_slab.png",
     "url": "#"
   },
   "lotr:culumalda_wood_stairs": {
@@ -2786,7 +2786,7 @@
   },
   "lotr:cypress_wood_slab": {
     "name": "Cypress Wood Slab",
-    "image": "items/cypress_wood_slab.png",
+    "image": "blocks/renewed/cypress_wood_slab.png",
     "url": "#"
   },
   "lotr:cypress_wood_stairs": {
@@ -2916,7 +2916,7 @@
   },
   "lotr:dark_oak_wood_slab": {
     "name": "Dark Oak Wood Slab",
-    "image": "items/dark_oak_wood_slab.png",
+    "image": "blocks/renewed/dark_oak_wood_slab.png",
     "url": "#"
   },
   "lotr:dark_oak_wood_stairs": {
@@ -3321,7 +3321,7 @@
   },
   "lotr:dwarf_bone": {
     "name": "Dwarf Bone",
-    "image": "items/dwarf_bone.png",
+    "image": "items/renewed/dwarf_bone.png",
     "url": "#"
   },
   "lotr:dwarfwort": {
@@ -3481,12 +3481,12 @@
   },
   "lotr:ebony_beam": {
     "name": "Ebony Beam",
-    "image": "items/ebony_beam.png",
+    "image": "blocks/ebony_beam.png",
     "url": "#"
   },
   "lotr:ebony_beam_slab": {
     "name": "Ebony Beam Slab",
-    "image": "items/ebony_beam_slab.png",
+    "image": "blocks/ebony_beam_slab.png",
     "url": "#"
   },
   "lotr:ebony_boat": {
@@ -3496,12 +3496,12 @@
   },
   "lotr:ebony_branch": {
     "name": "Ebony Branch",
-    "image": "items/ebony_branch.png",
+    "image": "blocks/ebony_branch.png",
     "url": "#"
   },
   "lotr:ebony_button": {
     "name": "Ebony Button",
-    "image": "items/ebony_button.png",
+    "image": "blocks/ebony_button.png",
     "url": "#"
   },
   "lotr:ebony_door": {
@@ -3521,17 +3521,17 @@
   },
   "lotr:ebony_leaves": {
     "name": "Ebony Leaves",
-    "image": "items/ebony_leaves.png",
+    "image": "blocks/ebony_leaves.png",
     "url": "#"
   },
   "lotr:ebony_log": {
     "name": "Ebony Log",
-    "image": "items/ebony_log.png",
+    "image": "blocks/ebony_log.png",
     "url": "#"
   },
   "lotr:ebony_log_slab": {
     "name": "Ebony Log Slab",
-    "image": "items/ebony_log_slab.png",
+    "image": "blocks/ebony_log_slab.png",
     "url": "#"
   },
   "lotr:ebony_planks": {
@@ -3541,7 +3541,7 @@
   },
   "lotr:ebony_pressure_plate": {
     "name": "Ebony Pressure Plate",
-    "image": "items/ebony_pressure_plate.png",
+    "image": "blocks/ebony_pressure_plate.png",
     "url": "#"
   },
   "lotr:ebony_sign": {
@@ -3551,32 +3551,32 @@
   },
   "lotr:ebony_slab": {
     "name": "Ebony Slab",
-    "image": "items/ebony_slab.png",
+    "image": "blocks/ebony_slab.png",
     "url": "#"
   },
   "lotr:ebony_stairs": {
     "name": "Ebony Stairs",
-    "image": "items/ebony_stairs.png",
+    "image": "blocks/ebony_stairs.png",
     "url": "#"
   },
   "lotr:ebony_trapdoor": {
     "name": "Ebony Trapdoor",
-    "image": "items/ebony_trapdoor.png",
+    "image": "blocks/ebony_trapdoor.png",
     "url": "#"
   },
   "lotr:ebony_wood": {
     "name": "Ebony Wood",
-    "image": "items/ebony_wood.png",
+    "image": "blocks/ebony_wood.png",
     "url": "#"
   },
   "lotr:ebony_wood_slab": {
     "name": "Ebony Wood Slab",
-    "image": "items/ebony_wood_slab.png",
+    "image": "blocks/ebony_wood_slab.png",
     "url": "#"
   },
   "lotr:ebony_wood_stairs": {
     "name": "Ebony Wood Stairs",
-    "image": "items/ebony_wood_stairs.png",
+    "image": "blocks/ebony_wood_stairs.png",
     "url": "#"
   },
   "lotr:edhelvir": {
@@ -3606,7 +3606,7 @@
   },
   "lotr:elf_bone": {
     "name": "Elf Bone",
-    "image": "items/elf_bone.png",
+    "image": "items/renewed/elf_bone.png",
     "url": "#"
   },
   "lotr:elven_forge": {
@@ -3886,7 +3886,7 @@
   },
   "lotr:fir_wood_slab": {
     "name": "Fir Wood Slab",
-    "image": "items/fir_wood_slab.png",
+    "image": "blocks/renewed/fir_wood_slab.png",
     "url": "#"
   },
   "lotr:fir_wood_stairs": {
@@ -3916,7 +3916,7 @@
   },
   "lotr:flax_seeds": {
     "name": "Flax Seeds",
-    "image": "items/flax_seeds.png",
+    "image": "items/renewed/flax_seeds.png",
     "url": "#"
   },
   "lotr:flowery_rhunic_brick": {
@@ -3941,7 +3941,7 @@
   },
   "lotr:fur": {
     "name": "Fur",
-    "image": "items/fur.png",
+    "image": "items/renewed/fur.png",
     "url": "#"
   },
   "lotr:fur_bed": {
@@ -4577,7 +4577,7 @@
   },
   "lotr:green_apple": {
     "name": "Green Apple",
-    "image": "items/green_apple.png",
+    "image": "items/renewed/green_apple.png",
     "url": "#"
   },
   "lotr:green_clay_tiling": {
@@ -4712,7 +4712,7 @@
   },
   "lotr:green_oak_wood_slab": {
     "name": "Green Oak Wood Slab",
-    "image": "items/green_oak_wood_slab.png",
+    "image": "blocks/renewed/green_oak_wood_slab.png",
     "url": "#"
   },
   "lotr:green_oak_wood_stairs": {
@@ -5017,7 +5017,7 @@
   },
   "lotr:hobbit_bone": {
     "name": "Hobbit Bone",
-    "image": "items/hobbit_bone.png",
+    "image": "items/renewed/hobbit_bone.png",
     "url": "#"
   },
   "lotr:hobbit_crafting_table": {
@@ -5139,7 +5139,7 @@
   },
   "lotr:holly_wood_slab": {
     "name": "Holly Wood Slab",
-    "image": "items/holly_wood_slab.png",
+    "image": "blocks/renewed/holly_wood_slab.png",
     "url": "#"
   },
   "lotr:holly_wood_stairs": {
@@ -5239,7 +5239,7 @@
   },
   "lotr:jungle_wood_slab": {
     "name": "Jungle Wood Slab",
-    "image": "items/jungle_wood_slab.png",
+    "image": "blocks/renewed/jungle_wood_slab.png",
     "url": "#"
   },
   "lotr:jungle_wood_stairs": {
@@ -5344,7 +5344,7 @@
   },
   "lotr:lairelosse_wood_slab": {
     "name": "Lairelosse Wood Slab",
-    "image": "items/lairelosse_wood_slab.png",
+    "image": "blocks/renewed/lairelosse_wood_slab.png",
     "url": "#"
   },
   "lotr:lairelosse_wood_stairs": {
@@ -5449,7 +5449,7 @@
   },
   "lotr:larch_wood_slab": {
     "name": "Larch Wood Slab",
-    "image": "items/larch_wood_slab.png",
+    "image": "blocks/renewed/larch_wood_slab.png",
     "url": "#"
   },
   "lotr:larch_wood_stairs": {
@@ -5579,7 +5579,7 @@
   },
   "lotr:lebethron_wood_slab": {
     "name": "Lebethron Wood Slab",
-    "image": "items/lebethron_wood_slab.png",
+    "image": "blocks/renewed/lebethron_wood_slab.png",
     "url": "#"
   },
   "lotr:lebethron_wood_stairs": {
@@ -5969,7 +5969,7 @@
   },
   "lotr:mallorn_stick": {
     "name": "Mallorn Stick",
-    "image": "items/mallorn_stick.png",
+    "image": "items/renewed/mallorn_stick.png",
     "url": "#"
   },
   "lotr:mallorn_sword": {
@@ -5989,7 +5989,7 @@
   },
   "lotr:mallorn_wood_slab": {
     "name": "Mallorn Wood Slab",
-    "image": "items/mallorn_wood_slab.png",
+    "image": "blocks/renewed/mallorn_wood_slab.png",
     "url": "#"
   },
   "lotr:mallorn_wood_stairs": {
@@ -6099,7 +6099,7 @@
   },
   "lotr:maple_wood_slab": {
     "name": "Maple Wood Slab",
-    "image": "items/maple_wood_slab.png",
+    "image": "blocks/renewed/maple_wood_slab.png",
     "url": "#"
   },
   "lotr:maple_wood_stairs": {
@@ -6229,7 +6229,7 @@
   },
   "lotr:mirk_oak_wood_slab": {
     "name": "Mirk Oak Wood Slab",
-    "image": "items/mirk_oak_wood_slab.png",
+    "image": "blocks/renewed/mirk_oak_wood_slab.png",
     "url": "#"
   },
   "lotr:mirk_oak_wood_stairs": {
@@ -7309,7 +7309,7 @@
   },
   "lotr:oak_wood_slab": {
     "name": "Oak Wood Slab",
-    "image": "items/oak_wood_slab.png",
+    "image": "blocks/renewed/oak_wood_slab.png",
     "url": "#"
   },
   "lotr:oak_wood_stairs": {
@@ -7429,7 +7429,7 @@
   },
   "lotr:orc_barrel": {
     "name": "Orc Barrel",
-    "image": "items/orc_barrel.png",
+    "image": "blocks/orc_barrel.png",
     "url": "#"
   },
   "lotr:orc_bars": {
@@ -7444,37 +7444,37 @@
   },
   "lotr:orc_bomb": {
     "name": "Orc Bomb",
-    "image": "items/orc_bomb.png",
+    "image": "blocks/orc_bomb.png",
     "url": "#"
   },
   "lotr:orc_bomb_double": {
     "name": "Orc Bomb Double",
-    "image": "items/orc_bomb_double.png",
+    "image": "blocks/orc_bomb_double.png",
     "url": "#"
   },
   "lotr:orc_bomb_double_fire": {
     "name": "Orc Bomb Double Fire",
-    "image": "items/orc_bomb_double_fire.png",
+    "image": "blocks/orc_bomb_double_fire.png",
     "url": "#"
   },
   "lotr:orc_bomb_fire": {
     "name": "Orc Bomb Fire",
-    "image": "items/orc_bomb_fire.png",
+    "image": "blocks/orc_bomb_fire.png",
     "url": "#"
   },
   "lotr:orc_bomb_triple": {
     "name": "Orc Bomb Triple",
-    "image": "items/orc_bomb_triple.png",
+    "image": "blocks/orc_bomb_triple.png",
     "url": "#"
   },
   "lotr:orc_bomb_triple_fire": {
     "name": "Orc Bomb Triple Fire",
-    "image": "items/orc_bomb_triple_fire.png",
+    "image": "blocks/orc_bomb_triple_fire.png",
     "url": "#"
   },
   "lotr:orc_bone": {
     "name": "Orc Bone",
-    "image": "items/orc_bone.png",
+    "image": "items/renewed/orc_bone.png",
     "url": "#"
   },
   "lotr:orc_bow": {
@@ -7494,7 +7494,7 @@
   },
   "lotr:orc_forge": {
     "name": "Orc Forge",
-    "image": "items/orc_forge.png",
+    "image": "blocks/renewed/orc_forge.png",
     "url": "#"
   },
   "lotr:orc_gate": {
@@ -7519,7 +7519,7 @@
   },
   "lotr:orc_steel_block": {
     "name": "Orc Steel Block",
-    "image": "items/orc_steel_block.png",
+    "image": "blocks/renewed/orc_steel_block.png",
     "url": "#"
   },
   "lotr:orc_steel_door": {
@@ -7529,7 +7529,7 @@
   },
   "lotr:orc_steel_ingot": {
     "name": "Orc Steel Ingot",
-    "image": "items/orc_steel_ingot.png",
+    "image": "items/renewed/orc_steel_ingot.png",
     "url": "#"
   },
   "lotr:orc_steel_nugget": {
@@ -7654,7 +7654,7 @@
   },
   "lotr:pear_wood_slab": {
     "name": "Pear Wood Slab",
-    "image": "items/pear_wood_slab.png",
+    "image": "blocks/renewed/pear_wood_slab.png",
     "url": "#"
   },
   "lotr:pear_wood_stairs": {
@@ -7764,7 +7764,7 @@
   },
   "lotr:pine_wood_slab": {
     "name": "Pine Wood Slab",
-    "image": "items/pine_wood_slab.png",
+    "image": "blocks/renewed/pine_wood_slab.png",
     "url": "#"
   },
   "lotr:pine_wood_stairs": {
@@ -7829,17 +7829,17 @@
   },
   "lotr:pipeweed_seeds": {
     "name": "Pipeweed Seeds",
-    "image": "items/pipeweed_seeds.png",
+    "image": "items/renewed/pipeweed_seeds.png",
     "url": "#"
   },
   "lotr:plum_beam": {
     "name": "Plum Beam",
-    "image": "items/plum_beam.png",
+    "image": "blocks/plum_beam.png",
     "url": "#"
   },
   "lotr:plum_beam_slab": {
     "name": "Plum Beam Slab",
-    "image": "items/plum_beam_slab.png",
+    "image": "blocks/plum_beam_slab.png",
     "url": "#"
   },
   "lotr:plum_boat": {
@@ -7849,12 +7849,12 @@
   },
   "lotr:plum_branch": {
     "name": "Plum Branch",
-    "image": "items/plum_branch.png",
+    "image": "blocks/plum_branch.png",
     "url": "#"
   },
   "lotr:plum_button": {
     "name": "Plum Button",
-    "image": "items/plum_button.png",
+    "image": "blocks/plum_button.png",
     "url": "#"
   },
   "lotr:plum_door": {
@@ -7874,27 +7874,27 @@
   },
   "lotr:plum_leaves": {
     "name": "Plum Leaves",
-    "image": "items/plum_leaves.png",
+    "image": "blocks/plum_leaves.png",
     "url": "#"
   },
   "lotr:plum_log": {
     "name": "Plum Log",
-    "image": "items/plum_log.png",
+    "image": "blocks/plum_log.png",
     "url": "#"
   },
   "lotr:plum_log_slab": {
     "name": "Plum Log Slab",
-    "image": "items/plum_log_slab.png",
+    "image": "blocks/plum_log_slab.png",
     "url": "#"
   },
   "lotr:plum_planks": {
     "name": "Plum Planks",
-    "image": "blocks/renewed/plum_planks.png",
+    "image": "blocks/plum_planks.png",
     "url": "#"
   },
   "lotr:plum_pressure_plate": {
     "name": "Plum Pressure Plate",
-    "image": "items/plum_pressure_plate.png",
+    "image": "blocks/plum_pressure_plate.png",
     "url": "#"
   },
   "lotr:plum_sign": {
@@ -7904,32 +7904,32 @@
   },
   "lotr:plum_slab": {
     "name": "Plum Slab",
-    "image": "items/plum_slab.png",
+    "image": "blocks/plum_slab.png",
     "url": "#"
   },
   "lotr:plum_stairs": {
     "name": "Plum Stairs",
-    "image": "items/plum_stairs.png",
+    "image": "blocks/plum_stairs.png",
     "url": "#"
   },
   "lotr:plum_trapdoor": {
     "name": "Plum Trapdoor",
-    "image": "items/plum_trapdoor.png",
+    "image": "blocks/plum_trapdoor.png",
     "url": "#"
   },
   "lotr:plum_wood": {
     "name": "Plum Wood",
-    "image": "items/plum_wood.png",
+    "image": "blocks/plum_wood.png",
     "url": "#"
   },
   "lotr:plum_wood_slab": {
     "name": "Plum Wood Slab",
-    "image": "items/plum_wood_slab.png",
+    "image": "blocks/plum_wood_slab.png",
     "url": "#"
   },
   "lotr:plum_wood_stairs": {
     "name": "Plum Wood Stairs",
-    "image": "items/plum_wood_stairs.png",
+    "image": "blocks/plum_wood_stairs.png",
     "url": "#"
   },
   "lotr:pocket_match": {
@@ -8679,7 +8679,7 @@
   },
   "lotr:rotten_wood_slab": {
     "name": "Rotten Wood Slab",
-    "image": "items/rotten_wood_slab.png",
+    "image": "blocks/renewed/rotten_wood_slab.png",
     "url": "#"
   },
   "lotr:rotten_wood_stairs": {
@@ -9214,7 +9214,7 @@
   },
   "lotr:spruce_wood_slab": {
     "name": "Spruce Wood Slab",
-    "image": "items/spruce_wood_slab.png",
+    "image": "blocks/renewed/spruce_wood_slab.png",
     "url": "#"
   },
   "lotr:spruce_wood_stairs": {
@@ -9339,32 +9339,32 @@
   },
   "lotr:stripped_banana_branch": {
     "name": "Stripped Banana Branch",
-    "image": "items/stripped_banana_branch.png",
+    "image": "blocks/stripped_banana_branch.png",
     "url": "#"
   },
   "lotr:stripped_banana_log": {
     "name": "Stripped Banana Log",
-    "image": "items/stripped_banana_log.png",
+    "image": "blocks/stripped_banana_log.png",
     "url": "#"
   },
   "lotr:stripped_banana_log_slab": {
     "name": "Stripped Banana Log Slab",
-    "image": "items/stripped_banana_log_slab.png",
+    "image": "blocks/stripped_banana_log_slab.png",
     "url": "#"
   },
   "lotr:stripped_banana_wood": {
     "name": "Stripped Banana Wood",
-    "image": "items/stripped_banana_wood.png",
+    "image": "blocks/stripped_banana_wood.png",
     "url": "#"
   },
   "lotr:stripped_banana_wood_slab": {
     "name": "Stripped Banana Wood Slab",
-    "image": "items/stripped_banana_wood_slab.png",
+    "image": "blocks/stripped_banana_wood_slab.png",
     "url": "#"
   },
   "lotr:stripped_banana_wood_stairs": {
     "name": "Stripped Banana Wood Stairs",
-    "image": "items/stripped_banana_wood_stairs.png",
+    "image": "blocks/stripped_banana_wood_stairs.png",
     "url": "#"
   },
   "lotr:stripped_beech_branch": {
@@ -9509,32 +9509,32 @@
   },
   "lotr:stripped_chestnut_branch": {
     "name": "Stripped Chestnut Branch",
-    "image": "items/stripped_chestnut_branch.png",
+    "image": "blocks/stripped_chestnut_branch.png",
     "url": "#"
   },
   "lotr:stripped_chestnut_log": {
     "name": "Stripped Chestnut Log",
-    "image": "items/stripped_chestnut_log.png",
+    "image": "blocks/stripped_chestnut_log.png",
     "url": "#"
   },
   "lotr:stripped_chestnut_log_slab": {
     "name": "Stripped Chestnut Log Slab",
-    "image": "items/stripped_chestnut_log_slab.png",
+    "image": "blocks/stripped_chestnut_log_slab.png",
     "url": "#"
   },
   "lotr:stripped_chestnut_wood": {
     "name": "Stripped Chestnut Wood",
-    "image": "items/stripped_chestnut_wood.png",
+    "image": "blocks/stripped_chestnut_wood.png",
     "url": "#"
   },
   "lotr:stripped_chestnut_wood_slab": {
     "name": "Stripped Chestnut Wood Slab",
-    "image": "items/stripped_chestnut_wood_slab.png",
+    "image": "blocks/stripped_chestnut_wood_slab.png",
     "url": "#"
   },
   "lotr:stripped_chestnut_wood_stairs": {
     "name": "Stripped Chestnut Wood Stairs",
-    "image": "items/stripped_chestnut_wood_stairs.png",
+    "image": "blocks/stripped_chestnut_wood_stairs.png",
     "url": "#"
   },
   "lotr:stripped_culumalda_branch": {
@@ -9619,32 +9619,32 @@
   },
   "lotr:stripped_ebony_branch": {
     "name": "Stripped Ebony Branch",
-    "image": "items/stripped_ebony_branch.png",
+    "image": "blocks/stripped_ebony_branch.png",
     "url": "#"
   },
   "lotr:stripped_ebony_log": {
     "name": "Stripped Ebony Log",
-    "image": "items/stripped_ebony_log.png",
+    "image": "blocks/stripped_ebony_log.png",
     "url": "#"
   },
   "lotr:stripped_ebony_log_slab": {
     "name": "Stripped Ebony Log Slab",
-    "image": "items/stripped_ebony_log_slab.png",
+    "image": "blocks/stripped_ebony_log_slab.png",
     "url": "#"
   },
   "lotr:stripped_ebony_wood": {
     "name": "Stripped Ebony Wood",
-    "image": "items/stripped_ebony_wood.png",
+    "image": "blocks/stripped_ebony_wood.png",
     "url": "#"
   },
   "lotr:stripped_ebony_wood_slab": {
     "name": "Stripped Ebony Wood Slab",
-    "image": "items/stripped_ebony_wood_slab.png",
+    "image": "blocks/stripped_ebony_wood_slab.png",
     "url": "#"
   },
   "lotr:stripped_ebony_wood_stairs": {
     "name": "Stripped Ebony Wood Stairs",
-    "image": "items/stripped_ebony_wood_stairs.png",
+    "image": "blocks/stripped_ebony_wood_stairs.png",
     "url": "#"
   },
   "lotr:stripped_fir_branch": {
@@ -10019,32 +10019,32 @@
   },
   "lotr:stripped_plum_branch": {
     "name": "Stripped Plum Branch",
-    "image": "items/stripped_plum_branch.png",
+    "image": "blocks/stripped_plum_branch.png",
     "url": "#"
   },
   "lotr:stripped_plum_log": {
     "name": "Stripped Plum Log",
-    "image": "items/stripped_plum_log.png",
+    "image": "blocks/stripped_plum_log.png",
     "url": "#"
   },
   "lotr:stripped_plum_log_slab": {
     "name": "Stripped Plum Log Slab",
-    "image": "items/stripped_plum_log_slab.png",
+    "image": "blocks/stripped_plum_log_slab.png",
     "url": "#"
   },
   "lotr:stripped_plum_wood": {
     "name": "Stripped Plum Wood",
-    "image": "items/stripped_plum_wood.png",
+    "image": "blocks/stripped_plum_wood.png",
     "url": "#"
   },
   "lotr:stripped_plum_wood_slab": {
     "name": "Stripped Plum Wood Slab",
-    "image": "items/stripped_plum_wood_slab.png",
+    "image": "blocks/stripped_plum_wood_slab.png",
     "url": "#"
   },
   "lotr:stripped_plum_wood_stairs": {
     "name": "Stripped Plum Wood Stairs",
-    "image": "items/stripped_plum_wood_stairs.png",
+    "image": "blocks/stripped_plum_wood_stairs.png",
     "url": "#"
   },
   "lotr:stripped_rotten_branch": {
@@ -10099,52 +10099,52 @@
   },
   "lotr:stripped_willow_branch": {
     "name": "Stripped Willow Branch",
-    "image": "items/stripped_willow_branch.png",
+    "image": "blocks/stripped_willow_branch.png",
     "url": "#"
   },
   "lotr:stripped_willow_log": {
     "name": "Stripped Willow Log",
-    "image": "items/stripped_willow_log.png",
+    "image": "blocks/stripped_willow_log.png",
     "url": "#"
   },
   "lotr:stripped_willow_log_slab": {
     "name": "Stripped Willow Log Slab",
-    "image": "items/stripped_willow_log_slab.png",
+    "image": "blocks/stripped_willow_log_slab.png",
     "url": "#"
   },
   "lotr:stripped_willow_wood": {
     "name": "Stripped Willow Wood",
-    "image": "items/stripped_willow_wood.png",
+    "image": "blocks/stripped_willow_wood.png",
     "url": "#"
   },
   "lotr:stripped_willow_wood_slab": {
     "name": "Stripped Willow Wood Slab",
-    "image": "items/stripped_willow_wood_slab.png",
+    "image": "blocks/stripped_willow_wood_slab.png",
     "url": "#"
   },
   "lotr:stripped_willow_wood_stairs": {
     "name": "Stripped Willow Wood Stairs",
-    "image": "items/stripped_willow_wood_stairs.png",
+    "image": "blocks/stripped_willow_wood_stairs.png",
     "url": "#"
   },
   "lotr:sulfur": {
     "name": "Sulfur",
-    "image": "items/sulfur.png",
+    "image": "items/renewed/sulfur.png",
     "url": "#"
   },
   "lotr:sulfur_block": {
     "name": "Sulfur Block",
-    "image": "items/sulfur_block.png",
+    "image": "blocks/renewed/sulfur_block.png",
     "url": "#"
   },
   "lotr:suspicious_meat": {
     "name": "Suspicious Meat",
-    "image": "items/suspicious_meat.png",
+    "image": "items/renewed/suspicious_meat.png",
     "url": "#"
   },
   "lotr:swan_feather": {
     "name": "Swan Feather",
-    "image": "items/swan_feather.png",
+    "image": "items/renewed/swan_feather.png",
     "url": "#"
   },
   "lotr:taurethrim_axe": {
@@ -10159,22 +10159,22 @@
   },
   "lotr:taurethrim_brick": {
     "name": "Taurethrim Brick",
-    "image": "items/taurethrim_brick.png",
+    "image": "blocks/taurethrim_brick.png",
     "url": "#"
   },
   "lotr:taurethrim_brick_slab": {
     "name": "Taurethrim Brick Slab",
-    "image": "items/taurethrim_brick_slab.png",
+    "image": "blocks/taurethrim_brick_slab.png",
     "url": "#"
   },
   "lotr:taurethrim_brick_stairs": {
     "name": "Taurethrim Brick Stairs",
-    "image": "items/taurethrim_brick_stairs.png",
+    "image": "blocks/taurethrim_brick_stairs.png",
     "url": "#"
   },
   "lotr:taurethrim_brick_wall": {
     "name": "Taurethrim Brick Wall",
-    "image": "items/taurethrim_brick_wall.png",
+    "image": "blocks/taurethrim_brick_wall.png",
     "url": "#"
   },
   "lotr:taurethrim_chestplate": {
@@ -10189,7 +10189,7 @@
   },
   "lotr:taurethrim_crafting_table": {
     "name": "Taurethrim Crafting Table",
-    "image": "items/taurethrim_crafting_table.png",
+    "image": "blocks/taurethrim_crafting_table.png",
     "url": "#"
   },
   "lotr:taurethrim_dagger": {
@@ -10219,12 +10219,12 @@
   },
   "lotr:taurethrim_pillar": {
     "name": "Taurethrim Pillar",
-    "image": "items/taurethrim_pillar.png",
+    "image": "blocks/taurethrim_pillar.png",
     "url": "#"
   },
   "lotr:taurethrim_pillar_slab": {
     "name": "Taurethrim Pillar Slab",
-    "image": "items/taurethrim_pillar_slab.png",
+    "image": "blocks/taurethrim_pillar_slab.png",
     "url": "#"
   },
   "lotr:taurethrim_shovel": {
@@ -10284,7 +10284,7 @@
   },
   "lotr:troll_bone": {
     "name": "Troll Bone",
-    "image": "items/troll_bone.png",
+    "image": "items/renewed/troll_bone.png",
     "url": "#"
   },
   "lotr:umbar_boots": {
@@ -10489,7 +10489,7 @@
   },
   "lotr:warg_bone": {
     "name": "Warg Bone",
-    "image": "items/warg_bone.png",
+    "image": "items/renewed/warg_bone.png",
     "url": "#"
   },
   "lotr:warg_fur_boots": {
@@ -10609,7 +10609,7 @@
   },
   "lotr:white_sand": {
     "name": "White Sand",
-    "image": "items/white_sand.png",
+    "image": "blocks/renewed/white_sand.png",
     "url": "#"
   },
   "lotr:white_sandstone": {
@@ -10694,12 +10694,12 @@
   },
   "lotr:willow_beam": {
     "name": "Willow Beam",
-    "image": "items/willow_beam.png",
+    "image": "blocks/willow_beam.png",
     "url": "#"
   },
   "lotr:willow_beam_slab": {
     "name": "Willow Beam Slab",
-    "image": "items/willow_beam_slab.png",
+    "image": "blocks/willow_beam_slab.png",
     "url": "#"
   },
   "lotr:willow_boat": {
@@ -10709,12 +10709,12 @@
   },
   "lotr:willow_branch": {
     "name": "Willow Branch",
-    "image": "items/willow_branch.png",
+    "image": "blocks/willow_branch.png",
     "url": "#"
   },
   "lotr:willow_button": {
     "name": "Willow Button",
-    "image": "items/willow_button.png",
+    "image": "blocks/willow_button.png",
     "url": "#"
   },
   "lotr:willow_door": {
@@ -10734,17 +10734,17 @@
   },
   "lotr:willow_leaves": {
     "name": "Willow Leaves",
-    "image": "items/willow_leaves.png",
+    "image": "blocks/willow_leaves.png",
     "url": "#"
   },
   "lotr:willow_log": {
     "name": "Willow Log",
-    "image": "items/willow_log.png",
+    "image": "blocks/willow_log.png",
     "url": "#"
   },
   "lotr:willow_log_slab": {
     "name": "Willow Log Slab",
-    "image": "items/willow_log_slab.png",
+    "image": "blocks/willow_log_slab.png",
     "url": "#"
   },
   "lotr:willow_planks": {
@@ -10754,7 +10754,7 @@
   },
   "lotr:willow_pressure_plate": {
     "name": "Willow Pressure Plate",
-    "image": "items/willow_pressure_plate.png",
+    "image": "blocks/willow_pressure_plate.png",
     "url": "#"
   },
   "lotr:willow_sign": {
@@ -10764,17 +10764,17 @@
   },
   "lotr:willow_slab": {
     "name": "Willow Slab",
-    "image": "items/willow_slab.png",
+    "image": "blocks/willow_slab.png",
     "url": "#"
   },
   "lotr:willow_stairs": {
     "name": "Willow Stairs",
-    "image": "items/willow_stairs.png",
+    "image": "blocks/willow_stairs.png",
     "url": "#"
   },
   "lotr:willow_trapdoor": {
     "name": "Willow Trapdoor",
-    "image": "items/willow_trapdoor.png",
+    "image": "blocks/willow_trapdoor.png",
     "url": "#"
   },
   "lotr:willow_vines": {
@@ -10784,17 +10784,17 @@
   },
   "lotr:willow_wood": {
     "name": "Willow Wood",
-    "image": "items/willow_wood.png",
+    "image": "blocks/willow_wood.png",
     "url": "#"
   },
   "lotr:willow_wood_slab": {
     "name": "Willow Wood Slab",
-    "image": "items/willow_wood_slab.png",
+    "image": "blocks/willow_wood_slab.png",
     "url": "#"
   },
   "lotr:willow_wood_stairs": {
     "name": "Willow Wood Stairs",
-    "image": "items/willow_wood_stairs.png",
+    "image": "blocks/willow_wood_stairs.png",
     "url": "#"
   },
   "lotr:winged_gondor_helmet": {
@@ -11019,67 +11019,67 @@
   },
   "minecraft:acacia_leaves": {
     "name": "Acacia Leaves",
-    "image": "items/acacia_leaves.png",
+    "image": "blocks/minecraft/acacia_leaves.png",
     "url": "https://minecraft.wiki/w/Acacia_Leaves"
   },
   "minecraft:acacia_log": {
     "name": "Acacia Log",
-    "image": "items/acacia_log.png",
+    "image": "blocks/minecraft/acacia_log.png",
     "url": "https://minecraft.wiki/w/Acacia_Log"
   },
   "minecraft:acacia_planks": {
     "name": "Acacia Planks",
-    "image": "items/acacia_planks.png",
+    "image": "blocks/minecraft/acacia_planks.png",
     "url": "https://minecraft.wiki/w/Acacia_Planks"
   },
   "minecraft:acacia_wood": {
     "name": "Acacia Wood",
-    "image": "items/acacia_wood.png",
+    "image": "blocks/minecraft/acacia_wood.png",
     "url": "https://minecraft.wiki/w/Acacia_Wood"
   },
   "minecraft:basalt": {
     "name": "Basalt",
-    "image": "items/basalt.png",
+    "image": "blocks/minecraft/basalt.png",
     "url": "https://minecraft.wiki/w/Basalt"
   },
   "minecraft:birch_leaves": {
     "name": "Birch Leaves",
-    "image": "items/birch_leaves.png",
+    "image": "blocks/minecraft/birch_leaves.png",
     "url": "https://minecraft.wiki/w/Birch_Leaves"
   },
   "minecraft:birch_log": {
     "name": "Birch Log",
-    "image": "items/birch_log.png",
+    "image": "blocks/minecraft/birch_log.png",
     "url": "https://minecraft.wiki/w/Birch_Log"
   },
   "minecraft:birch_planks": {
     "name": "Birch Planks",
-    "image": "items/birch_planks.png",
+    "image": "blocks/minecraft/birch_planks.png",
     "url": "https://minecraft.wiki/w/Birch_Planks"
   },
   "minecraft:birch_wood": {
     "name": "Birch Wood",
-    "image": "items/birch_wood.png",
+    "image": "blocks/minecraft/birch_wood.png",
     "url": "https://minecraft.wiki/w/Birch_Wood"
   },
   "minecraft:black_dye": {
     "name": "Black Dye",
-    "image": "items/black_dye.png",
+    "image": "items/minecraft/black_dye.png",
     "url": "https://minecraft.wiki/w/Black_Dye"
   },
   "minecraft:black_stained_glass": {
     "name": "Black Stained Glass",
-    "image": "items/black_stained_glass.png",
+    "image": "blocks/minecraft/black_stained_glass.png",
     "url": "https://minecraft.wiki/w/Black_Stained_Glass"
   },
   "minecraft:black_terracotta": {
     "name": "Black Terracotta",
-    "image": "items/black_terracotta.png",
+    "image": "blocks/minecraft/black_terracotta.png",
     "url": "https://minecraft.wiki/w/Black_Terracotta"
   },
   "minecraft:black_wool": {
     "name": "Black Wool",
-    "image": "items/black_wool.png",
+    "image": "blocks/minecraft/black_wool.png",
     "url": "https://minecraft.wiki/w/Black_Wool"
   },
   "minecraft:blue_dye": {
@@ -11089,37 +11089,37 @@
   },
   "minecraft:blue_stained_glass": {
     "name": "Blue Stained Glass",
-    "image": "items/blue_stained_glass.png",
+    "image": "blocks/minecraft/blue_stained_glass.png",
     "url": "https://minecraft.wiki/w/Blue_Stained_Glass"
   },
   "minecraft:blue_terracotta": {
     "name": "Blue Terracotta",
-    "image": "items/blue_terracotta.png",
+    "image": "blocks/minecraft/blue_terracotta.png",
     "url": "https://minecraft.wiki/w/Blue_Terracotta"
   },
   "minecraft:blue_wool": {
     "name": "Blue Wool",
-    "image": "items/blue_wool.png",
+    "image": "blocks/minecraft/blue_wool.png",
     "url": "https://minecraft.wiki/w/Blue_Wool"
   },
   "minecraft:bone_block": {
     "name": "Bone Block",
-    "image": "items/bone_block.png",
+    "image": "blocks/minecraft/bone_block.png",
     "url": "https://minecraft.wiki/w/Bone_Block"
   },
   "minecraft:bone_meal": {
     "name": "Bone Meal",
-    "image": "items/bone_meal.png",
+    "image": "items/minecraft/bone_meal.png",
     "url": "https://minecraft.wiki/w/Bone_Meal"
   },
   "minecraft:book": {
     "name": "Book",
-    "image": "items/book.png",
+    "image": "items/minecraft/book.png",
     "url": "https://minecraft.wiki/w/Book"
   },
   "minecraft:bowl": {
     "name": "Bowl",
-    "image": "items/bowl.png",
+    "image": "items/minecraft/bowl.png",
     "url": "https://minecraft.wiki/w/Bowl"
   },
   "minecraft:brick": {
@@ -11129,62 +11129,62 @@
   },
   "minecraft:brick_slab": {
     "name": "Brick Slab",
-    "image": "items/brick_slab.png",
+    "image": "blocks/minecraft/brick_slab.png",
     "url": "https://minecraft.wiki/w/Brick_Slab"
   },
   "minecraft:bricks": {
     "name": "Bricks",
-    "image": "items/bricks.png",
+    "image": "blocks/minecraft/bricks.png",
     "url": "https://minecraft.wiki/w/Bricks"
   },
   "minecraft:brown_dye": {
     "name": "Brown Dye",
-    "image": "items/brown_dye.png",
+    "image": "items/minecraft/brown_dye.png",
     "url": "https://minecraft.wiki/w/Brown_Dye"
   },
   "minecraft:brown_stained_glass": {
     "name": "Brown Stained Glass",
-    "image": "items/brown_stained_glass.png",
+    "image": "items/minecraft/brown_stained_glass.png",
     "url": "https://minecraft.wiki/w/Brown_Stained_Glass"
   },
   "minecraft:brown_terracotta": {
     "name": "Brown Terracotta",
-    "image": "items/brown_terracotta.png",
+    "image": "blocks/minecraft/brown_terracotta.png",
     "url": "https://minecraft.wiki/w/Brown_Terracotta"
   },
   "minecraft:brown_wool": {
     "name": "Brown Wool",
-    "image": "items/brown_wool.png",
+    "image": "blocks/minecraft/brown_wool.png",
     "url": "https://minecraft.wiki/w/Brown_Wool"
   },
   "minecraft:bucket": {
     "name": "Bucket",
-    "image": "items/bucket.png",
+    "image": "items/minecraft/bucket.png",
     "url": "https://minecraft.wiki/w/Bucket"
   },
   "minecraft:chainmail_boots": {
     "name": "Chainmail Boots",
-    "image": "items/chainmail_boots.png",
+    "image": "items/minecraft/chainmail_boots.png",
     "url": "https://minecraft.wiki/w/Chainmail_Boots"
   },
   "minecraft:chainmail_chestplate": {
     "name": "Chainmail Chestplate",
-    "image": "items/chainmail_chestplate.png",
+    "image": "items/minecraft/chainmail_chestplate.png",
     "url": "https://minecraft.wiki/w/Chainmail_Chestplate"
   },
   "minecraft:chainmail_helmet": {
     "name": "Chainmail Helmet",
-    "image": "items/chainmail_helmet.png",
+    "image": "items/minecraft/chainmail_helmet.png",
     "url": "https://minecraft.wiki/w/Chainmail_Helmet"
   },
   "minecraft:chainmail_leggings": {
     "name": "Chainmail Leggings",
-    "image": "items/chainmail_leggings.png",
+    "image": "items/minecraft/chainmail_leggings.png",
     "url": "https://minecraft.wiki/w/Chainmail_Leggings"
   },
   "minecraft:charcoal": {
     "name": "Charcoal",
-    "image": "items/charcoal.png",
+    "image": "items/minecraft/charcoal.png",
     "url": "https://minecraft.wiki/w/Charcoal"
   },
   "minecraft:clay": {
@@ -11194,27 +11194,27 @@
   },
   "minecraft:clay_ball": {
     "name": "Clay Ball",
-    "image": "items/clay_ball.png",
+    "image": "items/minecraft/clay_ball.png",
     "url": "https://minecraft.wiki/w/Clay_Ball"
   },
   "minecraft:clock": {
     "name": "Clock",
-    "image": "items/clock.png",
+    "image": "items/minecraft/clock.png",
     "url": "https://minecraft.wiki/w/Clock"
   },
   "minecraft:coal_block": {
     "name": "Coal Block",
-    "image": "items/coal_block.png",
+    "image": "blocks/minecraft/coal_block.png",
     "url": "https://minecraft.wiki/w/Coal_Block"
   },
   "minecraft:coarse_dirt": {
     "name": "Coarse Dirt",
-    "image": "items/coarse_dirt.png",
+    "image": "blocks/minecraft/coarse_dirt.png",
     "url": "https://minecraft.wiki/w/Coarse_Dirt"
   },
   "minecraft:cobblestone": {
     "name": "Cobblestone",
-    "image": "items/cobblestone.png",
+    "image": "blocks/minecraft/cobblestone.png",
     "url": "https://minecraft.wiki/w/Cobblestone"
   },
   "minecraft:cod": {
@@ -11224,57 +11224,57 @@
   },
   "minecraft:compass": {
     "name": "Compass",
-    "image": "items/compass.png",
+    "image": "items/minecraft/compass.png",
     "url": "https://minecraft.wiki/w/Compass"
   },
   "minecraft:cooked_porkchop": {
     "name": "Cooked Porkchop",
-    "image": "items/cooked_porkchop.png",
+    "image": "items/minecraft/cooked_porkchop.png",
     "url": "https://minecraft.wiki/w/Cooked_Porkchop"
   },
   "minecraft:cracked_stone_bricks": {
     "name": "Cracked Stone Bricks",
-    "image": "items/cracked_stone_bricks.png",
+    "image": "blocks/minecraft/cracked_stone_bricks.png",
     "url": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
   },
   "minecraft:cyan_dye": {
     "name": "Cyan Dye",
-    "image": "items/cyan_dye.png",
+    "image": "items/minecraft/cyan_dye.png",
     "url": "https://minecraft.wiki/w/Cyan_Dye"
   },
   "minecraft:cyan_stained_glass": {
     "name": "Cyan Stained Glass",
-    "image": "items/cyan_stained_glass.png",
+    "image": "blocks/minecraft/cyan_stained_glass.png",
     "url": "https://minecraft.wiki/w/Cyan_Stained_Glass"
   },
   "minecraft:cyan_terracotta": {
     "name": "Cyan Terracotta",
-    "image": "items/cyan_terracotta.png",
+    "image": "blocks/minecraft/cyan_terracotta.png",
     "url": "https://minecraft.wiki/w/Cyan_Terracotta"
   },
   "minecraft:cyan_wool": {
     "name": "Cyan Wool",
-    "image": "items/cyan_wool.png",
+    "image": "blocks/minecraft/cyan_wool.png",
     "url": "https://minecraft.wiki/w/Cyan_Wool"
   },
   "minecraft:dark_oak_leaves": {
     "name": "Dark Oak Leaves",
-    "image": "items/dark_oak_leaves.png",
+    "image": "blocks/minecraft/dark_oak_leaves.png",
     "url": "https://minecraft.wiki/w/Dark_Oak_Leaves"
   },
   "minecraft:dark_oak_log": {
     "name": "Dark Oak Log",
-    "image": "items/dark_oak_log.png",
+    "image": "blocks/minecraft/dark_oak_log.png",
     "url": "https://minecraft.wiki/w/Dark_Oak_Log"
   },
   "minecraft:dark_oak_planks": {
     "name": "Dark Oak Planks",
-    "image": "items/dark_oak_planks.png",
+    "image": "blocks/minecraft/dark_oak_planks.png",
     "url": "https://minecraft.wiki/w/Dark_Oak_Planks"
   },
   "minecraft:dark_oak_wood": {
     "name": "Dark Oak Wood",
-    "image": "items/dark_oak_wood.png",
+    "image": "blocks/minecraft/dark_oak_wood.png",
     "url": "https://minecraft.wiki/w/Dark_Oak_Wood"
   },
   "minecraft:dirt": {
@@ -11289,12 +11289,12 @@
   },
   "minecraft:glass": {
     "name": "Glass",
-    "image": "items/glass.png",
+    "image": "blocks/minecraft/glass.png",
     "url": "https://minecraft.wiki/w/Glass"
   },
   "minecraft:glass_bottle": {
     "name": "Glass Bottle",
-    "image": "items/glass_bottle.png",
+    "image": "items/minecraft/glass_bottle.png",
     "url": "https://minecraft.wiki/w/Glass_Bottle"
   },
   "minecraft:glowstone_dust": {
@@ -11314,12 +11314,12 @@
   },
   "minecraft:golden_apple": {
     "name": "Golden Apple",
-    "image": "items/golden_apple.png",
+    "image": "items/minecraft/golden_apple.png",
     "url": "https://minecraft.wiki/w/Golden_Apple"
   },
   "minecraft:granite": {
     "name": "Granite",
-    "image": "items/granite.png",
+    "image": "blocks/minecraft/granite.png",
     "url": "https://minecraft.wiki/w/Granite"
   },
   "minecraft:grass_block": {
@@ -11329,32 +11329,32 @@
   },
   "minecraft:grass_path": {
     "name": "Grass Path",
-    "image": "items/grass_path.png",
+    "image": "blocks/minecraft/grass_path.png",
     "url": "https://minecraft.wiki/w/Grass_Path"
   },
   "minecraft:gravel": {
     "name": "Gravel",
-    "image": "items/gravel.png",
+    "image": "blocks/minecraft/gravel.png",
     "url": "https://minecraft.wiki/w/Gravel"
   },
   "minecraft:gray_dye": {
     "name": "Gray Dye",
-    "image": "items/gray_dye.png",
+    "image": "items/minecraft/gray_dye.png",
     "url": "https://minecraft.wiki/w/Gray_Dye"
   },
   "minecraft:gray_stained_glass": {
     "name": "Gray Stained Glass",
-    "image": "items/gray_stained_glass.png",
+    "image": "blocks/minecraft/gray_stained_glass.png",
     "url": "https://minecraft.wiki/w/Gray_Stained_Glass"
   },
   "minecraft:gray_terracotta": {
     "name": "Gray Terracotta",
-    "image": "items/gray_terracotta.png",
+    "image": "blocks/minecraft/gray_terracotta.png",
     "url": "https://minecraft.wiki/w/Gray_Terracotta"
   },
   "minecraft:gray_wool": {
     "name": "Gray Wool",
-    "image": "items/gray_wool.png",
+    "image": "blocks/minecraft/gray_wool.png",
     "url": "https://minecraft.wiki/w/Gray_Wool"
   },
   "minecraft:green_dye": {
@@ -11364,17 +11364,17 @@
   },
   "minecraft:green_stained_glass": {
     "name": "Green Stained Glass",
-    "image": "items/green_stained_glass.png",
+    "image": "blocks/minecraft/green_stained_glass.png",
     "url": "https://minecraft.wiki/w/Green_Stained_Glass"
   },
   "minecraft:green_terracotta": {
     "name": "Green Terracotta",
-    "image": "items/green_terracotta.png",
+    "image": "blocks/minecraft/green_terracotta.png",
     "url": "https://minecraft.wiki/w/Green_Terracotta"
   },
   "minecraft:green_wool": {
     "name": "Green Wool",
-    "image": "items/green_wool.png",
+    "image": "blocks/minecraft/green_wool.png",
     "url": "https://minecraft.wiki/w/Green_Wool"
   },
   "minecraft:gunpowder": {
@@ -11384,7 +11384,7 @@
   },
   "minecraft:honeycomb": {
     "name": "Honeycomb",
-    "image": "items/honeycomb.png",
+    "image": "items/minecraft/honeycomb.png",
     "url": "https://minecraft.wiki/w/Honeycomb"
   },
   "minecraft:iron_bars": {
@@ -11394,7 +11394,7 @@
   },
   "minecraft:iron_horse_armor": {
     "name": "Iron Horse Armor",
-    "image": "items/iron_horse_armor.png",
+    "image": "items/minecraft/iron_horse_armor.png",
     "url": "https://minecraft.wiki/w/Iron_Horse_Armor"
   },
   "minecraft:iron_ingot": {
@@ -11409,27 +11409,27 @@
   },
   "minecraft:jungle_leaves": {
     "name": "Jungle Leaves",
-    "image": "items/jungle_leaves.png",
+    "image": "blocks/minecraft/jungle_leaves.png",
     "url": "https://minecraft.wiki/w/Jungle_Leaves"
   },
   "minecraft:jungle_log": {
     "name": "Jungle Log",
-    "image": "items/jungle_log.png",
+    "image": "blocks/minecraft/jungle_log.png",
     "url": "https://minecraft.wiki/w/Jungle_Log"
   },
   "minecraft:jungle_planks": {
     "name": "Jungle Planks",
-    "image": "items/jungle_planks.png",
+    "image": "blocks/minecraft/jungle_planks.png",
     "url": "https://minecraft.wiki/w/Jungle_Planks"
   },
   "minecraft:jungle_wood": {
     "name": "Jungle Wood",
-    "image": "items/jungle_wood.png",
+    "image": "blocks/minecraft/jungle_wood.png",
     "url": "https://minecraft.wiki/w/Jungle_Wood"
   },
   "minecraft:lapis_lazuli": {
     "name": "Lapis Lazuli",
-    "image": "items/lapis_lazuli.png",
+    "image": "items/minecraft/lapis_lazuli.png",
     "url": "https://minecraft.wiki/w/Lapis_Lazuli"
   },
   "minecraft:lava_bucket": {
@@ -11444,82 +11444,82 @@
   },
   "minecraft:light_blue_dye": {
     "name": "Light Blue Dye",
-    "image": "items/light_blue_dye.png",
+    "image": "items/minecraft/light_blue_dye.png",
     "url": "https://minecraft.wiki/w/Light_Blue_Dye"
   },
   "minecraft:light_blue_stained_glass": {
     "name": "Light Blue Stained Glass",
-    "image": "items/light_blue_stained_glass.png",
+    "image": "blocks/minecraft/light_blue_stained_glass.png",
     "url": "https://minecraft.wiki/w/Light_Blue_Stained_Glass"
   },
   "minecraft:light_blue_terracotta": {
     "name": "Light Blue Terracotta",
-    "image": "items/light_blue_terracotta.png",
+    "image": "blocks/minecraft/light_blue_terracotta.png",
     "url": "https://minecraft.wiki/w/Light_Blue_Terracotta"
   },
   "minecraft:light_blue_wool": {
     "name": "Light Blue Wool",
-    "image": "items/light_blue_wool.png",
+    "image": "blocks/minecraft/light_blue_wool.png",
     "url": "https://minecraft.wiki/w/Light_Blue_Wool"
   },
   "minecraft:light_gray_dye": {
     "name": "Light Gray Dye",
-    "image": "items/light_gray_dye.png",
+    "image": "items/minecraft/light_gray_dye.png",
     "url": "https://minecraft.wiki/w/Light_Gray_Dye"
   },
   "minecraft:light_gray_stained_glass": {
     "name": "Light Gray Stained Glass",
-    "image": "items/light_gray_stained_glass.png",
+    "image": "blocks/minecraft/light_gray_stained_glass.png",
     "url": "https://minecraft.wiki/w/Light_Gray_Stained_Glass"
   },
   "minecraft:light_gray_terracotta": {
     "name": "Light Gray Terracotta",
-    "image": "items/light_gray_terracotta.png",
+    "image": "blocks/minecraft/light_gray_terracotta.png",
     "url": "https://minecraft.wiki/w/Light_Gray_Terracotta"
   },
   "minecraft:light_gray_wool": {
     "name": "Light Gray Wool",
-    "image": "items/light_gray_wool.png",
+    "image": "blocks/minecraft/light_gray_wool.png",
     "url": "https://minecraft.wiki/w/Light_Gray_Wool"
   },
   "minecraft:lime_dye": {
     "name": "Lime Dye",
-    "image": "items/lime_dye.png",
+    "image": "items/minecraft/lime_dye.png",
     "url": "https://minecraft.wiki/w/Lime_Dye"
   },
   "minecraft:lime_stained_glass": {
     "name": "Lime Stained Glass",
-    "image": "items/lime_stained_glass.png",
+    "image": "blocks/minecraft/lime_stained_glass.png",
     "url": "https://minecraft.wiki/w/Lime_Stained_Glass"
   },
   "minecraft:lime_terracotta": {
     "name": "Lime Terracotta",
-    "image": "items/lime_terracotta.png",
+    "image": "blocks/minecraft/lime_terracotta.png",
     "url": "https://minecraft.wiki/w/Lime_Terracotta"
   },
   "minecraft:lime_wool": {
     "name": "Lime Wool",
-    "image": "items/lime_wool.png",
+    "image": "blocks/minecraft/lime_wool.png",
     "url": "https://minecraft.wiki/w/Lime_Wool"
   },
   "minecraft:magenta_dye": {
     "name": "Magenta Dye",
-    "image": "items/magenta_dye.png",
+    "image": "items/minecraft/magenta_dye.png",
     "url": "https://minecraft.wiki/w/Magenta_Dye"
   },
   "minecraft:magenta_stained_glass": {
     "name": "Magenta Stained Glass",
-    "image": "items/magenta_stained_glass.png",
+    "image": "blocks/minecraft/magenta_stained_glass.png",
     "url": "https://minecraft.wiki/w/Magenta_Stained_Glass"
   },
   "minecraft:magenta_terracotta": {
     "name": "Magenta Terracotta",
-    "image": "items/magenta_terracotta.png",
+    "image": "blocks/minecraft/magenta_terracotta.png",
     "url": "https://minecraft.wiki/w/Magenta_Terracotta"
   },
   "minecraft:magenta_wool": {
     "name": "Magenta Wool",
-    "image": "items/magenta_wool.png",
+    "image": "blocks/minecraft/magenta_wool.png",
     "url": "https://minecraft.wiki/w/Magenta_Wool"
   },
   "minecraft:milk_bucket": {
@@ -11529,37 +11529,37 @@
   },
   "minecraft:mossy_cobblestone": {
     "name": "Mossy Cobblestone",
-    "image": "items/mossy_cobblestone.png",
+    "image": "blocks/minecraft/mossy_cobblestone.png",
     "url": "https://minecraft.wiki/w/Mossy_Cobblestone"
   },
   "minecraft:mossy_stone_bricks": {
     "name": "Mossy Stone Bricks",
-    "image": "items/mossy_stone_bricks.png",
+    "image": "blocks/minecraft/mossy_stone_bricks.png",
     "url": "https://minecraft.wiki/w/Mossy_Stone_Bricks"
   },
   "minecraft:mycelium": {
     "name": "Mycelium",
-    "image": "items/mycelium.png",
+    "image": "blocks/minecraft/mycelium.png",
     "url": "https://minecraft.wiki/w/Mycelium"
   },
   "minecraft:oak_leaves": {
     "name": "Oak Leaves",
-    "image": "items/oak_leaves.png",
+    "image": "blocks/minecraft/oak_leaves.png",
     "url": "https://minecraft.wiki/w/Oak_Leaves"
   },
   "minecraft:oak_log": {
     "name": "Oak Log",
-    "image": "items/oak_log.png",
+    "image": "blocks/minecraft/oak_log.png",
     "url": "https://minecraft.wiki/w/Oak_Log"
   },
   "minecraft:oak_planks": {
     "name": "Oak Planks",
-    "image": "items/oak_planks.png",
+    "image": "blocks/minecraft/oak_planks.png",
     "url": "https://minecraft.wiki/w/Oak_Planks"
   },
   "minecraft:oak_wood": {
     "name": "Oak Wood",
-    "image": "items/oak_wood.png",
+    "image": "blocks/minecraft/oak_wood.png",
     "url": "https://minecraft.wiki/w/Oak_Wood"
   },
   "minecraft:obsidian": {
@@ -11569,27 +11569,27 @@
   },
   "minecraft:orange_dye": {
     "name": "Orange Dye",
-    "image": "items/orange_dye.png",
+    "image": "items/minecraft/orange_dye.png",
     "url": "https://minecraft.wiki/w/Orange_Dye"
   },
   "minecraft:orange_stained_glass": {
     "name": "Orange Stained Glass",
-    "image": "items/orange_stained_glass.png",
+    "image": "blocks/minecraft/orange_stained_glass.png",
     "url": "https://minecraft.wiki/w/Orange_Stained_Glass"
   },
   "minecraft:orange_terracotta": {
     "name": "Orange Terracotta",
-    "image": "items/orange_terracotta.png",
+    "image": "blocks/minecraft/orange_terracotta.png",
     "url": "https://minecraft.wiki/w/Orange_Terracotta"
   },
   "minecraft:orange_wool": {
     "name": "Orange Wool",
-    "image": "items/orange_wool.png",
+    "image": "blocks/minecraft/orange_wool.png",
     "url": "https://minecraft.wiki/w/Orange_Wool"
   },
   "minecraft:packed_ice": {
     "name": "Packed Ice",
-    "image": "items/packed_ice.png",
+    "image": "blocks/minecraft/packed_ice.png",
     "url": "https://minecraft.wiki/w/Packed_Ice"
   },
   "minecraft:paper": {
@@ -11599,27 +11599,27 @@
   },
   "minecraft:pink_dye": {
     "name": "Pink Dye",
-    "image": "items/pink_dye.png",
+    "image": "items/minecraft/pink_dye.png",
     "url": "https://minecraft.wiki/w/Pink_Dye"
   },
   "minecraft:pink_stained_glass": {
     "name": "Pink Stained Glass",
-    "image": "items/pink_stained_glass.png",
+    "image": "blocks/minecraft/pink_stained_glass.png",
     "url": "https://minecraft.wiki/w/Pink_Stained_Glass"
   },
   "minecraft:pink_terracotta": {
     "name": "Pink Terracotta",
-    "image": "items/pink_terracotta.png",
+    "image": "blocks/minecraft/pink_terracotta.png",
     "url": "https://minecraft.wiki/w/Pink_Terracotta"
   },
   "minecraft:pink_wool": {
     "name": "Pink Wool",
-    "image": "items/pink_wool.png",
+    "image": "blocks/minecraft/pink_wool.png",
     "url": "https://minecraft.wiki/w/Pink_Wool"
   },
   "minecraft:podzol": {
     "name": "Podzol",
-    "image": "items/podzol.png",
+    "image": "blocks/minecraft/podzol.png",
     "url": "https://minecraft.wiki/w/Podzol"
   },
   "minecraft:potato": {
@@ -11629,62 +11629,62 @@
   },
   "minecraft:purple_dye": {
     "name": "Purple Dye",
-    "image": "items/purple_dye.png",
+    "image": "items/minecraft/purple_dye.png",
     "url": "https://minecraft.wiki/w/Purple_Dye"
   },
   "minecraft:purple_stained_glass": {
     "name": "Purple Stained Glass",
-    "image": "items/purple_stained_glass.png",
+    "image": "blocks/minecraft/purple_stained_glass.png",
     "url": "https://minecraft.wiki/w/Purple_Stained_Glass"
   },
   "minecraft:purple_terracotta": {
     "name": "Purple Terracotta",
-    "image": "items/purple_terracotta.png",
+    "image": "blocks/minecraft/purple_terracotta.png",
     "url": "https://minecraft.wiki/w/Purple_Terracotta"
   },
   "minecraft:purple_wool": {
     "name": "Purple Wool",
-    "image": "items/purple_wool.png",
+    "image": "blocks/minecraft/purple_wool.png",
     "url": "https://minecraft.wiki/w/Purple_Wool"
   },
   "minecraft:red_dye": {
     "name": "Red Dye",
-    "image": "items/red_dye.png",
+    "image": "items/minecraft/red_dye.png",
     "url": "https://minecraft.wiki/w/Red_Dye"
   },
   "minecraft:red_sandstone": {
     "name": "Red Sandstone",
-    "image": "items/red_sandstone.png",
+    "image": "blocks/minecraft/red_sandstone.png",
     "url": "https://minecraft.wiki/w/Red_Sandstone"
   },
   "minecraft:red_stained_glass": {
     "name": "Red Stained Glass",
-    "image": "items/red_stained_glass.png",
+    "image": "blocks/minecraft/red_stained_glass.png",
     "url": "https://minecraft.wiki/w/Red_Stained_Glass"
   },
   "minecraft:red_terracotta": {
     "name": "Red Terracotta",
-    "image": "items/red_terracotta.png",
+    "image": "blocks/minecraft/red_terracotta.png",
     "url": "https://minecraft.wiki/w/Red_Terracotta"
   },
   "minecraft:red_wool": {
     "name": "Red Wool",
-    "image": "items/red_wool.png",
+    "image": "blocks/minecraft/red_wool.png",
     "url": "https://minecraft.wiki/w/Red_Wool"
   },
   "minecraft:rotten_flesh": {
     "name": "Rotten Flesh",
-    "image": "items/rotten_flesh.png",
+    "image": "items/minecraft/rotten_flesh.png",
     "url": "https://minecraft.wiki/w/Rotten_Flesh"
   },
   "minecraft:saddle": {
     "name": "Saddle",
-    "image": "items/saddle.png",
+    "image": "items/minecraft/saddle.png",
     "url": "https://minecraft.wiki/w/Saddle"
   },
   "minecraft:sandstone": {
     "name": "Sandstone",
-    "image": "items/sandstone.png",
+    "image": "blocks/minecraft/sandstone.png",
     "url": "https://minecraft.wiki/w/Sandstone"
   },
   "minecraft:skeleton_skull": {
@@ -11694,7 +11694,7 @@
   },
   "minecraft:smooth_stone": {
     "name": "Smooth Stone",
-    "image": "items/smooth_stone.png",
+    "image": "blocks/minecraft/smooth_stone.png",
     "url": "https://minecraft.wiki/w/Smooth_Stone"
   },
   "minecraft:snow": {
@@ -11704,7 +11704,7 @@
   },
   "minecraft:snow_block": {
     "name": "Snow Block",
-    "image": "items/snow_block.png",
+    "image": "blocks/minecraft/snow_block.png",
     "url": "https://minecraft.wiki/w/Snow_Block"
   },
   "minecraft:snowball": {
@@ -11714,32 +11714,32 @@
   },
   "minecraft:spruce_leaves": {
     "name": "Spruce Leaves",
-    "image": "items/spruce_leaves.png",
+    "image": "blocks/minecraft/spruce_leaves.png",
     "url": "https://minecraft.wiki/w/Spruce_Leaves"
   },
   "minecraft:spruce_log": {
     "name": "Spruce Log",
-    "image": "items/spruce_log.png",
+    "image": "blocks/minecraft/spruce_log.png",
     "url": "https://minecraft.wiki/w/Spruce_Log"
   },
   "minecraft:spruce_planks": {
     "name": "Spruce Planks",
-    "image": "items/spruce_planks.png",
+    "image": "blocks/minecraft/spruce_planks.png",
     "url": "https://minecraft.wiki/w/Spruce_Planks"
   },
   "minecraft:spruce_wood": {
     "name": "Spruce Wood",
-    "image": "items/spruce_wood.png",
+    "image": "blocks/minecraft/spruce_wood.png",
     "url": "https://minecraft.wiki/w/Spruce_Wood"
   },
   "minecraft:stone": {
     "name": "Stone",
-    "image": "items/stone.png",
+    "image": "blocks/minecraft/stone.png",
     "url": "https://minecraft.wiki/w/Stone"
   },
   "minecraft:stone_bricks": {
     "name": "Stone Bricks",
-    "image": "items/stone_bricks.png",
+    "image": "blocks/minecraft/stone_bricks.png",
     "url": "https://minecraft.wiki/w/Stone_Bricks"
   },
   "minecraft:string": {
@@ -11749,72 +11749,72 @@
   },
   "minecraft:stripped_acacia_log": {
     "name": "Stripped Acacia Log",
-    "image": "items/stripped_acacia_log.png",
+    "image": "blocks/minecraft/stripped_acacia_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Acacia_Log"
   },
   "minecraft:stripped_acacia_wood": {
     "name": "Stripped Acacia Wood",
-    "image": "items/stripped_acacia_wood.png",
+    "image": "blocks/minecraft/stripped_acacia_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Acacia_Wood"
   },
   "minecraft:stripped_birch_log": {
     "name": "Stripped Birch Log",
-    "image": "items/stripped_birch_log.png",
+    "image": "blocks/minecraft/stripped_birch_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Birch_Log"
   },
   "minecraft:stripped_birch_wood": {
     "name": "Stripped Birch Wood",
-    "image": "items/stripped_birch_wood.png",
+    "image": "blocks/minecraft/stripped_birch_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Birch_Wood"
   },
   "minecraft:stripped_dark_oak_log": {
     "name": "Stripped Dark Oak Log",
-    "image": "items/stripped_dark_oak_log.png",
+    "image": "blocks/minecraft/stripped_dark_oak_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Dark_Oak_Log"
   },
   "minecraft:stripped_dark_oak_wood": {
     "name": "Stripped Dark Oak Wood",
-    "image": "items/stripped_dark_oak_wood.png",
+    "image": "blocks/minecraft/stripped_dark_oak_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Dark_Oak_Wood"
   },
   "minecraft:stripped_jungle_log": {
     "name": "Stripped Jungle Log",
-    "image": "items/stripped_jungle_log.png",
+    "image": "blocks/minecraft/stripped_jungle_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Jungle_Log"
   },
   "minecraft:stripped_jungle_wood": {
     "name": "Stripped Jungle Wood",
-    "image": "items/stripped_jungle_wood.png",
+    "image": "blocks/minecraft/stripped_jungle_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Jungle_Wood"
   },
   "minecraft:stripped_oak_log": {
     "name": "Stripped Oak Log",
-    "image": "items/stripped_oak_log.png",
+    "image": "blocks/minecraft/stripped_oak_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Oak_Log"
   },
   "minecraft:stripped_oak_wood": {
     "name": "Stripped Oak Wood",
-    "image": "items/stripped_oak_wood.png",
+    "image": "blocks/minecraft/stripped_oak_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Oak_Wood"
   },
   "minecraft:stripped_spruce_log": {
     "name": "Stripped Spruce Log",
-    "image": "items/stripped_spruce_log.png",
+    "image": "blocks/minecraft/stripped_spruce_log.png",
     "url": "https://minecraft.wiki/w/Stripped_Spruce_Log"
   },
   "minecraft:stripped_spruce_wood": {
     "name": "Stripped Spruce Wood",
-    "image": "items/stripped_spruce_wood.png",
+    "image": "blocks/minecraft/stripped_spruce_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Spruce_Wood"
   },
   "minecraft:sugar": {
     "name": "Sugar",
-    "image": "items/sugar.png",
+    "image": "items/minecraft/sugar.png",
     "url": "https://minecraft.wiki/w/Sugar"
   },
   "minecraft:terracotta": {
     "name": "Terracotta",
-    "image": "items/terracotta.png",
+    "image": "blocks/minecraft/terracotta.png",
     "url": "https://minecraft.wiki/w/Terracotta"
   },
   "minecraft:torch": {
@@ -11844,17 +11844,17 @@
   },
   "minecraft:white_stained_glass": {
     "name": "White Stained Glass",
-    "image": "items/white_stained_glass.png",
+    "image": "blocks/minecraft/white_stained_glass.png",
     "url": "https://minecraft.wiki/w/White_Stained_Glass"
   },
   "minecraft:white_terracotta": {
     "name": "White Terracotta",
-    "image": "items/white_terracotta.png",
+    "image": "blocks/minecraft/white_terracotta.png",
     "url": "https://minecraft.wiki/w/White_Terracotta"
   },
   "minecraft:white_wool": {
     "name": "White Wool",
-    "image": "items/white_wool.png",
+    "image": "blocks/minecraft/white_wool.png",
     "url": "https://minecraft.wiki/w/White_Wool"
   },
   "minecraft:yellow_dye": {
@@ -11864,17 +11864,17 @@
   },
   "minecraft:yellow_stained_glass": {
     "name": "Yellow Stained Glass",
-    "image": "items/yellow_stained_glass.png",
+    "image": "blocks/minecraft/yellow_stained_glass.png",
     "url": "https://minecraft.wiki/w/Yellow_Stained_Glass"
   },
   "minecraft:yellow_terracotta": {
     "name": "Yellow Terracotta",
-    "image": "items/yellow_terracotta.png",
+    "image": "blocks/minecraft/yellow_terracotta.png",
     "url": "https://minecraft.wiki/w/Yellow_Terracotta"
   },
   "minecraft:yellow_wool": {
     "name": "Yellow Wool",
-    "image": "items/yellow_wool.png",
+    "image": "blocks/minecraft/yellow_wool.png",
     "url": "https://minecraft.wiki/w/Yellow_Wool"
   }
 }

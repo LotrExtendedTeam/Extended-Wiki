@@ -86,7 +86,7 @@
 }
 
 /* SLOT */
-.slot {
+.crafting-slot {
   position: relative;
   display: inline-flex;
   width: 32px;
@@ -96,7 +96,7 @@
   text-decoration: none;
 }
 
-.slot img {
+.crafting-slot img {
   width: 16px;
   height: 16px;
   pointer-events: none;
@@ -144,7 +144,7 @@
 }
 
 /* === TOOLTIP SYSTEM (DELAYED) === */
-.slot:not(.empty)::after{
+.crafting-slot:not(.empty)::after{
   content: attr(data-name);
   position: absolute;
   bottom: 115%;
@@ -166,6 +166,6 @@
   z-index: 3; /* make tooltip above everything */
 }
 
-.slot:not(.empty):hover::after {
+.crafting-slot:not(.empty):hover::after {
   opacity: 1;
 }

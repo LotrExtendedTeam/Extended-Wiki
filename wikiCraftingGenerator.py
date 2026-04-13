@@ -69,6 +69,7 @@ TAG_REPLACEMENTS = {
     "forge:dyes/purple": "minecraft:purple_dye",
     "forge:string": "minecraft:string",
     "lotr:clay_balls": "minecraft:clay_ball",
+    "forge:cobblestone": "minecraft:cobblestone",
 }
 
 # --- UTILITIES ---
@@ -272,15 +273,15 @@ def parse_result(data):
         return {"item": result["item"], "count": result.get("count", 1)}
     return {"item": result, "count": 1}
 
-def normalize_recipe_type(rtype):
-    if rtype in ["minecraft:crafting_shaped", "lotr:faction_shaped"]:
+def normalize_recipe_type(recipe_type):
+    if recipe_type in ["minecraft:crafting_shaped", "lotr:faction_shaped"]:
         return "shaped"
-    elif rtype in ["minecraft:crafting_shapeless", "lotr:faction_shapeless"]:
+    elif recipe_type in ["minecraft:crafting_shapeless", "lotr:faction_shapeless"]:
         return "shapeless"
     return None
 
-def get_recipe_title(rtype, table, output_item):
-    if rtype.startswith("lotr:faction_") and table:
+def get_recipe_title(recipe_type, table, output_item):
+    if recipe_type.startswith("lotr:faction_") and table:
         return table.split(":")[-1].replace("_", " ").title() + " Crafting"
     else:
         return "Crafting"
@@ -288,6 +289,12 @@ def get_recipe_title(rtype, table, output_item):
 def format_item_name(item_id):
     # Remove namespace and convert snake_case to Title Case
     name = item_id.split(":")[-1].replace("_", " ").title()
+    return name
+
+def format_tag_name(tag_id):
+    # Remove namespace and format nicely
+    name = tag_id.split(":")[-1]
+    name = name.replace("/", " ").replace("_", " ").title()
     return name
 
 def format_item_url(item_id):
@@ -313,72 +320,7 @@ def format_image_path(item_id):
 def is_valid_item_id(item_id):
     return isinstance(item_id, str) and ":" in item_id
 
-def process_file(path):
-    with open(path) as f:
-        data = json.load(f)
-    rtype = data.get("type", "")
-    normalized_type = normalize_recipe_type(rtype)
-    if not normalized_type:
-        log.warning(f"Found unknown recipe type: {rtype}")
-        return None
-    if normalized_type == "shaped":
-        grid = parse_shaped(data)
-    else:
-        grid = parse_shapeless(data)
-    result = parse_result(data)
-    recipe_id = os.path.splitext(os.path.basename(path))[0]
-
-    for y, row in enumerate(grid):
-        for x, ing in enumerate(row):
-            if ing and not ing.startswith("#") and not is_valid_item_id(ing):
-                log.warning(f"[{recipe_id}] Invalid item id '{ing}' at [{y},{x}] in file {path}")
-
-    if not is_valid_item_id(result["item"]):
-        log.warning(f"[{recipe_id}] Invalid output item '{result['item']}' in file {path}")
-    
-    table = data.get("table")
-    title = get_recipe_title(rtype, table, result["item"])
-    recipe_data = {
-        "title": title,
-        "grid": grid,
-        "output": result,
-        "type": normalized_type
-    }
-    return recipe_id, recipe_data
-
-def main():
-    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-
-    # Merge and flatten tags
-    all_tagsList = merge_tag_folders(TAG_FOLDERS)
-    flat_tags = flatten_tags(all_tagsList)
-
-    # Collect recipes
-    recipes = {}
-    with open(OUTPUT_TAGS_FILE, "w") as f:
-        json.dump(flat_tags, f, indent=2)
- 
-    for folder in [LOTR_RECIPES, EXTENDED_RECIPES]:
-        if not os.path.exists(folder):
-            continue
-        for file in os.listdir(folder):
-            if not file.endswith(".json"):
-                continue
-            res = process_file(os.path.join(folder, file))
-            if res:
-                rid, data = res
-                recipes[rid] = data
-
-    # Collect all item IDs from recipes and tags
-    all_items = set()
-    for r in recipes.values():
-        for row in r["grid"]:
-            for ing in row:
-                if ing and not ing.startswith("#"):
-                    all_items.add(ing)
-        out = r["output"]
-        all_items.add(out["item"])
-
+def load_manual_item_edits(all_items):
     existing_items = {}
     if os.path.exists(OUTPUT_ITEMS_FILE):
         try:
@@ -404,16 +346,116 @@ def main():
                     items_data[item][key] = value
         if ("tooltip" in items_data[item] and "name" in items_data[item] and items_data[item]["tooltip"] == items_data[item]["name"]):
             del items_data[item]["tooltip"]
+    return items_data
+
+def load_manual_tag_edits(resolved_tags):
+    existing_tags = {}
+    if os.path.exists(OUTPUT_TAGS_FILE):
+        try:
+            with open(OUTPUT_TAGS_FILE, "r") as f:
+                existing_tags = json.load(f)
+        except Exception as e:
+            log.warning(f"Failed to load existing tags.json: {e}")
+    tags_data = existing_tags.copy()
+
+    for tag_id, items in resolved_tags.items():
+        generated = {
+            "name": format_tag_name(tag_id),
+            "url": "#",
+            "items": items
+        }
+
+    if tag_id not in tags_data:
+        tags_data[tag_id] = generated
+    else:
+        # Preserve manual edits, only fill missing
+        for key, value in generated.items():
+            if key not in tags_data[tag_id] or not tags_data[tag_id][key]:
+                tags_data[tag_id][key] = value
+
+        # Always update items list (this should stay accurate)
+        tags_data[tag_id]["items"] = items
+
+    return tags_data
+    
+def process_file(path):
+    with open(path) as f:
+        data = json.load(f)
+    recipe_type = data.get("type", "")
+    normalized_type = normalize_recipe_type(recipe_type)
+    if not normalized_type:
+        log.warning(f"Found unknown recipe type: {recipe_type}")
+        return None
+    if normalized_type == "shaped":
+        grid = parse_shaped(data)
+    else:
+        grid = parse_shapeless(data)
+    result = parse_result(data)
+    recipe_id = os.path.splitext(os.path.basename(path))[0]
+
+    for y, row in enumerate(grid):
+        for x, ing in enumerate(row):
+            if ing and not ing.startswith("#") and not is_valid_item_id(ing):
+                log.warning(f"[{recipe_id}] Invalid item id '{ing}' at [{y},{x}] in file {path}")
+
+    if not is_valid_item_id(result["item"]):
+        log.warning(f"[{recipe_id}] Invalid output item '{result['item']}' in file {path}")
+    
+    table = data.get("table")
+    title = get_recipe_title(recipe_type, table, result["item"])
+    recipe_data = {
+        "title": title,
+        "grid": grid,
+        "output": result,
+        "type": normalized_type
+    }
+    return recipe_id, recipe_data
+
+def main():
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+    # Merge and flatten tags
+    all_tagsList = merge_tag_folders(TAG_FOLDERS)
+    flat_tags = flatten_tags(all_tagsList)
+
+    # Collect recipes
+    recipes = {}
+    for folder in [LOTR_RECIPES, EXTENDED_RECIPES]:
+        if not os.path.exists(folder):
+            continue
+        for file in os.listdir(folder):
+            if not file.endswith(".json"):
+                continue
+            res = process_file(os.path.join(folder, file))
+            if res:
+                rid, data = res
+                recipes[rid] = data
+
+    # Collect all item IDs from recipes and tags
+    all_items = set()
+    for r in recipes.values():
+        for row in r["grid"]:
+            for ing in row:
+                if ing and not ing.startswith("#"):
+                    all_items.add(ing)
+        out = r["output"]
+        all_items.add(out["item"])
+
+    # Merge manually edited item data
+    items_data = load_manual_item_edits(all_items)
+    
     # Validate recipes
     valid_recipes = {k: v for k, v in recipes.items() if validate_recipe(v, all_items, flat_tags, k)}
 
     # Filter unused tags recursively
     resolved_tags = filter_unused_tags(flat_tags, valid_recipes)
+    
+    # Convert tags into structured objects and merge manually edited tag data
+    resolved_tags = load_manual_tag_edits(resolved_tags)
 
     # Sort items inside item data
     FIELD_ORDER = ["name", "tooltip", "image", "url"]
     reordered_items = {}
-    
     for item_id, data in items_data.items():
         new_entry = {}
         # Add fields in desired order

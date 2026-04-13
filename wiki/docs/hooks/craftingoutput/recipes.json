@@ -13963,9 +13963,9 @@
         "#forge:rods/wooden"
       ],
       [
-        "#forge:cobblestone",
-        "#forge:cobblestone",
-        "#forge:cobblestone"
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone"
       ]
     ],
     "output": {
@@ -51228,19 +51228,19 @@
     "title": "Crafting",
     "grid": [
       [
-        "#forge:cobblestone",
+        "minecraft:cobblestone",
         "#lotrextended:anvil_iron_ingot",
-        "#forge:cobblestone"
+        "minecraft:cobblestone"
       ],
       [
-        "#forge:cobblestone",
+        "minecraft:cobblestone",
         "#forge:rods/wooden",
-        "#forge:cobblestone"
+        "minecraft:cobblestone"
       ],
       [
-        "#forge:cobblestone",
-        "#forge:cobblestone",
-        "#forge:cobblestone"
+        "minecraft:cobblestone",
+        "minecraft:cobblestone",
+        "minecraft:cobblestone"
       ]
     ],
     "output": {
