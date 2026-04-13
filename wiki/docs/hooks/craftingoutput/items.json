@@ -41,7 +41,7 @@
   },
   "lotr:alloy_forge": {
     "name": "Alloy Forge",
-    "image": "items/alloy_forge.png",
+    "image": "blocks/renewed/alloy_forge.png",
     "url": "#"
   },
   "lotr:amber": {
@@ -431,7 +431,7 @@
   },
   "lotr:banana_branch": {
     "name": "Banana Branch",
-    "image": "items/banana_branch.png",
+    "image": "blocks/banana_branch.png",
     "url": "#"
   },
   "lotr:banana_bread": {
@@ -526,12 +526,12 @@
   },
   "lotr:barren_dirt": {
     "name": "Barren Dirt",
-    "image": "items/barren_dirt.png",
+    "image": "blocks/barren_dirt.png",
     "url": "#"
   },
   "lotr:barren_dirt_slab": {
     "name": "Barren Dirt Slab",
-    "image": "items/barren_dirt_slab.png",
+    "image": "blocks/barren_dirt_slab.png",
     "url": "#"
   },
   "lotr:bedroll": {
@@ -641,7 +641,7 @@
   },
   "lotr:beeswax": {
     "name": "Beeswax",
-    "image": "items/beeswax.png",
+    "image": "items/renewed/beeswax.png",
     "url": "#"
   },
   "lotr:birch_beam": {
@@ -681,27 +681,27 @@
   },
   "lotr:black_clay_tiling": {
     "name": "Black Clay Tiling",
-    "image": "items/black_clay_tiling.png",
+    "image": "blocks/renewed/black_clay_tiling.png",
     "url": "#"
   },
   "lotr:black_clay_tiling_slab": {
     "name": "Black Clay Tiling Slab",
-    "image": "items/black_clay_tiling_slab.png",
+    "image": "blocks/renewed/black_clay_tiling_slab.png",
     "url": "#"
   },
   "lotr:black_clay_tiling_stairs": {
     "name": "Black Clay Tiling Stairs",
-    "image": "items/black_clay_tiling_stairs.png",
+    "image": "blocks/renewed/black_clay_tiling_stairs.png",
     "url": "#"
   },
   "lotr:black_clay_tiling_wall": {
     "name": "Black Clay Tiling Wall",
-    "image": "items/black_clay_tiling_wall.png",
+    "image": "blocks/renewed/black_clay_tiling_wall.png",
     "url": "#"
   },
   "lotr:black_fine_glass": {
     "name": "Black Fine Glass",
-    "image": "items/black_fine_glass.png",
+    "image": "blocks/renewed/black_fine_glass.png",
     "url": "#"
   },
   "lotr:black_fine_glass_pane": {
@@ -721,37 +721,37 @@
   },
   "lotr:black_fur_bundle": {
     "name": "Black Fur Bundle",
-    "image": "items/black_fur_bundle.png",
+    "image": "blocks/black_fur_bundle.png",
     "url": "#"
   },
   "lotr:black_fur_carpet": {
     "name": "Black Fur Carpet",
-    "image": "items/black_fur_carpet.png",
+    "image": "blocks/black_fur_carpet.png",
     "url": "#"
   },
   "lotr:black_matted_fur": {
     "name": "Black Matted Fur",
-    "image": "items/black_matted_fur.png",
+    "image": "blocks/black_matted_fur.png",
     "url": "#"
   },
   "lotr:black_matted_fur_slab": {
     "name": "Black Matted Fur Slab",
-    "image": "items/black_matted_fur_slab.png",
+    "image": "blocks/black_matted_fur_slab.png",
     "url": "#"
   },
   "lotr:black_matted_fur_stairs": {
     "name": "Black Matted Fur Stairs",
-    "image": "items/black_matted_fur_stairs.png",
+    "image": "blocks/black_matted_fur_stairs.png",
     "url": "#"
   },
   "lotr:black_matted_fur_wall": {
     "name": "Black Matted Fur Wall",
-    "image": "items/black_matted_fur_wall.png",
+    "image": "blocks/black_matted_fur_wall.png",
     "url": "#"
   },
   "lotr:black_uruk_steel_block": {
     "name": "Black Uruk Steel Block",
-    "image": "items/black_uruk_steel_block.png",
+    "image": "blocks/black_uruk_steel_block.png",
     "url": "#"
   },
   "lotr:black_uruk_steel_ingot": {
@@ -776,17 +776,17 @@
   },
   "lotr:black_wool_slab": {
     "name": "Black Wool Slab",
-    "image": "items/black_wool_slab.png",
+    "image": "blocks/renewed/black_wool_slab.png",
     "url": "#"
   },
   "lotr:black_wool_stairs": {
     "name": "Black Wool Stairs",
-    "image": "items/black_wool_stairs.png",
+    "image": "blocks/renewed/black_wool_stairs.png",
     "url": "#"
   },
   "lotr:blackroot": {
     "name": "Blackroot",
-    "image": "items/blackroot.png",
+    "image": "items/renewed/blackroot.png",
     "url": "#"
   },
   "lotr:blackroot_stick": {
@@ -796,7 +796,7 @@
   },
   "lotr:blubber": {
     "name": "Blubber",
-    "image": "items/blubber.png",
+    "image": "items/renewed/blubber.png",
     "url": "#"
   },
   "lotr:blubber_torch": {
@@ -1596,12 +1596,12 @@
   },
   "lotr:charred_beam": {
     "name": "Charred Beam",
-    "image": "items/charred_beam.png",
+    "image": "blocks/renewed/charred_beam.png",
     "url": "#"
   },
   "lotr:charred_beam_slab": {
     "name": "Charred Beam Slab",
-    "image": "items/charred_beam_slab.png",
+    "image": "blocks/renewed/charred_beam_slab.png",
     "url": "#"
   },
   "lotr:charred_boat": {
@@ -1611,12 +1611,12 @@
   },
   "lotr:charred_branch": {
     "name": "Charred Branch",
-    "image": "items/charred_branch.png",
+    "image": "blocks/renewed/charred_branch.png",
     "url": "#"
   },
   "lotr:charred_button": {
     "name": "Charred Button",
-    "image": "items/charred_button.png",
+    "image": "blocks/renewed/charred_button.png",
     "url": "#"
   },
   "lotr:charred_door": {
@@ -1636,12 +1636,12 @@
   },
   "lotr:charred_log": {
     "name": "Charred Log",
-    "image": "items/charred_log.png",
+    "image": "blocks/renewed/charred_log.png",
     "url": "#"
   },
   "lotr:charred_log_slab": {
     "name": "Charred Log Slab",
-    "image": "items/charred_log_slab.png",
+    "image": "blocks/renewed/charred_log_slab.png",
     "url": "#"
   },
   "lotr:charred_planks": {
@@ -1651,7 +1651,7 @@
   },
   "lotr:charred_pressure_plate": {
     "name": "Charred Pressure Plate",
-    "image": "items/charred_pressure_plate.png",
+    "image": "blocks/renewed/charred_pressure_plate.png",
     "url": "#"
   },
   "lotr:charred_sign": {
@@ -1661,22 +1661,22 @@
   },
   "lotr:charred_slab": {
     "name": "Charred Slab",
-    "image": "items/charred_slab.png",
+    "image": "blocks/renewed/charred_slab.png",
     "url": "#"
   },
   "lotr:charred_stairs": {
     "name": "Charred Stairs",
-    "image": "items/charred_stairs.png",
+    "image": "blocks/renewed/charred_stairs.png",
     "url": "#"
   },
   "lotr:charred_trapdoor": {
     "name": "Charred Trapdoor",
-    "image": "items/charred_trapdoor.png",
+    "image": "blocks/renewed/charred_trapdoor.png",
     "url": "#"
   },
   "lotr:charred_wood": {
     "name": "Charred Wood",
-    "image": "items/charred_wood.png",
+    "image": "blocks/renewed/charred_wood.png",
     "url": "#"
   },
   "lotr:charred_wood_slab": {
@@ -1686,7 +1686,7 @@
   },
   "lotr:charred_wood_stairs": {
     "name": "Charred Wood Stairs",
-    "image": "items/charred_wood_stairs.png",
+    "image": "blocks/renewed/charred_wood_stairs.png",
     "url": "#"
   },
   "lotr:cheese_curds": {
@@ -1711,12 +1711,12 @@
   },
   "lotr:cherry_beam": {
     "name": "Cherry Beam",
-    "image": "items/cherry_beam.png",
+    "image": "blocks/renewed/cherry_beam.png",
     "url": "#"
   },
   "lotr:cherry_beam_slab": {
     "name": "Cherry Beam Slab",
-    "image": "items/cherry_beam_slab.png",
+    "image": "blocks/renewed/cherry_beam_slab.png",
     "url": "#"
   },
   "lotr:cherry_boat": {
@@ -1726,12 +1726,12 @@
   },
   "lotr:cherry_branch": {
     "name": "Cherry Branch",
-    "image": "items/cherry_branch.png",
+    "image": "blocks/renewed/cherry_branch.png",
     "url": "#"
   },
   "lotr:cherry_button": {
     "name": "Cherry Button",
-    "image": "items/cherry_button.png",
+    "image": "blocks/renewed/cherry_button.png",
     "url": "#"
   },
   "lotr:cherry_door": {
@@ -1751,17 +1751,17 @@
   },
   "lotr:cherry_leaves": {
     "name": "Cherry Leaves",
-    "image": "items/cherry_leaves.png",
+    "image": "blocks/renewed/cherry_leaves.png",
     "url": "#"
   },
   "lotr:cherry_log": {
     "name": "Cherry Log",
-    "image": "items/cherry_log.png",
+    "image": "blocks/renewed/cherry_log.png",
     "url": "#"
   },
   "lotr:cherry_log_slab": {
     "name": "Cherry Log Slab",
-    "image": "items/cherry_log_slab.png",
+    "image": "blocks/renewed/cherry_log_slab.png",
     "url": "#"
   },
   "lotr:cherry_pie": {
@@ -1771,37 +1771,37 @@
   },
   "lotr:cherry_planks": {
     "name": "Cherry Planks",
-    "image": "blocks/renewed/cherry_planks.png",
+    "image": "blocks/renewed/renewed/cherry_planks.png",
     "url": "#"
   },
   "lotr:cherry_pressure_plate": {
     "name": "Cherry Pressure Plate",
-    "image": "items/cherry_pressure_plate.png",
+    "image": "blocks/renewed/cherry_pressure_plate.png",
     "url": "#"
   },
   "lotr:cherry_sign": {
     "name": "Cherry Sign",
-    "image": "items/cherry_sign.png",
+    "image": "blocks/renewed/cherry_sign.png",
     "url": "#"
   },
   "lotr:cherry_slab": {
     "name": "Cherry Slab",
-    "image": "items/cherry_slab.png",
+    "image": "blocks/renewed/cherry_slab.png",
     "url": "#"
   },
   "lotr:cherry_stairs": {
     "name": "Cherry Stairs",
-    "image": "items/cherry_stairs.png",
+    "image": "blocks/renewed/cherry_stairs.png",
     "url": "#"
   },
   "lotr:cherry_trapdoor": {
     "name": "Cherry Trapdoor",
-    "image": "items/cherry_trapdoor.png",
+    "image": "blocks/renewed/cherry_trapdoor.png",
     "url": "#"
   },
   "lotr:cherry_wood": {
     "name": "Cherry Wood",
-    "image": "items/cherry_wood.png",
+    "image": "blocks/renewed/cherry_wood.png",
     "url": "#"
   },
   "lotr:cherry_wood_slab": {
@@ -1811,17 +1811,17 @@
   },
   "lotr:cherry_wood_stairs": {
     "name": "Cherry Wood Stairs",
-    "image": "items/cherry_wood_stairs.png",
+    "image": "blocks/renewed/cherry_wood_stairs.png",
     "url": "#"
   },
   "lotr:chestnut_beam": {
     "name": "Chestnut Beam",
-    "image": "blocks/chestnut_beam.png",
+    "image": "blocks/renewed/chestnut_beam.png",
     "url": "#"
   },
   "lotr:chestnut_beam_slab": {
     "name": "Chestnut Beam Slab",
-    "image": "blocks/chestnut_beam_slab.png",
+    "image": "blocks/renewed/chestnut_beam_slab.png",
     "url": "#"
   },
   "lotr:chestnut_boat": {
@@ -1831,12 +1831,12 @@
   },
   "lotr:chestnut_branch": {
     "name": "Chestnut Branch",
-    "image": "blocks/chestnut_branch.png",
+    "image": "blocks/renewed/chestnut_branch.png",
     "url": "#"
   },
   "lotr:chestnut_button": {
     "name": "Chestnut Button",
-    "image": "blocks/chestnut_button.png",
+    "image": "blocks/renewed/chestnut_button.png",
     "url": "#"
   },
   "lotr:chestnut_door": {
@@ -1856,27 +1856,27 @@
   },
   "lotr:chestnut_leaves": {
     "name": "Chestnut Leaves",
-    "image": "blocks/chestnut_leaves.png",
+    "image": "blocks/renewed/chestnut_leaves.png",
     "url": "#"
   },
   "lotr:chestnut_log": {
     "name": "Chestnut Log",
-    "image": "blocks/chestnut_log.png",
+    "image": "blocks/renewed/chestnut_log.png",
     "url": "#"
   },
   "lotr:chestnut_log_slab": {
     "name": "Chestnut Log Slab",
-    "image": "blocks/chestnut_log_slab.png",
+    "image": "blocks/renewed/chestnut_log_slab.png",
     "url": "#"
   },
   "lotr:chestnut_planks": {
     "name": "Chestnut Planks",
-    "image": "blocks/chestnut_planks.png",
+    "image": "blocks/renewed/chestnut_planks.png",
     "url": "#"
   },
   "lotr:chestnut_pressure_plate": {
     "name": "Chestnut Pressure Plate",
-    "image": "blocks/chestnut_pressure_plate.png",
+    "image": "blocks/renewed/chestnut_pressure_plate.png",
     "url": "#"
   },
   "lotr:chestnut_sign": {
@@ -1886,32 +1886,32 @@
   },
   "lotr:chestnut_slab": {
     "name": "Chestnut Slab",
-    "image": "blocks/chestnut_slab.png",
+    "image": "blocks/renewed/chestnut_slab.png",
     "url": "#"
   },
   "lotr:chestnut_stairs": {
     "name": "Chestnut Stairs",
-    "image": "blocks/chestnut_stairs.png",
+    "image": "blocks/renewed/chestnut_stairs.png",
     "url": "#"
   },
   "lotr:chestnut_trapdoor": {
     "name": "Chestnut Trapdoor",
-    "image": "blocks/chestnut_trapdoor.png",
+    "image": "blocks/renewed/chestnut_trapdoor.png",
     "url": "#"
   },
   "lotr:chestnut_wood": {
     "name": "Chestnut Wood",
-    "image": "blocks/chestnut_wood.png",
+    "image": "blocks/renewed/chestnut_wood.png",
     "url": "#"
   },
   "lotr:chestnut_wood_slab": {
     "name": "Chestnut Wood Slab",
-    "image": "blocks/chestnut_wood_slab.png",
+    "image": "blocks/renewed/chestnut_wood_slab.png",
     "url": "#"
   },
   "lotr:chestnut_wood_stairs": {
     "name": "Chestnut Wood Stairs",
-    "image": "blocks/chestnut_wood_stairs.png",
+    "image": "blocks/renewed/chestnut_wood_stairs.png",
     "url": "#"
   },
   "lotr:chimney_pot": {
@@ -2526,7 +2526,7 @@
   },
   "lotr:cram": {
     "name": "Cram",
-    "image": "items/cram.png",
+    "image": "items/renewed/cram.png",
     "url": "#"
   },
   "lotr:crossed_wattle_and_daub": {
@@ -2536,17 +2536,17 @@
   },
   "lotr:crucible": {
     "name": "Crucible",
-    "image": "items/crucible.png",
+    "image": "blocks/crucible.png",
     "url": "#"
   },
   "lotr:culumalda_beam": {
     "name": "Culumalda Beam",
-    "image": "items/culumalda_beam.png",
+    "image": "blocks/renewed/culumalda_beam.png",
     "url": "#"
   },
   "lotr:culumalda_beam_slab": {
     "name": "Culumalda Beam Slab",
-    "image": "items/culumalda_beam_slab.png",
+    "image": "blocks/renewed/culumalda_beam_slab.png",
     "url": "#"
   },
   "lotr:culumalda_boat": {
@@ -2556,12 +2556,12 @@
   },
   "lotr:culumalda_branch": {
     "name": "Culumalda Branch",
-    "image": "items/culumalda_branch.png",
+    "image": "blocks/renewed/culumalda_branch.png",
     "url": "#"
   },
   "lotr:culumalda_button": {
     "name": "Culumalda Button",
-    "image": "items/culumalda_button.png",
+    "image": "blocks/renewed/culumalda_button.png",
     "url": "#"
   },
   "lotr:culumalda_door": {
@@ -2581,27 +2581,27 @@
   },
   "lotr:culumalda_leaves": {
     "name": "Culumalda Leaves",
-    "image": "items/culumalda_leaves.png",
+    "image": "blocks/renewed/culumalda_leaves.png",
     "url": "#"
   },
   "lotr:culumalda_log": {
     "name": "Culumalda Log",
-    "image": "items/culumalda_log.png",
+    "image": "blocks/renewed/culumalda_log.png",
     "url": "#"
   },
   "lotr:culumalda_log_slab": {
     "name": "Culumalda Log Slab",
-    "image": "items/culumalda_log_slab.png",
+    "image": "blocks/renewed/culumalda_log_slab.png",
     "url": "#"
   },
   "lotr:culumalda_planks": {
     "name": "Culumalda Planks",
-    "image": "blocks/renewed/culumalda_planks.png",
+    "image": "blocks/renewed/renewed/culumalda_planks.png",
     "url": "#"
   },
   "lotr:culumalda_pressure_plate": {
     "name": "Culumalda Pressure Plate",
-    "image": "items/culumalda_pressure_plate.png",
+    "image": "blocks/renewed/culumalda_pressure_plate.png",
     "url": "#"
   },
   "lotr:culumalda_sign": {
@@ -2611,22 +2611,22 @@
   },
   "lotr:culumalda_slab": {
     "name": "Culumalda Slab",
-    "image": "items/culumalda_slab.png",
+    "image": "blocks/renewed/culumalda_slab.png",
     "url": "#"
   },
   "lotr:culumalda_stairs": {
     "name": "Culumalda Stairs",
-    "image": "items/culumalda_stairs.png",
+    "image": "blocks/renewed/culumalda_stairs.png",
     "url": "#"
   },
   "lotr:culumalda_trapdoor": {
     "name": "Culumalda Trapdoor",
-    "image": "items/culumalda_trapdoor.png",
+    "image": "blocks/renewed/culumalda_trapdoor.png",
     "url": "#"
   },
   "lotr:culumalda_wood": {
     "name": "Culumalda Wood",
-    "image": "items/culumalda_wood.png",
+    "image": "blocks/renewed/culumalda_wood.png",
     "url": "#"
   },
   "lotr:culumalda_wood_slab": {
@@ -2636,7 +2636,7 @@
   },
   "lotr:culumalda_wood_stairs": {
     "name": "Culumalda Wood Stairs",
-    "image": "items/culumalda_wood_stairs.png",
+    "image": "blocks/renewed/culumalda_wood_stairs.png",
     "url": "#"
   },
   "lotr:cut_drystone": {
@@ -2696,12 +2696,12 @@
   },
   "lotr:cypress_beam": {
     "name": "Cypress Beam",
-    "image": "items/cypress_beam.png",
+    "image": "blocks/renewed/cypress_beam.png",
     "url": "#"
   },
   "lotr:cypress_beam_slab": {
     "name": "Cypress Beam Slab",
-    "image": "items/cypress_beam_slab.png",
+    "image": "blocks/renewed/cypress_beam_slab.png",
     "url": "#"
   },
   "lotr:cypress_boat": {
@@ -2711,12 +2711,12 @@
   },
   "lotr:cypress_branch": {
     "name": "Cypress Branch",
-    "image": "items/cypress_branch.png",
+    "image": "blocks/renewed/cypress_branch.png",
     "url": "#"
   },
   "lotr:cypress_button": {
     "name": "Cypress Button",
-    "image": "items/cypress_button.png",
+    "image": "blocks/renewed/cypress_button.png",
     "url": "#"
   },
   "lotr:cypress_door": {
@@ -2736,27 +2736,27 @@
   },
   "lotr:cypress_leaves": {
     "name": "Cypress Leaves",
-    "image": "items/cypress_leaves.png",
+    "image": "blocks/renewed/cypress_leaves.png",
     "url": "#"
   },
   "lotr:cypress_log": {
     "name": "Cypress Log",
-    "image": "items/cypress_log.png",
+    "image": "blocks/renewed/cypress_log.png",
     "url": "#"
   },
   "lotr:cypress_log_slab": {
     "name": "Cypress Log Slab",
-    "image": "items/cypress_log_slab.png",
+    "image": "blocks/renewed/cypress_log_slab.png",
     "url": "#"
   },
   "lotr:cypress_planks": {
     "name": "Cypress Planks",
-    "image": "blocks/renewed/cypress_planks.png",
+    "image": "blocks/renewed/renewed/cypress_planks.png",
     "url": "#"
   },
   "lotr:cypress_pressure_plate": {
     "name": "Cypress Pressure Plate",
-    "image": "items/cypress_pressure_plate.png",
+    "image": "blocks/renewed/cypress_pressure_plate.png",
     "url": "#"
   },
   "lotr:cypress_sign": {
@@ -2766,22 +2766,22 @@
   },
   "lotr:cypress_slab": {
     "name": "Cypress Slab",
-    "image": "items/cypress_slab.png",
+    "image": "blocks/renewed/cypress_slab.png",
     "url": "#"
   },
   "lotr:cypress_stairs": {
     "name": "Cypress Stairs",
-    "image": "items/cypress_stairs.png",
+    "image": "blocks/renewed/cypress_stairs.png",
     "url": "#"
   },
   "lotr:cypress_trapdoor": {
     "name": "Cypress Trapdoor",
-    "image": "items/cypress_trapdoor.png",
+    "image": "blocks/renewed/cypress_trapdoor.png",
     "url": "#"
   },
   "lotr:cypress_wood": {
     "name": "Cypress Wood",
-    "image": "items/cypress_wood.png",
+    "image": "blocks/renewed/cypress_wood.png",
     "url": "#"
   },
   "lotr:cypress_wood_slab": {
@@ -2791,7 +2791,7 @@
   },
   "lotr:cypress_wood_stairs": {
     "name": "Cypress Wood Stairs",
-    "image": "items/cypress_wood_stairs.png",
+    "image": "blocks/renewed/cypress_wood_stairs.png",
     "url": "#"
   },
   "lotr:dale_banner": {
@@ -2896,22 +2896,22 @@
   },
   "lotr:dark_oak_beam": {
     "name": "Dark Oak Beam",
-    "image": "items/dark_oak_beam.png",
+    "image": "blocks/renewed/dark_oak_beam.png",
     "url": "#"
   },
   "lotr:dark_oak_beam_slab": {
     "name": "Dark Oak Beam Slab",
-    "image": "items/dark_oak_beam_slab.png",
+    "image": "blocks/renewed/dark_oak_beam_slab.png",
     "url": "#"
   },
   "lotr:dark_oak_branch": {
     "name": "Dark Oak Branch",
-    "image": "items/dark_oak_branch.png",
+    "image": "blocks/renewed/dark_oak_branch.png",
     "url": "#"
   },
   "lotr:dark_oak_log_slab": {
     "name": "Dark Oak Log Slab",
-    "image": "items/dark_oak_log_slab.png",
+    "image": "blocks/renewed/dark_oak_log_slab.png",
     "url": "#"
   },
   "lotr:dark_oak_wood_slab": {
@@ -2921,7 +2921,7 @@
   },
   "lotr:dark_oak_wood_stairs": {
     "name": "Dark Oak Wood Stairs",
-    "image": "items/dark_oak_wood_stairs.png",
+    "image": "blocks/renewed/dark_oak_wood_stairs.png",
     "url": "#"
   },
   "lotr:dead_moss_vines": {
@@ -3326,7 +3326,7 @@
   },
   "lotr:dwarfwort": {
     "name": "Dwarfwort",
-    "image": "items/dwarfwort.png",
+    "image": "items/renewed/dwarfwort.png",
     "url": "#"
   },
   "lotr:dwarven_axe": {
@@ -3796,12 +3796,12 @@
   },
   "lotr:fir_beam": {
     "name": "Fir Beam",
-    "image": "items/fir_beam.png",
+    "image": "blocks/renewed/fir_beam.png",
     "url": "#"
   },
   "lotr:fir_beam_slab": {
     "name": "Fir Beam Slab",
-    "image": "items/fir_beam_slab.png",
+    "image": "blocks/renewed/fir_beam_slab.png",
     "url": "#"
   },
   "lotr:fir_boat": {
@@ -3811,12 +3811,12 @@
   },
   "lotr:fir_branch": {
     "name": "Fir Branch",
-    "image": "items/fir_branch.png",
+    "image": "blocks/renewed/fir_branch.png",
     "url": "#"
   },
   "lotr:fir_button": {
     "name": "Fir Button",
-    "image": "items/fir_button.png",
+    "image": "blocks/renewed/fir_button.png",
     "url": "#"
   },
   "lotr:fir_door": {
@@ -3836,17 +3836,17 @@
   },
   "lotr:fir_leaves": {
     "name": "Fir Leaves",
-    "image": "items/fir_leaves.png",
+    "image": "blocks/renewed/fir_leaves.png",
     "url": "#"
   },
   "lotr:fir_log": {
     "name": "Fir Log",
-    "image": "items/fir_log.png",
+    "image": "blocks/renewed/fir_log.png",
     "url": "#"
   },
   "lotr:fir_log_slab": {
     "name": "Fir Log Slab",
-    "image": "items/fir_log_slab.png",
+    "image": "blocks/renewed/fir_log_slab.png",
     "url": "#"
   },
   "lotr:fir_planks": {
@@ -3856,7 +3856,7 @@
   },
   "lotr:fir_pressure_plate": {
     "name": "Fir Pressure Plate",
-    "image": "items/fir_pressure_plate.png",
+    "image": "blocks/renewed/fir_pressure_plate.png",
     "url": "#"
   },
   "lotr:fir_sign": {
@@ -3866,22 +3866,22 @@
   },
   "lotr:fir_slab": {
     "name": "Fir Slab",
-    "image": "items/fir_slab.png",
+    "image": "blocks/renewed/fir_slab.png",
     "url": "#"
   },
   "lotr:fir_stairs": {
     "name": "Fir Stairs",
-    "image": "items/fir_stairs.png",
+    "image": "blocks/renewed/fir_stairs.png",
     "url": "#"
   },
   "lotr:fir_trapdoor": {
     "name": "Fir Trapdoor",
-    "image": "items/fir_trapdoor.png",
+    "image": "blocks/renewed/fir_trapdoor.png",
     "url": "#"
   },
   "lotr:fir_wood": {
     "name": "Fir Wood",
-    "image": "items/fir_wood.png",
+    "image": "blocks/renewed/fir_wood.png",
     "url": "#"
   },
   "lotr:fir_wood_slab": {
@@ -3891,7 +3891,7 @@
   },
   "lotr:fir_wood_stairs": {
     "name": "Fir Wood Stairs",
-    "image": "items/fir_wood_stairs.png",
+    "image": "blocks/renewed/fir_wood_stairs.png",
     "url": "#"
   },
   "lotr:fish_and_chips": {
@@ -4622,12 +4622,12 @@
   },
   "lotr:green_oak_beam": {
     "name": "Green Oak Beam",
-    "image": "items/green_oak_beam.png",
+    "image": "blocks/renewed/green_oak_beam.png",
     "url": "#"
   },
   "lotr:green_oak_beam_slab": {
     "name": "Green Oak Beam Slab",
-    "image": "items/green_oak_beam_slab.png",
+    "image": "blocks/renewed/green_oak_beam_slab.png",
     "url": "#"
   },
   "lotr:green_oak_boat": {
@@ -4637,12 +4637,12 @@
   },
   "lotr:green_oak_branch": {
     "name": "Green Oak Branch",
-    "image": "items/green_oak_branch.png",
+    "image": "blocks/renewed/green_oak_branch.png",
     "url": "#"
   },
   "lotr:green_oak_button": {
     "name": "Green Oak Button",
-    "image": "items/green_oak_button.png",
+    "image": "blocks/renewed/green_oak_button.png",
     "url": "#"
   },
   "lotr:green_oak_door": {
@@ -4662,27 +4662,27 @@
   },
   "lotr:green_oak_leaves": {
     "name": "Green Oak Leaves",
-    "image": "items/green_oak_leaves.png",
+    "image": "blocks/renewed/green_oak_leaves.png",
     "url": "#"
   },
   "lotr:green_oak_log": {
     "name": "Green Oak Log",
-    "image": "items/green_oak_log.png",
+    "image": "blocks/renewed/green_oak_log.png",
     "url": "#"
   },
   "lotr:green_oak_log_slab": {
     "name": "Green Oak Log Slab",
-    "image": "items/green_oak_log_slab.png",
+    "image": "blocks/renewed/green_oak_log_slab.png",
     "url": "#"
   },
   "lotr:green_oak_planks": {
     "name": "Green Oak Planks",
-    "image": "blocks/renewed/green_oak_planks.png",
+    "image": "blocks/renewed/renewed/green_oak_planks.png",
     "url": "#"
   },
   "lotr:green_oak_pressure_plate": {
     "name": "Green Oak Pressure Plate",
-    "image": "items/green_oak_pressure_plate.png",
+    "image": "blocks/renewed/green_oak_pressure_plate.png",
     "url": "#"
   },
   "lotr:green_oak_sign": {
@@ -4692,22 +4692,22 @@
   },
   "lotr:green_oak_slab": {
     "name": "Green Oak Slab",
-    "image": "items/green_oak_slab.png",
+    "image": "blocks/renewed/green_oak_slab.png",
     "url": "#"
   },
   "lotr:green_oak_stairs": {
     "name": "Green Oak Stairs",
-    "image": "items/green_oak_stairs.png",
+    "image": "blocks/renewed/green_oak_stairs.png",
     "url": "#"
   },
   "lotr:green_oak_trapdoor": {
     "name": "Green Oak Trapdoor",
-    "image": "items/green_oak_trapdoor.png",
+    "image": "blocks/renewed/green_oak_trapdoor.png",
     "url": "#"
   },
   "lotr:green_oak_wood": {
     "name": "Green Oak Wood",
-    "image": "items/green_oak_wood.png",
+    "image": "blocks/renewed/green_oak_wood.png",
     "url": "#"
   },
   "lotr:green_oak_wood_slab": {
@@ -4717,7 +4717,7 @@
   },
   "lotr:green_oak_wood_stairs": {
     "name": "Green Oak Wood Stairs",
-    "image": "items/green_oak_wood_stairs.png",
+    "image": "blocks/renewed/green_oak_wood_stairs.png",
     "url": "#"
   },
   "lotr:green_wool_slab": {
@@ -5049,12 +5049,12 @@
   },
   "lotr:holly_beam": {
     "name": "Holly Beam",
-    "image": "items/holly_beam.png",
+    "image": "blocks/renewed/holly_beam.png",
     "url": "#"
   },
   "lotr:holly_beam_slab": {
     "name": "Holly Beam Slab",
-    "image": "items/holly_beam_slab.png",
+    "image": "blocks/renewed/holly_beam_slab.png",
     "url": "#"
   },
   "lotr:holly_boat": {
@@ -5064,12 +5064,12 @@
   },
   "lotr:holly_branch": {
     "name": "Holly Branch",
-    "image": "items/holly_branch.png",
+    "image": "blocks/renewed/holly_branch.png",
     "url": "#"
   },
   "lotr:holly_button": {
     "name": "Holly Button",
-    "image": "items/holly_button.png",
+    "image": "blocks/renewed/holly_button.png",
     "url": "#"
   },
   "lotr:holly_door": {
@@ -5089,17 +5089,17 @@
   },
   "lotr:holly_leaves": {
     "name": "Holly Leaves",
-    "image": "items/holly_leaves.png",
+    "image": "blocks/renewed/holly_leaves.png",
     "url": "#"
   },
   "lotr:holly_log": {
     "name": "Holly Log",
-    "image": "items/holly_log.png",
+    "image": "blocks/renewed/holly_log.png",
     "url": "#"
   },
   "lotr:holly_log_slab": {
     "name": "Holly Log Slab",
-    "image": "items/holly_log_slab.png",
+    "image": "blocks/renewed/holly_log_slab.png",
     "url": "#"
   },
   "lotr:holly_planks": {
@@ -5109,7 +5109,7 @@
   },
   "lotr:holly_pressure_plate": {
     "name": "Holly Pressure Plate",
-    "image": "items/holly_pressure_plate.png",
+    "image": "blocks/renewed/holly_pressure_plate.png",
     "url": "#"
   },
   "lotr:holly_sign": {
@@ -5119,22 +5119,22 @@
   },
   "lotr:holly_slab": {
     "name": "Holly Slab",
-    "image": "items/holly_slab.png",
+    "image": "blocks/renewed/holly_slab.png",
     "url": "#"
   },
   "lotr:holly_stairs": {
     "name": "Holly Stairs",
-    "image": "items/holly_stairs.png",
+    "image": "blocks/renewed/holly_stairs.png",
     "url": "#"
   },
   "lotr:holly_trapdoor": {
     "name": "Holly Trapdoor",
-    "image": "items/holly_trapdoor.png",
+    "image": "blocks/renewed/holly_trapdoor.png",
     "url": "#"
   },
   "lotr:holly_wood": {
     "name": "Holly Wood",
-    "image": "items/holly_wood.png",
+    "image": "blocks/renewed/holly_wood.png",
     "url": "#"
   },
   "lotr:holly_wood_slab": {
@@ -5144,7 +5144,7 @@
   },
   "lotr:holly_wood_stairs": {
     "name": "Holly Wood Stairs",
-    "image": "items/holly_wood_stairs.png",
+    "image": "blocks/renewed/holly_wood_stairs.png",
     "url": "#"
   },
   "lotr:horn_of_command": {
@@ -5219,32 +5219,32 @@
   },
   "lotr:jungle_beam": {
     "name": "Jungle Beam",
-    "image": "items/jungle_beam.png",
+    "image": "blocks/renewed/jungle_beam.png",
     "url": "#"
   },
   "lotr:jungle_beam_slab": {
     "name": "Jungle Beam Slab",
-    "image": "items/jungle_beam_slab.png",
+    "image": "blocks/renewed/jungle_beam_slab.png",
     "url": "#"
   },
   "lotr:jungle_branch": {
     "name": "Jungle Branch",
-    "image": "items/jungle_branch.png",
+    "image": "blocks/renewed/jungle_branch.png",
     "url": "#"
   },
   "lotr:jungle_log_slab": {
     "name": "Jungle Log Slab",
-    "image": "items/jungle_log_slab.png",
+    "image": "blocks/renewed/jungle_log_slab.png",
     "url": "#"
   },
   "lotr:jungle_wood_slab": {
     "name": "Jungle Wood Slab",
-    "image": "blocks/renewed/jungle_wood_slab.png",
+    "image": "blocks/renewed/renewed/jungle_wood_slab.png",
     "url": "#"
   },
   "lotr:jungle_wood_stairs": {
     "name": "Jungle Wood Stairs",
-    "image": "items/jungle_wood_stairs.png",
+    "image": "blocks/renewed/jungle_wood_stairs.png",
     "url": "#"
   },
   "lotr:keg": {
@@ -5254,12 +5254,12 @@
   },
   "lotr:lairelosse_beam": {
     "name": "Lairelosse Beam",
-    "image": "items/lairelosse_beam.png",
+    "image": "blocks/renewed/lairelosse_beam.png",
     "url": "#"
   },
   "lotr:lairelosse_beam_slab": {
     "name": "Lairelosse Beam Slab",
-    "image": "items/lairelosse_beam_slab.png",
+    "image": "blocks/renewed/lairelosse_beam_slab.png",
     "url": "#"
   },
   "lotr:lairelosse_boat": {
@@ -5269,12 +5269,12 @@
   },
   "lotr:lairelosse_branch": {
     "name": "Lairelosse Branch",
-    "image": "items/lairelosse_branch.png",
+    "image": "blocks/renewed/lairelosse_branch.png",
     "url": "#"
   },
   "lotr:lairelosse_button": {
     "name": "Lairelosse Button",
-    "image": "items/lairelosse_button.png",
+    "image": "blocks/renewed/lairelosse_button.png",
     "url": "#"
   },
   "lotr:lairelosse_door": {
@@ -5294,17 +5294,17 @@
   },
   "lotr:lairelosse_leaves": {
     "name": "Lairelosse Leaves",
-    "image": "items/lairelosse_leaves.png",
+    "image": "blocks/renewed/lairelosse_leaves.png",
     "url": "#"
   },
   "lotr:lairelosse_log": {
     "name": "Lairelosse Log",
-    "image": "items/lairelosse_log.png",
+    "image": "blocks/renewed/lairelosse_log.png",
     "url": "#"
   },
   "lotr:lairelosse_log_slab": {
     "name": "Lairelosse Log Slab",
-    "image": "items/lairelosse_log_slab.png",
+    "image": "blocks/renewed/lairelosse_log_slab.png",
     "url": "#"
   },
   "lotr:lairelosse_planks": {
@@ -5314,7 +5314,7 @@
   },
   "lotr:lairelosse_pressure_plate": {
     "name": "Lairelosse Pressure Plate",
-    "image": "items/lairelosse_pressure_plate.png",
+    "image": "blocks/renewed/lairelosse_pressure_plate.png",
     "url": "#"
   },
   "lotr:lairelosse_sign": {
@@ -5324,22 +5324,22 @@
   },
   "lotr:lairelosse_slab": {
     "name": "Lairelosse Slab",
-    "image": "items/lairelosse_slab.png",
+    "image": "blocks/renewed/lairelosse_slab.png",
     "url": "#"
   },
   "lotr:lairelosse_stairs": {
     "name": "Lairelosse Stairs",
-    "image": "items/lairelosse_stairs.png",
+    "image": "blocks/renewed/lairelosse_stairs.png",
     "url": "#"
   },
   "lotr:lairelosse_trapdoor": {
     "name": "Lairelosse Trapdoor",
-    "image": "items/lairelosse_trapdoor.png",
+    "image": "blocks/renewed/lairelosse_trapdoor.png",
     "url": "#"
   },
   "lotr:lairelosse_wood": {
     "name": "Lairelosse Wood",
-    "image": "items/lairelosse_wood.png",
+    "image": "blocks/renewed/lairelosse_wood.png",
     "url": "#"
   },
   "lotr:lairelosse_wood_slab": {
@@ -5349,7 +5349,7 @@
   },
   "lotr:lairelosse_wood_stairs": {
     "name": "Lairelosse Wood Stairs",
-    "image": "items/lairelosse_wood_stairs.png",
+    "image": "blocks/renewed/lairelosse_wood_stairs.png",
     "url": "#"
   },
   "lotr:lapis_trimmed_blue_brick": {
@@ -5359,12 +5359,12 @@
   },
   "lotr:larch_beam": {
     "name": "Larch Beam",
-    "image": "items/larch_beam.png",
+    "image": "blocks/renewed/larch_beam.png",
     "url": "#"
   },
   "lotr:larch_beam_slab": {
     "name": "Larch Beam Slab",
-    "image": "items/larch_beam_slab.png",
+    "image": "blocks/renewed/larch_beam_slab.png",
     "url": "#"
   },
   "lotr:larch_boat": {
@@ -5374,12 +5374,12 @@
   },
   "lotr:larch_branch": {
     "name": "Larch Branch",
-    "image": "items/larch_branch.png",
+    "image": "blocks/renewed/larch_branch.png",
     "url": "#"
   },
   "lotr:larch_button": {
     "name": "Larch Button",
-    "image": "items/larch_button.png",
+    "image": "blocks/renewed/larch_button.png",
     "url": "#"
   },
   "lotr:larch_door": {
@@ -5399,17 +5399,17 @@
   },
   "lotr:larch_leaves": {
     "name": "Larch Leaves",
-    "image": "items/larch_leaves.png",
+    "image": "blocks/renewed/larch_leaves.png",
     "url": "#"
   },
   "lotr:larch_log": {
     "name": "Larch Log",
-    "image": "items/larch_log.png",
+    "image": "blocks/renewed/larch_log.png",
     "url": "#"
   },
   "lotr:larch_log_slab": {
     "name": "Larch Log Slab",
-    "image": "items/larch_log_slab.png",
+    "image": "blocks/renewed/larch_log_slab.png",
     "url": "#"
   },
   "lotr:larch_planks": {
@@ -5419,7 +5419,7 @@
   },
   "lotr:larch_pressure_plate": {
     "name": "Larch Pressure Plate",
-    "image": "items/larch_pressure_plate.png",
+    "image": "blocks/renewed/larch_pressure_plate.png",
     "url": "#"
   },
   "lotr:larch_sign": {
@@ -5429,22 +5429,22 @@
   },
   "lotr:larch_slab": {
     "name": "Larch Slab",
-    "image": "items/larch_slab.png",
+    "image": "blocks/renewed/larch_slab.png",
     "url": "#"
   },
   "lotr:larch_stairs": {
     "name": "Larch Stairs",
-    "image": "items/larch_stairs.png",
+    "image": "blocks/renewed/larch_stairs.png",
     "url": "#"
   },
   "lotr:larch_trapdoor": {
     "name": "Larch Trapdoor",
-    "image": "items/larch_trapdoor.png",
+    "image": "blocks/renewed/larch_trapdoor.png",
     "url": "#"
   },
   "lotr:larch_wood": {
     "name": "Larch Wood",
-    "image": "items/larch_wood.png",
+    "image": "blocks/renewed/larch_wood.png",
     "url": "#"
   },
   "lotr:larch_wood_slab": {
@@ -5454,7 +5454,7 @@
   },
   "lotr:larch_wood_stairs": {
     "name": "Larch Wood Stairs",
-    "image": "items/larch_wood_stairs.png",
+    "image": "blocks/renewed/larch_wood_stairs.png",
     "url": "#"
   },
   "lotr:large_flower_pot": {
@@ -5489,12 +5489,12 @@
   },
   "lotr:lebethron_beam": {
     "name": "Lebethron Beam",
-    "image": "items/lebethron_beam.png",
+    "image": "blocks/renewed/lebethron_beam.png",
     "url": "#"
   },
   "lotr:lebethron_beam_slab": {
     "name": "Lebethron Beam Slab",
-    "image": "items/lebethron_beam_slab.png",
+    "image": "blocks/renewed/lebethron_beam_slab.png",
     "url": "#"
   },
   "lotr:lebethron_boat": {
@@ -5504,12 +5504,12 @@
   },
   "lotr:lebethron_branch": {
     "name": "Lebethron Branch",
-    "image": "items/lebethron_branch.png",
+    "image": "blocks/renewed/lebethron_branch.png",
     "url": "#"
   },
   "lotr:lebethron_button": {
     "name": "Lebethron Button",
-    "image": "items/lebethron_button.png",
+    "image": "blocks/renewed/lebethron_button.png",
     "url": "#"
   },
   "lotr:lebethron_door": {
@@ -5529,17 +5529,17 @@
   },
   "lotr:lebethron_leaves": {
     "name": "Lebethron Leaves",
-    "image": "items/lebethron_leaves.png",
+    "image": "blocks/renewed/lebethron_leaves.png",
     "url": "#"
   },
   "lotr:lebethron_log": {
     "name": "Lebethron Log",
-    "image": "items/lebethron_log.png",
+    "image": "blocks/renewed/lebethron_log.png",
     "url": "#"
   },
   "lotr:lebethron_log_slab": {
     "name": "Lebethron Log Slab",
-    "image": "items/lebethron_log_slab.png",
+    "image": "blocks/renewed/lebethron_log_slab.png",
     "url": "#"
   },
   "lotr:lebethron_planks": {
@@ -5549,7 +5549,7 @@
   },
   "lotr:lebethron_pressure_plate": {
     "name": "Lebethron Pressure Plate",
-    "image": "items/lebethron_pressure_plate.png",
+    "image": "blocks/renewed/lebethron_pressure_plate.png",
     "url": "#"
   },
   "lotr:lebethron_sign": {
@@ -5559,32 +5559,32 @@
   },
   "lotr:lebethron_slab": {
     "name": "Lebethron Slab",
-    "image": "items/lebethron_slab.png",
+    "image": "blocks/renewed/lebethron_slab.png",
     "url": "#"
   },
   "lotr:lebethron_stairs": {
     "name": "Lebethron Stairs",
-    "image": "items/lebethron_stairs.png",
+    "image": "blocks/renewed/lebethron_stairs.png",
     "url": "#"
   },
   "lotr:lebethron_trapdoor": {
     "name": "Lebethron Trapdoor",
-    "image": "items/lebethron_trapdoor.png",
+    "image": "blocks/renewed/lebethron_trapdoor.png",
     "url": "#"
   },
   "lotr:lebethron_wood": {
     "name": "Lebethron Wood",
-    "image": "items/lebethron_wood.png",
+    "image": "blocks/renewed/lebethron_wood.png",
     "url": "#"
   },
   "lotr:lebethron_wood_slab": {
     "name": "Lebethron Wood Slab",
-    "image": "blocks/renewed/lebethron_wood_slab.png",
+    "image": "blocks/renewed/renewed/lebethron_wood_slab.png",
     "url": "#"
   },
   "lotr:lebethron_wood_stairs": {
     "name": "Lebethron Wood Stairs",
-    "image": "items/lebethron_wood_stairs.png",
+    "image": "blocks/renewed/lebethron_wood_stairs.png",
     "url": "#"
   },
   "lotr:light_blue_clay_tiling": {
