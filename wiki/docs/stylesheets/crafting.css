@@ -1,10 +1,48 @@
 /* === CRAFTING BOX === */
+/* Collapsible wrapper */
+.crafting-collapsible {
+  border: none;
+  background: #ffffff20;
+  margin-top: 10px;
+}
+
+/* Header bar */
+.crafting-collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: #ffffff30;
+  font-weight: bold;
+}
+
+/* Title */
+.crafting-collapsible-title {
+  font-size: 14px;
+}
+.toggle-text {
+  color: #1a73e8; /* link-style blue */
+}
+
+/* Button styled like a link */
+.crafting-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.crafting-toggle-btn:hover .toggle-text {
+  text-decoration: underline;
+}
+
 /* Main wrapper - vertical stacking of rows */
 .crafting-grid-layout {
   display: flex;
   flex-direction: column;   /* stack rows vertically */
   gap: 16px;                /* vertical spacing between rows */
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   background-color: #ffffff30;
 }
 

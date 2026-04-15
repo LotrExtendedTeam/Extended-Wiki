@@ -195,19 +195,70 @@ def render_gui_img(recipe):
         grid_image = "crafting_grid.png"
     return grid_image
 
+LOWERCASE_KEYS = {"collapsible"}
+
+def parse_grid_input(content):
+    parts = content.split(";")
+    options = {}
+    recipes_part = ""
+
+    if len(parts) > 1:
+        # first part = options
+        for opt in parts[0].split(","):
+            if "=" in opt:
+                k, v = opt.split("=", 1)
+                key = k.strip()
+                value = v.strip()
+                if key in LOWERCASE_KEYS:
+                    value = value.lower()
+                options[key] = value
+        recipes_part = parts[1]
+    else:
+        recipes_part = parts[0]
+
+    recipe_ids = [r.strip() for r in recipes_part.split(",") if r.strip()]
+    return options, recipe_ids
+
 def render_crafting_grid(content):
-    recipe_ids = [r.strip() for r in content.split(",") if r.strip()]
+    options, recipe_ids = parse_grid_input(content)
+    collapsible = options.get("collapsible") == "true"
 
     rows_html = []
     for i in range(0, len(recipe_ids), 2):  # group every 2
         pair = recipe_ids[i:i+2]
         pair_html = ''.join(render_recipe(r) for r in pair)
         rows_html.append(f'<div class="crafting-row">{pair_html}</div>')
+    
+    crafting_html = ['<div class="crafting-grid-layout">']
+    crafting_html.append(''.join(rows_html))
+    crafting_html.append(f'</div>')
+    finalHTML ='\n'.join(crafting_html)
+    
+    if collapsible:
+        return render_collapsible_grid(finalHTML, options)
+    else:
+        return finalHTML
 
-    html = ['<div class="crafting-grid-layout">']
-    html.append(''.join(rows_html))
-    html.append(f'</div>')
-    return '\n'.join(html)
+def render_collapsible_grid(inner_html, options):
+    title = options.get("title", "Crafting Recipes")
+    default_open = options.get("open") == "true"
+    display = "block" if default_open else "none"
+    label = "Collapse" if default_open else "Expand"
+    html_output = []
+
+    html_output.append('<div class="crafting-collapsible">')
+    # Header
+    html_output.append('<div class="crafting-collapsible-header">')
+    html_output.append(f'<span class="crafting-collapsible-title">{html.escape(title)}</span>')
+    html_output.append(f'<button class="crafting-toggle-btn" onclick="toggleCrafting(this)">[<span class="toggle-text">{label}</span>]</button>')
+    html_output.append('</div>')  # end header
+    # Content
+    html_output.append(f'<div class="crafting-collapsible-content" style="display: {display};">')
+    html_output.append(f'<div class="crafting-grid-layout">{inner_html}</div>')
+    html_output.append('</div>')  # collapsible-content
+
+    html_output.append('</div>')  # collapsible root
+    return '\n'.join(html_output)
 
 # --- MAIN RENDER ---
 def render_recipe(recipe_id):
