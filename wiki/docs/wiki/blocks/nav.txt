@@ -3,4 +3,4 @@
 * [Food Blocks](foods/)
 * [Stones](stones/)
 * [Utility Blocks](utility/)
-* [Wood Types](Wood_Types.md)
+* [Tree Types](woods/)
