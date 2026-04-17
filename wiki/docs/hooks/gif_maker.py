@@ -3,6 +3,8 @@ import os
 import re
 import yaml
 import imageio.v2 as imageio
+from PIL import Image
+import numpy as np
 from mkdocs.plugins import event_priority
 
 GIF_BLOCK_RE = re.compile(r"```gif\s*(.*?)```", re.DOTALL)
@@ -46,11 +48,26 @@ def on_page_markdown(markdown, page, config, files):
 
         # Generate GIF
         print(f"[GIF] Generating: {output_path}")
-        images = [imageio.imread(f) for f in full_frame_paths]
+        TARGET_SIZE = (16, 16)
+        images = []
+        for f in full_frame_paths:
+            try:
+                img = Image.open(f).convert("RGBA")
+                img = img.resize(TARGET_SIZE, Image.NEAREST)
+                arr = np.array(img)
+                if arr.shape != (TARGET_SIZE[1], TARGET_SIZE[0], 4):
+                    log.warning(f"[GIF] Skipping bad shape: {f} {arr.shape}")
+                    continue
+                images.append(arr)
+            except Exception as e:
+                log.warning(f"[GIF] Failed reading frame {f}: {e}")
+        if not images:
+            return f"**GIF generation error:** No valid frames"
         imageio.mimsave(output_abs, images, format="GIF", duration=duration, loop=0)
-
         return f"generated/{output_path}"
 
+    if "```gif" not in markdown:
+        return markdown
     # Replace all ```gif blocks
     new_markdown = GIF_BLOCK_RE.sub(process_block, markdown)
     return new_markdown

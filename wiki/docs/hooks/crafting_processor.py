@@ -83,7 +83,6 @@ def get_item(item_id):
     })
 
 def generate_tag_gif(tag_id, tag_data, items_data):
-    base_frame_dir = "wiki/docs/wiki/img/"
     output_rel = f"tags/{tag_id.replace(':', '_').replace('/', '_')}.gif"
     output_abs = os.path.join("wiki/docs/wiki/img/generated/", output_rel)
     os.makedirs(os.path.dirname(output_abs), exist_ok=True)
@@ -104,6 +103,12 @@ def generate_tag_gif(tag_id, tag_data, items_data):
         frame_paths.append(full_path)
     if not frame_paths:
         return None
+    # Check if output exists and is up-to-date
+    if os.path.exists(output_abs):
+        output_mtime = os.path.getmtime(output_abs)
+        if all(os.path.getmtime(f) <= output_mtime for f in frame_paths):
+            print(f"[GIF] Skipping, up-to-date: {output_rel}")
+            return f"generated/{output_rel}"
     # Generate GIF
     print(f"[TAG GIF] Generating: {output_rel}")
     TARGET_SIZE = (16, 16)
@@ -114,13 +119,12 @@ def generate_tag_gif(tag_id, tag_data, items_data):
             img = img.resize(TARGET_SIZE, Image.NEAREST)
             arr = np.array(img)
             # Safety check
-            if arr.shape != (16, 16, 4):
+            if arr.shape != (TARGET_SIZE[1], TARGET_SIZE[0], 4):
                 log.warning(f"[TAG GIF] Skipping bad shape: {f} {arr.shape}")
                 continue
             frames.append(arr)
         except Exception as e:
             log.warning(f"[TAG GIF] Failed reading frame {f}: {e}")
-        #images = [imageio.imread(f) for f in frame_paths[:16]]  # limit frames (optional)
     imageio.mimsave(output_abs, frames, format="GIF", duration=1000, loop=0)
 
     return f"generated/{output_rel}"
@@ -298,8 +302,10 @@ def on_page_markdown(markdown_content, page: Page, config, files):
         return render_recipe(recipe_id)
 
     # IMPORTANT: process grid first
-    markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
+    if "craftinggrid:" in markdown_content:
+        markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
 
     # then individual crafting blocks
-    markdown_content = CRAFTING_RE.sub(render_single, markdown_content)
+    if "crafting:" in markdown_content:
+       markdown_content = CRAFTING_RE.sub(render_single, markdown_content)
     return markdown_content
