@@ -106,7 +106,6 @@
   font-weight: bold;
   font-size: 15px;
   color: #000000;
-  z-index: 2;
   pointer-events: none;
   white-space: nowrap;
 }
