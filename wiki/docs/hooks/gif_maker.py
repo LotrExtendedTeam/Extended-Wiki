@@ -4,7 +4,6 @@ import re
 import yaml
 import imageio.v2 as imageio
 from PIL import Image
-import numpy as np
 from mkdocs.plugins import event_priority
 
 GIF_BLOCK_RE = re.compile(r"```gif\s*(.*?)```", re.DOTALL)
@@ -30,7 +29,7 @@ def on_page_markdown(markdown, page, config, files):
             return f"**GIF generation error:** Missing `frames` or `output`"
 
         # Prepend base path to frame filenames
-        full_frame_paths = [
+        frame_paths = [
             os.path.join(base_frame_dir, f) if not os.path.isabs(f) else f
             for f in frames
         ]
@@ -39,35 +38,31 @@ def on_page_markdown(markdown, page, config, files):
         output_abs = os.path.join("wiki/docs/wiki/img/generated/", output_path)
         os.makedirs(os.path.dirname(output_abs), exist_ok=True)
 
-        # Check if output exists and is up-to-date
+        # Skip if up-to-date
         if os.path.exists(output_abs):
             output_mtime = os.path.getmtime(output_abs)
-            if all(os.path.getmtime(f) <= output_mtime for f in full_frame_paths):
-                print(f"[GIF] Skipping, up-to-date: {output_path}")
+            if all(os.path.getmtime(frame) <= output_mtime for frame in frame_paths):
+                #print(f"[GIF] Skipping, up-to-date: {output_path}")
                 return f"generated/{output_path}"
 
-        # Generate GIF
         print(f"[GIF] Generating: {output_path}")
-        TARGET_SIZE = (16, 16)
-        images = []
-        for f in full_frame_paths:
-            try:
-                img = Image.open(f).convert("RGBA")
-                img = img.resize(TARGET_SIZE, Image.NEAREST)
-                arr = np.array(img)
-                if arr.shape != (TARGET_SIZE[1], TARGET_SIZE[0], 4):
-                    log.warning(f"[GIF] Skipping bad shape: {f} {arr.shape}")
-                    continue
-                images.append(arr)
-            except Exception as e:
-                log.warning(f"[GIF] Failed reading frame {f}: {e}")
-        if not images:
-            return f"**GIF generation error:** No valid frames"
-        imageio.mimsave(output_abs, images, format="GIF", duration=duration, loop=0)
+        try:
+            # Streaming write (performance gain)
+            with imageio.get_writer(output_abs, mode="I", duration=duration, loop=0, disposal=2) as writer:
+                for f in frame_paths:
+                    try:
+                        # Lazy load per frame
+                        img = Image.open(f)
+                        # Fast path: only convert if needed
+                        if img.mode != "RGBA":
+                            img = img.convert("RGBA")
+                        writer.append_data(img)
+                    except Exception as e:
+                        log.warning(f"[GIF] Failed reading frame {f}: {e}")
+        except Exception as e:
+            return f"**GIF generation error:** {e}"
         return f"generated/{output_path}"
 
     if "```gif" not in markdown:
         return markdown
-    # Replace all ```gif blocks
-    new_markdown = GIF_BLOCK_RE.sub(process_block, markdown)
-    return new_markdown
+    return GIF_BLOCK_RE.sub(process_block, markdown)

@@ -39,7 +39,7 @@ This small update's main purpose was fixing major issues and adding just a bit o
 </div>
 
 <div style="flex: 1;">
-	<img src="../img/updates/ExtendedUpdate_1_9_3.png" alt="Beta 1.9.3 Release image" style="max-width: 100%; height: auto;" />
+	<img src="../img/updates/ExtendedUpdate_1_9_3.png" alt="Beta 1.9.3 Release image" style="max-width: 100%; height: auto;" class="on-glb"/>
 	<p style="text-align: center; font-size: 0.9em;">Beta 1.9.3 Release image</p>
 </div>
 

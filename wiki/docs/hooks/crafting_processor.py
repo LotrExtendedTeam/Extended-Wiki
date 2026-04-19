@@ -19,10 +19,11 @@ ITEMS = {}
 TAGS = {}
 URL_PATH = "/Extended-Wiki/wiki/img/"
 checked_images = set()
+RECIPE_CACHE = {}
 
 # --- LOAD DATA ---
 def on_pre_build(config):
-    global RECIPES, ITEMS, TAGS
+    global RECIPES, ITEMS, TAGS, RECIPE_CACHE
     log.info(">>> Crafting Processor: Loading data")
 
     try:
@@ -52,6 +53,8 @@ def on_pre_build(config):
         # Store it back into tag data
         if gif_path:
             tag_data["image"] = gif_path
+
+    pre_render_all_recipes()
 
 def get_item(item_id):
     # Handle tags
@@ -107,26 +110,25 @@ def generate_tag_gif(tag_id, tag_data, items_data):
     if os.path.exists(output_abs):
         output_mtime = os.path.getmtime(output_abs)
         if all(os.path.getmtime(f) <= output_mtime for f in frame_paths):
-            print(f"[GIF] Skipping, up-to-date: {output_rel}")
+            #print(f"[GIF] Skipping, up-to-date: {output_rel}")
             return f"generated/{output_rel}"
     # Generate GIF
     print(f"[TAG GIF] Generating: {output_rel}")
-    TARGET_SIZE = (16, 16)
-    frames = []
-    for f in frame_paths:
-        try:
-            img = Image.open(f).convert("RGBA")
-            img = img.resize(TARGET_SIZE, Image.NEAREST)
-            arr = np.array(img)
-            # Safety check
-            if arr.shape != (TARGET_SIZE[1], TARGET_SIZE[0], 4):
-                log.warning(f"[TAG GIF] Skipping bad shape: {f} {arr.shape}")
-                continue
-            frames.append(arr)
-        except Exception as e:
-            log.warning(f"[TAG GIF] Failed reading frame {f}: {e}")
-    imageio.mimsave(output_abs, frames, format="GIF", duration=1000, loop=0)
-
+    try:
+        # Streaming write (performance gain)
+        with imageio.get_writer(output_abs, mode="I", duration=1000, loop=0, disposal=2) as writer:
+            for f in frame_paths:
+                try:
+                    # Lazy load per frame
+                    img = Image.open(f)
+                    # Fast path: only convert if needed
+                    if img.mode != "RGBA":
+                        img = img.convert("RGBA")
+                    writer.append_data(img)
+                except Exception as e:
+                    log.warning(f"[GIF] Failed reading frame {f}: {e}")
+    except Exception as e:
+        return f"**GIF generation error:** {e}"
     return f"generated/{output_rel}"
 
 def getImageLocal(imagePath):
@@ -228,20 +230,23 @@ def render_crafting_grid(content):
     collapsible = options.get("collapsible") == "true"
 
     rows_html = []
-    for i in range(0, len(recipe_ids), 2):  # group every 2
-        pair = recipe_ids[i:i+2]
-        pair_html = ''.join(render_recipe(r) for r in pair)
+    recipe_ids = list(recipe_ids)
+    count = len(recipe_ids)
+    for i in range(0, count, 2):  # group every 2
+        recipe_id_pair = recipe_ids[i:i+2]
+        try:
+            pair_html = ''.join(RECIPE_CACHE[rid] for rid in recipe_id_pair)
+        except KeyError as e:
+            log.warning(f"Missing cached recipe: {e}")
+            continue
         rows_html.append(f'<div class="crafting-row">{pair_html}</div>')
     
-    crafting_html = ['<div class="crafting-grid-layout">']
-    crafting_html.append(''.join(rows_html))
-    crafting_html.append(f'</div>')
-    finalHTML ='\n'.join(crafting_html)
-    
-    if collapsible:
-        return render_collapsible_grid(finalHTML, options)
-    else:
-        return finalHTML
+    finalHTML = (
+        '<div class="crafting-grid-layout">\n'
+        + ''.join(rows_html) +
+        '\n</div>'
+    )
+    return render_collapsible_grid(finalHTML, options) if collapsible else finalHTML
 
 def render_collapsible_grid(inner_html, options):
     title = options.get("title", "Crafting Recipes")
@@ -252,9 +257,9 @@ def render_collapsible_grid(inner_html, options):
 
     html_output.append('<div class="crafting-collapsible">')
     # Header
-    html_output.append('<div class="crafting-collapsible-header">')
+    html_output.append('<div class="crafting-collapsible-header" onclick="toggleCrafting(this)">')
     html_output.append(f'<span class="crafting-collapsible-title">{html.escape(title)}</span>')
-    html_output.append(f'<button class="crafting-toggle-btn" onclick="toggleCrafting(this)">[<span class="toggle-text">{label}</span>]</button>')
+    html_output.append(f'<button class="crafting-toggle-btn" type="button"">[<span class="toggle-text">{label}</span>]</button>')
     html_output.append('</div>')  # end header
     # Content
     html_output.append(f'<div class="crafting-collapsible-content" style="display: {display};">')
@@ -291,6 +296,39 @@ def render_recipe(recipe_id):
     html.append(f'</div>')
     return '\n'.join(html)
 
+def pre_render_all_recipes():
+    log.info("[Crafting] Rendering ALL recipes once")
+
+    for recipe_id in RECIPES.keys():
+        try:
+            RECIPE_CACHE[recipe_id] = render_recipe(recipe_id)
+        except Exception as e:
+            log.warning(f"Failed rendering recipe {recipe_id}: {e}")
+
+def render_all_recipes():
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for recipe_id, recipe in RECIPES.items():
+        first_char = recipe_id[0].upper() if recipe_id else "#"
+        if not first_char.isalpha():
+            first_char = "#"
+        groups[first_char].append(recipe_id)
+    html_parts = []
+    letters = sorted([k for k in groups.keys() if k != "#"])
+    if "#" in groups:
+        letters.append("#")
+    for letter in letters:
+        recipe_ids = sorted(groups[letter])  # purely alpha sorting by ID
+        options_str = (
+            f"title={letter} Recipes ({len(recipe_ids)}),"
+            f"collapsible=true,"
+            f"open=false"
+        )
+        recipes_str = ",".join(recipe_ids)
+        grid_content = f"{options_str};{recipes_str}"
+        html_parts.append(render_crafting_grid(grid_content))
+    return "\n".join(html_parts)
+
 # --- MARKDOWN HOOK ---
 def on_page_markdown(markdown_content, page: Page, config, files):
     def render_grid(match):
@@ -299,12 +337,16 @@ def on_page_markdown(markdown_content, page: Page, config, files):
 
     def render_single(match):
         recipe_id = match.group(1).strip()
-        return render_recipe(recipe_id)
+        return RECIPE_CACHE[recipe_id]
 
+    def render_all():
+        return render_all_recipes()
+
+    if "{{crafting_all}}" in markdown_content: 
+        markdown_content = markdown_content.replace("{{crafting_all}}", render_all())
     # IMPORTANT: process grid first
     if "craftinggrid:" in markdown_content:
         markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
-
     # then individual crafting blocks
     if "crafting:" in markdown_content:
        markdown_content = CRAFTING_RE.sub(render_single, markdown_content)

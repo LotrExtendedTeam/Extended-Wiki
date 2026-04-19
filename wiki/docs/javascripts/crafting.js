@@ -1,15 +1,10 @@
-function toggleCrafting(btn) {
-    const container = btn.closest(".crafting-collapsible");
+function toggleCrafting(el) {
+    const container = el.closest(".crafting-collapsible");
     const content = container.querySelector(".crafting-collapsible-content");
-    const textSpan = btn.querySelector(".toggle-text");
+    const textSpan = container.querySelector(".toggle-text");
 
     const isHidden = content.style.display === "none";
 
-    if (isHidden) {
-        content.style.display = "block";
-        textSpan.textContent = "Collapse";
-    } else {
-        content.style.display = "none";
-        textSpan.textContent = "Expand";
-    }
+    content.style.display = isHidden ? "block" : "none";
+    if (textSpan) textSpan.textContent = isHidden ? "Collapse" : "Expand";
 }

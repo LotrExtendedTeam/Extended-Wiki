@@ -75,8 +75,8 @@ hooks:
   - docs/hooks/crafting_processor.py
 
 plugins:
-  - search
-  - alias
+  #- search
+  #- alias
   - tags:
       tags_allowed:
         - Blocks
@@ -90,20 +90,20 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
-  - glightbox:
-       touchNavigation: true
-       loop: false
-       effect: zoom
-       slide_effect: slide
-       width: auto
-       height: auto
-       zoomable: true
-       draggable: true
-       auto_caption: true
-       caption_position: bottom
-       background: 74b9ff
-       shadow: false
-       manual: false
+  #- glightbox:
+  #     touchNavigation: true
+  #     loop: false
+  #     effect: zoom
+  #     slide_effect: slide
+  #     width: auto
+  #     height: auto
+  #     zoomable: true
+  #     draggable: true
+  #     auto_caption: true
+  #     caption_position: bottom
+  #     background: 74b9ff
+  #     shadow: false
+  #     manual: false
   - social:
        enabled: !ENV [CI, false]
        cards: true
