@@ -1,10 +1,49 @@
 /* === CRAFTING BOX === */
+/* Collapsible wrapper */
+.crafting-collapsible {
+  border: none;
+  background: #ffffff20;
+  margin-top: 10px;
+}
+
+/* Header bar */
+.crafting-collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: #ffffff30;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Title */
+.crafting-collapsible-title {
+  font-size: 14px;
+}
+.toggle-text {
+  color: #1a73e8; /* link-style blue */
+}
+
+/* Button styled like a link */
+.crafting-toggle-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.crafting-toggle-btn:hover .toggle-text {
+  text-decoration: underline;
+}
+
 /* Main wrapper - vertical stacking of rows */
 .crafting-grid-layout {
   display: flex;
   flex-direction: column;   /* stack rows vertically */
   gap: 16px;                /* vertical spacing between rows */
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   background-color: #ffffff30;
 }
 
@@ -68,7 +107,6 @@
   font-weight: bold;
   font-size: 15px;
   color: #000000;
-  z-index: 2;
   pointer-events: none;
   white-space: nowrap;
 }
@@ -86,7 +124,7 @@
 }
 
 /* SLOT */
-.slot {
+.crafting-slot {
   position: relative;
   display: inline-flex;
   width: 32px;
@@ -96,7 +134,7 @@
   text-decoration: none;
 }
 
-.slot img {
+.crafting-slot img {
   width: 16px;
   height: 16px;
   pointer-events: none;
@@ -144,7 +182,7 @@
 }
 
 /* === TOOLTIP SYSTEM (DELAYED) === */
-.slot:not(.empty)::after{
+.crafting-slot:not(.empty)::after{
   content: attr(data-name);
   position: absolute;
   bottom: 115%;
@@ -166,6 +204,6 @@
   z-index: 3; /* make tooltip above everything */
 }
 
-.slot:not(.empty):hover::after {
+.crafting-slot:not(.empty):hover::after {
   opacity: 1;
 }

@@ -3,4 +3,4 @@
 * [Food Blocks](foods/)
 * [Stones](stones/)
 * [Utility Blocks](utility/)
-* [Wood Types](woods/)
+* [Tree Types](woods/)

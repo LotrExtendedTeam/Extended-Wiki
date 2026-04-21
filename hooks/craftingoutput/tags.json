@@ -1,622 +1,763 @@
 {
-  "forge:apples": [
-    "minecraft:apple",
-    "lotr:green_apple"
-  ],
-  "forge:bones": [
-    "minecraft:bone",
-    "lotr:orc_bone",
-    "lotr:elf_bone",
-    "lotr:dwarf_bone",
-    "lotr:hobbit_bone",
-    "lotr:troll_bone",
-    "lotr:warg_bone"
-  ],
-  "forge:cobblestone": [
-    "minecraft:cobblestone",
-    "minecraft:infested_cobblestone",
-    "minecraft:mossy_cobblestone"
-  ],
-  "forge:dyes/black": [
-    "minecraft:black_dye"
-  ],
-  "forge:dyes/brown": [
-    "minecraft:brown_dye"
-  ],
-  "forge:dyes/cyan": [
-    "minecraft:cyan_dye"
-  ],
-  "forge:dyes/gray": [
-    "minecraft:gray_dye"
-  ],
-  "forge:dyes/light_blue": [
-    "minecraft:light_blue_dye"
-  ],
-  "forge:dyes/light_gray": [
-    "minecraft:light_gray_dye"
-  ],
-  "forge:dyes/lime": [
-    "minecraft:lime_dye"
-  ],
-  "forge:dyes/magenta": [
-    "minecraft:magenta_dye"
-  ],
-  "forge:dyes/orange": [
-    "minecraft:orange_dye"
-  ],
-  "forge:dyes/pink": [
-    "minecraft:pink_dye"
-  ],
-  "forge:dyes/purple": [
-    "minecraft:purple_dye"
-  ],
-  "forge:eggs": [
-    "lotr:duck_egg",
-    "minecraft:egg"
-  ],
-  "forge:feathers": [
-    "minecraft:feather",
-    "lotr:swan_feather"
-  ],
-  "forge:furs": [
-    "lotr:black_fur",
-    "lotr:gray_fur",
-    "lotr:silver_fur",
-    "lotr:white_fur",
-    "lotr:fur"
-  ],
-  "forge:horns": [
-    "lotr:horn",
-    "lotr:kine_of_araw_horn"
-  ],
-  "forge:ingots/brick": [
-    "minecraft:brick"
-  ],
-  "forge:ingots/copper": [
-    "lotr:copper_ingot"
-  ],
-  "forge:ingots/gold": [
-    "minecraft:gold_ingot"
-  ],
-  "forge:ingots/mithril": [
-    "lotr:mithril_ingot"
-  ],
-  "forge:ingots/silver": [
-    "lotr:silver_ingot"
-  ],
-  "forge:ingots/tin": [
-    "lotr:tin_ingot"
-  ],
-  "forge:leather": [
-    "minecraft:leather"
-  ],
-  "forge:mushrooms": [
-    "minecraft:brown_mushroom",
-    "minecraft:red_mushroom",
-    "lotr:morgul_shroom",
-    "lotr:mirk_shroom"
-  ],
-  "forge:rods/wooden": [
-    "minecraft:stick",
-    "lotr:mallorn_stick",
-    "lotr:blackroot_stick"
-  ],
-  "forge:sand": [
-    "minecraft:sand",
-    "minecraft:red_sand",
-    "lotr:white_sand"
-  ],
-  "forge:seeds": [
-    "minecraft:beetroot_seeds",
-    "minecraft:melon_seeds",
-    "minecraft:pumpkin_seeds",
-    "minecraft:wheat_seeds",
-    "lotr:pipeweed_seeds",
-    "lotr:flax_seeds"
-  ],
-  "lotr:apple_logs": [
-    "lotr:apple_log",
-    "lotr:apple_wood",
-    "lotr:stripped_apple_log",
-    "lotr:stripped_apple_wood"
-  ],
-  "lotr:aspen_logs": [
-    "lotr:aspen_log",
-    "lotr:aspen_wood",
-    "lotr:stripped_aspen_log",
-    "lotr:stripped_aspen_wood"
-  ],
-  "lotr:beech_logs": [
-    "lotr:beech_log",
-    "lotr:beech_wood",
-    "lotr:stripped_beech_log",
-    "lotr:stripped_beech_wood"
-  ],
-  "lotr:blue_mallorn_colorants": [
-    "lotr:edhelvir",
-    "lotr:bluebell"
-  ],
-  "lotr:cedar_logs": [
-    "lotr:cedar_log",
-    "lotr:cedar_wood",
-    "lotr:stripped_cedar_log",
-    "lotr:stripped_cedar_wood"
-  ],
-  "lotr:charred_logs": [
-    "lotr:charred_log",
-    "lotr:charred_wood",
-    "lotr:stripped_charred_log",
-    "lotr:stripped_charred_wood"
-  ],
-  "lotr:cherry_logs": [
-    "lotr:cherry_log",
-    "lotr:cherry_wood",
-    "lotr:stripped_cherry_log",
-    "lotr:stripped_cherry_wood"
-  ],
-  "lotr:clay_balls": [
-    "minecraft:clay_ball"
-  ],
-  "lotr:clovers": [
-    "lotr:clover",
-    "lotr:four_leaf_clover"
-  ],
-  "lotr:culumalda_logs": [
-    "lotr:culumalda_log",
-    "lotr:culumalda_wood",
-    "lotr:stripped_culumalda_log",
-    "lotr:stripped_culumalda_wood"
-  ],
-  "lotr:cypress_logs": [
-    "lotr:cypress_log",
-    "lotr:cypress_wood",
-    "lotr:stripped_cypress_log",
-    "lotr:stripped_cypress_wood"
-  ],
-  "lotr:fir_logs": [
-    "lotr:fir_log",
-    "lotr:fir_wood",
-    "lotr:stripped_fir_log",
-    "lotr:stripped_fir_wood"
-  ],
-  "lotr:gold_mallorn_colorants": [
-    "lotr:mallorn_leaves",
-    "lotr:elanor"
-  ],
-  "lotr:green_mallorn_colorants": [
-    "minecraft:oak_leaves",
-    "lotr:clover"
-  ],
-  "lotr:green_oak_logs": [
-    "lotr:green_oak_log",
-    "lotr:green_oak_wood",
-    "lotr:stripped_green_oak_log",
-    "lotr:stripped_green_oak_wood"
-  ],
-  "lotr:holly_logs": [
-    "lotr:holly_log",
-    "lotr:holly_wood",
-    "lotr:stripped_holly_log",
-    "lotr:stripped_holly_wood"
-  ],
-  "lotr:lairelosse_logs": [
-    "lotr:lairelosse_log",
-    "lotr:lairelosse_wood",
-    "lotr:stripped_lairelosse_log",
-    "lotr:stripped_lairelosse_wood"
-  ],
-  "lotr:larch_logs": [
-    "lotr:larch_log",
-    "lotr:larch_wood",
-    "lotr:stripped_larch_log",
-    "lotr:stripped_larch_wood"
-  ],
-  "lotr:lebethron_logs": [
-    "lotr:lebethron_log",
-    "lotr:lebethron_wood",
-    "lotr:stripped_lebethron_log",
-    "lotr:stripped_lebethron_wood"
-  ],
-  "lotr:log_slabs": [
-    "lotr:banana_log_slab",
-    "lotr:banana_wood_slab",
-    "lotr:chestnut_log_slab",
-    "lotr:chestnut_wood_slab",
-    "lotr:ebony_log_slab",
-    "lotr:ebony_wood_slab",
-    "lotr:plum_log_slab",
-    "lotr:plum_wood_slab",
-    "lotr:stripped_banana_log_slab",
-    "lotr:stripped_banana_wood_slab",
-    "lotr:stripped_chestnut_log_slab",
-    "lotr:stripped_chestnut_wood_slab",
-    "lotr:stripped_ebony_log_slab",
-    "lotr:stripped_ebony_wood_slab",
-    "lotr:stripped_plum_log_slab",
-    "lotr:stripped_plum_wood_slab",
-    "lotr:stripped_willow_log_slab",
-    "lotr:stripped_willow_wood_slab",
-    "lotr:willow_log_slab",
-    "lotr:willow_wood_slab",
-    "lotr:oak_log_slab",
-    "lotr:oak_wood_slab",
-    "lotr:stripped_oak_log_slab",
-    "lotr:stripped_oak_wood_slab",
-    "lotr:spruce_log_slab",
-    "lotr:spruce_wood_slab",
-    "lotr:stripped_spruce_log_slab",
-    "lotr:stripped_spruce_wood_slab",
-    "lotr:birch_log_slab",
-    "lotr:birch_wood_slab",
-    "lotr:stripped_birch_log_slab",
-    "lotr:stripped_birch_wood_slab",
-    "lotr:jungle_log_slab",
-    "lotr:jungle_wood_slab",
-    "lotr:stripped_jungle_log_slab",
-    "lotr:stripped_jungle_wood_slab",
-    "lotr:acacia_log_slab",
-    "lotr:acacia_wood_slab",
-    "lotr:stripped_acacia_log_slab",
-    "lotr:stripped_acacia_wood_slab",
-    "lotr:dark_oak_log_slab",
-    "lotr:dark_oak_wood_slab",
-    "lotr:stripped_dark_oak_log_slab",
-    "lotr:stripped_dark_oak_wood_slab",
-    "lotr:pine_log_slab",
-    "lotr:pine_wood_slab",
-    "lotr:stripped_pine_log_slab",
-    "lotr:stripped_pine_wood_slab",
-    "lotr:mallorn_log_slab",
-    "lotr:mallorn_wood_slab",
-    "lotr:stripped_mallorn_log_slab",
-    "lotr:stripped_mallorn_wood_slab",
-    "lotr:mirk_oak_log_slab",
-    "lotr:mirk_oak_wood_slab",
-    "lotr:stripped_mirk_oak_log_slab",
-    "lotr:stripped_mirk_oak_wood_slab",
-    "lotr:charred_log_slab",
-    "lotr:charred_wood_slab",
-    "lotr:stripped_charred_log_slab",
-    "lotr:stripped_charred_wood_slab",
-    "lotr:apple_log_slab",
-    "lotr:apple_wood_slab",
-    "lotr:stripped_apple_log_slab",
-    "lotr:stripped_apple_wood_slab",
-    "lotr:pear_log_slab",
-    "lotr:pear_wood_slab",
-    "lotr:stripped_pear_log_slab",
-    "lotr:stripped_pear_wood_slab",
-    "lotr:cherry_log_slab",
-    "lotr:cherry_wood_slab",
-    "lotr:stripped_cherry_log_slab",
-    "lotr:stripped_cherry_wood_slab",
-    "lotr:lebethron_log_slab",
-    "lotr:lebethron_wood_slab",
-    "lotr:stripped_lebethron_log_slab",
-    "lotr:stripped_lebethron_wood_slab",
-    "lotr:beech_log_slab",
-    "lotr:beech_wood_slab",
-    "lotr:stripped_beech_log_slab",
-    "lotr:stripped_beech_wood_slab",
-    "lotr:maple_log_slab",
-    "lotr:maple_wood_slab",
-    "lotr:stripped_maple_log_slab",
-    "lotr:stripped_maple_wood_slab",
-    "lotr:aspen_log_slab",
-    "lotr:aspen_wood_slab",
-    "lotr:stripped_aspen_log_slab",
-    "lotr:stripped_aspen_wood_slab",
-    "lotr:lairelosse_log_slab",
-    "lotr:lairelosse_wood_slab",
-    "lotr:stripped_lairelosse_log_slab",
-    "lotr:stripped_lairelosse_wood_slab",
-    "lotr:cedar_log_slab",
-    "lotr:cedar_wood_slab",
-    "lotr:stripped_cedar_log_slab",
-    "lotr:stripped_cedar_wood_slab",
-    "lotr:fir_log_slab",
-    "lotr:fir_wood_slab",
-    "lotr:stripped_fir_log_slab",
-    "lotr:stripped_fir_wood_slab",
-    "lotr:larch_log_slab",
-    "lotr:larch_wood_slab",
-    "lotr:stripped_larch_log_slab",
-    "lotr:stripped_larch_wood_slab",
-    "lotr:holly_log_slab",
-    "lotr:holly_wood_slab",
-    "lotr:stripped_holly_log_slab",
-    "lotr:stripped_holly_wood_slab",
-    "lotr:green_oak_log_slab",
-    "lotr:green_oak_wood_slab",
-    "lotr:stripped_green_oak_log_slab",
-    "lotr:stripped_green_oak_wood_slab",
-    "lotr:cypress_log_slab",
-    "lotr:cypress_wood_slab",
-    "lotr:stripped_cypress_log_slab",
-    "lotr:stripped_cypress_wood_slab",
-    "lotr:rotten_log_slab",
-    "lotr:rotten_wood_slab",
-    "lotr:stripped_rotten_log_slab",
-    "lotr:stripped_rotten_wood_slab",
-    "lotr:culumalda_log_slab",
-    "lotr:culumalda_wood_slab",
-    "lotr:stripped_culumalda_log_slab",
-    "lotr:stripped_culumalda_wood_slab"
-  ],
-  "lotr:mallorn_logs": [
-    "lotr:mallorn_log",
-    "lotr:mallorn_wood",
-    "lotr:stripped_mallorn_log",
-    "lotr:stripped_mallorn_wood"
-  ],
-  "lotr:maple_logs": [
-    "lotr:maple_log",
-    "lotr:maple_wood",
-    "lotr:stripped_maple_log",
-    "lotr:stripped_maple_wood"
-  ],
-  "lotr:mirk_oak_logs": [
-    "lotr:mirk_oak_log",
-    "lotr:mirk_oak_wood",
-    "lotr:stripped_mirk_oak_log",
-    "lotr:stripped_mirk_oak_wood"
-  ],
-  "lotr:pear_logs": [
-    "lotr:pear_log",
-    "lotr:pear_wood",
-    "lotr:stripped_pear_log",
-    "lotr:stripped_pear_wood"
-  ],
-  "lotr:pine_logs": [
-    "lotr:pine_log",
-    "lotr:pine_wood",
-    "lotr:stripped_pine_log",
-    "lotr:stripped_pine_wood"
-  ],
-  "lotr:silver_mallorn_colorants": [
-    "lotr:lairelosse_leaves",
-    "lotr:niphredil"
-  ],
-  "lotrextended:anvil_iron_ingot": [
-    "minecraft:iron_ingot",
-    "lotr:orc_steel_ingot"
-  ],
-  "lotrextended:banana_logs": [
-    "lotr:banana_log",
-    "lotr:banana_wood",
-    "lotr:stripped_banana_log",
-    "lotr:stripped_banana_wood"
-  ],
-  "lotrextended:chains": [
-    "lotr:high_elven_chain",
-    "lotr:orc_chain",
-    "minecraft:chain"
-  ],
-  "lotrextended:chestnut_logs": [
-    "lotr:chestnut_log",
-    "lotr:chestnut_wood",
-    "lotr:stripped_chestnut_log",
-    "lotr:stripped_chestnut_wood"
-  ],
-  "lotrextended:ebony_logs": [
-    "lotr:ebony_log",
-    "lotr:ebony_wood",
-    "lotr:stripped_ebony_log",
-    "lotr:stripped_ebony_wood"
-  ],
-  "lotrextended:flesh": [
-    "lotr:man_flesh",
-    "minecraft:rotten_flesh"
-  ],
-  "lotrextended:morgond_rocks": [
-    "lotr:gondor_rock",
-    "lotr:mordor_rock"
-  ],
-  "lotrextended:plum_logs": [
-    "lotr:plum_log",
-    "lotr:plum_wood",
-    "lotr:stripped_plum_log",
-    "lotr:stripped_plum_wood"
-  ],
-  "lotrextended:willow_logs": [
-    "lotr:stripped_willow_log",
-    "lotr:stripped_willow_wood",
-    "lotr:willow_log",
-    "lotr:willow_wood"
-  ],
-  "lotrextended:wool_blocks": [
-    "minecraft:black_wool",
-    "minecraft:blue_wool",
-    "minecraft:brown_wool",
-    "minecraft:cyan_wool",
-    "minecraft:gray_wool",
-    "minecraft:green_wool",
-    "minecraft:light_blue_wool",
-    "minecraft:light_gray_wool",
-    "minecraft:lime_wool",
-    "minecraft:magenta_wool",
-    "minecraft:orange_wool",
-    "minecraft:pink_wool",
-    "minecraft:purple_wool",
-    "minecraft:red_wool",
-    "minecraft:white_wool",
-    "minecraft:yellow_wool"
-  ],
-  "minecraft:coals": [
-    "minecraft:coal",
-    "minecraft:charcoal"
-  ],
-  "minecraft:logs": [
-    "lotr:banana_log",
-    "lotr:banana_wood",
-    "lotr:stripped_banana_log",
-    "lotr:stripped_banana_wood",
-    "lotr:chestnut_log",
-    "lotr:chestnut_wood",
-    "lotr:stripped_chestnut_log",
-    "lotr:stripped_chestnut_wood",
-    "lotr:ebony_log",
-    "lotr:ebony_wood",
-    "lotr:stripped_ebony_log",
-    "lotr:stripped_ebony_wood",
-    "lotr:plum_log",
-    "lotr:plum_wood",
-    "lotr:stripped_plum_log",
-    "lotr:stripped_plum_wood",
-    "lotr:stripped_willow_log",
-    "lotr:stripped_willow_wood",
-    "lotr:willow_log",
-    "lotr:willow_wood",
-    "minecraft:dark_oak_log",
-    "minecraft:dark_oak_wood",
-    "minecraft:stripped_dark_oak_log",
-    "minecraft:stripped_dark_oak_wood",
-    "minecraft:oak_log",
-    "minecraft:oak_wood",
-    "minecraft:stripped_oak_log",
-    "minecraft:stripped_oak_wood",
-    "minecraft:acacia_log",
-    "minecraft:acacia_wood",
-    "minecraft:stripped_acacia_log",
-    "minecraft:stripped_acacia_wood",
-    "minecraft:birch_log",
-    "minecraft:birch_wood",
-    "minecraft:stripped_birch_log",
-    "minecraft:stripped_birch_wood",
-    "minecraft:jungle_log",
-    "minecraft:jungle_wood",
-    "minecraft:stripped_jungle_log",
-    "minecraft:stripped_jungle_wood",
-    "minecraft:spruce_log",
-    "minecraft:spruce_wood",
-    "minecraft:stripped_spruce_log",
-    "minecraft:stripped_spruce_wood",
-    "lotr:pine_log",
-    "lotr:pine_wood",
-    "lotr:stripped_pine_log",
-    "lotr:stripped_pine_wood",
-    "lotr:mallorn_log",
-    "lotr:mallorn_wood",
-    "lotr:stripped_mallorn_log",
-    "lotr:stripped_mallorn_wood",
-    "lotr:mirk_oak_log",
-    "lotr:mirk_oak_wood",
-    "lotr:stripped_mirk_oak_log",
-    "lotr:stripped_mirk_oak_wood",
-    "lotr:charred_log",
-    "lotr:charred_wood",
-    "lotr:stripped_charred_log",
-    "lotr:stripped_charred_wood",
-    "lotr:apple_log",
-    "lotr:apple_wood",
-    "lotr:stripped_apple_log",
-    "lotr:stripped_apple_wood",
-    "lotr:pear_log",
-    "lotr:pear_wood",
-    "lotr:stripped_pear_log",
-    "lotr:stripped_pear_wood",
-    "lotr:cherry_log",
-    "lotr:cherry_wood",
-    "lotr:stripped_cherry_log",
-    "lotr:stripped_cherry_wood",
-    "lotr:lebethron_log",
-    "lotr:lebethron_wood",
-    "lotr:stripped_lebethron_log",
-    "lotr:stripped_lebethron_wood",
-    "lotr:beech_log",
-    "lotr:beech_wood",
-    "lotr:stripped_beech_log",
-    "lotr:stripped_beech_wood",
-    "lotr:maple_log",
-    "lotr:maple_wood",
-    "lotr:stripped_maple_log",
-    "lotr:stripped_maple_wood",
-    "lotr:aspen_log",
-    "lotr:aspen_wood",
-    "lotr:stripped_aspen_log",
-    "lotr:stripped_aspen_wood",
-    "lotr:lairelosse_log",
-    "lotr:lairelosse_wood",
-    "lotr:stripped_lairelosse_log",
-    "lotr:stripped_lairelosse_wood",
-    "lotr:cedar_log",
-    "lotr:cedar_wood",
-    "lotr:stripped_cedar_log",
-    "lotr:stripped_cedar_wood",
-    "lotr:fir_log",
-    "lotr:fir_wood",
-    "lotr:stripped_fir_log",
-    "lotr:stripped_fir_wood",
-    "lotr:larch_log",
-    "lotr:larch_wood",
-    "lotr:stripped_larch_log",
-    "lotr:stripped_larch_wood",
-    "lotr:holly_log",
-    "lotr:holly_wood",
-    "lotr:stripped_holly_log",
-    "lotr:stripped_holly_wood",
-    "lotr:green_oak_log",
-    "lotr:green_oak_wood",
-    "lotr:stripped_green_oak_log",
-    "lotr:stripped_green_oak_wood",
-    "lotr:cypress_log",
-    "lotr:cypress_wood",
-    "lotr:stripped_cypress_log",
-    "lotr:stripped_cypress_wood",
-    "lotr:rotten_log",
-    "lotr:rotten_wood",
-    "lotr:stripped_rotten_log",
-    "lotr:stripped_rotten_wood",
-    "lotr:culumalda_log",
-    "lotr:culumalda_wood",
-    "lotr:stripped_culumalda_log",
-    "lotr:stripped_culumalda_wood",
-    "minecraft:crimson_stem",
-    "minecraft:stripped_crimson_stem",
-    "minecraft:crimson_hyphae",
-    "minecraft:stripped_crimson_hyphae",
-    "minecraft:warped_stem",
-    "minecraft:stripped_warped_stem",
-    "minecraft:warped_hyphae",
-    "minecraft:stripped_warped_hyphae"
-  ],
-  "minecraft:planks": [
-    "lotr:banana_planks",
-    "lotr:chestnut_planks",
-    "lotr:ebony_planks",
-    "lotr:plum_planks",
-    "lotr:willow_planks",
-    "minecraft:oak_planks",
-    "minecraft:spruce_planks",
-    "minecraft:birch_planks",
-    "minecraft:jungle_planks",
-    "minecraft:acacia_planks",
-    "minecraft:dark_oak_planks",
-    "minecraft:crimson_planks",
-    "minecraft:warped_planks",
-    "lotr:pine_planks",
-    "lotr:mallorn_planks",
-    "lotr:mirk_oak_planks",
-    "lotr:charred_planks",
-    "lotr:apple_planks",
-    "lotr:pear_planks",
-    "lotr:cherry_planks",
-    "lotr:lebethron_planks",
-    "lotr:beech_planks",
-    "lotr:maple_planks",
-    "lotr:aspen_planks",
-    "lotr:lairelosse_planks",
-    "lotr:cedar_planks",
-    "lotr:fir_planks",
-    "lotr:larch_planks",
-    "lotr:holly_planks",
-    "lotr:green_oak_planks",
-    "lotr:cypress_planks",
-    "lotr:rotten_planks",
-    "lotr:culumalda_planks"
-  ],
-  "minecraft:stone_tool_materials": [
-    "minecraft:cobblestone",
-    "minecraft:blackstone"
-  ]
+  "forge:apples": {
+    "name": "Apple",
+    "url": "#",
+    "items": [
+      "minecraft:apple",
+      "lotr:green_apple"
+    ]
+  },
+  "forge:bones": {
+    "name": "Bone",
+    "url": "#",
+    "items": [
+      "minecraft:bone",
+      "lotr:orc_bone",
+      "lotr:elf_bone",
+      "lotr:dwarf_bone",
+      "lotr:hobbit_bone",
+      "lotr:troll_bone",
+      "lotr:warg_bone"
+    ]
+  },
+  "forge:eggs": {
+    "name": "Egg",
+    "url": "#",
+    "items": [
+      "lotr:duck_egg",
+      "minecraft:egg"
+    ]
+  },
+  "forge:feathers": {
+    "name": "Feather",
+    "url": "#",
+    "items": [
+      "minecraft:feather",
+      "lotr:swan_feather"
+    ]
+  },
+  "forge:furs": {
+    "name": "Fur",
+    "url": "#",
+    "items": [
+      "lotr:black_fur",
+      "lotr:gray_fur",
+      "lotr:silver_fur",
+      "lotr:white_fur",
+      "lotr:fur"
+    ]
+  },
+  "forge:horns": {
+    "name": "Horn",
+    "url": "#",
+    "items": [
+      "lotr:horn",
+      "lotr:kine_of_araw_horn"
+    ]
+  },
+  "forge:leather": {
+    "name": "Leather",
+    "url": "#",
+    "items": [
+      "minecraft:leather"
+    ]
+  },
+  "forge:mushrooms": {
+    "name": "Mushroom",
+    "url": "#",
+    "items": [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom",
+      "lotr:morgul_shroom",
+      "lotr:mirk_shroom"
+    ]
+  },
+  "forge:rods/wooden": {
+    "name": "Wooden Rod",
+    "url": "#",
+    "items": [
+      "minecraft:stick",
+      "lotr:mallorn_stick",
+      "lotr:blackroot_stick"
+    ]
+  },
+  "forge:sand": {
+    "name": "Sand",
+    "url": "#",
+    "items": [
+      "minecraft:sand",
+      "minecraft:red_sand",
+      "lotr:white_sand"
+    ]
+  },
+  "forge:seeds": {
+    "name": "Seeds",
+    "url": "#",
+    "items": [
+      "minecraft:beetroot_seeds",
+      "minecraft:melon_seeds",
+      "minecraft:pumpkin_seeds",
+      "minecraft:wheat_seeds",
+      "lotr:pipeweed_seeds",
+      "lotr:flax_seeds"
+    ]
+  },
+  "lotr:apple_logs": {
+    "name": "Apple Log",
+    "url": "#",
+    "items": [
+      "lotr:apple_log",
+      "lotr:apple_wood",
+      "lotr:stripped_apple_log",
+      "lotr:stripped_apple_wood"
+    ]
+  },
+  "lotr:aspen_logs": {
+    "name": "Aspen Log",
+    "url": "#",
+    "items": [
+      "lotr:aspen_log",
+      "lotr:aspen_wood",
+      "lotr:stripped_aspen_log",
+      "lotr:stripped_aspen_wood"
+    ]
+  },
+  "lotr:beech_logs": {
+    "name": "Beech Log",
+    "url": "#",
+    "items": [
+      "lotr:beech_log",
+      "lotr:beech_wood",
+      "lotr:stripped_beech_log",
+      "lotr:stripped_beech_wood"
+    ]
+  },
+  "lotr:blue_mallorn_colorants": {
+    "name": "Blue Mallorn Colorant",
+    "url": "#",
+    "items": [
+      "lotr:edhelvir",
+      "lotr:bluebell"
+    ]
+  },
+  "lotr:cedar_logs": {
+    "name": "Cedar Log",
+    "url": "#",
+    "items": [
+      "lotr:cedar_log",
+      "lotr:cedar_wood",
+      "lotr:stripped_cedar_log",
+      "lotr:stripped_cedar_wood"
+    ]
+  },
+  "lotr:charred_logs": {
+    "name": "Charred Log",
+    "url": "#",
+    "items": [
+      "lotr:charred_log",
+      "lotr:charred_wood",
+      "lotr:stripped_charred_log",
+      "lotr:stripped_charred_wood"
+    ]
+  },
+  "lotr:cherry_logs": {
+    "name": "Cherry Log",
+    "url": "#",
+    "items": [
+      "lotr:cherry_log",
+      "lotr:cherry_wood",
+      "lotr:stripped_cherry_log",
+      "lotr:stripped_cherry_wood"
+    ]
+  },
+  "lotr:clovers": {
+    "name": "Clover",
+    "url": "#",
+    "items": [
+      "lotr:clover",
+      "lotr:four_leaf_clover"
+    ]
+  },
+  "lotr:culumalda_logs": {
+    "name": "Culumalda Log",
+    "url": "#",
+    "items": [
+      "lotr:culumalda_log",
+      "lotr:culumalda_wood",
+      "lotr:stripped_culumalda_log",
+      "lotr:stripped_culumalda_wood"
+    ]
+  },
+  "lotr:cypress_logs": {
+    "name": "Cypress Log",
+    "url": "#",
+    "items": [
+      "lotr:cypress_log",
+      "lotr:cypress_wood",
+      "lotr:stripped_cypress_log",
+      "lotr:stripped_cypress_wood"
+    ]
+  },
+  "lotr:fir_logs": {
+    "name": "Fir Log",
+    "url": "#",
+    "items": [
+      "lotr:fir_log",
+      "lotr:fir_wood",
+      "lotr:stripped_fir_log",
+      "lotr:stripped_fir_wood"
+    ]
+  },
+  "lotr:gold_mallorn_colorants": {
+    "name": "Gold Mallorn Colorant",
+    "url": "#",
+    "items": [
+      "lotr:mallorn_leaves",
+      "lotr:elanor"
+    ]
+  },
+  "lotr:green_mallorn_colorants": {
+    "name": "Green Mallorn Colorant",
+    "url": "#",
+    "items": [
+      "minecraft:oak_leaves",
+      "lotr:clover"
+    ]
+  },
+  "lotr:green_oak_logs": {
+    "name": "Green Oak Log",
+    "url": "#",
+    "items": [
+      "lotr:green_oak_log",
+      "lotr:green_oak_wood",
+      "lotr:stripped_green_oak_log",
+      "lotr:stripped_green_oak_wood"
+    ]
+  },
+  "lotr:holly_logs": {
+    "name": "Holly Log",
+    "url": "#",
+    "items": [
+      "lotr:holly_log",
+      "lotr:holly_wood",
+      "lotr:stripped_holly_log",
+      "lotr:stripped_holly_wood"
+    ]
+  },
+  "lotr:lairelosse_logs": {
+    "name": "Lairelosse Log",
+    "url": "#",
+    "items": [
+      "lotr:lairelosse_log",
+      "lotr:lairelosse_wood",
+      "lotr:stripped_lairelosse_log",
+      "lotr:stripped_lairelosse_wood"
+    ]
+  },
+  "lotr:larch_logs": {
+    "name": "Larch Log",
+    "url": "#",
+    "items": [
+      "lotr:larch_log",
+      "lotr:larch_wood",
+      "lotr:stripped_larch_log",
+      "lotr:stripped_larch_wood"
+    ]
+  },
+  "lotr:lebethron_logs": {
+    "name": "Lebethron Log",
+    "url": "#",
+    "items": [
+      "lotr:lebethron_log",
+      "lotr:lebethron_wood",
+      "lotr:stripped_lebethron_log",
+      "lotr:stripped_lebethron_wood"
+    ]
+  },
+  "lotr:log_slabs": {
+    "name": "Log Slabs",
+    "url": "#",
+    "items": [
+      "lotr:banana_log_slab",
+      "lotr:banana_wood_slab",
+      "lotr:chestnut_log_slab",
+      "lotr:chestnut_wood_slab",
+      "lotr:ebony_log_slab",
+      "lotr:ebony_wood_slab",
+      "lotr:plum_log_slab",
+      "lotr:plum_wood_slab",
+      "lotr:stripped_banana_log_slab",
+      "lotr:stripped_banana_wood_slab",
+      "lotr:stripped_chestnut_log_slab",
+      "lotr:stripped_chestnut_wood_slab",
+      "lotr:stripped_ebony_log_slab",
+      "lotr:stripped_ebony_wood_slab",
+      "lotr:stripped_plum_log_slab",
+      "lotr:stripped_plum_wood_slab",
+      "lotr:stripped_willow_log_slab",
+      "lotr:stripped_willow_wood_slab",
+      "lotr:willow_log_slab",
+      "lotr:willow_wood_slab",
+      "lotr:oak_log_slab",
+      "lotr:oak_wood_slab",
+      "lotr:stripped_oak_log_slab",
+      "lotr:stripped_oak_wood_slab",
+      "lotr:spruce_log_slab",
+      "lotr:spruce_wood_slab",
+      "lotr:stripped_spruce_log_slab",
+      "lotr:stripped_spruce_wood_slab",
+      "lotr:birch_log_slab",
+      "lotr:birch_wood_slab",
+      "lotr:stripped_birch_log_slab",
+      "lotr:stripped_birch_wood_slab",
+      "lotr:jungle_log_slab",
+      "lotr:jungle_wood_slab",
+      "lotr:stripped_jungle_log_slab",
+      "lotr:stripped_jungle_wood_slab",
+      "lotr:acacia_log_slab",
+      "lotr:acacia_wood_slab",
+      "lotr:stripped_acacia_log_slab",
+      "lotr:stripped_acacia_wood_slab",
+      "lotr:dark_oak_log_slab",
+      "lotr:dark_oak_wood_slab",
+      "lotr:stripped_dark_oak_log_slab",
+      "lotr:stripped_dark_oak_wood_slab",
+      "lotr:pine_log_slab",
+      "lotr:pine_wood_slab",
+      "lotr:stripped_pine_log_slab",
+      "lotr:stripped_pine_wood_slab",
+      "lotr:mallorn_log_slab",
+      "lotr:mallorn_wood_slab",
+      "lotr:stripped_mallorn_log_slab",
+      "lotr:stripped_mallorn_wood_slab",
+      "lotr:mirk_oak_log_slab",
+      "lotr:mirk_oak_wood_slab",
+      "lotr:stripped_mirk_oak_log_slab",
+      "lotr:stripped_mirk_oak_wood_slab",
+      "lotr:charred_log_slab",
+      "lotr:charred_wood_slab",
+      "lotr:stripped_charred_log_slab",
+      "lotr:stripped_charred_wood_slab",
+      "lotr:apple_log_slab",
+      "lotr:apple_wood_slab",
+      "lotr:stripped_apple_log_slab",
+      "lotr:stripped_apple_wood_slab",
+      "lotr:pear_log_slab",
+      "lotr:pear_wood_slab",
+      "lotr:stripped_pear_log_slab",
+      "lotr:stripped_pear_wood_slab",
+      "lotr:cherry_log_slab",
+      "lotr:cherry_wood_slab",
+      "lotr:stripped_cherry_log_slab",
+      "lotr:stripped_cherry_wood_slab",
+      "lotr:lebethron_log_slab",
+      "lotr:lebethron_wood_slab",
+      "lotr:stripped_lebethron_log_slab",
+      "lotr:stripped_lebethron_wood_slab",
+      "lotr:beech_log_slab",
+      "lotr:beech_wood_slab",
+      "lotr:stripped_beech_log_slab",
+      "lotr:stripped_beech_wood_slab",
+      "lotr:maple_log_slab",
+      "lotr:maple_wood_slab",
+      "lotr:stripped_maple_log_slab",
+      "lotr:stripped_maple_wood_slab",
+      "lotr:aspen_log_slab",
+      "lotr:aspen_wood_slab",
+      "lotr:stripped_aspen_log_slab",
+      "lotr:stripped_aspen_wood_slab",
+      "lotr:lairelosse_log_slab",
+      "lotr:lairelosse_wood_slab",
+      "lotr:stripped_lairelosse_log_slab",
+      "lotr:stripped_lairelosse_wood_slab",
+      "lotr:cedar_log_slab",
+      "lotr:cedar_wood_slab",
+      "lotr:stripped_cedar_log_slab",
+      "lotr:stripped_cedar_wood_slab",
+      "lotr:fir_log_slab",
+      "lotr:fir_wood_slab",
+      "lotr:stripped_fir_log_slab",
+      "lotr:stripped_fir_wood_slab",
+      "lotr:larch_log_slab",
+      "lotr:larch_wood_slab",
+      "lotr:stripped_larch_log_slab",
+      "lotr:stripped_larch_wood_slab",
+      "lotr:holly_log_slab",
+      "lotr:holly_wood_slab",
+      "lotr:stripped_holly_log_slab",
+      "lotr:stripped_holly_wood_slab",
+      "lotr:green_oak_log_slab",
+      "lotr:green_oak_wood_slab",
+      "lotr:stripped_green_oak_log_slab",
+      "lotr:stripped_green_oak_wood_slab",
+      "lotr:cypress_log_slab",
+      "lotr:cypress_wood_slab",
+      "lotr:stripped_cypress_log_slab",
+      "lotr:stripped_cypress_wood_slab",
+      "lotr:rotten_log_slab",
+      "lotr:rotten_wood_slab",
+      "lotr:stripped_rotten_log_slab",
+      "lotr:stripped_rotten_wood_slab",
+      "lotr:culumalda_log_slab",
+      "lotr:culumalda_wood_slab",
+      "lotr:stripped_culumalda_log_slab",
+      "lotr:stripped_culumalda_wood_slab"
+    ]
+  },
+  "lotr:mallorn_logs": {
+    "name": "Mallorn Log",
+    "url": "#",
+    "items": [
+      "lotr:mallorn_log",
+      "lotr:mallorn_wood",
+      "lotr:stripped_mallorn_log",
+      "lotr:stripped_mallorn_wood"
+    ]
+  },
+  "lotr:maple_logs": {
+    "name": "Maple Log",
+    "url": "#",
+    "items": [
+      "lotr:maple_log",
+      "lotr:maple_wood",
+      "lotr:stripped_maple_log",
+      "lotr:stripped_maple_wood"
+    ]
+  },
+  "lotr:mirk_oak_logs": {
+    "name": "Mirk Oak Log",
+    "url": "#",
+    "items": [
+      "lotr:mirk_oak_log",
+      "lotr:mirk_oak_wood",
+      "lotr:stripped_mirk_oak_log",
+      "lotr:stripped_mirk_oak_wood"
+    ]
+  },
+  "lotr:pear_logs": {
+    "name": "Pear Log",
+    "url": "#",
+    "items": [
+      "lotr:pear_log",
+      "lotr:pear_wood",
+      "lotr:stripped_pear_log",
+      "lotr:stripped_pear_wood"
+    ]
+  },
+  "lotr:pine_logs": {
+    "name": "Pine Log",
+    "url": "#",
+    "items": [
+      "lotr:pine_log",
+      "lotr:pine_wood",
+      "lotr:stripped_pine_log",
+      "lotr:stripped_pine_wood"
+    ]
+  },
+  "lotr:silver_mallorn_colorants": {
+    "name": "Silver Mallorn Colorant",
+    "url": "#",
+    "items": [
+      "lotr:lairelosse_leaves",
+      "lotr:niphredil"
+    ]
+  },
+  "lotrextended:anvil_iron_ingot": {
+    "name": "Ironish Ingot",
+    "url": "#",
+    "items": [
+      "minecraft:iron_ingot",
+      "lotr:orc_steel_ingot"
+    ]
+  },
+  "lotrextended:banana_logs": {
+    "name": "Banana Log",
+    "url": "#",
+    "items": [
+      "lotr:banana_log",
+      "lotr:banana_wood",
+      "lotr:stripped_banana_log",
+      "lotr:stripped_banana_wood"
+    ]
+  },
+  "lotrextended:chains": {
+    "name": "Chains",
+    "url": "#",
+    "items": [
+      "lotr:high_elven_chain",
+      "lotr:orc_chain",
+      "minecraft:chain"
+    ]
+  },
+  "lotrextended:chestnut_logs": {
+    "name": "Chestnut Log",
+    "url": "#",
+    "items": [
+      "lotr:chestnut_log",
+      "lotr:chestnut_wood",
+      "lotr:stripped_chestnut_log",
+      "lotr:stripped_chestnut_wood"
+    ]
+  },
+  "lotrextended:ebony_logs": {
+    "name": "Ebony Log",
+    "url": "#",
+    "items": [
+      "lotr:ebony_log",
+      "lotr:ebony_wood",
+      "lotr:stripped_ebony_log",
+      "lotr:stripped_ebony_wood"
+    ]
+  },
+  "lotrextended:flesh": {
+    "name": "Flesh",
+    "url": "#",
+    "items": [
+      "lotr:man_flesh",
+      "minecraft:rotten_flesh"
+    ]
+  },
+  "lotrextended:morgond_rocks": {
+    "name": "Morgond Rocks",
+    "url": "#",
+    "items": [
+      "lotr:gondor_rock",
+      "lotr:mordor_rock"
+    ]
+  },
+  "lotrextended:plum_logs": {
+    "name": "Plum Log",
+    "url": "#",
+    "items": [
+      "lotr:plum_log",
+      "lotr:plum_wood",
+      "lotr:stripped_plum_log",
+      "lotr:stripped_plum_wood"
+    ]
+  },
+  "lotrextended:willow_logs": {
+    "name": "Willow Log",
+    "url": "#",
+    "items": [
+      "lotr:stripped_willow_log",
+      "lotr:stripped_willow_wood",
+      "lotr:willow_log",
+      "lotr:willow_wood"
+    ]
+  },
+  "lotrextended:wool_blocks": {
+    "name": "Wool Blocks",
+    "url": "#",
+    "items": [
+      "minecraft:black_wool",
+      "minecraft:blue_wool",
+      "minecraft:brown_wool",
+      "minecraft:cyan_wool",
+      "minecraft:gray_wool",
+      "minecraft:green_wool",
+      "minecraft:light_blue_wool",
+      "minecraft:light_gray_wool",
+      "minecraft:lime_wool",
+      "minecraft:magenta_wool",
+      "minecraft:orange_wool",
+      "minecraft:pink_wool",
+      "minecraft:purple_wool",
+      "minecraft:red_wool",
+      "minecraft:white_wool",
+      "minecraft:yellow_wool"
+    ]
+  },
+  "minecraft:coals": {
+    "name": "Coal",
+    "url": "#",
+    "items": [
+      "minecraft:coal",
+      "minecraft:charcoal"
+    ]
+  },
+  "minecraft:logs": {
+    "name": "Logs",
+    "url": "#",
+    "items": [
+      "lotr:banana_log",
+      "lotr:banana_wood",
+      "lotr:stripped_banana_log",
+      "lotr:stripped_banana_wood",
+      "lotr:chestnut_log",
+      "lotr:chestnut_wood",
+      "lotr:stripped_chestnut_log",
+      "lotr:stripped_chestnut_wood",
+      "lotr:ebony_log",
+      "lotr:ebony_wood",
+      "lotr:stripped_ebony_log",
+      "lotr:stripped_ebony_wood",
+      "lotr:plum_log",
+      "lotr:plum_wood",
+      "lotr:stripped_plum_log",
+      "lotr:stripped_plum_wood",
+      "lotr:stripped_willow_log",
+      "lotr:stripped_willow_wood",
+      "lotr:willow_log",
+      "lotr:willow_wood",
+      "minecraft:dark_oak_log",
+      "minecraft:dark_oak_wood",
+      "minecraft:stripped_dark_oak_log",
+      "minecraft:stripped_dark_oak_wood",
+      "minecraft:oak_log",
+      "minecraft:oak_wood",
+      "minecraft:stripped_oak_log",
+      "minecraft:stripped_oak_wood",
+      "minecraft:acacia_log",
+      "minecraft:acacia_wood",
+      "minecraft:stripped_acacia_log",
+      "minecraft:stripped_acacia_wood",
+      "minecraft:birch_log",
+      "minecraft:birch_wood",
+      "minecraft:stripped_birch_log",
+      "minecraft:stripped_birch_wood",
+      "minecraft:jungle_log",
+      "minecraft:jungle_wood",
+      "minecraft:stripped_jungle_log",
+      "minecraft:stripped_jungle_wood",
+      "minecraft:spruce_log",
+      "minecraft:spruce_wood",
+      "minecraft:stripped_spruce_log",
+      "minecraft:stripped_spruce_wood",
+      "lotr:pine_log",
+      "lotr:pine_wood",
+      "lotr:stripped_pine_log",
+      "lotr:stripped_pine_wood",
+      "lotr:mallorn_log",
+      "lotr:mallorn_wood",
+      "lotr:stripped_mallorn_log",
+      "lotr:stripped_mallorn_wood",
+      "lotr:mirk_oak_log",
+      "lotr:mirk_oak_wood",
+      "lotr:stripped_mirk_oak_log",
+      "lotr:stripped_mirk_oak_wood",
+      "lotr:charred_log",
+      "lotr:charred_wood",
+      "lotr:stripped_charred_log",
+      "lotr:stripped_charred_wood",
+      "lotr:apple_log",
+      "lotr:apple_wood",
+      "lotr:stripped_apple_log",
+      "lotr:stripped_apple_wood",
+      "lotr:pear_log",
+      "lotr:pear_wood",
+      "lotr:stripped_pear_log",
+      "lotr:stripped_pear_wood",
+      "lotr:cherry_log",
+      "lotr:cherry_wood",
+      "lotr:stripped_cherry_log",
+      "lotr:stripped_cherry_wood",
+      "lotr:lebethron_log",
+      "lotr:lebethron_wood",
+      "lotr:stripped_lebethron_log",
+      "lotr:stripped_lebethron_wood",
+      "lotr:beech_log",
+      "lotr:beech_wood",
+      "lotr:stripped_beech_log",
+      "lotr:stripped_beech_wood",
+      "lotr:maple_log",
+      "lotr:maple_wood",
+      "lotr:stripped_maple_log",
+      "lotr:stripped_maple_wood",
+      "lotr:aspen_log",
+      "lotr:aspen_wood",
+      "lotr:stripped_aspen_log",
+      "lotr:stripped_aspen_wood",
+      "lotr:lairelosse_log",
+      "lotr:lairelosse_wood",
+      "lotr:stripped_lairelosse_log",
+      "lotr:stripped_lairelosse_wood",
+      "lotr:cedar_log",
+      "lotr:cedar_wood",
+      "lotr:stripped_cedar_log",
+      "lotr:stripped_cedar_wood",
+      "lotr:fir_log",
+      "lotr:fir_wood",
+      "lotr:stripped_fir_log",
+      "lotr:stripped_fir_wood",
+      "lotr:larch_log",
+      "lotr:larch_wood",
+      "lotr:stripped_larch_log",
+      "lotr:stripped_larch_wood",
+      "lotr:holly_log",
+      "lotr:holly_wood",
+      "lotr:stripped_holly_log",
+      "lotr:stripped_holly_wood",
+      "lotr:green_oak_log",
+      "lotr:green_oak_wood",
+      "lotr:stripped_green_oak_log",
+      "lotr:stripped_green_oak_wood",
+      "lotr:cypress_log",
+      "lotr:cypress_wood",
+      "lotr:stripped_cypress_log",
+      "lotr:stripped_cypress_wood",
+      "lotr:rotten_log",
+      "lotr:rotten_wood",
+      "lotr:stripped_rotten_log",
+      "lotr:stripped_rotten_wood",
+      "lotr:culumalda_log",
+      "lotr:culumalda_wood",
+      "lotr:stripped_culumalda_log",
+      "lotr:stripped_culumalda_wood",
+      "minecraft:crimson_stem",
+      "minecraft:stripped_crimson_stem",
+      "minecraft:crimson_hyphae",
+      "minecraft:stripped_crimson_hyphae",
+      "minecraft:warped_stem",
+      "minecraft:stripped_warped_stem",
+      "minecraft:warped_hyphae",
+      "minecraft:stripped_warped_hyphae"
+    ]
+  },
+  "minecraft:planks": {
+    "name": "Wood Planks",
+    "url": "#",
+    "items": [
+      "lotr:banana_planks",
+      "lotr:chestnut_planks",
+      "lotr:ebony_planks",
+      "lotr:plum_planks",
+      "lotr:willow_planks",
+      "minecraft:oak_planks",
+      "minecraft:spruce_planks",
+      "minecraft:birch_planks",
+      "minecraft:jungle_planks",
+      "minecraft:acacia_planks",
+      "minecraft:dark_oak_planks",
+      "minecraft:crimson_planks",
+      "minecraft:warped_planks",
+      "lotr:pine_planks",
+      "lotr:mallorn_planks",
+      "lotr:mirk_oak_planks",
+      "lotr:charred_planks",
+      "lotr:apple_planks",
+      "lotr:pear_planks",
+      "lotr:cherry_planks",
+      "lotr:lebethron_planks",
+      "lotr:beech_planks",
+      "lotr:maple_planks",
+      "lotr:aspen_planks",
+      "lotr:lairelosse_planks",
+      "lotr:cedar_planks",
+      "lotr:fir_planks",
+      "lotr:larch_planks",
+      "lotr:holly_planks",
+      "lotr:green_oak_planks",
+      "lotr:cypress_planks",
+      "lotr:rotten_planks",
+      "lotr:culumalda_planks"
+    ]
+  },
+  "minecraft:stone_tool_materials": {
+    "name": "Stone Tool Materials",
+    "url": "#",
+    "items": [
+      "minecraft:cobblestone",
+      "minecraft:blackstone"
+    ]
+  }
 }

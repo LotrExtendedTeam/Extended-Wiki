@@ -1,0 +1,5 @@
+All rendered block images included in this folder are sourced from rendering blocks in Minecraft version 1.16.5.
+
+These assets are the property of Mojang Studios and are used here for educational, reference, and non-commercial purposes.
+
+No ownership of the original textures is claimed. This project only uses these assets to recreate or illustrate crafting UI and gameplay mechanics.
