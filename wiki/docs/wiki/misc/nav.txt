@@ -3,3 +3,4 @@
 * [Updates](Versions.md)
 * [Renewed Bug Fixes](Renewed_Bug_Fixes.md)
 * [Wiki Syntax Documentation](documentation/Markdown_Syntax.md)
+* [All Recipes](Recipes.md)

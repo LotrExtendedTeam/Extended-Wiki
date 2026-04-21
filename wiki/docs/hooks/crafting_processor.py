@@ -4,6 +4,9 @@ import os
 import json
 from mkdocs.structure.pages import Page
 import html
+import imageio.v2 as imageio
+from PIL import Image
+import numpy as np
 
 log = logging.getLogger("mkdocs.plugins")
 
@@ -15,10 +18,12 @@ RECIPES = {}
 ITEMS = {}
 TAGS = {}
 URL_PATH = "/Extended-Wiki/wiki/img/"
+checked_images = set()
+RECIPE_CACHE = {}
 
 # --- LOAD DATA ---
 def on_pre_build(config):
-    global RECIPES, ITEMS, TAGS
+    global RECIPES, ITEMS, TAGS, RECIPE_CACHE
     log.info(">>> Crafting Processor: Loading data")
 
     try:
@@ -42,42 +47,135 @@ def on_pre_build(config):
         log.warning(f"Failed to load tags.json: {e}")
         TAGS = {}
 
+    # Generate tag GIFs
+    for tag_id, tag_data in TAGS.items():
+        gif_path = generate_tag_gif(tag_id, tag_data, ITEMS)
+        # Store it back into tag data
+        if gif_path:
+            tag_data["image"] = gif_path
+
+    pre_render_all_recipes()
+
 def get_item(item_id):
-    # Handle tags by taking first item
+    # Handle tags
     if item_id.startswith("#"):
         tag_name = item_id[1:]
-        items_in_tag = TAGS.get(tag_name, [])
-        if items_in_tag:
-            item_id = items_in_tag[0]
-        else:
+        tag_data = TAGS.get(tag_name)
+        if tag_data:
+            if "image" in tag_data and tag_data["image"].endswith(".gif"):
+                return {
+                    "name": tag_data.get("name", f"Tag: {tag_name}"),
+                    "url": tag_data.get("url", "#"),
+                    "image": tag_data["image"]
+                }
             return {
-                "name": f"Missing tag: {tag_name}",
-                "url": "#",
-                "image": "missing.png"
+                "name": tag_data.get("name", f"Tag: {tag_name}"),
+                "url": tag_data.get("url", "#"),
+                "image": URL_PATH + "unknown.png"
             }
-
+        return {
+            "name": f"Missing tag: {tag_name}",
+            "url": "#",
+            "image": URL_PATH + "unknown.png"
+        }
+    # Normal item
     return ITEMS.get(item_id, {
         "name": f"Missing: {item_id}",
         "url": "#",
-        "image": "missing.png"
+        "image": "unknown.png"
     })
 
-def getImage(imagePath):
-    local_path = "wiki/docs/wiki/img/" + imagePath if imagePath else None
-    if local_path and os.path.exists(local_path):
-        return URL_PATH + imagePath
-    log.warning(f"Missing image: {imagePath}")
-    return URL_PATH + "items/unknown.png"
+def generate_tag_gif(tag_id, tag_data, items_data):
+    output_rel = f"tags/{tag_id.replace(':', '_').replace('/', '_')}.gif"
+    output_abs = os.path.join("wiki/docs/wiki/img/generated/", output_rel)
+    os.makedirs(os.path.dirname(output_abs), exist_ok=True)
+    # Skip if no items
+    item_ids = tag_data.get("items", [])
+    if not item_ids:
+        return None
+    # Build frame paths from item images
+    frame_paths = []
+    for item_id in item_ids:
+        item = items_data.get(item_id)
+        if not item:
+            continue
+        image_path = item.get("image")
+        if not image_path:
+            continue
+        full_path = getImageLocal(image_path)
+        frame_paths.append(full_path)
+    if not frame_paths:
+        return None
+    # Check if output exists and is up-to-date
+    if os.path.exists(output_abs):
+        output_mtime = os.path.getmtime(output_abs)
+        if all(os.path.getmtime(f) <= output_mtime for f in frame_paths):
+            #print(f"[GIF] Skipping, up-to-date: {output_rel}")
+            return f"generated/{output_rel}"
+    # Generate GIF
+    print(f"[TAG GIF] Generating: {output_rel}")
+    try:
+        # Streaming write (performance gain)
+        with imageio.get_writer(output_abs, mode="I", duration=1000, loop=0, disposal=2) as writer:
+            for f in frame_paths:
+                try:
+                    # Lazy load per frame
+                    img = Image.open(f)
+                    # Fast path: only convert if needed
+                    if img.mode != "RGBA":
+                        img = img.convert("RGBA")
+                    writer.append_data(img)
+                except Exception as e:
+                    log.warning(f"[GIF] Failed reading frame {f}: {e}")
+    except Exception as e:
+        return f"**GIF generation error:** {e}"
+    return f"generated/{output_rel}"
 
+def getImageLocal(imagePath):
+    base = "wiki/docs/wiki/img/"
+    if not imagePath:
+        return os.path.join(base, "unknown.png")
+    local_path = os.path.join(base, imagePath)
+    # Only check once per image
+    if imagePath not in checked_images:
+        checked_images.add(imagePath)
+        if not os.path.exists(local_path):
+            log.warning(f"Missing image: {imagePath}")
+            return os.path.join(base, "unknown.png")
+    if os.path.exists(local_path):
+        return local_path
+    else:
+        return os.path.join(base, "unknown.png")
+
+def getImage(imagePath):
+    if not imagePath:
+        return URL_PATH + "unknown.png"
+    local_path = os.path.join("wiki/docs/wiki/img/", imagePath)
+    # Only check once per image
+    if imagePath not in checked_images:
+        checked_images.add(imagePath)
+        if not os.path.exists(local_path):
+            log.warning(f"Missing image: {imagePath}")
+            return URL_PATH + "unknown.png"
+    if os.path.exists(local_path):
+        return URL_PATH + imagePath
+    else:
+        return URL_PATH + "unknown.png"
+
+def fix_url(url):
+    if url=="#":
+        return "/Extended-Wiki/404"
+    return url
+        
 # --- SLOT RENDER ---
 def render_slot(item_id):
     if item_id is None:
-        return '<div class="slot empty"></div>'
+        return '<div class="crafting-slot empty"></div>'
 
     item = get_item(item_id)
-
+    display_name = item.get("tooltip") or item["name"]
     return f'''
-    <a href="{item["url"]}" class="slot" data-name="{html.escape(item["name"])}">
+    <a href="{fix_url(item["url"])}" class="crafting-slot" data-name="{html.escape(display_name)}">
         <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
     </a>
     '''
@@ -87,33 +185,89 @@ def render_output(output):
     item = get_item(output["item"])
     count = output.get("count", 1)
     count_html = f'<span class="count">{count}</span>' if count > 1 else ""
-
+    display_name = item.get("tooltip") or item["name"]
     return f'''
-    <a href="{item["url"]}" class="crafting-output slot" data-name="{item["name"]}">
+    <a href="{fix_url(item["url"])}" class="crafting-output crafting-slot" data-name="{html.escape(display_name)}">
         <img src="{getImage(item["image"])}" class="off-glb" loading="lazy">
         {count_html}
     </a>
     '''
 
 # --- INFO ---
-def render_info(recipe):
+def render_gui_img(recipe):
     if recipe.get("type") == "shapeless":
-        return "Shapeless"
-    return "Shaped"
+        grid_image = "crafting_grid_shapeless.png"
+    else:
+        grid_image = "crafting_grid.png"
+    return grid_image
+
+LOWERCASE_KEYS = {"collapsible"}
+
+def parse_grid_input(content):
+    parts = content.split(";")
+    options = {}
+    recipes_part = ""
+
+    if len(parts) > 1:
+        # first part = options
+        for opt in parts[0].split(","):
+            if "=" in opt:
+                k, v = opt.split("=", 1)
+                key = k.strip()
+                value = v.strip()
+                if key in LOWERCASE_KEYS:
+                    value = value.lower()
+                options[key] = value
+        recipes_part = parts[1]
+    else:
+        recipes_part = parts[0]
+
+    recipe_ids = [r.strip() for r in recipes_part.split(",") if r.strip()]
+    return options, recipe_ids
 
 def render_crafting_grid(content):
-    recipe_ids = [r.strip() for r in content.split(",") if r.strip()]
+    options, recipe_ids = parse_grid_input(content)
+    collapsible = options.get("collapsible") == "true"
 
     rows_html = []
-    for i in range(0, len(recipe_ids), 2):  # group every 2
-        pair = recipe_ids[i:i+2]
-        pair_html = ''.join(render_recipe(r) for r in pair)
+    recipe_ids = list(recipe_ids)
+    count = len(recipe_ids)
+    for i in range(0, count, 2):  # group every 2
+        recipe_id_pair = recipe_ids[i:i+2]
+        try:
+            pair_html = ''.join(RECIPE_CACHE[rid] for rid in recipe_id_pair)
+        except KeyError as e:
+            log.warning(f"Missing cached recipe: {e}")
+            continue
         rows_html.append(f'<div class="crafting-row">{pair_html}</div>')
+    
+    finalHTML = (
+        '<div class="crafting-grid-layout">\n'
+        + ''.join(rows_html) +
+        '\n</div>'
+    )
+    return render_collapsible_grid(finalHTML, options) if collapsible else finalHTML
 
-    html = ['<div class="crafting-grid-layout">']
-    html.append(''.join(rows_html))
-    html.append(f'</div>')
-    return '\n'.join(html)
+def render_collapsible_grid(inner_html, options):
+    title = options.get("title", "Crafting Recipes")
+    default_open = options.get("open") == "true"
+    display = "block" if default_open else "none"
+    label = "Collapse" if default_open else "Expand"
+    html_output = []
+
+    html_output.append('<div class="crafting-collapsible">')
+    # Header
+    html_output.append('<div class="crafting-collapsible-header" onclick="toggleCrafting(this)">')
+    html_output.append(f'<span class="crafting-collapsible-title">{html.escape(title)}</span>')
+    html_output.append(f'<button class="crafting-toggle-btn" type="button"">[<span class="toggle-text">{label}</span>]</button>')
+    html_output.append('</div>')  # end header
+    # Content
+    html_output.append(f'<div class="crafting-collapsible-content" style="display: {display};">')
+    html_output.append(f'<div class="crafting-grid-layout">{inner_html}</div>')
+    html_output.append('</div>')  # collapsible-content
+
+    html_output.append('</div>')  # collapsible root
+    return '\n'.join(html_output)
 
 # --- MAIN RENDER ---
 def render_recipe(recipe_id):
@@ -129,11 +283,11 @@ def render_recipe(recipe_id):
     )
 
     output_html = render_output(recipe["output"])
-    #info_html = render_info(recipe)
+    grid_image = render_gui_img(recipe)
 
     html = ['<div class="crafting-box">']
     html.append(f'<div class="crafting-body">')
-    html.append(f'<img class="crafting-gui off-glb" src="/Extended-Wiki/wiki/img/gui/crafting_grid.png" alt="Crafting GUI">')
+    html.append(f'<img class="crafting-gui off-glb" src="/Extended-Wiki/wiki/img/gui/{grid_image}" alt="Crafting GUI">')
     html.append(f'<div class="crafting-title-overlay">{recipe["title"]}</div>')
     html.append(f'<div class="crafting-grid">{grid_html}</div>')
     html.append(f'{output_html}')
@@ -141,6 +295,39 @@ def render_recipe(recipe_id):
     html.append(f'</div>')
     html.append(f'</div>')
     return '\n'.join(html)
+
+def pre_render_all_recipes():
+    log.info("[Crafting] Rendering ALL recipes once")
+
+    for recipe_id in RECIPES.keys():
+        try:
+            RECIPE_CACHE[recipe_id] = render_recipe(recipe_id)
+        except Exception as e:
+            log.warning(f"Failed rendering recipe {recipe_id}: {e}")
+
+def render_all_recipes():
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for recipe_id, recipe in RECIPES.items():
+        first_char = recipe_id[0].upper() if recipe_id else "#"
+        if not first_char.isalpha():
+            first_char = "#"
+        groups[first_char].append(recipe_id)
+    html_parts = []
+    letters = sorted([k for k in groups.keys() if k != "#"])
+    if "#" in groups:
+        letters.append("#")
+    for letter in letters:
+        recipe_ids = sorted(groups[letter])  # purely alpha sorting by ID
+        options_str = (
+            f"title={letter} Recipes ({len(recipe_ids)}),"
+            f"collapsible=true,"
+            f"open=false"
+        )
+        recipes_str = ",".join(recipe_ids)
+        grid_content = f"{options_str};{recipes_str}"
+        html_parts.append(render_crafting_grid(grid_content))
+    return "\n".join(html_parts)
 
 # --- MARKDOWN HOOK ---
 def on_page_markdown(markdown_content, page: Page, config, files):
@@ -150,11 +337,17 @@ def on_page_markdown(markdown_content, page: Page, config, files):
 
     def render_single(match):
         recipe_id = match.group(1).strip()
-        return render_recipe(recipe_id)
+        return RECIPE_CACHE[recipe_id]
 
+    def render_all():
+        return render_all_recipes()
+
+    if "{{crafting_all}}" in markdown_content: 
+        markdown_content = markdown_content.replace("{{crafting_all}}", render_all())
     # IMPORTANT: process grid first
-    markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
-
+    if "craftinggrid:" in markdown_content:
+        markdown_content = CRAFTING_GRID_RE.sub(render_grid, markdown_content)
     # then individual crafting blocks
-    markdown_content = CRAFTING_RE.sub(render_single, markdown_content)
+    if "crafting:" in markdown_content:
+       markdown_content = CRAFTING_RE.sub(render_single, markdown_content)
     return markdown_content
