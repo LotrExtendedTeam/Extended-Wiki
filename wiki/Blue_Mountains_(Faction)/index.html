@@ -196,6 +196,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
       <div class="md-header__source">
         <a href="https://github.com/LotrExtendedTeam/Extended-Wiki" title="Go to repository" class="md-source" data-md-component="source">
@@ -3351,16 +3391,16 @@
 <p>The <strong>Blue Mountains</strong> is an ancient home of the dwarves.</p>
 <h2 id="npcs">NPCs</h2>
 <ul>
-<li>[[blue_mountains_dwarf|Blue Mountains Dwarves]] spawn in randomly around the Blue Mountains biome and structures</li>
-<li>[[blue_mountains_warrior|Blue Mountains Warriors]] spawn in randomly around the Blue Mountains biome and structures</li>
-<li>[[blue_mountains_archer|Blue Mountains Archers]] spawn in randomly around the Blue Mountains biome and structures</li>
+<li><a href="../Blue_Mountains_Dwarf/">Blue Mountains Dwarves</a> spawn in randomly around the Blue Mountains biome and structures</li>
+<li><a href="../Blue_Mountains_Warrior/">Blue Mountains Warriors</a> spawn in randomly around the Blue Mountains biome and structures</li>
+<li><a href="../Blue_Mountains_Archer/">Blue Mountains Archers</a> spawn in randomly around the Blue Mountains biome and structures</li>
 <li>[[blue_mountains_axe_thrower|Blue Mountains Axe Throwers]] spawn in randomly around the Blue Mountains biome and structures</li>
 <li>[[blue_mountains_commander|Blue Mountains Commanders]] spawn in Blue Mountains Strongholds and Settlement keeps</li>
-<li>[[blue_mountains_bartender|Blue Mountains Bartenders]] spawn in Blue Mountain Settlement taverns</li>
-<li>[[blue_mountains_butcher|Blue Mountains Butchers]] spawn in Blue Mountain Settlement trader halls</li>
-<li>[[blue_mountains_miner|Blue Mountains Miners]] spawn randomly underground</li>
-<li>[[blue_mountains_smith|Blue Mountains Smiths]] spawn in Blue Mountain Settlement forges and in surface smithies</li>
-<li>[[blue_mountains_stonemason|Blue Mountains Stonemasons]] spawn in Blue Mountain Settlement trader halls</li>
+<li><a href="../Blue_Mountains_Bartender/">Blue Mountains Bartenders</a> spawn in Blue Mountain Settlement taverns</li>
+<li><a href="../Blue_Mountains_Butcher/">Blue Mountains Butchers</a> spawn in Blue Mountain Settlement trader halls</li>
+<li><a href="../Blue_Mountains_Miner/">Blue Mountains Miners</a> spawn randomly underground</li>
+<li><a href="../Blue_Mountains_Smith/">Blue Mountains Smiths</a> spawn in Blue Mountain Settlement forges and in surface smithies</li>
+<li><a href="../Blue_Mountains_Stonemason/">Blue Mountains Stonemasons</a> spawn in Blue Mountain Settlement trader halls</li>
 <li>[[blue_mountains_merchant|Blue Mountains Merchants]] are a randomly spawning wandering trader that can be found across Middle Earth</li>
 </ul>
 <h2 id="history">History</h2>
@@ -3392,6 +3432,18 @@
 <ul>
 <li>The Blue Mountains completely overhauled underground generation of structures as no previous faction spawned structures underground in a meaningful way.</li>
 </ul>
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
+<script id="page-history" type="application/json">[{"short": "970a93f", "full": "970a93fe8aec5a4a1d1f700b1f0e7ea995e9e4fd", "author": "maximuslotro", "date": "2026-04-08 16:52:39 -0500", "timestamp": 1775685159, "message": "Add initial crafting display (#2) (#35)", "change": 27, "size": 2000}, {"short": "2dc1835", "full": "2dc1835700e90730403a2bca0124445c40f9c25b", "author": "maximuslotro", "date": "2025-12-28 13:21:52 -0600", "timestamp": 1766949712, "message": "Add 1.9.1 update", "change": -193, "size": 1973}, {"short": "8409315", "full": "840931548ed468a3295097659f3be1700e29db6f", "author": "maximuslotro", "date": "2025-11-20 12:21:05 -0600", "timestamp": 1763662865, "message": "Add 1.9.0 update info", "change": 950, "size": 2166}, {"short": "7dce84f", "full": "7dce84ff1a3f3abbc0e6ec5e22a5be1716bb57c0", "author": "maximuslotro", "date": "2025-10-06 19:36:19 -0500", "timestamp": 1759797379, "message": "Start implementing new page alias system", "change": -52, "size": 1216}, {"short": "1df3db6", "full": "1df3db68ea486223b2075b81f98d48d13191a86a", "author": "maximuslotro", "date": "2025-08-22 19:45:33 -0500", "timestamp": 1755909933, "message": "Finish BM npcs, v1.8.1 notes, and copyright info", "change": 0, "size": 1268}, {"short": "89a08f5", "full": "89a08f5a4ce24cc4292f988cb121f9788f309fc9", "author": "maximuslotro", "date": "2025-08-19 16:41:43 -0500", "timestamp": 1755639703, "message": "Add many entity renders + more pages", "change": 487, "size": 1268}, {"short": "082b434", "full": "082b43429211a2ebce7a354e22219928ab6d27f6", "author": "maximuslotro", "date": "2025-08-13 13:26:19 -0500", "timestamp": 1755109579, "message": "Add BM faction + miners, and hobbit bartender", "change": 781, "size": 781}]</script>
 
 
 

@@ -196,6 +196,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
       <div class="md-header__source">
         <a href="https://github.com/LotrExtendedTeam/Extended-Wiki" title="Go to repository" class="md-source" data-md-component="source">
@@ -3394,7 +3434,7 @@
       
       
       
-        <a href="../Entities/#tag:entities" class="md-tag">Entities</a>
+        <a href="../SiteMap/#tag:entities" class="md-tag">Entities</a>
       
     
   </nav>
@@ -3457,7 +3497,7 @@
 <h2 id="equipment">Equipment</h2>
 <p>Gundabad Orcs use a random assortment of armour and tools, including bronze, bone, fur and others.</p>
 <h2 id="hiring">Hiring</h2>
-<p>Gundabad Orcs can be hired from [[gundabad_orc_chieftain|Gundabad Orc Chieftains]] for 25 silver coins. Your alignment must be at least 100+ with the Gundabad Orcs to hire them.</p>
+<p>Gundabad Orcs can be hired from <a href="../Gundabad_Orc_Chieftain/">Gundabad Orc Chieftains</a> for 25 silver coins. Your alignment must be at least 100+ with the Gundabad Orcs to hire them.</p>
 <h2 id="strategy">Strategy</h2>
 <ul>
 <li>If you want to avoid conflict with Orcs, make sure to sleep through the night when travelling through Orc territories.</li>
@@ -3475,6 +3515,18 @@
 </ul>
 <h2 id="trivia">Trivia</h2>
 <p>-</p>
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
+<script id="page-history" type="application/json">[{"short": "63cae04", "full": "63cae04309a0679ebceb53782051ab31bb4a047a", "author": "TheElasticBandit", "date": "2026-04-11 05:36:10 -0400", "timestamp": 1775900170, "message": "Update gundabad pages (#38)", "change": 190, "size": 3421}, {"short": "970a93f", "full": "970a93fe8aec5a4a1d1f700b1f0e7ea995e9e4fd", "author": "maximuslotro", "date": "2026-04-08 16:52:39 -0500", "timestamp": 1775685159, "message": "Add initial crafting display (#2) (#35)", "change": 2, "size": 3231}, {"short": "e10c897", "full": "e10c8971c352079e915100dbabba503e2185dfef", "author": "TheElasticBandit", "date": "2026-04-04 16:49:00 -0400", "timestamp": 1775335740, "message": "Fix Gundabad faction links (#33)", "change": 145, "size": 3229}, {"short": "1725515", "full": "17255152c8a13b7f1be8171c35c164192eef9504", "author": "TheElasticBandit", "date": "2026-03-24 10:33:21 -0400", "timestamp": 1774362801, "message": "gundabad orc archer (#29)", "change": 0, "size": 3084}, {"short": "82c115e", "full": "82c115e10bbc235ab89290d356af8f4de7f720aa", "author": "TheElasticBandit", "date": "2026-03-23 14:24:54 -0400", "timestamp": 1774290294, "message": "Update Gundabad_Orc.md (#27)", "change": 6, "size": 3084}, {"short": "47615b7", "full": "47615b7d735f24fd4c862732ad80313f21a5277c", "author": "TheElasticBandit", "date": "2026-03-23 13:53:46 -0400", "timestamp": 1774288426, "message": "Update Gundabad_Orc.md", "change": 26, "size": 3078}, {"short": "fbc09ba", "full": "fbc09ba07ea2a50837e5e13c28d6ff54b3ccae49", "author": "TheElasticBandit", "date": "2026-03-21 22:24:12 -0400", "timestamp": 1774146252, "message": "Update Gundabad_Orc.md", "change": -7, "size": 3052}, {"short": "a04857c", "full": "a04857c1cc99a528dce93d770833ee6898f73493", "author": "TheElasticBandit", "date": "2026-03-21 21:25:59 -0400", "timestamp": 1774142759, "message": "Create Gundabad_Orc.md", "change": 3059, "size": 3059}]</script>
 
 
 

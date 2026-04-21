@@ -196,6 +196,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
       <div class="md-header__source">
         <a href="https://github.com/LotrExtendedTeam/Extended-Wiki" title="Go to repository" class="md-source" data-md-component="source">
@@ -3407,10 +3447,10 @@ There are two spaces after the last line.</p>
 </span></code></pre></div>
 <h4 id="internal-linking">Internal  linking</h4>
 <p>For inner-wiki linking, use the following format.  </p>
-<div class="language-text highlight"><span class="filename">Inner-wiki page linking</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>\[[hedgehog|Hedgehogs]] can be found here on this wiki.
+<div class="language-text highlight"><span class="filename">Inner-wiki page linking</span><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>[[hedgehog|Hedgehogs]] can be found here on this wiki.
 </span></code></pre></div>
 <div class="result">
-<p>[[hedgehog|Hedgehogs]] can be found here on this wiki.</p>
+<p><a href="../Hedgehog/">Hedgehogs</a> can be found here on this wiki.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Custom formatting info</p>
@@ -3425,6 +3465,18 @@ There is special logic usedto facilitate the "compressing" of the wiki page stru
 <div class="result">
 <p><a href="https://wikipedia.org/wiki/Hedgehog">Hedgehogs</a> can be found on Wikipedia.</p>
 </div>
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
+<script id="page-history" type="application/json">[{"short": "970a93f", "full": "970a93fe8aec5a4a1d1f700b1f0e7ea995e9e4fd", "author": "maximuslotro", "date": "2026-04-08 16:52:39 -0500", "timestamp": 1775685159, "message": "Add initial crafting display (#2) (#35)", "change": 16, "size": 3042}, {"short": "7dce84f", "full": "7dce84ff1a3f3abbc0e6ec5e22a5be1716bb57c0", "author": "maximuslotro", "date": "2025-10-06 19:36:19 -0500", "timestamp": 1759797379, "message": "Start implementing new page alias system", "change": -38, "size": 3026}, {"short": "1df3db6", "full": "1df3db68ea486223b2075b81f98d48d13191a86a", "author": "maximuslotro", "date": "2025-08-22 19:45:33 -0500", "timestamp": 1755909933, "message": "Finish BM npcs, v1.8.1 notes, and copyright info", "change": 3064, "size": 3064}]</script>
 
 
 

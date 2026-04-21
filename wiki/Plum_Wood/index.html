@@ -196,6 +196,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
       <div class="md-header__source">
         <a href="https://github.com/LotrExtendedTeam/Extended-Wiki" title="Go to repository" class="md-source" data-md-component="source">
@@ -3526,6 +3566,19 @@
 </div></div>
 </div>
 </div>
+
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
+<script id="page-history" type="application/json">[{"short": "1dabbc5", "full": "1dabbc5e274144f251c1e3fb48d94214dff6a1cf", "author": "maximuslotro", "date": "2026-04-21 13:59:08 -0500", "timestamp": 1776797948, "message": "Crafting displays  (#39)", "change": -1363, "size": 222}, {"short": "5624809", "full": "56248091acaf2131ee6909873122401d27cb162e", "author": "maximuslotro", "date": "2025-07-19 18:06:24 -0500", "timestamp": 1752966384, "message": "Re-work entire wiki backend structure", "change": -55, "size": 1585}, {"short": "77fdc5e", "full": "77fdc5e62f73776ae10ecb4ba1040c0c279ec0f9", "author": "maximuslotro", "date": "2025-06-13 23:47:03 -0500", "timestamp": 1749876423, "message": "Refactor wiki paths", "change": 0, "size": 1640}, {"short": "a9bb142", "full": "a9bb1425e1ffdd19a9b643e76df391837d3bf92a", "author": "maximuslotro", "date": "2025-04-30 17:46:59 -0500", "timestamp": 1746053219, "message": "Move file structure arround", "change": 0, "size": 1640}, {"short": "3871c9f", "full": "3871c9f6adfd07d664a7941c6edc2150c409d07d", "author": "maximuslotro", "date": "2025-04-29 23:56:18 -0500", "timestamp": 1745988978, "message": "Finish basic table and page styling", "change": 1640, "size": 1640}, {"short": "8b24722", "full": "8b24722361ce7afe1e77d7a267150ea3d0d54f1d", "author": "maximuslotro", "date": "2025-04-29 16:20:27 -0500", "timestamp": 1745961627, "message": "Initial work on an actual wiki", "change": 0, "size": 0}]</script>
 
 
 

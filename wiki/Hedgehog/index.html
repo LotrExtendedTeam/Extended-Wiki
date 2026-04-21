@@ -196,6 +196,46 @@
     
     
     
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
     
       <div class="md-header__source">
         <a href="https://github.com/LotrExtendedTeam/Extended-Wiki" title="Go to repository" class="md-source" data-md-component="source">
@@ -3361,7 +3401,7 @@
       
       
       
-        <a href="../Entities/#tag:entities" class="md-tag">Entities</a>
+        <a href="../SiteMap/#tag:entities" class="md-tag">Entities</a>
       
     
   </nav>
@@ -3412,13 +3452,13 @@
 <h2 id="spawning">Spawning</h2>
 <p>Hedgehogs commonly spawn in the following biomes:<br />
 - Anduin Vale<br />
-- [[bree-land|Bree-land]] and the Chetwood<br />
+- <a href="../Bree-land_(Biome)/">Bree-land</a> and the Chetwood<br />
 - Eriador and the Eriador Downs<br />
 - Minhiriath<br />
-- [[lindon_biome|Lindon]]<br />
+- <a href="../Lindon_(Biome)/">Lindon</a><br />
 - Rivendell and Rivendell Hills<br />
 - Rohan and the Wold<br />
-- [[the_shire|The Shire]] and Shire Woodlands<br />
+- <a href="../The_Shire/">The Shire</a> and Shire Woodlands<br />
 - Woodland Realm  </p>
 <p>They can also <strong>rarely</strong> spawn in:<br />
 - Fangorn<br />
@@ -3442,6 +3482,18 @@
 <ul>
 <li>Hedgehogs were first considered for addition in June 2024 before being added almost a year later.</li>
 </ul>
+<div id="history-modal" style="display:none;">
+  <div id="history-modal-wrapper">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit History</h3>
+        <span class="close-btn">&times;</span>
+      </div>
+      <ul id="commit-list"></ul>
+    </div>
+  </div>
+</div>
+<script id="page-history" type="application/json">[{"short": "970a93f", "full": "970a93fe8aec5a4a1d1f700b1f0e7ea995e9e4fd", "author": "maximuslotro", "date": "2026-04-08 16:52:39 -0500", "timestamp": 1775685159, "message": "Add initial crafting display (#2) (#35)", "change": 17, "size": 1816}, {"short": "43d98ff", "full": "43d98ff681beae9651a3c316427acf814b8b0882", "author": "TheElasticBandit", "date": "2026-04-04 16:50:30 -0400", "timestamp": 1775335830, "message": "New Biome pages (#31)", "change": 30, "size": 1799}, {"short": "e30d274", "full": "e30d27497f1be0a4272bafae8497c39745ce91de", "author": "maximuslotro", "date": "2025-12-28 15:20:24 -0600", "timestamp": 1766956824, "message": "Add entity settings and trader profile datapack...", "change": 287, "size": 1769}, {"short": "7dce84f", "full": "7dce84ff1a3f3abbc0e6ec5e22a5be1716bb57c0", "author": "maximuslotro", "date": "2025-10-06 19:36:19 -0500", "timestamp": 1759797379, "message": "Start implementing new page alias system", "change": 20, "size": 1482}, {"short": "1df3db6", "full": "1df3db68ea486223b2075b81f98d48d13191a86a", "author": "maximuslotro", "date": "2025-08-22 19:45:33 -0500", "timestamp": 1755909933, "message": "Finish BM npcs, v1.8.1 notes, and copyright info", "change": 0, "size": 1462}, {"short": "e6025fb", "full": "e6025fb9081b4017d809040a229671658878e743", "author": "maximuslotro", "date": "2025-08-18 14:30:33 -0500", "timestamp": 1755545433, "message": "Add hedgehog page", "change": 1462, "size": 1462}]</script>
 
 
 
