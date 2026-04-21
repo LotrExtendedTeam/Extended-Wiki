@@ -1,6 +1,7 @@
 ---
-show:
+hide:
   - toc
+  - navigation
 alias:
   - sitemap
 ---
