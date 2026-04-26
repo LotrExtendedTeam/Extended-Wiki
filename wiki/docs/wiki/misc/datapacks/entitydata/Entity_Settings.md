@@ -8,13 +8,13 @@ show:
 Entity settings provide a JSON-driven way to modify the behavior and properties of entities, including **vanilla entities** and entities added by **other mods**, without directly modifying their source definitions.
 
 Currently it allows for:  
-- Assign factions to entities
-- Applying bonus alignment rewards on kill
-- Attaching speechbanks to entities for dialogue and interaction
+- Assign factions to entities  
+- Applying bonus alignment rewards on kill  
+- Attaching speechbanks to entities for dialogue and interaction  
 
 Entity Settings are defined and configured using JSON files located within a data pack under:  
 - `data/<namespace>/npcs/entity_settings/<entity>.json`  
-- Where the `namespace` and `entity` fields are the entity's in-game `namespace:path` id.
+- Where the `namespace` and `entity` fields are the entity's in-game `namespace:path` id.  
 
 ## Entity Settings JSON format
 
