@@ -17,7 +17,7 @@ CRAFTING_GRID_RE = re.compile(r"\{\{\s*craftinggrid:(.*?)\s*\}\}", re.DOTALL)
 RECIPES = {}
 ITEMS = {}
 TAGS = {}
-URL_PATH = "/Extended-Wiki/wiki/img/"
+URL_PATH = "/wiki/img/"
 checked_images = set()
 RECIPE_CACHE = {}
 
@@ -164,7 +164,7 @@ def getImage(imagePath):
 
 def fix_url(url):
     if url=="#":
-        return "/Extended-Wiki/404"
+        return "/404"
     return url
         
 # --- SLOT RENDER ---
@@ -287,7 +287,7 @@ def render_recipe(recipe_id):
 
     html = ['<div class="crafting-box">']
     html.append(f'<div class="crafting-body">')
-    html.append(f'<img class="crafting-gui off-glb" src="/Extended-Wiki/wiki/img/gui/{grid_image}" alt="Crafting GUI">')
+    html.append(f'<img class="crafting-gui off-glb" src="/wiki/img/gui/{grid_image}" alt="Crafting GUI">')
     html.append(f'<div class="crafting-title-overlay">{recipe["title"]}</div>')
     html.append(f'<div class="crafting-grid">{grid_html}</div>')
     html.append(f'{output_html}')
