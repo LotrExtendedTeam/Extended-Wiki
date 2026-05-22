@@ -11,11 +11,11 @@ alias:
 ::infobox
 type: version
 title: The Latest Version is:
-name: 1.9.3
-date: February 7th, 2026
-curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/7587801
-modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.9.3
-changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-9.3
+name: 1.10.1
+date: May 16th, 2026
+curseforgelink: https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/8101641
+modrinthlink: https://modrinth.com/mod/lotr-renewed-extended/version/1.10.1
+changeloglink: /Extended-Wiki/wiki/Versions/#beta-1-10.1
 discordlink: https://discord.gg/aXRZFq6N3n
 ::end-infobox
 # Home
@@ -24,14 +24,14 @@ Welcome to the *LOTR Renewed: Extended Minecraft Mod* Wiki!
 
 This mod is a Minecraft Forge 1.16.5 addon to Mevans' The Lord of the Rings Mod: Renewed mod. The mod is currently in active development by a community-driven team with the goal of extending the features of Mevans' mod. 
 
-This wiki, like the mod, is also under active development and will be continue to be expanded as time goes on.
+This wiki, like the mod, is also under active development and will continue to be expanded as time goes on.
 
 ## Current Features
 Below is a list of features that are currently implemented in the mod.
 
-- 6 [[factions|Factions]] and their traders/NPCs have all been ported ([[hobbit_faction|Hobbits]], [[ranger_north_faction|Rangers]], [[gundabad_faction|Gundabad Orcs]], [[bree_faction|Bree]], [[blue_mountains_faction|Blue Mountains]], and [[high_elves_faction|High Elves]])
-- All 6 Factions now have naturally generating structures (including many new ones!)
-- NPC hiring for Bree, Blue Mountains, Gundabad, Rangers, and High Elves
+- 8 [[factions|Factions]] and their traders/NPCs have all been ported ([[hobbit_faction|Hobbits]], [[ranger_north_faction|Rangers]], [[gundabad_faction|Gundabad Orcs]], [[bree_faction|Bree]], [[blue_mountains_faction|Blue Mountains]], [[high_elves_faction|High Elves]], Isengard and Dunland)
+- All 8 Factions now have naturally generating structures (including many new ones!)
+- NPC hiring for Bree, Blue Mountains, Gundabad, Rangers, High Elves, Isengard and Dunland
 - The entire trade system has been ported and is functional
 - 5 Wandering Traders spawn throughout the world (Elves, Dwarves, Oddment Collectors, and a new Bree-land Merchant)
 - Banner Protection has been ported (very useful for servers!)
