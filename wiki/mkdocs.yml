@@ -4,7 +4,7 @@ repo_url: https://github.com/LotrExtendedTeam/Extended-Wiki
 repo_name: Extended-Wiki
 edit_uri: edit/main/wiki/docs/
 copyright: |
-  &copy; 2025-2026 maximuslotro, LotrExtendedTeam
+  Copyright &copy; 2025-2026 maximuslotro, LotrExtendedTeam
 
 validation:
   links:
@@ -55,7 +55,7 @@ theme:
     - navigation.tabs #add top navigation bar with main categories
     #- navigation.tracking # updates the URL bar with the current selected TOC section
     - navigation.top #adds a button to jump to top of page
-    - navigation.path # does not do anything right now as its a sponsor only option currently
+    - navigation.path #Shows page path on top of page view
     #- navigation.indexes #hide top level navigation duplication
     - toc.integrate #toc is rendered as part of the navigation sidebar
     #- navigation.prune # prune bloat navigation
@@ -109,6 +109,19 @@ plugins:
        cards: true
        cards_layout_options:
         background_color: "#998f65"
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/eu7xCnpQAS
+      name: Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/LotrExtendedTeam
+      name: GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@LOTRRenewedExtendedOfficial
+      name: YouTube
+  generator: true
 
 markdown_extensions:
   - admonition
