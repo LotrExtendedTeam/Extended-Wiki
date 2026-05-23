@@ -15,7 +15,7 @@ title: Blue Mountains Dwarf
 image: entities/blue_mountains_dwarf.png
 armor: 0
 hitpoints: 20
-faction: [Blue Mountains](/Extended-Wiki/wiki/Blue_Mountains_(Faction))
+faction: [[blue_mountains_faction|Blue Mountains]]
 ::end-infobox
 
 # Blue Mountains Dwarf

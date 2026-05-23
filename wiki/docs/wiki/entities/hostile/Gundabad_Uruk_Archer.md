@@ -15,7 +15,7 @@ title: Gundabad Uruk Archer
 image:entities/gundabad_uruk_archer.png
 armor: 17
 hitpoints: 18
-faction: (/Extended-Wiki/wiki/Gundabad(Faction))
+faction: [[gundabad_faction|Gundabad]]
 ::end-infobox
 
 # Gundabad Uruk Archer

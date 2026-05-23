@@ -12,7 +12,7 @@ alias:
 # Bree-land
 
 ## NPCs
-- [Bree-land Men and Women] and [Bree-land Guards](/Extended-Wiki/wiki/Bree-land_Guard) spawn throughout much of the Breeland Biome during the day.
+- [Bree-land Men and Women] and [[bree_guard|Bree-land Guards]] spawn throughout much of the Breeland Biome during the day.
 
 - There are many Bree-land traders that are ported in Extended and they can be found in Bree-land Hamlets and Villages
 

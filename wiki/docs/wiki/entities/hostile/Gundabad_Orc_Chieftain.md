@@ -15,7 +15,7 @@ title: Gundabad Orc Chieftain
 image: entities/gundabad_orc_chieftain.png
 armor: 15
 hitpoints: 25
-faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
+faction: [[gundabad_faction|Gundabad]]
 ::end-infobox
 
 # Gundabad Orc Chieftain

@@ -15,7 +15,7 @@ title: Gundabad Orc Scrounger
 image: entities/gundabad_orc_scrounger.png
 armor: 9
 hitpoints: 18
-faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
+faction: [[gundabad_faction|Gundabad]]
 ::end-infobox
 
 # Gundabad Orc Scrounger

@@ -15,7 +15,7 @@ title: Gundabad Uruk
 image: entities/gundabad_uruk.png
 armor: 17
 hitpoints: 25
-faction: [Gundabad](/Extended-Wiki/wiki/Gundabad_(Faction))
+faction: [[gundabad_faction|Gundabad]]
 ::end-infobox
 
 # Gundabad Uruk

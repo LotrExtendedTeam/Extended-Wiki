@@ -15,7 +15,7 @@ title: Hobbit
 image: entities/hobbit.png
 armor: 0
 hitpoints: 16
-faction: [Hobbits](/Extended-Wiki/wiki/Hobbits_(Faction))
+faction: [[hobbit_faction|Hobbits]]
 ::end-infobox
 
 # Hobbit
