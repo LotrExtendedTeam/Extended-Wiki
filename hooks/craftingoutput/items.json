@@ -1702,7 +1702,7 @@
   "lotr:cheese_wheel": {
     "name": "Cheese Wheel",
     "image": "items/cheese_wheel.png",
-    "url": "#"
+    "url": "/wiki/Cheese_Wheel/"
   },
   "lotr:cherry": {
     "name": "Cherry",
@@ -5033,19 +5033,19 @@
   "lotr:hobbit_pancake": {
     "name": "Hobbit Pancake",
     "image": "items/hobbit_pancake.png",
-    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
+    "url": "/wiki/Hobbit_Pancake/"
   },
   "lotr:hobbit_pancake_syrup": {
     "name": "Hobbit Pancake Syrup",
     "tooltip": "Hobbit Pancake with Syrup",
     "image": "items/hobbit_pancake_syrup.png",
-    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
+    "url": "/wiki/Hobbit_Pancake/"
   },
   "lotr:hobbit_pancake_syrup_butter": {
     "name": "Hobbit Pancake Syrup Butter",
     "tooltip": "Hobbit Pancake with Syrup and Butter",
     "image": "items/hobbit_pancake_syrup_butter.png",
-    "url": "https://lotrextendedteam.github.io/Extended-Wiki/wiki/Hobbit_Pancake/"
+    "url": "/wiki/Hobbit_Pancake/"
   },
   "lotr:holly_beam": {
     "name": "Holly Beam",
@@ -11565,7 +11565,7 @@
   "minecraft:obsidian": {
     "name": "Obsidian",
     "image": "blocks/minecraft/obsidian.png",
-    "url": "https://minecraft.wiki/w/Obsidian"
+    "url": "/wiki/Obsidian/"
   },
   "minecraft:orange_dye": {
     "name": "Orange Dye",

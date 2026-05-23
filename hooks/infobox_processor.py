@@ -16,7 +16,7 @@ def on_page_markdown(markdown_content, page: Page, config, files):
         if not text:
             return text
         # Create a markdown instance with common extensions
-        md = markdown.Markdown(extensions=['extra', 'codehilite'])
+        md = markdown.Markdown(extensions=['extra', 'codehilite', 'md_in_html'])
         # Convert markdown to HTML and strip the wrapping <p> tags for inline content
         html = md.convert(text).strip()
         if html.startswith('<p>') and html.endswith('</p>') and html.count('<p>') == 1:
@@ -45,14 +45,14 @@ def on_page_markdown(markdown_content, page: Page, config, files):
         footer = entries.pop('footer', '')
         footer_data = entries.pop('footer_data', '')
 
-        html = ['<div class="infobox">']
+        html = ['<div class="infobox" markdown="span">']
         html.append(f'<div class="infobox-header">{title}</div>')
 
         if image:
             html.append('<div class="infobox-image">')
             #html.append('<a href="/wiki/img/{image}">')
             html.append(f'<img src="/wiki/img/{image}" alt="{image_alt}">')
-            html.append('</a>')
+            #html.append('</a>')
             html.append('</div>')
 
         if(box_type=='custom'):
@@ -60,30 +60,25 @@ def on_page_markdown(markdown_content, page: Page, config, files):
             for key, value in entries.items():
                 html.append('<div class="infobox-row">')
                 html.append(f'<div class="label">{key.title()}</div>')
-                html.append(f'<div class="value">{markdown_to_html(value)}</div>')
+                html.append(f'<div class="value" markdown="span">{value}</div>')
                 html.append('</div>')
             html.append('</div>')
         else:
             if(box_type=='version'):
-                if "changeloglink" in entries:
-                    html.append('<div class="infobox-version-wrapper">')
-                    #html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
-                    html.append(f'<div><a href="{entries["changeloglink"]}"><strong>v{entries.get("name", "Unknown")}</strong></a></div>')
-                else:
-                    html.append('<div class="infobox-version-wrapper">')
-                    html.append(f'<div><strong>v{entries.get("name", "Unknown")}</strong></div>')
+                html.append('<div class="infobox-version-wrapper" markdown="span">')
+                html.append(f'<div markdown="span">{entries["version"]}</div>')
                 if "date" in entries:
                     html.append(f'<div><em>Published {entries["date"]}</em></div>')
                     html.append('<div class="version-spacer"></div>')
                 if "curseforgelink" in entries:
-                    html.append(f'<div><a href="{entries["curseforgelink"]}">Curseforge</a></div>')
+                    html.append(f'<div markdown="span">{entries["curseforgelink"]}</div>')
                 if "modrinthlink" in entries:
-                    html.append(f'<div><a href="{entries["modrinthlink"]}">Modrinth</a></div>')
+                    html.append(f'<div markdown="span">{entries["modrinthlink"]}</div>')
                 if "changeloglink" in entries:
                     html.append('<div class="version-spacer"></div>')
-                    html.append(f'<div><a href="{entries["changeloglink"]}">Changelog</a></div>')
+                    html.append(f'<div markdown="span">{entries["changeloglink"]}</div>')
                 if "discordlink" in entries:
-                    html.append(f'<div><a href="{entries["discordlink"]}">Discord</a></div>')
+                    html.append(f'<div markdown="span">{entries["discordlink"]}</div>')
                 html.append('</div>')
             else:
                 grid_fields = {}
@@ -141,15 +136,15 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                         'hunger': 'Restores',
                         'stack': 'Stackability',
                     }
-                html.append('<div class="infobox-grid">')
+                html.append('<div class="infobox-grid" markdown="span">')
                 for key, label in grid_fields.items():
                     if key in entries:
                         value = entries[key]
                         if isinstance(value, str):
                             value = value.replace('||', '<br>')  # replace literal "||" with HTML break
-                        html.append('<div class="infobox-row">')
-                        html.append(f'    <div class="label">{label}</div>')
-                        html.append(f'    <div class="value">{markdown_to_html(value)}</div>')
+                        html.append('<div class="infobox-row" markdown="span">')
+                        html.append(f'<div class="label">{label}</div>')
+                        html.append(f'<div class="value" markdown="span">{value}</div>')
                         html.append('</div>')
                 html.append('</div>')
         if footer:
