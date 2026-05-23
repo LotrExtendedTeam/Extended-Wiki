@@ -39,6 +39,16 @@ Rangers fight enemies with either normal longbows or their faction specific rang
 
 They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's aignment is >=350 with the [[rangers_of_the_north|Rangers of the North]].
 
+## Strategy
+
+- When fighting Rangers or any other ranged enemy, a shield is extremely useful to block arrows.
+- Try and get close enough for them to immediately switch to their melee weapon, which toggles on at shorter range. If you are at the right distance, they can't damage you with it.
+- If you are fighting larger numbers, try to draw them towards you one by one, as a large group can overwhelm you with arrows very quickly.
+
+## Lore
+
+The Dúnedain are a remnant of the fallen kingdom of Arnor, a branch of the descendants of Númenór, who watch and guard the lands of Eriador and wait for the return of the king.
+
 ## History
 - 1.5.0:
     - Ported Dúnedain Rangers
