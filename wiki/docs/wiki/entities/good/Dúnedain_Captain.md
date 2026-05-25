@@ -20,7 +20,7 @@ faction: [[ranger_north_faction|Rangers of the North]]
 
 # Dúnedain Captain
 
-Dúnedain Captains, or Captains of the North, lead the small forces of the [[rangers_north_faction|Rangers of the North]], spread far and wide across the lands of Eriador and the biomes inside it. You can hire normal [[dunedain_ranger|Dúnedain Rangers]] from them.
+Dúnedain Captains, or Captains of the North, lead the small forces of the [[ranger_north_faction|Rangers of the North]], spread far and wide across the lands of Eriador and the biomes inside it. You can hire normal [[dunedain_ranger|Dúnedain Rangers]] from them.
 They are able to go nearly invisible, taking on a ghost-like form to evade and attack their enemies. 
 
 ## Spawning
@@ -37,7 +37,7 @@ When attacked, they fight with a normal longbow or ranger bow like other rangers
   
 ## Hiring
 
-Currently, you can hire only normal [[dunedain_ranger|Rangers]] from them for 50 coins. Your alignment must be >=350 with the [[rangers_north_faction|Rangers of the North]].
+Currently, you can hire only normal [[dunedain_ranger|Rangers]] from them for 50 coins. Your alignment must be >=350 with the [[ranger_north_faction|Rangers of the North]].
 
 ## Strategy
 
