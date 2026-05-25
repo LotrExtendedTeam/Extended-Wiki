@@ -1,0 +1,58 @@
+---
+tags:
+  - Entities
+show:
+  - toc
+alias:
+  - dunedain_ranger
+---
+
+####
+
+::infobox
+type: entity
+title: Dúnedain Ranger
+image: entities/dunedain_ranger.png
+armor: 13
+hitpoints: 25
+faction: [[rangers_of_the_north_faction|Rangers of the North]]
+::end-infobox
+
+# Dúnedain Ranger
+
+Dúnedain Rangers are the small forces of the [[rangers_of_the_north_faction|Rangers of the North]], spread far and wide across the lands of Eriador and the biomes inside it. They are able to go nearly invisible, taking on a ghost-like form to evade and attack their enemies.
+
+## Spawning
+
+Dúnedain Rangers can spawn any time of the day, and must spawn directly on a grass block, which prevents them from spawning underground. They can spawn in many of the biomes of northwest Middle Earth: Eriador, the Lone-Lands and Tower Hills being the most common.
+  
+## Behavior
+
+Rangers will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad|Gundabad]] units. When using ranged attacks, Dúnedain Rangers can turn slightly transparent, rendering them invisible to hostile NPCs.
+They generally wander around aimlessly when they are not fighting enemies.
+
+## Equipment
+
+Rangers fight enemies with either normal longbows or their faction specific ranger longbows at long range, and once an enemy is close enough they will switch to a short melee weapon. Their armour is not the greatest, giving them only thirteen points, but due to their stealth trick they are an extremely useful unit.
+  
+## Hiring
+
+They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's alignment is >=350 with the [[rangers_of_the_north|Rangers of the North]].
+
+## Strategy
+
+- When fighting Rangers or any other ranged enemy, a shield is extremely useful to block arrows.
+- Try and get close enough for them to immediately switch to their melee weapon, which toggles on at shorter range. If you are at the right distance, they can't damage you with it.
+- If you are fighting larger numbers, try to draw them towards you one by one, as a large group can overwhelm you with arrows very quickly.
+
+## Lore
+
+The Dúnedain are a remnant of the fallen kingdom of Arnor, a branch of the descendants of Númenór, who watch and guard the lands of Eriador and wait for the return of the king.
+
+## History
+- 1.5.0:
+    - Ported Dúnedain Rangers
+
+## Trivia
+
+- Dúnedain Rangers were the first combat type NPCs added to Extended
