@@ -15,12 +15,12 @@ title: Dúnedain Ranger
 image: entities/dunedain_ranger.png
 armor: 13
 hitpoints: 25
-faction: [[rangers_of_the_north_faction|Rangers of the North]]
+faction: [[ranger_north_faction|Rangers of the North]]
 ::end-infobox
 
 # Dúnedain Ranger
 
-Dúnedain Rangers are the small forces of the [[rangers_of_the_north_faction|Rangers of the North]], spread far and wide across the lands of Eriador and the biomes inside it. They are able to go nearly invisible, taking on a ghost-like form to evade and attack their enemies.
+Dúnedain Rangers are the small forces of the [[ranger_north_faction|Rangers of the North]], spread far and wide across the lands of Eriador and the biomes inside it. They are able to go nearly invisible, taking on a ghost-like form to evade and attack their enemies.
 
 ## Spawning
 
@@ -37,7 +37,7 @@ Rangers fight enemies with either normal longbows or their faction specific rang
   
 ## Hiring
 
-They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's alignment is >=350 with the [[rangers_of_the_north|Rangers of the North]].
+They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's alignment is >=350 with the [[ranger_north_faction|Rangers of the North]].
 
 ## Strategy
 
