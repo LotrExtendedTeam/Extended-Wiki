@@ -24,7 +24,7 @@ Dúnedain Rangers are the small forces of the [[rangers_of_the_north_faction|Ran
 
 ## Spawning
 
-Dúnedain Rangers can spawn any time of the day, and must spawn directly on a grass block, which prevents them from spawning underground. They can spawn in many of the biomes of northwest Middle Earth: Eriador, the Lone Lands and Tower Hills being the most common.
+Dúnedain Rangers can spawn any time of the day, and must spawn directly on a grass block, which prevents them from spawning underground. They can spawn in many of the biomes of northwest Middle Earth: Eriador, the Lone-Lands and Tower Hills being the most common.
   
 ## Behavior
 
@@ -37,7 +37,7 @@ Rangers fight enemies with either normal longbows or their faction specific rang
   
 ## Hiring
 
-They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's aignment is >=350 with the [[rangers_of_the_north|Rangers of the North]].
+They can be hired for 50 coins from a[[dunedain_captain|Captain of the North]] when one's alignment is >=350 with the [[rangers_of_the_north|Rangers of the North]].
 
 ## Strategy
 
