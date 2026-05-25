@@ -1,3 +1,5 @@
 * [All Entities](Entities.md)
+* [Evil](evil/)
+* [Good](good/)
 * [Hostile](hostile/)
 * [Passive](passive/)
