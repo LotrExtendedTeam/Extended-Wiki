@@ -24,16 +24,15 @@ The Rivendell Captain is the hiring NPC of the Rivendell Elves.
 
 ## Spawning
 
-The Rivendell Captain spawns in Rivendell Captain Tower, identified by the flag flying above the tower.
+The Rivendell Captain spawns in Rivendell Captain Tower, identified by the blue and white flag flying above the tower.
   
 ## Behavior
 
-The Rivendell Captain will not attack any player or creature unless they are attacked first. 
-They generally wander around the tower when not interacting.
+Like other hiring NPCs, Rivendell Captains will not attack any player or creature unless they are attacked first. They generally wander around the tower when not interacting.
 
 ## Equipment
 
-The Rivendell Captain fight enemies with a Rivendell Sword. They have 3/4 armor, making them a easy unit to kill, but ultimately not worth while.
+The Rivendell Captaisn fight enemies with a Rivendell Sword. They have 3/4 armor, making them a easy unit to kill, but ultimately not worth while.
   
 ## Hiring
 
@@ -41,7 +40,7 @@ Rivendell Captains allow you to hire Rivendell Elves or Rivendell Warriors as lo
 
 ## Strategy
 
-- There is no need to fight a Rivendell Captain, but if you do, it is easy to kill them with a longer weapon such as a spear, or with a bow, since it doesn't have a ranged attack.
+  - There is no need to fight a Rivendell Captain, but if you do, it is easy to kill them with a longer weapon such as a spear, or with a bow, since they don't have a ranged attack.
 
 ## Lore
 
