@@ -24,7 +24,7 @@ The Rivendell Captain is the hiring NPC of the Rivendell Elves.
 
 ## Spawning
 
-The Rivendell Captain spawns in Rivendell Captain Tower, identified by the blue and white flag flying above the tower.
+The Rivendell Captain spawns in Rivendell Captain Tower, identified by the blue and white flag flying above the tower, not to be confused with the Rivendell Smithy, a short round building that also flys a blue and white flag.
   
 ## Behavior
 
