@@ -18,7 +18,7 @@ hitpoints: 30
 faction: [[high_elves_faction|High Elves]]
 ::end-infobox
 
-# Rivendell Warriors
+# Imladris Guard
 
 Imladris Guards are the protectors of the Last Homely House: Rivendell. They guard their Lord Elrond from any evil that would inavde their precious valley.
 
