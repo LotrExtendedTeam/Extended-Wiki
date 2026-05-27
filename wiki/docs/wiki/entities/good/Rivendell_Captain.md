@@ -29,6 +29,7 @@ The Rivendell Captain spawns in Rivendell Captain Tower, identified by the blue 
 ## Behavior
 
 Like other hiring NPCs, Rivendell Captains will not attack any player or creature unless they are attacked first. They generally wander around the tower when not interacting.
+Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
