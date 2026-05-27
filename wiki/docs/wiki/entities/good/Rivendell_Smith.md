@@ -39,7 +39,7 @@ The Rivendell Smith fight enemies with a Blacksmith's Hammer. They have no armor
 
 Smiths will not trade with players unless they have +100 alignment with [[high_elves_faction|High Elves]]. Upon trading with then, the player will be bestowed the advancement "**Armament of Imladris**".
 
-Rivendell Smiths sell the goods of their forge. This includes Rivendell and Imladris armor and Rivendell equipment. They also can sell the Rivendell Banner Pattern and crafting table.
+Rivendell Smiths sell the goods of their trade. This includes Rivendell and Imladris armor and Rivendell equipment. They also can sell the Rivendell crafting table and Banner Pattern.
 
 Rivendell Smiths buy many supplies, such as ingots and gemstones.
 
