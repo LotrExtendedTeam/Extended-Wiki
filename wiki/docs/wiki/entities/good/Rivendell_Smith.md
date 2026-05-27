@@ -58,4 +58,4 @@ The Rivendell Elves are Noldorin Elves who dwell in Rivendell, home of the Lord 
 
 ## Trivia
 
-- Rivendell Elves were the first elven NPCs added to Renewed, along with the Galadhrim.
+- The Rivendell Smith was the first smith added to Renewed Extended.
