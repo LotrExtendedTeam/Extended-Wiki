@@ -33,7 +33,7 @@ Upon death, a silver coin will float above the ground where they died, signifyin
 
 ## Equipment
 
-The Rivendell Captaisn fight enemies with a Rivendell Sword. They have 3/4 armor, making them a easy unit to kill, but ultimately not worth while.
+The Rivendell Captain fight enemies with a Rivendell Sword. They have 3/4 armor, making them a easy unit to kill, but ultimately not worth while.
   
 ## Hiring
 
