@@ -20,7 +20,7 @@ faction: [[high_elves_faction|High Elves]]
 
 # Rivendell Warriors
 
-Rivendell Warrior are the protectors of the elven valley Rivendell, waiting for the moment when they will ride out in glory one last time to rid Middle-Earth of all evil.
+Rivendell Warriors are the protectors of the elven valley Rivendell, waiting for the moment when they will ride out in glory one last time to rid Middle-Earth of all evil.
 
 ## Spawning
 
