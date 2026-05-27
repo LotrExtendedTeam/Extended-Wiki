@@ -50,7 +50,7 @@ They can be hired for 50 coins from a[[rivendell_captain|Rivendell Captain]] whe
 The Rivendell Elves are Noldorin Elves who dwell in Rivendell, home of the Lord Elrond. They are more ancient than the Wood-Elves and Galadhrim, and are great warriors and loremasters.
 
 ## History
-- Renewed 4.0:
+- Renewed 4.2:
     - Added Rivendell Elves
 
 ## Trivia
