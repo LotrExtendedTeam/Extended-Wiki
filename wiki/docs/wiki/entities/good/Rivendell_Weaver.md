@@ -28,7 +28,7 @@ The Rivendell Weaver spawns in the Rivendell Weaver House, indentified by the cl
   
 ## Behavior
 
-The Rivendell weaver will not attack any player or creature untiled they are attacked.
+The Rivendell Weaver will not attack any player or creature untiled they are attacked.
 They wander around their house when not be traded with. 
 Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
