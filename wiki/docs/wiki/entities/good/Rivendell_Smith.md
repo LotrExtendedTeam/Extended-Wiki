@@ -28,7 +28,7 @@ The Rivendell Smith spawns in the Rivendell Smithy, which randomly generates ins
   
 ## Behavior
 
-The Rivendell Smith will not attack any player or creature untiled they are attacked.
+The Rivendell Smith will not attack any player or creature until they are attacked.
 They wander around their smithy when not be traded with.
 Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
