@@ -37,7 +37,7 @@ The Rivendell Captain fight enemies with a Rivendell Sword. They have 3/4 armor,
   
 ## Hiring
 
-Rivendell Captains allow you to hire a Rivendell Elf or Rivendell Warrior as long as you have at least 300 alignment and some money.
+Rivendell Captains allow you to hire Rivendell Elves or Rivendell Warriors as long as you have at least 300 alignment and some money.
 
 ## Strategy
 
