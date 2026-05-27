@@ -28,7 +28,7 @@ Rivendell Elves can spawn any time of the day, only within the Rivendell or Rive
   
 ## Behavior
 
-Rivendell Elves will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad|Gundabad]] units. 
+Rivendell Elves will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad_faction|Gundabad]] units. 
 They generally wander around aimlessly when they are not fighting enemies.
 
 ## Equipment
@@ -37,7 +37,7 @@ Rivendell Elves fight enemies with a Rivendell Bow and Dagger. They have no armo
   
 ## Hiring
 
-They can be hired for 30 coins from a[[rivendell_captain|Rivendell Captain]] when one's alignment is >=300 with the [[high_elves_faction|High Elves]].
+They can be hired for 30 coins from a [[rivendell_captain|Rivendell Captain]] when one's alignment is >=300 with the [[high_elves_faction|High Elves]].
 
 ## Strategy
 
