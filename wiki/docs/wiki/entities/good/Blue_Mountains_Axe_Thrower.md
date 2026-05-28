@@ -43,7 +43,7 @@ Axe Throwers can be hired from [[blue_mountains_commander|Blue Mountains Command
 
 - When fighting Axe Throwers or any other ranged enemy, a shield is extremely useful to block projectiles.
 - Try and get close enough for them to immediately switch to their melee weapon, which toggles on at shorter range. If you are at the right distance, they can't damage you with it.
-- If you are fighting larger numbers, try to draw them towards you one by one, as a large group can overwhelm you with huts very quickly.
+- If you are fighting larger numbers, try to draw them towards you one by one, as a large group can overwhelm you with hits very quickly.
 
 ## Lore
 
