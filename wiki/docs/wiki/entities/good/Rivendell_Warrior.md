@@ -28,16 +28,16 @@ Rivendell Warriors can spawn any time of the day, only within the Rivendell or R
   
 ## Behavior
 
-Rivendell Warriors will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad|Gundabad]] units. 
+Rivendell Warriors will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad_faction|Gundabad]] units. 
 They generally wander around aimlessly when they are not fighting enemies.
 
 ## Equipment
 
-Rivendell Warriors fight enemies with a Rivendell Bow and a random Rivendell melee weapon, which are only the sword and spear at the moment. When hired they have full armor(some unired warriors spawn without helmets), making them afforable and very strong combat units, although the alignment requirment is quite high.
+Rivendell Warriors fight enemies with a Rivendell Bow and a random Rivendell melee weapon, which are only the sword and spear at the moment. When hired they have full armor(some unhired warriors spawn without helmets), making them afforable and very strong combat units, although the alignment requirment is quite high.
   
 ## Hiring
 
-They can be hired for 50 coins from a[[rivendell_captain|Rivendell Captain]] when one's alignment is >=400 with the [[high_elves_faction|High Elves]].
+They can be hired for 50 coins from a [[rivendell_captain|Rivendell Captain]] when one's alignment is >=400 with the [[high_elves_faction|High Elves]].
 
 ## Strategy
 

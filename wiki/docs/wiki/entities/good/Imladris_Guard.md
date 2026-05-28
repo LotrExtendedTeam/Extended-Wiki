@@ -28,7 +28,7 @@ Imladris Guards can spawn any time of the day, only at the Last Homely House loc
   
 ## Behavior
 
-Imladris Guards will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad|Gundabad]] units. 
+Imladris Guards will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad_faction|Gundabad]] units. 
 They generally wander around aimlessly when they are not fighting enemies.
 
 ## Equipment

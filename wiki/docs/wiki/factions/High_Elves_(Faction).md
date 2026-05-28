@@ -17,20 +17,20 @@ The **High Elves** are a faction of ancient and power elves who reside in two ar
 
 ## NPCs
 - Rivendell:
-    - [[rivendell_elf|Rivendell Elf]] spawn randomly throughout Rivendell and in Rivendell structures
-    - [[rivendell_warrior|Rivendell Warrior]] spawn randomly throughout Rivendell
-    - [[rivendell_captain|Rivendell Captain]] spawn in captain towers scattered around Rivendell
-    - [[rivendell_smith|Rivendell Smith]] spawn in smithies scattered around Rivendell
-    - [[rivendell_weaver|Rivendell Weaver]] spawn in special weaver houses scattered around Rivendell
-    - [[imladris_guard|Imladris Guard]] spawn arround The Last Homely House in Rivendell
+    - [[rivendell_elf|Rivendell Elves]] spawn randomly throughout Rivendell and in Rivendell structures
+    - [[rivendell_warrior|Rivendell Warriors]] spawn randomly throughout Rivendell
+    - [[rivendell_captain|Rivendell Captains]] spawn in captain towers scattered around Rivendell
+    - [[rivendell_smith|Rivendell Smiths]] spawn in smithies scattered around Rivendell
+    - [[rivendell_weaver|Rivendell Weavers]] spawn in special weaver houses scattered around Rivendell
+    - [[imladris_guard|Imladris Guards]] spawn arround The Last Homely House in Rivendell
     - [[elrond|Elrond]] spawns in The Last Homely House in Rivendell
 - Lindon:
-    - [[lindon_elf|Lindon Elf]] spawn randomly throughout Lindon
-    - [[lindon_warrior|Lindon Warrior]] spawn randomly throughout Lindon
-    - [[lindon_florist|Lindon Florist]] spawn in florist houses in lindon villages
-    - [[lindon_lord|Lindon Lord]] spawn in lindon castles and sometimes towers
-    - [[lindon_smith|Lindon Smith]] spawn in smithy building in lindon villages
-    - [[lindon_weaver|Lindon Weaver]] spawn in weaver houses in lindon villages
+    - [[lindon_elf|Lindon Elves]] spawn randomly throughout Lindon
+    - [[lindon_warrior|Lindon Warriors]] spawn randomly throughout Lindon
+    - [[lindon_florist|Lindon Florists]] spawn in florist houses in lindon villages
+    - [[lindon_lord|Lindon Lords]] spawn in lindon castles and sometimes towers
+    - [[lindon_smith|Lindon Smiths]] spawn in smithy building in lindon villages
+    - [[lindon_weaver|Lindon Weavers]] spawn in weaver houses in lindon villages
 ## History
 - 1.9.2:
     - Added Lindon Florists and Weavers

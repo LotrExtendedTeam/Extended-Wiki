@@ -28,7 +28,7 @@ Dúnedain Rangers can spawn any time of the day, and must spawn directly on a gr
   
 ## Behavior
 
-Rangers will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad|Gundabad]] units. When using ranged attacks, Dúnedain Rangers can turn slightly transparent, rendering them invisible to hostile NPCs.
+Rangers will attack any player or creature aligned with an evil faction, which due to their location, generally means [[gundabad_faction|Gundabad]] units. When using ranged attacks, Dúnedain Rangers can turn slightly transparent, rendering them invisible to hostile NPCs.
 They generally wander around aimlessly when they are not fighting enemies.
 
 ## Equipment
