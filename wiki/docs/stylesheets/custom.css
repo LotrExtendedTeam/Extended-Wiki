@@ -1,4 +1,30 @@
 /*Set data for main view box of wiki*/
+
+/* Create a fixed, non-scrolling background wrapper */
+.md-main::before {
+  content: "";
+  position: fixed; /* Keeps the background locked in place relative to the viewport */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Sits firmly behind all wiki content */
+  
+  /* Background configuration */
+  background-image: url("/wiki/img/middle_earth.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures the image doesn't scroll */
+  
+  /* Blur and Shadow effects */
+  filter: blur(5px);
+  box-shadow: 0 0 100px 3px #000 inset;
+  
+  /* Optional: Prevents the blur effect from creating ugly white edges */
+  transform: scale(1.05); 
+}
+
 .md-main__inner {
   background-color: var(--md-default-bg-inner-color);
   /*background-color: color-mix(in srgb, var(--md-default-bg-inner-color) 75%, transparent);*/
@@ -17,7 +43,8 @@
   flex: 1;           /* take up leftover space */
   min-width: 0;      /* prevent overflow issues */
   padding: 0;          /* remove padding */
-  background-color: var(--md-default-bg-inner-color-darker);
+  /*background-color: var(--md-default-bg-inner-color-darker);*/
+  background-color: rgba(232, 221, 208,0.75);
   border-radius: 8px;
   font-size: 0.875rem;
 }

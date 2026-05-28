@@ -84,6 +84,7 @@ plugins:
         - Entities
         - Factions
         - Biomes
+      export: true
   - literate-nav:
       nav_file: nav.txt
   #- htmlproofer      (ignored for now as it fails file check with our custom link re-mapping system)
