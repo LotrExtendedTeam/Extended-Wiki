@@ -37,7 +37,7 @@ The Rivendell Captain fight enemies with a Rivendell Sword. They have 3/4 armor,
   
 ## Hiring
 
-Rivendell Captains allow you to hire Rivendell Elves or Warriors as long as you have at least 300 alignment and some money. Upon hiring a unit, the player will be bestowed the advancement **"For Imladris!"**.
+Rivendell Captains allow you to hire [[rivendell_elf|Rivendell Elves]] or [[rivendell_warrior|Warriors]] as long as you have at least 300 alignment and some money. Upon hiring a unit, the player will be bestowed the advancement **"For Imladris!"**.
 
 ## Strategy
 
