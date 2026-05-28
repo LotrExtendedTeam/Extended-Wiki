@@ -24,7 +24,7 @@ Rivendell Elves are the inhabitants of the idyllic elven valley Rivendell, livin
 
 ## Spawning
 
-Rivendell Elves can spawn any time of the day, only within the Rivendell or Rivendell Hills biomes.
+Rivendell Elves can spawn any time of the day, within the Rivendell or Rivendell Hills biomes, and rarely in the Tower Hills.
   
 ## Behavior
 
