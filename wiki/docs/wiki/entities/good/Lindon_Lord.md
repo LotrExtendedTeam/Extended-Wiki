@@ -38,7 +38,7 @@ The Lindon Lord fight enemies with a Lindon Sword. They have 3/4 armor, making t
   
 ## Hiring
 
-Lindon Lords allow you to hire Lindon Elves or Lindon Warriors as long as you have at least 300 alignment and some money. Upon hiring a unit, the player will be bestowed the advancement **"The Last Alliance"**.
+Lindon Lords allow you to hire Lindon Elves or Warriors as long as you have at least 300 alignment and some money. Upon hiring a unit, the player will be bestowed the advancement **"The Last Alliance"**.
 
 ## Strategy
 
