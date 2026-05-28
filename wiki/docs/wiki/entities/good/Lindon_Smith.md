@@ -54,7 +54,7 @@ The Laiquendi (Lindon) Elves or Green-Elves are a clan of Nandorin Elves that cr
 
 ## History
 - 1.9.2:
-    - Added Lindon Smiths
+    - Ported Lindon Smiths
 
 ## Trivia
-- The Lindon Smith is one of the least remarkable NPCs.
+- Lindon Smiths spawn in village smithies while Rivendell Smiths spawn in Rivendell Smithies.
