@@ -47,12 +47,11 @@ They can be hired for 45 coins from a [[lindon_lord|Lindon Lord]] when one's ali
 
 ## Lore
 
-The Rivendell Elves are Noldorin Elves who dwell in Rivendell, home of the Lord Elrond. They are more ancient than the Wood-Elves and Galadhrim, and are great warriors and loremasters.
+The Laiquendi (Lindon) Elves or Green-Elves are a clan of Nandorin Elves that crossed the Blue Mountains before abandoning the Great Journey to Valinor.
 
 ## History
 - Renewed 4.2:
-    - Added Rivendell Elves
+    - Added Lindon Warriors
 
 ## Trivia
-
-- Rivendell Elves were the first elven NPCs added to Renewed, along with the Galadhrim.
+- The Lindon Elves are found in the Tower Hills due to the Elven Towers built by Gil-galad for Elendil during the last alliance.
