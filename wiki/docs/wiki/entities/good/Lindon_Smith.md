@@ -50,12 +50,11 @@ Lindon Smiths buy many supplies, such as ingots and gemstones.
 
 ## Lore
 
-The Rivendell Elves are Noldorin Elves who dwell in Rivendell, home of the Lord Elrond. They are more ancient than the Wood-Elves and Galadhrim, and are great warriors and loremasters.
+The Laiquendi (Lindon) Elves or Green-Elves are a clan of Nandorin Elves that crossed the Blue Mountains before abandoning the Great Journey to Valinor.
 
 ## History
-- 1.9.0:
-    - Added Rivendell Smiths
+- 1.9.2:
+    - Added Lindon Smiths
 
 ## Trivia
-
-- Rivendell Elves were the first elven NPCs added to Renewed, along with the Galadhrim.
+- The Lindon Smith is one of the least remarkable NPCs.
