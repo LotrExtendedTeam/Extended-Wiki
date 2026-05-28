@@ -30,6 +30,7 @@ The Lindon Lord can spawn any time of the day, inside a Lindon Tower or Castle.
 
 The Lindon Lord will not attack any player or creature unless they are attacked first.
 They generally wander around their tower when not hiring.
+Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
