@@ -13,7 +13,7 @@ alias:
 
 # High Elves
 
-The **High Elves** are a faction of ancient and power elves who reside in two areas in Middle Earth; Lindon and Rivendell. 
+The **High Elves** are a faction of ancient and powerful elves who reside in two areas in Middle Earth; Lindon and Rivendell. 
 
 ## NPCs
 - Rivendell:
