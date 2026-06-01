@@ -40,9 +40,9 @@ Merchants will not trade with players until they are at least 5+ alignment with 
 
 ## Strategy
 
-- Generally you do not need to attack a hiring unit like a commander, but if you do, long weapons are generally more effective against melee NPCs, especially dwarves as they have shorter reach.
-- If you are fighting larger numbers, try to draw the commander away, as a large group can overwhelm you very quickly.
-- 
+- Generally you do not need to attack a hiring unit like a merchant, but if you do, long weapons are generally more effective against melee NPCs, especially dwarves as they have shorter reach.
+- Try to draw the merchant away from its guard, as a large group can overwhelm you very quickly.
+
 ## Lore
 
 The Blue Mountains Merchants wandering the land, buying and selling precious materials to bring back to their homeland of Ered Luin.
