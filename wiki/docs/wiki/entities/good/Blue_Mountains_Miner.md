@@ -25,7 +25,7 @@ Blue Mountain Miners are usually found in the caves, and all structures that gen
 
 ## Behavior
 
-By default, Smiths don't attack unless provoked, but they will fight back against attackers with their hammer.
+By default, Miners don't attack unless provoked, but they will fight back against attackers with their hammer.
 
 ## Equipment
 
