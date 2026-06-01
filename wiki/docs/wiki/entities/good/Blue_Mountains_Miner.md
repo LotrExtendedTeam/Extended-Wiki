@@ -25,11 +25,11 @@ Blue Mountain Miners are usually found in the caves, and all structures that gen
 
 ## Behavior
 
-Miners will automatically attack any enemies, fighting back against attackers with their pickaxe.
+By default, Smiths don't attack unless provoked, but they will fight back against attackers with their hammer.
 
 ## Equipment
 
-Blue Mountains Miners wear no armour, making them an decently easy NPC to kill. Although they will charge you without being provoked, unlike a [[blue_mountains_commander|Commander]] or [[blue_mountains_merchant|Merchant]].
+Blue Mountains Miners wear no armour, making them an decently easy NPC to kill. However, they won't attack enemies unless first attacked so there isn't much need to kill them.
 
 ## Trading
 
