@@ -42,12 +42,12 @@ Blue Mountains Smiths buy many supplies, for both their job and stomach. This in
 
 ## Lore
 
-The Blue Mountains Miners dwell in their homeland of Ered Luin, smelting and crafting tools and weapons for their armies.
+The Blue Mountains Smiths dwell in their homeland of Ered Luin, smelting and crafting tools and weapons for their armies.
 
 ## History
 - 1.8.0:
-    - Ported with the Blue Mountains update
+    - Ported Blue Mountains Smiths
 
 ## Trivia
 
-- Blue Mountain Smiths were the first dwarven smith the be ported in Extended.
+- Blue Mountain Smiths were the first dwarven smith that was ported in Extended.
