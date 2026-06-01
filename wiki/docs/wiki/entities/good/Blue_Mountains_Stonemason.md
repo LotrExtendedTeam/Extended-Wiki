@@ -38,7 +38,7 @@ Blue Mountains Stonemasons buy coal, torches, an assortment of pickaxes, and coo
 
 ## Strategy
 
-- There is no need to fight a Smith, but if you do, it is easy to kill them with a longer weapon such as a spear, or with a bow, since they don't have a ranged attack and they have shorter range due to being a dwarf.
+- There is no need to fight a Stonemason, but if you do, it is easy to kill them with a longer weapon such as a spear, or with a bow, since they don't have a ranged attack and they have shorter range due to being a dwarf.
 
 ## Lore
 
@@ -49,4 +49,4 @@ The Blue Mountains Stonemasons dwell in their homeland of Ered Luin, building an
 
 ## Trivia
 
-- Blue Mountain Stonemasons were the first dwarven stonemasons to be added.
+- Blue Mountain Stonemasons were the second stonemason to be added after the Bree-land one.
