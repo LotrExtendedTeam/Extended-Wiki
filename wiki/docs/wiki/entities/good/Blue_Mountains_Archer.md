@@ -42,7 +42,7 @@ They can be hired for 50 coins from [[blue_mountains_commander|Blue Mountains Co
 
 ## Lore
 
-The Blue Mountains are a special unit of the Blue Mountains armies, patrolling and guarding their homeland of Ered Luin.
+The Blue Mountains Archers are a special unit of the Blue Mountains armies, patrolling and guarding their homeland of Ered Luin.
 
 ## History
 - Renewed 4.5:
