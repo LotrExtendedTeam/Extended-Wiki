@@ -14,7 +14,7 @@ type: entity
 title: Imladris Guard
 image: entities/imladris_guard.png
 armor: 17
-hitpoints: 30
+hitpoints: 40
 faction: [[high_elves_faction|High Elves]]
 ::end-infobox
 
