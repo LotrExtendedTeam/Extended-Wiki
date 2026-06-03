@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: entity
 title: Elrond
-image: entities/rivendell_elf.png
+image: entities/elrond.png
 armor: 0
 hitpoints: 40
 faction: [[high_elves_faction|High Elves]]
