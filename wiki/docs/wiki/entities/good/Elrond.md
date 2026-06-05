@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: entity
 title: Elrond
-image: entities/elrond.png
+image: entities/this be changed.png
 armor: 0
 hitpoints: 40
 faction: [[high_elves_faction|High Elves]]
