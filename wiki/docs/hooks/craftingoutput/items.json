@@ -31,12 +31,12 @@
   },
   "lotr:ale": {
     "name": "Ale",
-    "image": "items/ale.png",
+    "image": "items/renewed/ale.png",
     "url": "#"
   },
   "lotr:ale_horn": {
     "name": "Ale Horn",
-    "image": "items/ale_horn.png",
+    "image": "items/renewed/ale_horn.png",
     "url": "#"
   },
   "lotr:alloy_forge": {
@@ -86,22 +86,22 @@
   },
   "lotr:angmar_brick": {
     "name": "Angmar Brick",
-    "image": "items/angmar_brick.png",
+    "image": "blocks/renewed/angmar_brick.png",
     "url": "#"
   },
   "lotr:angmar_brick_slab": {
     "name": "Angmar Brick Slab",
-    "image": "items/angmar_brick_slab.png",
+    "image": "blocks/renewed/angmar_brick_slab.png",
     "url": "#"
   },
   "lotr:angmar_brick_stairs": {
     "name": "Angmar Brick Stairs",
-    "image": "items/angmar_brick_stairs.png",
+    "image": "blocks/renewed/angmar_brick_stairs.png",
     "url": "#"
   },
   "lotr:angmar_brick_wall": {
     "name": "Angmar Brick Wall",
-    "image": "items/angmar_brick_wall.png",
+    "image": "blocks/renewed/angmar_brick_wall.png",
     "url": "#"
   },
   "lotr:angmar_chestplate": {
@@ -1692,12 +1692,12 @@
   "lotr:cheese_curds": {
     "name": "Cheese Curds",
     "image": "items/cheese_curds.png",
-    "url": "#"
+    "url": "/wiki/Cheese_Curds/"
   },
   "lotr:cheese_slice": {
     "name": "Cheese Slice",
     "image": "items/cheese_slice.png",
-    "url": "#"
+    "url": "/wiki/Cheese_Slice/"
   },
   "lotr:cheese_wheel": {
     "name": "Cheese Wheel",
@@ -8714,12 +8714,12 @@
   },
   "lotr:salt": {
     "name": "Salt",
-    "image": "items/salt.png",
+    "image": "items/renewed/salt.png",
     "url": "#"
   },
   "lotr:salt_block": {
     "name": "Salt Block",
-    "image": "items/salt_block.png",
+    "image": "blocks/renewed/salt_block.png",
     "url": "#"
   },
   "lotr:sapphire": {
@@ -11144,7 +11144,7 @@
   },
   "minecraft:brown_stained_glass": {
     "name": "Brown Stained Glass",
-    "image": "items/minecraft/brown_stained_glass.png",
+    "image": "blocks/minecraft/brown_stained_glass.png",
     "url": "https://minecraft.wiki/w/Brown_Stained_Glass"
   },
   "minecraft:brown_terracotta": {
