@@ -37,7 +37,7 @@ Cheese slices are a food source in Middle Earth.
 
 Obtained by right-clicking a [[cheese_wheel|Cheese Wheel]] or [[aged_cheese_wheel|Aged Cheese Wheel]] with a dagger. This will result in slicing off a wedge of the wheel.
 
-### Uses
+## Uses
 {{crafting:cheese_wheel_from_slices}}
 
 ## History

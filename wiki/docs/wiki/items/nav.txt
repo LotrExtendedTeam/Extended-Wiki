@@ -1,2 +1,6 @@
 * [All Items](Items.md)
+* [Equipment](equipment/)
 * [Foods](foods/)
+* [Materials](materials/)
+* [Misc](miscellaneous/)
+* [Tools](tools/)

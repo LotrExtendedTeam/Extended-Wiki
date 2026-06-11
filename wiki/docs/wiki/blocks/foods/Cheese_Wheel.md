@@ -42,14 +42,19 @@ Cheese Wheels are a food block found across Middle Earth.
 
 ## Obtaining
 
+Cheese Wheels can be found in the structures of many factions.
+
+### Crafting
+
+Cheese Wheels are primarily crafted from [[cheese_curds|Cheese Curds]] while also combining several typical ingredients found in real-world cheese making. They can also be re-crafted from [[cheese_slice|sliced wedges]].
 {{craftinggrid:cheese_wheel,cheese_wheel_from_slices}}
 
-Additionally, Aged Cheese Wheels are obtained by aging Cheese Wheels out in the open. The mechanic works similar to Minecraft's 1.17+ [Copper Block](https://minecraft.wiki/w/Block_of_Copper) Oxidizing.
+Aged Cheese Wheels are obtained by aging Cheese Wheels out in the open. The mechanic works similar to Minecraft's 1.17+ [Copper Block](https://minecraft.wiki/w/Block_of_Copper) Oxidizing.
 
 ## History
 
 - 1.7.0:
-    - Added a slicing sound when making cheese slices
+    - Added a slicing sound when making [[cheese_slice|cheese slices]]
 - 1.6.1:
     - Allowed Cheese Wheels to drop as an item when broken if not sliced
 - 1.5.0:
@@ -58,4 +63,3 @@ Additionally, Aged Cheese Wheels are obtained by aging Cheese Wheels out in the 
     - Added ability to slice a cheese wheel with a dagger
 - 1.3.0:
     - Added Cheese Wheels
-    - Added Cheese Curds
