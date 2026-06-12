@@ -95,6 +95,20 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                         'transparency': 'Transparent',
                         'flammable': 'Flammable',
                     }
+                if(box_type=='block_food'):
+                    grid_fields = {
+                        'rarity': 'Rarity tier',
+                        'renewable': 'Renewable',
+                        'saturation': 'Saturation',
+                        'hunger': 'Restores',
+                        'stack': 'Stackability',
+                        'physics': 'Physics Type',
+                        'hardness': 'Hardness',
+                        'resistance': 'Blast Resistance',
+                        'luminous': 'Luminous',
+                        'transparency': 'Transparent',
+                        'flammable': 'Flammable',
+                    }
                 elif(box_type=='item'):
                     grid_fields = {
                         'rarity': 'Rarity tier',
