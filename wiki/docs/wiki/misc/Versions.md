@@ -17,30 +17,23 @@ alias:
 	* Blocks
 		* Fixed breaking generated stone chests outside the barrow downs causing wights to spawn
 		* Fixed large handheld items rendering tiny on weapon racks (bows, spears, long swords, staffs, and some axes)
-
 	* Entities
 		* Fixed Uruk Berserkers not wearing helmets
 		* Fixed Ducks missing a texture when spawned from egg
-
 	* Compatibility
 		* Fixed worldedit //paste command causing crashes
-
 	* Features
 		* Fixed Invasion bossbars failing to disappear in numerous cases
 		* Fixed Invasions spawning glitched/ghost Orcs riding wargs causing NPCs to attack thin air
-
 	* Hired Units
 		* Fixed blue dwarven axe thrower units using the wrong axe when re-equipped
 		* Fixed Isengard units wearing bone helmets in the chestplate slot
-
 	* Items
 		* Fixed barren dirt not spawning when salting the ground
-
 	* Loot-Tables
 		* Added melon seeds to several chest loot-tables
 		* Added several missing loot-tables to Orthanc’s chests
 		* Added loot-tables to Orthanc’s bookshelves
-
 	* Misc
 		* Added 1 new advancements in Extended (51 currently)
 		* Added 1 advancement from Legacy (54.7% currently ported)
@@ -49,20 +42,16 @@ alias:
 		* Fixed duplicate boar armors in JEI
 		* Fixed non-alcoholic drink advancements not triggering
 		* Moved coral block recipe into coral recipebook group
-
 	* Modifiers
 		* Fixed item repair logic on anvil being broken
 		* Fixed invalid modifier upgrades being allowed on anvils
 		* Fixed material items being renamed on anvils in addition to the output item
 		* Fixed melee speed and reach modifiers applying incorrect stats
-
 	* Structures
 		* Fixed several Lindon Hall and Castle issues
 		* Nerfed some op easter egg loot in Orthanc
-
 	* Textures
 		* Reworked the Glamdring texture to be more polished
-	 
 	* Trading
 		* Added warg fur helmets and armor to orc trader pools
 <div class="flex-row" markdown="block">
@@ -94,7 +83,6 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Fixed server banner protection not respecting default perms when in server protection mode
 		* Made banner Global permissions less confusing with tooltip
 		* Renamed banner Default Permissions to Global Override Permissions
-
 	* Blocks
 		* Added Carved Morgond (Slab Stairs Wall)
 		* Added Ebony Beam (Slab)
@@ -121,19 +109,15 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Ported Fire Orc Bombs (Single, Double, and Triple strengths)
 		* Ported Orc Bombs (Single, Double, and Triple strengths)
 		* Water bottles can now turn dirt/grass into mud/mud grass
-
 	* Commands
 		* Added a prune world command (/lotrExtendedPrune)
 		* Finished /fmsg (Fellowship message)(unfinished since 1.0)
-
 	* Compatibility
 		* Fixed an incompatibility with Eras of Arda: Renewed Addon (First and Second Age) (since 1.9.0)
 		* Fixed an Eras of Arda: Renewed Addon startup crash on Java 11+
-
 	* Config
 		* Added a config option to allow for longer gate open lengths
 		* Modified server settings now sync to clients during gameplay
-
 	* Entities
 		* Added Uruk Blacksmiths
 		* Added faction-based dwarf namebanks (different weighted cultural name pools by faction)
@@ -150,21 +134,18 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Ported Uruk Suppliers
 		* Wargs now are tamable, feedable, and rideable
 		* Wargs now have an inventory for saddles and armor
-
 	* Features
 		* Added invasions for factions: Rivendell, Lindon, Gundabad, Gundabad Wargs, Dunedain, Mordor, Gondor, Lothlorien, Woodland Realm, Isengard, and Rohan
 		* Fellowship names can now be colored
 		* Fixed Fellowships breaking when kicking and re-inviting offline players
 		* Fixed being unable to kick offline players from fellowships
 		* Ported Invasions
-
 	* GUI
 		* Added a Admin Settings panel to the ME setting menu to change server config settings
 		* Added a screen to generate block icons for wikis
 		* Added a screen to control and visualize world pruning
 		* Middle Earth menu advancement button now opens the vanilla advancement screen
 		* Reworked settings menu slider logic to fix bugs where it wouldn't release the mouse
-
 	* Hired Units
 		* Added 3 unit types for Dunlending Warlords
 		* Added 5 unit types for Isengard Captains
@@ -172,7 +153,6 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Fixed a crash caused when two units of the same owner attack each other when the owner is offline
 		* Fixed an infinite hired unit hiring glitch
 		* Reworked the rarity of shields for several unit types
-
 	* Items
 		* Added Ebony Boat
 		* Added Ebony Sappling
@@ -190,17 +170,14 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Ported Staff of Gandalf the Gray
 		* Ported Staff of Gandalf the White
 		* Renamed Morgul Armor to Morgul Vassal Armor
-
 	* Localization
 		* Added an initial Portuguese (Brazil) translation (pt_br)
 		* Fixed several incorrect English translations (e.g. Plum Beer Slab)
 		* Localized modded boat names
 		* Updated French (fr_fr), Chinese (Taiwan) (zh_tw), Chinese (Mainland) (zh_cn) translations
-
 	* Loot Tables
 		* Added bookshelf loot-table support (last implementation was broken)
 		* Nerfed chest loot-table loot quantity across all structures
-
 	* Misc
 		* Added 1 new advancements in Extended (50 currently)
 		* Added 3 advancements from Legacy (54.5% currently ported)
@@ -218,7 +195,6 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Made Dwarven Forges craftable with Luigon Brick on Blue Mountains Crafting Tables
 		* Made Jukeboxes craftable using middle earth diamonds
 		* Made crafting tables accessible when under Middle Earth world protection
-
 	* Modifiers
 		* Added looting modifiers to Shears
 		* Added melee speed modifiers to Shovels, Pickaxes, and Hoes
@@ -236,26 +212,22 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Made reforges cost one material for low material equipment (Shovels, Spear, Daggers, Vanilla Crossbows, Chisels, Banding Irons, and Flint and Steel)
 		* Raised too expensive cap to 63
 		* Reduced repair costs a bit across the board
-
 	* Servers
 		* Added a built-in world pruner that respects banner protection, custom waypoints and spawn chunks
 		* Added an optional basic combat logging system for servers
 		* Added an optional dimension blacklisting feature (stop players from entering nether, end, or overworld, configurable) for servers.
 		* Fixed players being able to break armor stands in spawn protection
-
 	* Structures
 		* Added a Gatehouse structure to Ring of Isengard
 		* Added the tower of Orthanc 
 		* Fixed Lindon villages spawning flooded
 		* Updated several Lindon Village buildings
-
 	* Textures
 		* Added an all-new model for Morgul Vassal Armor
 		* Finalized rebuilt Warg model (should look identical to Renewed model)
 		* Fixed boar leather armor item texture not reflecting dyed state
 		* Re-Modeled Stone Grinders and added an animated block render for them
 		* Updated Blue Dwarven Pickaxe item texture in the Redone Renewed resource pack
-
 	* Trading
 		* Added Imladris armor to wandering Rivendell trader trade pools
 		* Added Swan feathers to the Bree Butcher sell pool
@@ -263,7 +235,6 @@ This quick turn around release fixed several major bugs introduced in 1.10.0, as
 		* Added keg trades to traders
 		* Added missing items to orc trader trade pools
 		* Added shields to trader trade pools
-
 	* WorldGen
 		* Added buttresses, embrasures, and merlons to wall generation
 		* Disabled meteorites from spawning in water

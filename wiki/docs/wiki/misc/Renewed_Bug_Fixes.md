@@ -23,8 +23,7 @@ Additionally the Extended team has developed their own bug tracker for Renewed b
 
 Open:
 
-- 🔴 ELOTR-22 - Breaking kegs does not invalidate recipe, allowing brewing without using items (04/26/2026)
-- 🟠 ELOTR-21 - Reeds don't drop items when sheared from the bottom block (04/23/2026)
+- 🟡 ELOTR-24 - Renewed Spears use Vanilla Trident subtitles (05/19/2026)
 - 🟡 ELOTR-13 - Stray pixel on Umbar Soldiers (06/09/2025)
 - 🟠 ELOTR-11 - Athelas is being registered in the flower pool (05/15/2025)
 - 🟡 ELOTR-10 - Changing brewing time with datapacks breaks keg GUI (04/27/2025)
@@ -35,6 +34,9 @@ Open:
 
 Fixed:
 
+- 🟡 ELOTR-23 - Breaking finished kegs without opening leaves junk data on item (04/27/2026)
+- 🔴 ELOTR-22 - Breaking kegs does not invalidate recipe, allowing brewing without using items (04/26/2026)
+- 🟠 ELOTR-21 - Reeds don't drop items when sheared from the bottom block (04/23/2026)
 - 🔴 ELOTR-20 - Pouches crash server when player inventory is invalid on close (03/15/2026)
 - 🔴 ELOTR-19 - Renewed Wargs only spawn with 20 health (02/23/2026)
 - 🟡 ELOTR-18 - Renewed Warg Ears are not mirrored correctly (02/22/2026)

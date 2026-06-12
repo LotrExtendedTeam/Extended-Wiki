@@ -436,22 +436,27 @@ def main():
     for r in recipes.values():
         for row in r["grid"]:
             for ing in row:
-                if ing and not ing.startswith("#"):
-                    all_items.add(ing)
+                if ing is not None:
+                    if ing.startswith("#"):
+                        tag_name = ing[1:]
+                        if tag_name in flat_tags:
+                            all_items.update(flat_tags[tag_name])
+                    else:
+                        all_items.add(ing)
         out = r["output"]
         all_items.add(out["item"])
 
-    # Merge manually edited item data
-    items_data = load_manual_item_edits(all_items)
-    
     # Validate recipes
     valid_recipes = {k: v for k, v in recipes.items() if validate_recipe(v, all_items, flat_tags, k)}
 
     # Filter unused tags recursively
-    resolved_tags = filter_unused_tags(flat_tags, valid_recipes)
+    resolved_tags_filtered = filter_unused_tags(flat_tags, valid_recipes)
+
+    # Merge manually edited item data
+    items_data = load_manual_item_edits(all_items)
     
     # Convert tags into structured objects and merge manually edited tag data
-    resolved_tags = load_manual_tag_edits(resolved_tags)
+    resolved_tags = load_manual_tag_edits(resolved_tags_filtered)
 
     # Sort items inside item data
     FIELD_ORDER = ["name", "tooltip", "image", "url"]

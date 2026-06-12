@@ -31,12 +31,12 @@
   },
   "lotr:ale": {
     "name": "Ale",
-    "image": "items/ale.png",
+    "image": "items/renewed/ale.png",
     "url": "#"
   },
   "lotr:ale_horn": {
     "name": "Ale Horn",
-    "image": "items/ale_horn.png",
+    "image": "items/renewed/ale_horn.png",
     "url": "#"
   },
   "lotr:alloy_forge": {
@@ -86,22 +86,22 @@
   },
   "lotr:angmar_brick": {
     "name": "Angmar Brick",
-    "image": "items/angmar_brick.png",
+    "image": "blocks/renewed/angmar_brick.png",
     "url": "#"
   },
   "lotr:angmar_brick_slab": {
     "name": "Angmar Brick Slab",
-    "image": "items/angmar_brick_slab.png",
+    "image": "blocks/renewed/angmar_brick_slab.png",
     "url": "#"
   },
   "lotr:angmar_brick_stairs": {
     "name": "Angmar Brick Stairs",
-    "image": "items/angmar_brick_stairs.png",
+    "image": "blocks/renewed/angmar_brick_stairs.png",
     "url": "#"
   },
   "lotr:angmar_brick_wall": {
     "name": "Angmar Brick Wall",
-    "image": "items/angmar_brick_wall.png",
+    "image": "blocks/renewed/angmar_brick_wall.png",
     "url": "#"
   },
   "lotr:angmar_chestplate": {
@@ -1692,12 +1692,12 @@
   "lotr:cheese_curds": {
     "name": "Cheese Curds",
     "image": "items/cheese_curds.png",
-    "url": "#"
+    "url": "/wiki/Cheese_Curds/"
   },
   "lotr:cheese_slice": {
     "name": "Cheese Slice",
     "image": "items/cheese_slice.png",
-    "url": "#"
+    "url": "/wiki/Cheese_Slice/"
   },
   "lotr:cheese_wheel": {
     "name": "Cheese Wheel",
@@ -1957,6 +1957,11 @@
   "lotr:clay_tiling_wall": {
     "name": "Clay Tiling Wall",
     "image": "items/clay_tiling_wall.png",
+    "url": "#"
+  },
+  "lotr:clover": {
+    "name": "Clover",
+    "image": "blocks/renewed/clover.png",
     "url": "#"
   },
   "lotr:coarse_dirt_slab": {
@@ -3939,6 +3944,11 @@
     "image": "items/flowery_rhunic_brick_wall.png",
     "url": "#"
   },
+  "lotr:four_leaf_clover": {
+    "name": "Four Leaf Clover",
+    "image": "blocks/renewed/four_leaf_clover.png",
+    "url": "#"
+  },
   "lotr:fur": {
     "name": "Fur",
     "image": "items/renewed/fur.png",
@@ -4272,7 +4282,7 @@
   },
   "lotr:golden_ale_horn": {
     "name": "Golden Ale Horn",
-    "image": "items/golden_ale_horn.png",
+    "image": "items/renewed/golden_ale_horn.png",
     "url": "#"
   },
   "lotr:golden_birdcage": {
@@ -5147,6 +5157,11 @@
     "image": "blocks/renewed/holly_wood_stairs.png",
     "url": "#"
   },
+  "lotr:horn": {
+    "name": "Horn",
+    "image": "items/renewed/horn.png",
+    "url": "#"
+  },
   "lotr:horn_of_command": {
     "name": "Horn Of Command",
     "image": "items/horn_of_command.png",
@@ -5250,6 +5265,11 @@
   "lotr:keg": {
     "name": "Keg",
     "image": "items/keg.png",
+    "url": "#"
+  },
+  "lotr:kine_of_araw_horn": {
+    "name": "Kine Of Araw Horn",
+    "image": "items/renewed/kine_of_araw_horn.png",
     "url": "#"
   },
   "lotr:lairelosse_beam": {
@@ -6002,6 +6022,11 @@
     "image": "items/mallos.png",
     "url": "#"
   },
+  "lotr:man_flesh": {
+    "name": "Man Flesh",
+    "image": "items/renewed/man_flesh.png",
+    "url": "#"
+  },
   "lotr:maple_beam": {
     "name": "Maple Beam",
     "image": "blocks/renewed/maple_beam.png",
@@ -6600,6 +6625,11 @@
   "lotr:morgul_chandelier": {
     "name": "Morgul Chandelier",
     "image": "items/morgul_chandelier.png",
+    "url": "#"
+  },
+  "lotr:morgul_shroom": {
+    "name": "Morgul Shroom",
+    "image": "items/renewed/morgul_shroom.png",
     "url": "#"
   },
   "lotr:morgul_steel_block": {
@@ -8714,12 +8744,12 @@
   },
   "lotr:salt": {
     "name": "Salt",
-    "image": "items/salt.png",
+    "image": "items/renewed/salt.png",
     "url": "#"
   },
   "lotr:salt_block": {
     "name": "Salt Block",
-    "image": "items/salt_block.png",
+    "image": "blocks/renewed/salt_block.png",
     "url": "#"
   },
   "lotr:sapphire": {
@@ -11037,10 +11067,20 @@
     "image": "blocks/minecraft/acacia_wood.png",
     "url": "https://minecraft.wiki/w/Acacia_Wood"
   },
+  "minecraft:apple": {
+    "name": "Apple",
+    "image": "items/minecraft/apple.png",
+    "url": "https://minecraft.wiki/w/Apple"
+  },
   "minecraft:basalt": {
     "name": "Basalt",
     "image": "blocks/minecraft/basalt.png",
     "url": "https://minecraft.wiki/w/Basalt"
+  },
+  "minecraft:beetroot_seeds": {
+    "name": "Beetroot Seeds",
+    "image": "items/minecraft/beetroot_seeds.png",
+    "url": "https://minecraft.wiki/w/Beetroot_Seeds"
   },
   "minecraft:birch_leaves": {
     "name": "Birch Leaves",
@@ -11082,6 +11122,11 @@
     "image": "blocks/minecraft/black_wool.png",
     "url": "https://minecraft.wiki/w/Black_Wool"
   },
+  "minecraft:blackstone": {
+    "name": "Blackstone",
+    "image": "blocks/minecraft/blackstone.png",
+    "url": "https://minecraft.wiki/w/Blackstone"
+  },
   "minecraft:blue_dye": {
     "name": "Blue Dye",
     "image": "items/minecraft/blue_dye.png",
@@ -11101,6 +11146,11 @@
     "name": "Blue Wool",
     "image": "blocks/minecraft/blue_wool.png",
     "url": "https://minecraft.wiki/w/Blue_Wool"
+  },
+  "minecraft:bone": {
+    "name": "Bone",
+    "image": "items/minecraft/bone.png",
+    "url": "https://minecraft.wiki/w/Bone"
   },
   "minecraft:bone_block": {
     "name": "Bone Block",
@@ -11142,9 +11192,14 @@
     "image": "items/minecraft/brown_dye.png",
     "url": "https://minecraft.wiki/w/Brown_Dye"
   },
+  "minecraft:brown_mushroom": {
+    "name": "Brown Mushroom",
+    "image": "items/minecraft/brown_mushroom.png",
+    "url": "https://minecraft.wiki/w/Brown_Mushroom"
+  },
   "minecraft:brown_stained_glass": {
     "name": "Brown Stained Glass",
-    "image": "items/minecraft/brown_stained_glass.png",
+    "image": "blocks/minecraft/brown_stained_glass.png",
     "url": "https://minecraft.wiki/w/Brown_Stained_Glass"
   },
   "minecraft:brown_terracotta": {
@@ -11161,6 +11216,11 @@
     "name": "Bucket",
     "image": "items/minecraft/bucket.png",
     "url": "https://minecraft.wiki/w/Bucket"
+  },
+  "minecraft:chain": {
+    "name": "Chain",
+    "image": "items/minecraft/chain.png",
+    "url": "https://minecraft.wiki/w/Chain"
   },
   "minecraft:chainmail_boots": {
     "name": "Chainmail Boots",
@@ -11202,6 +11262,11 @@
     "image": "items/minecraft/clock.png",
     "url": "https://minecraft.wiki/w/Clock"
   },
+  "minecraft:coal": {
+    "name": "Coal",
+    "image": "items/minecraft/coal.png",
+    "url": "https://minecraft.wiki/w/Coal"
+  },
   "minecraft:coal_block": {
     "name": "Coal Block",
     "image": "blocks/minecraft/coal_block.png",
@@ -11236,6 +11301,21 @@
     "name": "Cracked Stone Bricks",
     "image": "blocks/minecraft/cracked_stone_bricks.png",
     "url": "https://minecraft.wiki/w/Cracked_Stone_Bricks"
+  },
+  "minecraft:crimson_hyphae": {
+    "name": "Crimson Hyphae",
+    "image": "blocks/minecraft/crimson_hyphae.png",
+    "url": "https://minecraft.wiki/w/Crimson_Hyphae"
+  },
+  "minecraft:crimson_planks": {
+    "name": "Crimson Planks",
+    "image": "blocks/minecraft/crimson_planks.png",
+    "url": "https://minecraft.wiki/w/Crimson_Planks"
+  },
+  "minecraft:crimson_stem": {
+    "name": "Crimson Stem",
+    "image": "blocks/minecraft/crimson_stem.png",
+    "url": "https://minecraft.wiki/w/Crimson_Stem"
   },
   "minecraft:cyan_dye": {
     "name": "Cyan Dye",
@@ -11286,6 +11366,11 @@
     "name": "Egg",
     "image": "items/minecraft/egg.png",
     "url": "https://minecraft.wiki/w/Egg"
+  },
+  "minecraft:feather": {
+    "name": "Feather",
+    "image": "items/minecraft/feather.png",
+    "url": "https://minecraft.wiki/w/Feather"
   },
   "minecraft:glass": {
     "name": "Glass",
@@ -11522,6 +11607,11 @@
     "image": "blocks/minecraft/magenta_wool.png",
     "url": "https://minecraft.wiki/w/Magenta_Wool"
   },
+  "minecraft:melon_seeds": {
+    "name": "Melon Seeds",
+    "image": "items/minecraft/melon_seeds.png",
+    "url": "https://minecraft.wiki/w/Melon_Seeds"
+  },
   "minecraft:milk_bucket": {
     "name": "Milk Bucket",
     "image": "items/minecraft/milk_bucket.png",
@@ -11627,6 +11717,11 @@
     "image": "items/minecraft/potato.png",
     "url": "https://minecraft.wiki/w/Potato"
   },
+  "minecraft:pumpkin_seeds": {
+    "name": "Pumpkin Seeds",
+    "image": "items/minecraft/pumpkin_seeds.png",
+    "url": "https://minecraft.wiki/w/Pumpkin_Seeds"
+  },
   "minecraft:purple_dye": {
     "name": "Purple Dye",
     "image": "items/minecraft/purple_dye.png",
@@ -11651,6 +11746,16 @@
     "name": "Red Dye",
     "image": "items/minecraft/red_dye.png",
     "url": "https://minecraft.wiki/w/Red_Dye"
+  },
+  "minecraft:red_mushroom": {
+    "name": "Red Mushroom",
+    "image": "items/minecraft/red_mushroom.png",
+    "url": "https://minecraft.wiki/w/Red_Mushroom"
+  },
+  "minecraft:red_sand": {
+    "name": "Red Sand",
+    "image": "blocks/minecraft/red_sand.png",
+    "url": "https://minecraft.wiki/w/Red_Sand"
   },
   "minecraft:red_sandstone": {
     "name": "Red Sandstone",
@@ -11682,6 +11787,11 @@
     "image": "items/minecraft/saddle.png",
     "url": "https://minecraft.wiki/w/Saddle"
   },
+  "minecraft:sand": {
+    "name": "Sand",
+    "image": "blocks/minecraft/sand.png",
+    "url": "https://minecraft.wiki/w/Sand"
+  },
   "minecraft:sandstone": {
     "name": "Sandstone",
     "image": "blocks/minecraft/sandstone.png",
@@ -11699,7 +11809,7 @@
   },
   "minecraft:snow": {
     "name": "Snow",
-    "image": "items/snow.png",
+    "image": "blocks/minecraft/snow.png",
     "url": "https://minecraft.wiki/w/Snow"
   },
   "minecraft:snow_block": {
@@ -11731,6 +11841,11 @@
     "name": "Spruce Wood",
     "image": "blocks/minecraft/spruce_wood.png",
     "url": "https://minecraft.wiki/w/Spruce_Wood"
+  },
+  "minecraft:stick": {
+    "name": "Stick",
+    "image": "items/minecraft/stick.png",
+    "url": "https://minecraft.wiki/w/Stick"
   },
   "minecraft:stone": {
     "name": "Stone",
@@ -11766,6 +11881,16 @@
     "name": "Stripped Birch Wood",
     "image": "blocks/minecraft/stripped_birch_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Birch_Wood"
+  },
+  "minecraft:stripped_crimson_hyphae": {
+    "name": "Stripped Crimson Hyphae",
+    "image": "blocks/minecraft/stripped_crimson_hyphae.png",
+    "url": "https://minecraft.wiki/w/Stripped_Crimson_Hyphae"
+  },
+  "minecraft:stripped_crimson_stem": {
+    "name": "Stripped Crimson Stem",
+    "image": "blocks/minecraft/stripped_crimson_stem.png",
+    "url": "https://minecraft.wiki/w/Stripped_Crimson_Stem"
   },
   "minecraft:stripped_dark_oak_log": {
     "name": "Stripped Dark Oak Log",
@@ -11807,6 +11932,16 @@
     "image": "blocks/minecraft/stripped_spruce_wood.png",
     "url": "https://minecraft.wiki/w/Stripped_Spruce_Wood"
   },
+  "minecraft:stripped_warped_hyphae": {
+    "name": "Stripped Warped Hyphae",
+    "image": "blocks/minecraft/stripped_warped_hyphae.png",
+    "url": "https://minecraft.wiki/w/Stripped_Warped_Hyphae"
+  },
+  "minecraft:stripped_warped_stem": {
+    "name": "Stripped Warped Stem",
+    "image": "blocks/minecraft/stripped_warped_stem.png",
+    "url": "https://minecraft.wiki/w/Stripped_Warped_Stem"
+  },
   "minecraft:sugar": {
     "name": "Sugar",
     "image": "items/minecraft/sugar.png",
@@ -11819,13 +11954,28 @@
   },
   "minecraft:torch": {
     "name": "Torch",
-    "image": "items/torch.png",
+    "image": "items/minecraft/torch.png",
     "url": "https://minecraft.wiki/w/Torch"
   },
   "minecraft:vine": {
     "name": "Vine",
     "image": "items/vine.png",
     "url": "https://minecraft.wiki/w/Vine"
+  },
+  "minecraft:warped_hyphae": {
+    "name": "Warped Hyphae",
+    "image": "blocks/minecraft/warped_hyphae.png",
+    "url": "https://minecraft.wiki/w/Warped_Hyphae"
+  },
+  "minecraft:warped_planks": {
+    "name": "Warped Planks",
+    "image": "blocks/minecraft/warped_planks.png",
+    "url": "https://minecraft.wiki/w/Warped_Planks"
+  },
+  "minecraft:warped_stem": {
+    "name": "Warped Stem",
+    "image": "blocks/minecraft/warped_stem.png",
+    "url": "https://minecraft.wiki/w/Warped_Stem"
   },
   "minecraft:water_bucket": {
     "name": "Water Bucket",
@@ -11836,6 +11986,11 @@
     "name": "Wheat",
     "image": "items/minecraft/wheat.png",
     "url": "https://minecraft.wiki/w/Wheat"
+  },
+  "minecraft:wheat_seeds": {
+    "name": "Wheat Seeds",
+    "image": "items/minecraft/wheat_seeds.png",
+    "url": "https://minecraft.wiki/w/Wheat_Seeds"
   },
   "minecraft:white_dye": {
     "name": "White Dye",
