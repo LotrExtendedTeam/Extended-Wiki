@@ -24,7 +24,7 @@ Blue Mountains Merchants are the traveling traders [[blue_mountains_faction|Blue
 
 ## Spawning
 
-Blue Mountains Merchants can spawn anywhere on Middle-Earth aside from their homeland, evil-infested biome like Mordor, and desolate biomes. They will spawn with a detachment of [[blue_mountains_soldier|Blue Mountains Soldiers]].
+Blue Mountains Merchants can spawn anywhere on Middle-Earth aside from their homeland, evil-infested biome like Mordor, and desolate biomes. They will spawn with a detachment of [[blue_mountains_warrior|Blue Mountains Soldiers]].
   
 ## Behavior
 

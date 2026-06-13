@@ -3,6 +3,8 @@ tags:
   - Items
 show:
   - toc
+alias:
+  - pancake
 ---
 
 ####

@@ -107,7 +107,7 @@ For inner-wiki linking, use the following format.
 !!! warning "Custom formatting info"
 
     Please use page alias tags to link pages inside the wiki, this will ensure links are not broken easily.  
-    There is special logic usedto facilitate the "compressing" of the wiki page structure and as such, using the full file path of the connecting page will result in a broken link.
+    There is special logic used to facilitate the "compressing" of the wiki page structure and as such, using the full file path of the connecting page will result in a broken link.
 
 ---
 #### External linking
