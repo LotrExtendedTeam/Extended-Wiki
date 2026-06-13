@@ -28,7 +28,7 @@ Bree-Men can spawn any time of the day. They are only found in Bree-land.
   
 ## Behavior
 
-Bree-Men will not attack player or creature aligned with an evil faction until one of their fellow Bree-Men is killed. They will follow you to the ends of the earth, never ceasing to follow you until their chuck unloads.
+Bree-Men will not attack player or creature aligned with an evil faction until one of their fellow Bree-Men is killed. They will follow you to the ends of the earth, never ceasing to follow you until their chuck unloads. Upon killing a Bree-man, you will be bestowed the advancement **"Bree-man Slayer"**
 
 ## Equipment
 
