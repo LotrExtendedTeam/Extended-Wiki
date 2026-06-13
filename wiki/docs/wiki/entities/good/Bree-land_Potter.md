@@ -28,11 +28,11 @@ The Bree-land Potter spawns in the marketplaces of Bree-land villages.
   
 ## Behavior
 
-Bree-land Potters will wander stand in their stalls when not interacting. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Potters will stand in their stalls when not interacting. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
-Bree-land Farmers fight with any of the following: Iron and bronze daggers and iron, bronze and stone axes.
+Bree-land Potters fight with any of the following: Iron and bronze daggers and iron, bronze and stone axes.
   
 ## Trading
 
@@ -40,7 +40,7 @@ Potters will not trade with players if they have negative alignment with Bree-la
 
 Potters sell the goods of their trade. This includes bricks and blocks.
 
-Bree-land Farmers also buy many supplies, such as shovels and clay.
+Bree-land Potters also buy many supplies, such as shovels and clay.
 
 ## Strategy
 
