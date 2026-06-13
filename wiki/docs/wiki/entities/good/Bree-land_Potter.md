@@ -18,7 +18,7 @@ hitpoints: 20
 faction: [[bree-land_faction|Bree-land]]
 ::end-infobox
 
-# Bree-land Farner
+# Bree-land Potter
 
 The Bree-land Potter is a trader that specializes in bricks and wautle and daub.
 
