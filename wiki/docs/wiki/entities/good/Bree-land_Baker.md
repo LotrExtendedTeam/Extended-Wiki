@@ -24,7 +24,7 @@ The Bree-land Baker is a trader that specializes in food and baked goods.
 
 ## Spawning
 
-The Bree-land Baker spawns in bakery, found in Bree-land villages.
+The Bree-land Baker spawns in the bakery, found in Bree-land villages.
   
 ## Behavior
 
@@ -51,7 +51,7 @@ Bree-land Bakers also buy many supplies, such as berries and wheat.
 The Bree-land people claim to be descendants of the first men who went west and served Morgoth.
 
 ## History
-- 1.7.2:
+- 1.7.3:
     - Added Bree-land Bakers.
 
 ## Trivia
