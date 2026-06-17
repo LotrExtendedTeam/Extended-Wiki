@@ -52,7 +52,7 @@ The Bree-land people claim to be descendants of the first men who went west and 
 
 ## History
 - 1.7.3:
-    - Added Bree-land Butchers.
+    - Ported Bree-land Butchers.
 
 ## Trivia
 
