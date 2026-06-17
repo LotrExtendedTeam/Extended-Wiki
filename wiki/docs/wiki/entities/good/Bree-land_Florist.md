@@ -28,7 +28,7 @@ The Bree-land Florist spawns in the marketplace of Bree-land villages.
   
 ## Behavior
 
-Bree-land Florist will wander stand in their stall when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Florist will stand in their stall when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
