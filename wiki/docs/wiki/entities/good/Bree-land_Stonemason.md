@@ -28,7 +28,7 @@ The Bree-land Stonemason spawns in the stonemasonry, found in Bree-land villages
   
 ## Behavior
 
-Bree-land Stonemason will wander around their stonemasonry when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Stonemasons will wander around their stonemasonry when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
