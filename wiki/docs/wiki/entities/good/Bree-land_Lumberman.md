@@ -28,7 +28,7 @@ The Bree-land Lumberman spawns in the lumberyard, found in Bree-land villages.
   
 ## Behavior
 
-Bree-land Lumberman will wander around their yard when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Lumbermen will wander around their yard when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
