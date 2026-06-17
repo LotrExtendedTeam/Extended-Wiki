@@ -28,7 +28,7 @@ The Bree-land Brewer spawns in the brewery, found in Bree-land villages.
   
 ## Behavior
 
-Bree-land Brewer will wander around their brewery when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Brewers will wander around their brewery when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
