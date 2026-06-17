@@ -28,7 +28,7 @@ The Bree-land Butcher spawns in the butchery, found in Bree-land villages.
   
 ## Behavior
 
-Bree-land Butcher will wander around their butchery when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Butchers will wander around their butchery when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
