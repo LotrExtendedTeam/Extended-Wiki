@@ -28,7 +28,7 @@ The Bree-land Innkeeper spawns in the inn, found in Bree-land villages.
   
 ## Behavior
 
-Bree-land Innkeeper will wander around their inn when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
+Bree-land Innkeepers will wander around their inn when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
 
 ## Equipment
 
