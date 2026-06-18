@@ -44,7 +44,7 @@ They can be hired for 20 coins from a[[bree-land_sheriff|Bree-land Sheriff]] whe
 
 ## Lore
 
-The Bree-land people claim to be descendants of the first men who went west and served Morgoth.
+The Bree-land people were Edain who wandered over the Misty Mountains, found the land to be pleasent, and settled there for good. They were there before the Númenóreans, and were there after the kingdom of Arnor collapsed.
 
 ## History
 - Renewed 5.0:
