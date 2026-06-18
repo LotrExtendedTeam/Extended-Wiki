@@ -38,9 +38,9 @@ Bree-land Leatherworkers fight with any of the following: Iron and bronze dagger
 
 Leatherworkers will not trade with players if they have negative alignment with Bree-land. Upon trading with them, the player will be bestowed the advancement **"Insider Bargains"**.
 
-Leatherworkers sell the goods of their trade. This includes mugs and barrels of varying drinks.
+Leatherworkers sell the goods of their trade. This leather and leather armor.
 
-Bree-land Leatherworkers also buy many supplies, such as food and drink ingredients.
+Bree-land Leatherworkers also buy many supplies, such as furs.
 
 ## Strategy
 
