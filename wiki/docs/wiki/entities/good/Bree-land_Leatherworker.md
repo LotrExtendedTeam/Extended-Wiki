@@ -56,4 +56,4 @@ The Bree-land people were Edain who wandered over the Misty Mountains, found the
 
 ## Trivia
 
--  Bree-land Leatherworkers
+-  Bree-land Leatherworkers are one of the few Bree-land traders that was not in Legacy.
