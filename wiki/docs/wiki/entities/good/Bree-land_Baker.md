@@ -48,7 +48,7 @@ Bree-land Bakers also buy many supplies, such as berries and wheat.
 
 ## Lore
 
-The Bree-land people claim to be descendants of the first men who went west and served Morgoth.
+The Bree-land people were Edain who wandered over the Misty Mountains, found the land to be pleasent, and settled there for good. They were there before the Númenóreans, and were there after the kingdom of Arnor collapsed.
 
 ## History
 - 1.7.3:
