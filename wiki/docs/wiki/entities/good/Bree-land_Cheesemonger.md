@@ -52,7 +52,7 @@ The Bree-land people were Edain who wandered over the Misty Mountains, found the
 
 ## History
 - 1.7.3:
-    - Ported Bree-land Cheesemongers.
+    - Added Bree-land Cheesemongers.
 
 ## Trivia
 
