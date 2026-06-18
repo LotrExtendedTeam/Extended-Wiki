@@ -18,7 +18,7 @@ hitpoints: 20
 faction: [[bree-land_faction|Bree-land]]
 ::end-infobox
 
-# Bree-land Brewer
+# Bree-land Stonemason
 
 The Bree-land Stonemason is a trader that specializes in cut stones.
 
