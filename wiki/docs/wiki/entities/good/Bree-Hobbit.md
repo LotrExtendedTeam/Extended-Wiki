@@ -28,7 +28,7 @@ Bree-Hobbits can spawn any time of the day. They are only found in Bree-land.
   
 ## Behavior
 
-Hobbits are passive mobs and will not fight the player unless attacked. They will flee from Orcs, Wargs, or when attacked by other mobs.
+Hobbits are passive mobs and will not fight the player unless attacked. They will flee from Orcs, Wargs, or when attacked by other mobs. Upon killing a Bree-Hobbit, you will be bestowed the advancement **"Bree-hobbit Slayer"**
   
 ## Hiring
 
