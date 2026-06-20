@@ -13,9 +13,11 @@ alias:
 type: entity
 title: Bree-land Butcher
 image: entities/bree-land_butcher.png
+image: entities/bree-hobbit_butcher.png
 armor: None
 hitpoints: 20
 faction: [[bree-land_faction|Bree-land]]
+variants: Bree-Hobbit Butcher (16 hp)
 ::end-infobox
 
 # Bree-land Butcher
