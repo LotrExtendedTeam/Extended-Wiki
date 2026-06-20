@@ -18,6 +18,15 @@ hitpoints: 20
 faction: [[bree-land_faction|Bree-land]]
 ::end-infobox
 
+::infobox
+type: entity
+title: Bree-Hobbit Baker
+image: entities/bree-hobbit_baker.png
+armor: None
+hitpoints: 16
+faction: [[bree-land_faction|Bree-land]]
+::end-infobox
+
 # Bree-land Baker
 
 The Bree-land Baker is a trader that specializes in food and baked goods.
