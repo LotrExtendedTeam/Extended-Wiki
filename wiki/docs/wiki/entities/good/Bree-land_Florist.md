@@ -61,6 +61,8 @@ The Bree-land people were men who wandered over the Misty Mountains but did not 
 ## History
 - 1.7.3:
     - Ported Bree-land Florists.
+- 1.8.0:
+    - Ported Bree-Hobbit Florists.
 
 ## Trivia
 
