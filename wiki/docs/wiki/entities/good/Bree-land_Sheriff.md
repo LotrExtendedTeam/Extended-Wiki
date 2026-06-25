@@ -15,7 +15,7 @@ title: Bree-land Sheriff
 image: entities/bree-land_sheriff.png
 armor: Varies
 hitpoints: 25
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Sheriff
