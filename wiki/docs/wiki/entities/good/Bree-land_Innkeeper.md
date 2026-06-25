@@ -15,7 +15,16 @@ title: Bree-land Innkeeper
 image: entities/bree-land_innkeeper.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
+::end-infobox
+
+::infobox
+type: entity
+title: Bree-Hobbit Innkeeper
+image: entities/bree-hobbit_innkeeper.png
+armor: None
+hitpoints: 16
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Innkeeper
