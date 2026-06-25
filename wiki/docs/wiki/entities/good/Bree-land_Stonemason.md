@@ -15,7 +15,7 @@ title: Bree-land Stonemason
 image: entities/bree-land_stonemason.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Stonemason
