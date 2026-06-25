@@ -15,7 +15,7 @@ title: Bree-land Cheesemonger
 image: entities/bree-land_cheesemonger.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Cheesemonger
