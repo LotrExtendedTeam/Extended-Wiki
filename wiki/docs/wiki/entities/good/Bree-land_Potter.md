@@ -61,6 +61,8 @@ The Bree-land people were men who wandered over the Misty Mountains but did not 
 ## History
 - 1.7.1:
     - Added Bree-land Potters.
+- 1.8.0:
+    - Added Bree-Hobbit Potters.
 
 ## Trivia
 
