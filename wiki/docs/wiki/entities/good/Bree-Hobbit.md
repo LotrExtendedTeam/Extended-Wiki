@@ -15,7 +15,7 @@ title: Bree-Hobbit
 image: entities/bree-hobbit.png
 armor: 0
 hitpoints: 16
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-Hobbit
