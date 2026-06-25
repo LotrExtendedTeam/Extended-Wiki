@@ -4,7 +4,7 @@ tags:
 show:
   - toc
 alias:
-  - bree-man
+  - bree_man
 ---
 
 ####
