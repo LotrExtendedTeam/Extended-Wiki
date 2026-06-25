@@ -24,7 +24,7 @@ Hobits can be found across [[the_shire|The Shire]], as well as the region of [[b
 
 ## Behavior
 
-Hobbits they are passive mobs and will not fight the player unless attacked. They will flee from Orcs, Wargs, or when attacked by other mobs. 
+Hobbits are passive mobs and will not fight the player unless attacked. They will flee from Orcs, Wargs, or when attacked by other mobs. 
 
 ## History
 - Renewed 4.0:
