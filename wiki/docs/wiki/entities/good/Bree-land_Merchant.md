@@ -15,7 +15,7 @@ title: Bree-land Merchant
 image: entities/bree-land_merchant.png
 armor: None
 hitpoints: 25
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Merchant
