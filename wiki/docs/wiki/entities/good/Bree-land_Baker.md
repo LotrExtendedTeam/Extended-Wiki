@@ -15,7 +15,7 @@ title: Bree-land Baker
 image: entities/bree-land_baker.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 ::infobox
@@ -24,7 +24,7 @@ title: Bree-Hobbit Baker
 image: entities/bree-hobbit_baker.png
 armor: None
 hitpoints: 16
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Baker
