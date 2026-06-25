@@ -48,8 +48,7 @@ Bree-land Lumbermen also buy many supplies, such as axes and shears.
 
 ## Lore
 
-The Bree-land people were Edain who wandered over the Misty Mountains, found the land to be pleasent, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
-
+The Bree-land people were men who wandered over the Misty Mountains but did not continue west like the Edain. They found the area to be pleasant, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
 ## History
 - 1.7.3:
     - Ported Bree-land Lumbermen.
