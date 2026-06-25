@@ -15,7 +15,7 @@ title: Bree-land Guard
 image: entities/bree-land_guard.png
 armor: Varies
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Guard
