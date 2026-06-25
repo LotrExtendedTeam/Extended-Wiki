@@ -15,7 +15,7 @@ title: Bree-land Smith
 image: entities/bree-land_smith.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Smith
