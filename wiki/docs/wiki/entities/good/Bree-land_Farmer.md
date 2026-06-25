@@ -15,7 +15,7 @@ title: Bree-land Farmer
 image: entities/bree-land_farmer.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Farmer
