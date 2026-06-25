@@ -12,7 +12,7 @@ alias:
 # Bree-land
 
 ## NPCs
-- [bree-man|Bree-land Men and Women], [[bree-hobbit|Bree-Hobbits]] and [[bree-land_guard|Bree-land Guards]] spawn throughout much of the Breeland Biome during the day.
+- [bree_man|Bree-land Men and Women], [[bree-hobbit|Bree-Hobbits]] and [[bree_guard|Bree-land Guards]] spawn throughout much of the Breeland Biome during the day.
 
 - There are many Bree-land traders that are ported in Extended and they can be found in Bree-land Hamlets and Villages:
     - [[bree-land_baker|Bree-land Bakers]]
