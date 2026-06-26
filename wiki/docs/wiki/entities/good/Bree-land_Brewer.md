@@ -15,7 +15,16 @@ title: Bree-land Brewer
 image: entities/bree-land_brewer.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
+::end-infobox
+
+::infobox
+type: entity
+title: Bree-Hobbit Brewer
+image: entities/bree-hobbit_brewer.png
+armor: None
+hitpoints: 16
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Brewer
@@ -26,19 +35,6 @@ The Bree-land Brewer is a trader that specializes in alcoholic beverages.
 
 The Bree-land Brewer spawns in the brewery, found in Bree-land villages.
 
-## Variants
-
-The Bree-land Brewer has one variant, the Bree-Hobbit Brewer.
-
-::infobox
-type: entity
-title: Bree-Hobbit Brewer
-image: entities/bree-hobbit_brewer.png
-armor: None
-hitpoints: 16
-faction: [[bree-land_faction|Bree-land]]
-::end-infobox
-  
 ## Behavior
 
 Bree-land Brewers will wander around their brewery when not selling goods. Upon death, a silver coin will float above the ground where they died, signifying that they will respawn here after a short period of time.
@@ -61,11 +57,12 @@ Bree-land Brewers also buy many supplies, such as food and drink ingredients.
 
 ## Lore
 
-The Bree-land people were Edain who wandered over the Misty Mountains, found the land to be pleasent, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
-
+The Bree-land people were men who wandered over the Misty Mountains but did not continue west like the Edain. They found the area to be pleasant, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
 ## History
 - 1.7.3:
     - Ported Bree-land Brewers.
+- 1.8.0:
+    - Ported Bree-Hobbit Brewers.
 
 ## Trivia
 

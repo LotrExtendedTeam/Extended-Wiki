@@ -15,7 +15,16 @@ title: Bree-land Potter
 image: entities/bree-land_potter.png
 armor: None
 hitpoints: 20
-faction: [[bree-land_faction|Bree-land]]
+faction: [[bree_faction|Bree-land]]
+::end-infobox
+
+::infobox
+type: entity
+title: Bree-Hobbit Potter
+image: entities/bree-hobbit_potter.png
+armor: None
+hitpoints: 16
+faction: [[bree_faction|Bree-land]]
 ::end-infobox
 
 # Bree-land Potter
@@ -48,11 +57,12 @@ Bree-land Potters also buy many supplies, such as shovels and clay.
 
 ## Lore
 
-The Bree-land people were Edain who wandered over the Misty Mountains, found the land to be pleasent, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
-
+The Bree-land people were men who wandered over the Misty Mountains but did not continue west like the Edain. They found the area to be pleasant, and settled there for good. They were there before the Númenóreans, after the kingdom of Arnor, and will be forever according to them.
 ## History
 - 1.7.1:
     - Added Bree-land Potters.
+- 1.8.0:
+    - Added Bree-Hobbit Potters.
 
 ## Trivia
 
