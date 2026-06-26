@@ -40,7 +40,7 @@ They can be hired for 20 coins from a [[bree-land_sheriff|Bree-land Sheriff]] wh
 
 ## Strategy
 
-- When fighting Bree-Men, you can use their odd behaviour to farm them like zombified piglins. Simply kill one, draw a large crowd, tower up three blocks and get killing. They do not have a long-range weapon like a spear, making this strategy flawless(until they get Iron pikes).
+- When fighting Bree-Men, you can use their odd behaviour to farm them like zombified piglins. Simply kill one, draw a large crowd, tower up three blocks and get killing. They do not have a long-range weapon like a spear, making this strategy flawless(until they get iron pikes).
 
 ## Lore
 
