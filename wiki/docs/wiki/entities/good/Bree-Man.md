@@ -4,7 +4,7 @@ tags:
 show:
   - toc
 alias:
-  - bree_man
+  - bree_person
 ---
 
 ####
@@ -36,7 +36,7 @@ Bree-Men fight with any of the following: Iron, Bronze and Stone axe, and Iron o
   
 ## Hiring
 
-They can be hired for 20 coins from a[[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree-land_faction|Bree-land]].
+They can be hired for 20 coins from a [[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree_faction|Bree-land]].
 
 ## Strategy
 
