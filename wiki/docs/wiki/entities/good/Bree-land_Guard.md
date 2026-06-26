@@ -37,7 +37,7 @@ Bree-land Guards fight with an iron sword and wear a mix of leather and chainmai
   
 ## Hiring
 
-They can be hired for 40 coins from a[[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=250 with [[bree-land_faction|Bree-land]].
+They can be hired for 40 coins from a [[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=250 with [[bree_faction|Bree-land]].
 
 ## Strategy
 

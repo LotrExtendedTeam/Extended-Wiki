@@ -32,7 +32,7 @@ Hobbits are passive mobs. They will flee from Orcs, Wargs, or when attacked by o
   
 ## Hiring
 
-They can be hired for 20 coins from a[[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree-land_faction|Bree-land]].
+They can be hired for 20 coins from a [[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree_faction|Bree-land]].
 
 ## Lore
 
