@@ -36,11 +36,11 @@ Bree-Men fight with any of the following: Iron, Bronze and Stone axe, and Iron o
   
 ## Hiring
 
-They can be hired for 20 coins from a[[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree-land_faction|Bree-land]].
+They can be hired for 20 coins from a [[bree-land_sheriff|Bree-land Sheriff]] when one's alignment is >=100 with [[bree_faction|Bree-land]].
 
 ## Strategy
 
-- When fighting Bree-Men, you can use their odd behaviour to farm them like zombified piglins. Simply kill one, draw a large crowd, tower up three blocks and get killing. They do not have a long-range weapon like a spear, making this strategy flawless(until they get Iron pikes).
+- When fighting Bree-Men, you can use their odd behaviour to farm them like zombified piglins. Simply kill one, draw a large crowd, tower up three blocks and get killing. They do not have a long-range weapon like a spear, making this strategy flawless(until they get iron pikes).
 
 ## Lore
 

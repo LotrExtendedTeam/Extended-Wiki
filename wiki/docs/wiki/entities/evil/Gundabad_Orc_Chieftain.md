@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: entity
 title: Gundabad Orc Chieftain
-image: entities/gundabad_orc_chieftain.png
+image: entities/gundabad_orc_cheiftan.png
 armor: 15
 hitpoints: 25
 faction: [[gundabad_faction|Gundabad]]
