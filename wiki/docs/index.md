@@ -17,6 +17,7 @@ curseforgelink: [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/lot
 modrinthlink: [Modrinth](https://modrinth.com/mod/lotr-renewed-extended/version/1.10.2)
 changeloglink: [[versions|Changelog]]
 discordlink: [Discord Server](https://discord.gg/aXRZFq6N3n)
+youtubelink: [Youtube Channel](https://www.youtube.com/@LOTRRenewedExtendedOfficial)
 ::end-infobox
 # Home
 

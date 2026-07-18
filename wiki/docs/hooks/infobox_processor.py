@@ -79,6 +79,8 @@ def on_page_markdown(markdown_content, page: Page, config, files):
                     html.append(f'<div markdown="span">{entries["changeloglink"]}</div>')
                 if "discordlink" in entries:
                     html.append(f'<div markdown="span">{entries["discordlink"]}</div>')
+                if "youtubelink" in entries:
+                    html.append(f'<div markdown="span">{entries["youtubelink"]}</div>')   
                 html.append('</div>')
             else:
                 grid_fields = {}
