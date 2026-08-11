@@ -784,6 +784,16 @@
     "image": "blocks/renewed/black_wool_stairs.png",
     "url": "#"
   },
+  "lotr:blackberry": {
+    "name": "Blackberry",
+    "image": "items/blackberry.png",
+    "url": "#"
+  },
+  "lotr:blackberry_pie": {
+    "name": "Blackberry Pie",
+    "image": "items/blackberry_pie.png",
+    "url": "#"
+  },
   "lotr:blackroot": {
     "name": "Blackroot",
     "image": "items/renewed/blackroot.png",
@@ -1024,6 +1034,16 @@
     "image": "blocks/renewed/bluebell.png",
     "url": "#"
   },
+  "lotr:blueberry": {
+    "name": "Blueberry",
+    "image": "items/blueberry.png",
+    "url": "#"
+  },
+  "lotr:blueberry_pie": {
+    "name": "Blueberry Pie",
+    "image": "items/blueberry_pie.png",
+    "url": "#"
+  },
   "lotr:bone_axe": {
     "name": "Bone Axe",
     "image": "items/bone_axe.png",
@@ -1172,6 +1192,11 @@
   "lotr:bronze_chestplate": {
     "name": "Bronze Chestplate",
     "image": "items/bronze_chestplate.png",
+    "url": "#"
+  },
+  "lotr:bronze_crossbow": {
+    "name": "Bronze Crossbow",
+    "image": "items/bronze_crossbow.png",
     "url": "#"
   },
   "lotr:bronze_dagger": {
@@ -2534,6 +2559,16 @@
     "image": "items/renewed/cram.png",
     "url": "#"
   },
+  "lotr:cranberry": {
+    "name": "Cranberry",
+    "image": "items/cranberry.png",
+    "url": "#"
+  },
+  "lotr:cranberry_pie": {
+    "name": "Cranberry Pie",
+    "image": "items/cranberry_pie.png",
+    "url": "#"
+  },
   "lotr:crossed_wattle_and_daub": {
     "name": "Crossed Wattle And Daub",
     "image": "items/crossed_wattle_and_daub.png",
@@ -2929,6 +2964,16 @@
     "image": "blocks/renewed/dark_oak_wood_stairs.png",
     "url": "#"
   },
+  "lotr:dead_coral": {
+    "name": "Dead Coral",
+    "image": "items/dead_coral.png",
+    "url": "#"
+  },
+  "lotr:dead_coral_block": {
+    "name": "Dead Coral Block",
+    "image": "items/dead_coral_block.png",
+    "url": "#"
+  },
   "lotr:dead_moss_vines": {
     "name": "Dead Moss Vines",
     "image": "items/dead_moss_vines.png",
@@ -3304,6 +3349,11 @@
     "image": "items/dunlending_leggings.png",
     "url": "#"
   },
+  "lotr:dunlending_shield": {
+    "name": "Dunlending Shield",
+    "image": "items/dunlending_shield.png",
+    "url": "#"
+  },
   "lotr:durin_banner_pattern": {
     "name": "Durin Banner Pattern",
     "image": "items/durin_banner_pattern.png",
@@ -3447,6 +3497,11 @@
   "lotr:dwarven_pillar_slab": {
     "name": "Dwarven Pillar Slab",
     "image": "items/dwarven_pillar_slab.png",
+    "url": "#"
+  },
+  "lotr:dwarven_shield": {
+    "name": "Dwarven Shield",
+    "image": "items/dwarven_shield.png",
     "url": "#"
   },
   "lotr:dwarven_shovel": {
@@ -3607,6 +3662,16 @@
   "lotr:elanor": {
     "name": "Elanor",
     "image": "blocks/renewed/elanor.png",
+    "url": "#"
+  },
+  "lotr:elderberry": {
+    "name": "Elderberry",
+    "image": "items/elderberry.png",
+    "url": "#"
+  },
+  "lotr:elderberry_pie": {
+    "name": "Elderberry Pie",
+    "image": "items/elderberry_pie.png",
     "url": "#"
   },
   "lotr:elf_bone": {
@@ -4820,6 +4885,11 @@
     "image": "items/gundabad_uruk_sword.png",
     "url": "#"
   },
+  "lotr:gundabad_warg_armor": {
+    "name": "Gundabad Warg Armor",
+    "image": "items/gundabad_warg_armor.png",
+    "url": "#"
+  },
   "lotr:half_troll_crafting_table": {
     "name": "Half Troll Crafting Table",
     "image": "items/half_troll_crafting_table.png",
@@ -5195,6 +5265,11 @@
   "lotr:iron_chandelier": {
     "name": "Iron Chandelier",
     "image": "items/iron_chandelier.png",
+    "url": "#"
+  },
+  "lotr:iron_crossbow": {
+    "name": "Iron Crossbow",
+    "image": "items/iron_crossbow.png",
     "url": "#"
   },
   "lotr:iron_dagger": {
@@ -6300,6 +6375,11 @@
   "lotr:mithril_chestplate": {
     "name": "Mithril Chestplate",
     "image": "items/renewed/mithril_chestplate.png",
+    "url": "#"
+  },
+  "lotr:mithril_crossbow": {
+    "name": "Mithril Crossbow",
+    "image": "items/mithril_crossbow.png",
     "url": "#"
   },
   "lotr:mithril_dagger": {
@@ -7547,6 +7627,11 @@
     "image": "items/orc_plating_stairs.png",
     "url": "#"
   },
+  "lotr:orc_plating_wall": {
+    "name": "Orc Plating Wall",
+    "image": "items/orc_plating_wall.png",
+    "url": "#"
+  },
   "lotr:orc_steel_block": {
     "name": "Orc Steel Block",
     "image": "blocks/renewed/orc_steel_block.png",
@@ -8085,6 +8170,16 @@
   "lotr:ranger_north_leggings": {
     "name": "Ranger North Leggings",
     "image": "items/ranger_north_leggings.png",
+    "url": "#"
+  },
+  "lotr:raspberry": {
+    "name": "Raspberry",
+    "image": "items/raspberry.png",
+    "url": "#"
+  },
+  "lotr:raspberry_pie": {
+    "name": "Raspberry Pie",
+    "image": "items/raspberry_pie.png",
     "url": "#"
   },
   "lotr:red_angmar_brick": {
@@ -8740,6 +8835,11 @@
   "lotr:rusted_orc_plating_stairs": {
     "name": "Rusted Orc Plating Stairs",
     "image": "items/rusted_orc_plating_stairs.png",
+    "url": "#"
+  },
+  "lotr:rusted_orc_plating_wall": {
+    "name": "Rusted Orc Plating Wall",
+    "image": "items/rusted_orc_plating_wall.png",
     "url": "#"
   },
   "lotr:salt": {
@@ -10177,6 +10277,11 @@
     "image": "items/renewed/swan_feather.png",
     "url": "#"
   },
+  "lotr:sweet_berry_pie": {
+    "name": "Sweet Berry Pie",
+    "image": "items/sweet_berry_pie.png",
+    "url": "#"
+  },
   "lotr:taurethrim_axe": {
     "name": "Taurethrim Axe",
     "image": "items/taurethrim_axe.png",
@@ -10457,6 +10562,11 @@
     "image": "items/uruk_crafting_table.png",
     "url": "#"
   },
+  "lotr:uruk_crossbow": {
+    "name": "Uruk Crossbow",
+    "image": "items/uruk_crossbow.png",
+    "url": "#"
+  },
   "lotr:uruk_dagger": {
     "name": "Uruk Dagger",
     "image": "items/uruk_dagger.png",
@@ -10495,6 +10605,11 @@
   "lotr:uruk_pillar_slab": {
     "name": "Uruk Pillar Slab",
     "image": "items/uruk_pillar_slab.png",
+    "url": "#"
+  },
+  "lotr:uruk_shield": {
+    "name": "Uruk Shield",
+    "image": "items/uruk_shield.png",
     "url": "#"
   },
   "lotr:uruk_shovel": {
@@ -10720,6 +10835,11 @@
   "lotr:wildberry": {
     "name": "Wildberry",
     "image": "items/wildberry.png",
+    "url": "#"
+  },
+  "lotr:wildberry_pie": {
+    "name": "Wildberry Pie",
+    "image": "items/wildberry_pie.png",
     "url": "#"
   },
   "lotr:willow_beam": {
@@ -11172,6 +11292,21 @@
     "image": "items/minecraft/bowl.png",
     "url": "https://minecraft.wiki/w/Bowl"
   },
+  "minecraft:brain_coral": {
+    "name": "Brain Coral",
+    "image": "items/brain_coral.png",
+    "url": "https://minecraft.wiki/w/Brain_Coral"
+  },
+  "minecraft:brain_coral_block": {
+    "name": "Brain Coral Block",
+    "image": "items/brain_coral_block.png",
+    "url": "https://minecraft.wiki/w/Brain_Coral_Block"
+  },
+  "minecraft:brain_coral_fan": {
+    "name": "Brain Coral Fan",
+    "image": "items/brain_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Brain_Coral_Fan"
+  },
   "minecraft:brick": {
     "name": "Brick",
     "image": "items/minecraft/brick.png",
@@ -11211,6 +11346,21 @@
     "name": "Brown Wool",
     "image": "blocks/minecraft/brown_wool.png",
     "url": "https://minecraft.wiki/w/Brown_Wool"
+  },
+  "minecraft:bubble_coral": {
+    "name": "Bubble Coral",
+    "image": "items/bubble_coral.png",
+    "url": "https://minecraft.wiki/w/Bubble_Coral"
+  },
+  "minecraft:bubble_coral_block": {
+    "name": "Bubble Coral Block",
+    "image": "items/bubble_coral_block.png",
+    "url": "https://minecraft.wiki/w/Bubble_Coral_Block"
+  },
+  "minecraft:bubble_coral_fan": {
+    "name": "Bubble Coral Fan",
+    "image": "items/bubble_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Bubble_Coral_Fan"
   },
   "minecraft:bucket": {
     "name": "Bucket",
@@ -11357,6 +11507,81 @@
     "image": "blocks/minecraft/dark_oak_wood.png",
     "url": "https://minecraft.wiki/w/Dark_Oak_Wood"
   },
+  "minecraft:dead_brain_coral": {
+    "name": "Dead Brain Coral",
+    "image": "items/dead_brain_coral.png",
+    "url": "https://minecraft.wiki/w/Dead_Brain_Coral"
+  },
+  "minecraft:dead_brain_coral_block": {
+    "name": "Dead Brain Coral Block",
+    "image": "items/dead_brain_coral_block.png",
+    "url": "https://minecraft.wiki/w/Dead_Brain_Coral_Block"
+  },
+  "minecraft:dead_brain_coral_fan": {
+    "name": "Dead Brain Coral Fan",
+    "image": "items/dead_brain_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Dead_Brain_Coral_Fan"
+  },
+  "minecraft:dead_bubble_coral": {
+    "name": "Dead Bubble Coral",
+    "image": "items/dead_bubble_coral.png",
+    "url": "https://minecraft.wiki/w/Dead_Bubble_Coral"
+  },
+  "minecraft:dead_bubble_coral_block": {
+    "name": "Dead Bubble Coral Block",
+    "image": "items/dead_bubble_coral_block.png",
+    "url": "https://minecraft.wiki/w/Dead_Bubble_Coral_Block"
+  },
+  "minecraft:dead_bubble_coral_fan": {
+    "name": "Dead Bubble Coral Fan",
+    "image": "items/dead_bubble_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Dead_Bubble_Coral_Fan"
+  },
+  "minecraft:dead_fire_coral": {
+    "name": "Dead Fire Coral",
+    "image": "items/dead_fire_coral.png",
+    "url": "https://minecraft.wiki/w/Dead_Fire_Coral"
+  },
+  "minecraft:dead_fire_coral_block": {
+    "name": "Dead Fire Coral Block",
+    "image": "items/dead_fire_coral_block.png",
+    "url": "https://minecraft.wiki/w/Dead_Fire_Coral_Block"
+  },
+  "minecraft:dead_fire_coral_fan": {
+    "name": "Dead Fire Coral Fan",
+    "image": "items/dead_fire_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Dead_Fire_Coral_Fan"
+  },
+  "minecraft:dead_horn_coral": {
+    "name": "Dead Horn Coral",
+    "image": "items/dead_horn_coral.png",
+    "url": "https://minecraft.wiki/w/Dead_Horn_Coral"
+  },
+  "minecraft:dead_horn_coral_block": {
+    "name": "Dead Horn Coral Block",
+    "image": "items/dead_horn_coral_block.png",
+    "url": "https://minecraft.wiki/w/Dead_Horn_Coral_Block"
+  },
+  "minecraft:dead_horn_coral_fan": {
+    "name": "Dead Horn Coral Fan",
+    "image": "items/dead_horn_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Dead_Horn_Coral_Fan"
+  },
+  "minecraft:dead_tube_coral": {
+    "name": "Dead Tube Coral",
+    "image": "items/dead_tube_coral.png",
+    "url": "https://minecraft.wiki/w/Dead_Tube_Coral"
+  },
+  "minecraft:dead_tube_coral_block": {
+    "name": "Dead Tube Coral Block",
+    "image": "items/dead_tube_coral_block.png",
+    "url": "https://minecraft.wiki/w/Dead_Tube_Coral_Block"
+  },
+  "minecraft:dead_tube_coral_fan": {
+    "name": "Dead Tube Coral Fan",
+    "image": "items/dead_tube_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Dead_Tube_Coral_Fan"
+  },
   "minecraft:dirt": {
     "name": "Dirt",
     "image": "blocks/minecraft/dirt.png",
@@ -11371,6 +11596,21 @@
     "name": "Feather",
     "image": "items/minecraft/feather.png",
     "url": "https://minecraft.wiki/w/Feather"
+  },
+  "minecraft:fire_coral": {
+    "name": "Fire Coral",
+    "image": "items/fire_coral.png",
+    "url": "https://minecraft.wiki/w/Fire_Coral"
+  },
+  "minecraft:fire_coral_block": {
+    "name": "Fire Coral Block",
+    "image": "items/fire_coral_block.png",
+    "url": "https://minecraft.wiki/w/Fire_Coral_Block"
+  },
+  "minecraft:fire_coral_fan": {
+    "name": "Fire Coral Fan",
+    "image": "items/fire_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Fire_Coral_Fan"
   },
   "minecraft:glass": {
     "name": "Glass",
@@ -11471,6 +11711,21 @@
     "name": "Honeycomb",
     "image": "items/minecraft/honeycomb.png",
     "url": "https://minecraft.wiki/w/Honeycomb"
+  },
+  "minecraft:horn_coral": {
+    "name": "Horn Coral",
+    "image": "items/horn_coral.png",
+    "url": "https://minecraft.wiki/w/Horn_Coral"
+  },
+  "minecraft:horn_coral_block": {
+    "name": "Horn Coral Block",
+    "image": "items/horn_coral_block.png",
+    "url": "https://minecraft.wiki/w/Horn_Coral_Block"
+  },
+  "minecraft:horn_coral_fan": {
+    "name": "Horn Coral Fan",
+    "image": "items/horn_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Horn_Coral_Fan"
   },
   "minecraft:iron_bars": {
     "name": "Iron Bars",
@@ -11947,6 +12202,11 @@
     "image": "items/minecraft/sugar.png",
     "url": "https://minecraft.wiki/w/Sugar"
   },
+  "minecraft:sweet_berries": {
+    "name": "Sweet Berries",
+    "image": "items/sweet_berries.png",
+    "url": "https://minecraft.wiki/w/Sweet_Berries"
+  },
   "minecraft:terracotta": {
     "name": "Terracotta",
     "image": "blocks/minecraft/terracotta.png",
@@ -11956,6 +12216,26 @@
     "name": "Torch",
     "image": "items/minecraft/torch.png",
     "url": "https://minecraft.wiki/w/Torch"
+  },
+  "minecraft:tripwire_hook": {
+    "name": "Tripwire Hook",
+    "image": "items/tripwire_hook.png",
+    "url": "https://minecraft.wiki/w/Tripwire_Hook"
+  },
+  "minecraft:tube_coral": {
+    "name": "Tube Coral",
+    "image": "items/tube_coral.png",
+    "url": "https://minecraft.wiki/w/Tube_Coral"
+  },
+  "minecraft:tube_coral_block": {
+    "name": "Tube Coral Block",
+    "image": "items/tube_coral_block.png",
+    "url": "https://minecraft.wiki/w/Tube_Coral_Block"
+  },
+  "minecraft:tube_coral_fan": {
+    "name": "Tube Coral Fan",
+    "image": "items/tube_coral_fan.png",
+    "url": "https://minecraft.wiki/w/Tube_Coral_Fan"
   },
   "minecraft:vine": {
     "name": "Vine",

@@ -11,10 +11,10 @@ alias:
 ::infobox
 type: version
 title: The Latest Version is:
-version: [[versions#beta-1-10-2|**v1.10.2**]]
-date: June 19th, 2026
-curseforgelink: [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/8282497)
-modrinthlink: [Modrinth](https://modrinth.com/mod/lotr-renewed-extended/version/1.10.2)
+version: [[versions#beta-1-10-3|**v1.10.3**]]
+date: August 8th, 2026
+curseforgelink: [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/lotr-renewed-extended/files/8606817)
+modrinthlink: [Modrinth](https://modrinth.com/mod/lotr-renewed-extended/version/1.10.3)
 changeloglink: [[versions|Changelog]]
 discordlink: [Discord Server](https://discord.gg/aXRZFq6N3n)
 youtubelink: [Youtube Channel](https://www.youtube.com/@LOTRRenewedExtendedOfficial)

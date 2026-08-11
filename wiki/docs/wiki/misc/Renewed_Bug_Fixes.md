@@ -23,17 +23,19 @@ Additionally the Extended team has developed their own bug tracker for Renewed b
 
 Open:
 
-- 🟡 ELOTR-24 - Renewed Spears use Vanilla Trident subtitles (05/19/2026)
+- 🟡 ELOTR-26 - Elven weapons can't glow in GUI slots, slightly different than LOTR-162 (06/25/2026)
+- 🟡 ELOTR-25 - Renewed Spears use Vanilla Trident subtitles (05/19/2026)
 - 🟡 ELOTR-13 - Stray pixel on Umbar Soldiers (06/09/2025)
 - 🟠 ELOTR-11 - Athelas is being registered in the flower pool (05/15/2025)
 - 🟡 ELOTR-10 - Changing brewing time with datapacks breaks keg GUI (04/27/2025)
 - 🟡 ELOTR-9 - Opening a chest with a pouch does not open a combined inventory (03/02/2025)
-- 🔴 ELOTR-5 - Breaking kegs does not give you a keg with what was brewed in it (08/17/2024)
 - 🟠 ELOTR-3 - Lotr plants remove the base of dark oak trees in the old forest (06/23/2024)
 - 🔴 ELOTR-1 - Matches infinitely restock in player inventory (02/24/2024)
 
 Fixed:
 
+- 🟡 ELOTR-27 - Death messages don't have localized source `.player` keys (07/15/2026)
+- 🟠 ELOTR-24 - Rabbits don't spawn in Middle Earth (05/17/2026)
 - 🟡 ELOTR-23 - Breaking finished kegs without opening leaves junk data on item (04/27/2026)
 - 🔴 ELOTR-22 - Breaking kegs does not invalidate recipe, allowing brewing without using items (04/26/2026)
 - 🟠 ELOTR-21 - Reeds don't drop items when sheared from the bottom block (04/23/2026)
@@ -48,5 +50,6 @@ Fixed:
 - 🟡 ELOTR-8 - Alignment indicator hiding does not respect minecraft teams (10/05/2024)
 - 🟠 ELOTR-7 - White sand isn't mined faster with shovels (09/20/2025)
 - 🟡 ELOTR-6 - Renewed carved bricks don't have stonecutter recipes (09/18/2025)
+- 🔴 ELOTR-5 - Breaking kegs does not give you a keg with what was brewed in it (08/17/2024)
 - 🔴 ELOTR-4 - Connected texture tessellation causes crashes on Java 11+ (07/26/2024)
 - 🟡 ELOTR-2 - Blue dwarven archers don't have speechbanks (06/02/2024)

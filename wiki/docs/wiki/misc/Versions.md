@@ -11,6 +11,118 @@ alias:
 
 # **Updates**
 
+## **(Beta 1.10.3) (August 8th, 2026)** { #beta-1-10-3 data-toc-label="(Beta 1.10.3)" }
+---
+??? Changelog
+	* Banner Protection
+		* Banner self-protection can now be disabled
+		* Fixed banner protection allowing conflicting banner overlaps
+		* Fixed banner protection not requiring alignment
+		* Fixed two-block-tall block desync issues with banner protection
+	* Biomes
+		* Ported Fangorn Wasteland
+		* Ported Uruk Highlands
+	* Blocks
+		* Added Blackberry Pie, Blueberry Pie, Cranberry Pie, Elderberry Pie, Raspberry Pie, Sweet Berry Pie, and Wildberry Pie
+		* Berry bushes now harvest with the same logic as sweet berry bushes
+	* Commands
+		* Added player targeting to the `/lotrExtendedTrigger` command
+	* Config
+		* Added a server config setting `removeExtendedModifiers` to auto-remove extended modifiers
+		* Added a server config setting `removeVanillaEnchanting` to auto-remove vanilla enchants
+		* Fixed `enableExtendedModifiers` not being enforced when disabled
+	* Effects
+		* Fixed Deadly Poison not having a localized name
+		* Fixed Deadly Poison not having a Icon
+	* Entities
+		* Added Dunlending Farmers
+		* Added Dunlending Gatherers (farmhands)
+		* Added Dunlending Smith
+		* Added debug path navigation rendering (backport)
+		* Fixed Isengard Snagas missing fur armor
+		* Fixed Uruk traders not removing shields when out of combat
+		* Ported Bree farmhands
+		* Ported Craban (wip)
+		* Ported Dunlending Bartender
+		* Ported Dunlending Axe Throwers
+		* Ported Dunlending Berserkers
+		* Ported Hobbit Farmhands
+	* Features
+		* Disabled spectator players from sitting on slab/stair chairs
+		* Ported Farmhands
+	* GUIs
+		* Added an all-new Farmhand GUI
+		* Added banner placed by player name info on banner screen
+		* Added information tooltips to locked/restricted trades in captain GUI
+		* Allowed shift-clicking axes into units melee slot
+		* Cleaned up the Hired Unit Equipment screen
+		* Fixed trader gui shift-stack moving desyncs
+	* Hired Units
+		* Ported Farmhand Units
+		* Added Imladris Guard unit type
+		* Added Hobbit, Bree, and Dunland farmhand unit types
+		* Added Farmhand support for Legacy crops + Sugar Cane & Berry Bushes
+		* Farmhands now need access to a composter
+		* Farmhands now need access to a crafting table for stem type crops
+		* Hired Farmhands have a ‘Farming Level` that affects farming efficiency
+	* Items
+		* Added Dwarven Shield
+		* Added Tome of the Smith
+		* Fixed Poison Bottles not actually killing players when drunk
+		* Fixed Red Books being placeable inside waypoints
+		* Increased the poison chance when eating wildberries
+		* Ported poisoned Arnor, Blue Dwarven, Bronze, Dale, Dol Amroth, Dorwinion, Dwarven, Galadhrim, Gondor, Harad, Iron, Lindon, Mithril, Mordor, Rivendell, Rohan, Stone, Umbar, Uruk, Wood-Elven, and Wooden Daggers
+	* Localization
+		* Added localization support for the `/lotrExtendedTrigger` command
+		* Added an initial German translation (de_de)
+		* Updated Chinese (Mainland) (zh_cn) translation
+	* Misc
+		* Added 4 new advancements in Extended (55 currently)
+		* Added 7 advancements from Legacy (55.6% currently ported)
+		* Added pledge trigger support for advancements
+		* Fixed Renewed death message types not having player caused death messages localized
+		* Fixed numerous minor bugs
+	* Modifiers
+		* Carrot/Fungus		on a Stick item can be repaired with carrots/fungus
+		* Fixed Wightbane not being earnable through kills
+		* Fixed modifiers not respecting config settings
+	* Speechbanks
+		* Added #s/#self variable replacements for entity names
+		* Added #b/#biome variable replacements for biome names
+		* Added a `covered` speechbank condition (similar to `underground` but always works when covered, vs `underground` which return true when under sea level, but may be exposed to sky)
+		* Hooked up the `can_trade` NPC speechbank condition
+	* Structures
+		* Added Dunland Villages (containing houses, smiths, farmers, and taverns)
+		* Buffed Isengard structure armor stand armor quantity
+		* Fixed Isengard camps spawning inside Orthanc
+		* Ported Dunland Hillforts
+		* Ported Iron Hills Mines
+		* Structure now use a triangular separation algorithm instead of a linear separation algorithm for better randomness
+		* Tweaked Eriador structure separation to be more random
+	* Trading
+		* Fixed coin sound not playing for trade types
+		* Fixed trader respawners respawning traders to fast since 1.10.2
+		* Removed interaction lock from traders when utilizing coin-converting
+	* WorldGen
+		* Fixed rabbits spawning out of control
+
+
+<div class="flex-row" markdown="block">
+
+<div markdown="block">
+
+This major release added Dunland structures and Dunlanding traders. Ported Farmhands and Iron Hills Mines.
+
+This update also ported the Uruk Highlands and Fangorn Wasteland
+</div>
+
+<div style="flex: 1;">
+	<img src="../img/updates/ExtendedUpdate_1_10_3.png" alt="Beta 1.10.3 Release image" style="max-width: 100%; height: auto;" class="on-glb"/>
+	<p style="text-align: center; font-size: 0.9em;">Beta 1.10.3 Release image</p>
+</div>
+
+</div>
+
 ## **(Beta 1.10.2) (June 19th, 2026)** { #beta-1-10-2 data-toc-label="(Beta 1.10.2)" }
 ---
 ??? Changelog

@@ -899,6 +899,31 @@
     },
     "type": "shaped"
   },
+  "angmar_warg_armor": {
+    "title": "Angmar Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "#forge:leather",
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:angmar_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "angmar_warg_armor_1": {
     "title": "Angmar Crafting",
     "grid": [
@@ -4474,6 +4499,31 @@
     },
     "type": "shaped"
   },
+  "blackberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:blackberry",
+        "lotr:blackberry",
+        "lotr:blackberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:blackberry_pie",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "blackroot_stick": {
     "title": "Crafting",
     "grid": [
@@ -4821,6 +4871,31 @@
     "output": {
       "item": "lotr:blue_dwarven_bars",
       "count": 16
+    },
+    "type": "shaped"
+  },
+  "blue_dwarven_boar_armor": {
+    "title": "Blue Mountains Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:dwarven_steel_ingot"
+      ],
+      [
+        "lotr:dwarven_steel_ingot",
+        "#forge:leather",
+        "lotr:dwarven_steel_ingot"
+      ],
+      [
+        "lotr:dwarven_steel_ingot",
+        null,
+        "lotr:dwarven_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:blue_dwarven_boar_armor",
+      "count": 1
     },
     "type": "shaped"
   },
@@ -5749,6 +5824,31 @@
     },
     "type": "shaped"
   },
+  "blueberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:blueberry",
+        "lotr:blueberry",
+        "lotr:blueberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:blueberry_pie",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "bone_axe": {
     "title": "Crafting",
     "grid": [
@@ -6670,6 +6770,31 @@
     ],
     "output": {
       "item": "lotr:bronze_chestplate",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "bronze_crossbow": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:bronze_ingot",
+        "lotr:bronze_ingot",
+        "#forge:rods/wooden"
+      ],
+      [
+        "lotr:bowstring",
+        "minecraft:tripwire_hook",
+        "lotr:bronze_ingot"
+      ],
+      [
+        "#forge:rods/wooden",
+        "lotr:bowstring",
+        "lotr:bronze_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:bronze_crossbow",
       "count": 1
     },
     "type": "shaped"
@@ -11899,6 +12024,156 @@
     },
     "type": "shaped"
   },
+  "coral_from_brain_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:brain_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_brain_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:brain_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "coral_from_brain_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:brain_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_bubble_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:bubble_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_bubble_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:bubble_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "coral_from_bubble_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:bubble_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "coral_from_coral_block": {
     "title": "Crafting",
     "grid": [
@@ -11921,6 +12196,231 @@
     "output": {
       "item": "lotr:coral",
       "count": 9
+    },
+    "type": "shapeless"
+  },
+  "coral_from_fire_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:fire_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_fire_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:fire_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "coral_from_fire_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:fire_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_horn_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:horn_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_horn_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:horn_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "coral_from_horn_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:horn_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_tube_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:tube_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "coral_from_tube_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:tube_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "coral_from_tube_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:tube_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:coral",
+      "count": 1
     },
     "type": "shapeless"
   },
@@ -13920,6 +14420,31 @@
     ],
     "output": {
       "item": "lotr:cram",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "cranberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:cranberry",
+        "lotr:cranberry",
+        "lotr:cranberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:cranberry_pie",
       "count": 1
     },
     "type": "shaped"
@@ -16424,6 +16949,431 @@
     },
     "type": "shaped"
   },
+  "dead_coral_block_from_dead_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:dead_coral",
+        "lotr:dead_coral",
+        "lotr:dead_coral"
+      ],
+      [
+        "lotr:dead_coral",
+        "lotr:dead_coral",
+        "lotr:dead_coral"
+      ],
+      [
+        "lotr:dead_coral",
+        "lotr:dead_coral",
+        "lotr:dead_coral"
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral_block",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "dead_coral_from_dead_brain_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_brain_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_brain_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_brain_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_brain_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_brain_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_bubble_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_bubble_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_bubble_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_bubble_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_bubble_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_bubble_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:dead_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 9
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_fire_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_fire_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_fire_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_fire_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_fire_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_fire_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_horn_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_horn_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_horn_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_horn_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_horn_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_horn_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_tube_coral": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_tube_coral",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_tube_coral_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_tube_coral_block",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 4
+    },
+    "type": "shapeless"
+  },
+  "dead_coral_from_dead_tube_coral_fan": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:dead_tube_coral_fan",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dead_coral",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "dead_moss_vines": {
     "title": "Crafting",
     "grid": [
@@ -18324,6 +19274,31 @@
     },
     "type": "shaped"
   },
+  "dunlending_shield": {
+    "title": "Dunlending Crafting",
+    "grid": [
+      [
+        "#minecraft:planks",
+        "minecraft:iron_ingot",
+        "#minecraft:planks"
+      ],
+      [
+        "#minecraft:planks",
+        "#minecraft:planks",
+        "#minecraft:planks"
+      ],
+      [
+        null,
+        "#minecraft:planks",
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dunlending_shield",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "durin_banner_pattern": {
     "title": "Dwarven Crafting",
     "grid": [
@@ -18495,6 +19470,31 @@
     ],
     "output": {
       "item": "lotr:dwarven_bed",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "dwarven_boar_armor": {
+    "title": "Dwarven Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:dwarven_steel_ingot"
+      ],
+      [
+        "lotr:dwarven_steel_ingot",
+        "#forge:leather",
+        "lotr:dwarven_steel_ingot"
+      ],
+      [
+        "lotr:dwarven_steel_ingot",
+        null,
+        "lotr:dwarven_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:dwarven_boar_armor",
       "count": 1
     },
     "type": "shaped"
@@ -19071,6 +20071,31 @@
     "output": {
       "item": "lotr:dwarven_pillar_slab",
       "count": 6
+    },
+    "type": "shaped"
+  },
+  "dwarven_shield": {
+    "title": "Dwarven Crafting",
+    "grid": [
+      [
+        "#minecraft:planks",
+        "lotr:dwarven_steel_ingot",
+        "#minecraft:planks"
+      ],
+      [
+        "#minecraft:planks",
+        "#minecraft:planks",
+        "#minecraft:planks"
+      ],
+      [
+        null,
+        "#minecraft:planks",
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:dwarven_shield",
+      "count": 1
     },
     "type": "shaped"
   },
@@ -19898,6 +20923,31 @@
       "count": 9
     },
     "type": "shapeless"
+  },
+  "elderberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:elderberry",
+        "lotr:elderberry",
+        "lotr:elderberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:elderberry_pie",
+      "count": 1
+    },
+    "type": "shaped"
   },
   "elven_forge_galadhrim": {
     "title": "Galadhrim Crafting",
@@ -26449,6 +27499,31 @@
     },
     "type": "shaped"
   },
+  "gundabad_warg_armor": {
+    "title": "Northern Orc Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "#forge:leather",
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:gundabad_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "gunpowder_from_sulfur_and_niter": {
     "title": "Crafting",
     "grid": [
@@ -28349,6 +29424,31 @@
     },
     "type": "shaped"
   },
+  "iron_crossbow": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "#forge:rods/wooden"
+      ],
+      [
+        "lotr:bowstring",
+        "minecraft:tripwire_hook",
+        "minecraft:iron_ingot"
+      ],
+      [
+        "#forge:rods/wooden",
+        "lotr:bowstring",
+        "minecraft:iron_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:iron_crossbow",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "iron_dagger": {
     "title": "Crafting",
     "grid": [
@@ -28523,6 +29623,31 @@
       "count": 1
     },
     "type": "shapeless"
+  },
+  "isengard_warg_armor": {
+    "title": "Uruk Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:uruk_steel_ingot"
+      ],
+      [
+        "lotr:uruk_steel_ingot",
+        "#forge:leather",
+        "lotr:uruk_steel_ingot"
+      ],
+      [
+        "lotr:uruk_steel_ingot",
+        "lotr:uruk_steel_ingot",
+        "lotr:uruk_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:isengard_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
   },
   "isengard_warg_armor_1": {
     "title": "Uruk Crafting",
@@ -30024,6 +31149,31 @@
     },
     "type": "shaped"
   },
+  "leather_boar_armor": {
+    "title": "Any Dwarven Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "#forge:leather"
+      ],
+      [
+        "#forge:leather",
+        "#forge:leather",
+        "#forge:leather"
+      ],
+      [
+        "#forge:leather",
+        null,
+        "#forge:leather"
+      ]
+    ],
+    "output": {
+      "item": "lotr:leather_boar_armor",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "leather_boar_armor_1": {
     "title": "Any Dwarven Crafting",
     "grid": [
@@ -30099,8 +31249,33 @@
     },
     "type": "shaped"
   },
+  "leather_bundle_from_leather": {
+    "title": "Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "minecraft:leather",
+        "minecraft:leather"
+      ],
+      [
+        null,
+        "minecraft:leather",
+        "minecraft:leather"
+      ]
+    ],
+    "output": {
+      "item": "lotr:leather_bundle",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "leather_from_leather_bundle": {
-    "title": "Lossoth Crafting",
+    "title": "Crafting",
     "grid": [
       [
         "lotr:leather_bundle",
@@ -30123,6 +31298,31 @@
       "count": 4
     },
     "type": "shapeless"
+  },
+  "leather_warg_armor": {
+    "title": "Any Orc Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "#forge:leather"
+      ],
+      [
+        "#forge:leather",
+        "#forge:leather",
+        "#forge:leather"
+      ],
+      [
+        "#forge:leather",
+        "#forge:leather",
+        "#forge:leather"
+      ]
+    ],
+    "output": {
+      "item": "lotr:leather_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
   },
   "leather_warg_armor_1": {
     "title": "Any Orc Crafting",
@@ -32374,6 +33574,31 @@
     },
     "type": "shaped"
   },
+  "mail_warg_armor": {
+    "title": "Any Orc Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "minecraft:iron_ingot"
+      ],
+      [
+        "minecraft:iron_ingot",
+        "#forge:leather",
+        "minecraft:iron_ingot"
+      ],
+      [
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot",
+        "minecraft:iron_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:mail_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "mail_warg_armor_1": {
     "title": "Any Orc Crafting",
     "grid": [
@@ -34574,6 +35799,31 @@
     },
     "type": "shaped"
   },
+  "mithril_crossbow": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:mithril_ingot",
+        "lotr:mithril_ingot",
+        "#forge:rods/wooden"
+      ],
+      [
+        "lotr:bowstring",
+        "minecraft:tripwire_hook",
+        "lotr:mithril_ingot"
+      ],
+      [
+        "#forge:rods/wooden",
+        "lotr:bowstring",
+        "lotr:mithril_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:mithril_crossbow",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "mithril_dagger": {
     "title": "Crafting",
     "grid": [
@@ -35874,6 +37124,31 @@
     },
     "type": "shaped"
   },
+  "mordor_warg_armor": {
+    "title": "Mordor Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "#forge:leather",
+        "lotr:orc_steel_ingot"
+      ],
+      [
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot",
+        "lotr:orc_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:mordor_warg_armor",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "mordor_warg_armor_1": {
     "title": "Mordor Crafting",
     "grid": [
@@ -36474,6 +37749,81 @@
     },
     "type": "shaped"
   },
+  "mossy_angmar_brick_using_moss_block": {
+    "title": "Angmar Crafting",
+    "grid": [
+      [
+        "lotr:angmar_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_angmar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_angmar_brick_using_moss_carpet": {
+    "title": "Angmar Crafting",
+    "grid": [
+      [
+        "lotr:angmar_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_angmar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_angmar_brick_using_vines_willow": {
+    "title": "Angmar Crafting",
+    "grid": [
+      [
+        "lotr:angmar_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_angmar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_angmar_brick_wall": {
     "title": "Angmar Crafting",
     "grid": [
@@ -36573,6 +37923,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_arnor_brick_using_moss_block": {
+    "title": "Ranger Crafting",
+    "grid": [
+      [
+        "lotr:arnor_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_arnor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_arnor_brick_using_moss_carpet": {
+    "title": "Ranger Crafting",
+    "grid": [
+      [
+        "lotr:arnor_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_arnor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_arnor_brick_using_vines_willow": {
+    "title": "Ranger Crafting",
+    "grid": [
+      [
+        "lotr:arnor_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_arnor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_arnor_brick_wall": {
     "title": "Ranger Crafting",
@@ -36723,6 +38148,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_blue_brick_using_moss_block": {
+    "title": "Blue Mountains Crafting",
+    "grid": [
+      [
+        "lotr:blue_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_blue_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_blue_brick_using_moss_carpet": {
+    "title": "Blue Mountains Crafting",
+    "grid": [
+      [
+        "lotr:blue_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_blue_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_blue_brick_using_vines_willow": {
+    "title": "Blue Mountains Crafting",
+    "grid": [
+      [
+        "lotr:blue_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_blue_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_blue_brick_wall": {
     "title": "Crafting",
@@ -36899,6 +38399,81 @@
     },
     "type": "shaped"
   },
+  "mossy_dale_brick_using_moss_block": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dale_brick_using_moss_carpet": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dale_brick_using_vines_willow": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_dale_brick_wall": {
     "title": "Dale Crafting",
     "grid": [
@@ -36999,6 +38574,81 @@
     },
     "type": "shaped"
   },
+  "mossy_dale_paving_using_moss_block": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_paving",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_paving",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dale_paving_using_moss_carpet": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_paving",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_paving",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dale_paving_using_vines_willow": {
+    "title": "Dale Crafting",
+    "grid": [
+      [
+        "lotr:dale_paving",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dale_paving",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_dol_amroth_brick": {
     "title": "Dol Amroth Crafting",
     "grid": [
@@ -37073,6 +38723,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_dol_amroth_brick_using_moss_block": {
+    "title": "Dol Amroth Crafting",
+    "grid": [
+      [
+        "lotr:dol_amroth_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dol_amroth_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dol_amroth_brick_using_moss_carpet": {
+    "title": "Dol Amroth Crafting",
+    "grid": [
+      [
+        "lotr:dol_amroth_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dol_amroth_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dol_amroth_brick_using_vines_willow": {
+    "title": "Dol Amroth Crafting",
+    "grid": [
+      [
+        "lotr:dol_amroth_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dol_amroth_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_dol_amroth_brick_wall": {
     "title": "Dol Amroth Crafting",
@@ -37348,6 +39073,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_dorwinion_brick_using_moss_block": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:dorwinion_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dorwinion_brick_using_moss_carpet": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:dorwinion_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dorwinion_brick_using_vines_willow": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:dorwinion_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_dorwinion_brick_wall": {
     "title": "Dorwinion Crafting",
@@ -37724,6 +39524,81 @@
     },
     "type": "shaped"
   },
+  "mossy_dwarven_brick_using_moss_block": {
+    "title": "Dwarven Crafting",
+    "grid": [
+      [
+        "lotr:dwarven_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dwarven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dwarven_brick_using_moss_carpet": {
+    "title": "Dwarven Crafting",
+    "grid": [
+      [
+        "lotr:dwarven_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dwarven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_dwarven_brick_using_vines_willow": {
+    "title": "Dwarven Crafting",
+    "grid": [
+      [
+        "lotr:dwarven_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_dwarven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_dwarven_brick_wall": {
     "title": "Any Dwarven Crafting",
     "grid": [
@@ -37823,6 +39698,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_galadhrim_brick_using_moss_block": {
+    "title": "Galadhrim Crafting",
+    "grid": [
+      [
+        "lotr:galadhrim_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_galadhrim_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_galadhrim_brick_using_moss_carpet": {
+    "title": "Galadhrim Crafting",
+    "grid": [
+      [
+        "lotr:galadhrim_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_galadhrim_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_galadhrim_brick_using_vines_willow": {
+    "title": "Galadhrim Crafting",
+    "grid": [
+      [
+        "lotr:galadhrim_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_galadhrim_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_galadhrim_brick_wall": {
     "title": "Galadhrim Crafting",
@@ -37924,6 +39874,81 @@
     },
     "type": "shaped"
   },
+  "mossy_gondor_brick_using_moss_block": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_gondor_brick_using_moss_carpet": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_gondor_brick_using_vines_willow": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_gondor_brick_wall": {
     "title": "Gondor Crafting",
     "grid": [
@@ -38023,6 +40048,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_gondor_cobblebrick_using_moss_block": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_cobblebrick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_cobblebrick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_gondor_cobblebrick_using_moss_carpet": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_cobblebrick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_cobblebrick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_gondor_cobblebrick_using_vines_willow": {
+    "title": "Gondor Crafting",
+    "grid": [
+      [
+        "lotr:gondor_cobblebrick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_gondor_cobblebrick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_gondor_cobblebrick_wall": {
     "title": "Gondor Crafting",
@@ -38124,6 +40224,81 @@
     },
     "type": "shaped"
   },
+  "mossy_high_elven_brick_using_moss_block": {
+    "title": "Any High Elven Crafting",
+    "grid": [
+      [
+        "lotr:high_elven_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_high_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_high_elven_brick_using_moss_carpet": {
+    "title": "Any High Elven Crafting",
+    "grid": [
+      [
+        "lotr:high_elven_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_high_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_high_elven_brick_using_vines_willow": {
+    "title": "Any High Elven Crafting",
+    "grid": [
+      [
+        "lotr:high_elven_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_high_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_high_elven_brick_wall": {
     "title": "Any High Elven Crafting",
     "grid": [
@@ -38223,6 +40398,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_mordor_brick_using_moss_block": {
+    "title": "Mordor Crafting",
+    "grid": [
+      [
+        "lotr:mordor_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_mordor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_mordor_brick_using_moss_carpet": {
+    "title": "Mordor Crafting",
+    "grid": [
+      [
+        "lotr:mordor_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_mordor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_mordor_brick_using_vines_willow": {
+    "title": "Mordor Crafting",
+    "grid": [
+      [
+        "lotr:mordor_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_mordor_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_mordor_brick_wall": {
     "title": "Mordor Crafting",
@@ -38499,6 +40749,81 @@
     },
     "type": "shaped"
   },
+  "mossy_numenorean_brick_using_moss_block": {
+    "title": "Any Numenorean Crafting",
+    "grid": [
+      [
+        "lotr:numenorean_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_numenorean_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_numenorean_brick_using_moss_carpet": {
+    "title": "Any Numenorean Crafting",
+    "grid": [
+      [
+        "lotr:numenorean_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_numenorean_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_numenorean_brick_using_vines_willow": {
+    "title": "Any Numenorean Crafting",
+    "grid": [
+      [
+        "lotr:numenorean_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_numenorean_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_numenorean_brick_wall": {
     "title": "Any Numenorean Crafting",
     "grid": [
@@ -38774,6 +41099,81 @@
     },
     "type": "shaped"
   },
+  "mossy_red_brick_using_moss_block": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:red_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_red_brick_using_moss_carpet": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:red_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_red_brick_using_vines_willow": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "lotr:red_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_red_brick_wall": {
     "title": "Crafting",
     "grid": [
@@ -38873,6 +41273,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_red_dorwinion_brick_using_moss_block": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:red_dorwinion_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_red_dorwinion_brick_using_moss_carpet": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:red_dorwinion_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_red_dorwinion_brick_using_vines_willow": {
+    "title": "Dorwinion Crafting",
+    "grid": [
+      [
+        "lotr:red_dorwinion_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_red_dorwinion_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_red_dorwinion_brick_wall": {
     "title": "Dorwinion Crafting",
@@ -39324,6 +41799,81 @@
     },
     "type": "shaped"
   },
+  "mossy_rohan_brick_using_moss_block": {
+    "title": "Rohan Crafting",
+    "grid": [
+      [
+        "lotr:rohan_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_rohan_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_rohan_brick_using_moss_carpet": {
+    "title": "Rohan Crafting",
+    "grid": [
+      [
+        "lotr:rohan_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_rohan_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_rohan_brick_using_vines_willow": {
+    "title": "Rohan Crafting",
+    "grid": [
+      [
+        "lotr:rohan_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_rohan_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_rohan_brick_wall": {
     "title": "Rohan Crafting",
     "grid": [
@@ -39674,6 +42224,81 @@
     },
     "type": "shaped"
   },
+  "mossy_umbar_brick_using_moss_block": {
+    "title": "Umbar Crafting",
+    "grid": [
+      [
+        "lotr:umbar_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_umbar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_umbar_brick_using_moss_carpet": {
+    "title": "Umbar Crafting",
+    "grid": [
+      [
+        "lotr:umbar_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_umbar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_umbar_brick_using_vines_willow": {
+    "title": "Umbar Crafting",
+    "grid": [
+      [
+        "lotr:umbar_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_umbar_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
   "mossy_umbar_brick_wall": {
     "title": "Umbar Crafting",
     "grid": [
@@ -39773,6 +42398,81 @@
       "count": 4
     },
     "type": "shaped"
+  },
+  "mossy_wood_elven_brick_using_moss_block": {
+    "title": "Wood Elven Crafting",
+    "grid": [
+      [
+        "lotr:wood_elven_brick",
+        "lotr:moss_block",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_wood_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_wood_elven_brick_using_moss_carpet": {
+    "title": "Wood Elven Crafting",
+    "grid": [
+      [
+        "lotr:wood_elven_brick",
+        "lotr:moss_carpet",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_wood_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
+  },
+  "mossy_wood_elven_brick_using_vines_willow": {
+    "title": "Wood Elven Crafting",
+    "grid": [
+      [
+        "lotr:wood_elven_brick",
+        "lotr:willow_vines",
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:mossy_wood_elven_brick",
+      "count": 1
+    },
+    "type": "shapeless"
   },
   "mossy_wood_elven_brick_wall": {
     "title": "Wood Elven Crafting",
@@ -41929,18 +44629,18 @@
     "grid": [
       [
         null,
-        null,
+        "lotr:orc_steel_ingot",
         null
       ],
       [
-        null,
         "lotr:orc_steel_ingot",
+        null,
         "lotr:orc_steel_ingot"
       ],
       [
         null,
         "lotr:orc_steel_ingot",
-        "lotr:orc_steel_ingot"
+        null
       ]
     ],
     "output": {
@@ -41996,6 +44696,31 @@
     "output": {
       "item": "lotr:orc_plating_stairs",
       "count": 4
+    },
+    "type": "shaped"
+  },
+  "orc_plating_wall": {
+    "title": "Any Orc Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        "lotr:orc_plating",
+        "lotr:orc_plating",
+        "lotr:orc_plating"
+      ],
+      [
+        "lotr:orc_plating",
+        "lotr:orc_plating",
+        "lotr:orc_plating"
+      ]
+    ],
+    "output": {
+      "item": "lotr:orc_plating_wall",
+      "count": 6
     },
     "type": "shaped"
   },
@@ -45120,6 +47845,31 @@
     ],
     "output": {
       "item": "lotr:ranger_north_leggings",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "raspberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:raspberry",
+        "lotr:raspberry",
+        "lotr:raspberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:raspberry_pie",
       "count": 1
     },
     "type": "shaped"
@@ -48596,6 +51346,31 @@
     "output": {
       "item": "lotr:rusted_orc_plating_stairs",
       "count": 4
+    },
+    "type": "shaped"
+  },
+  "rusted_orc_plating_wall": {
+    "title": "Any Orc Crafting",
+    "grid": [
+      [
+        null,
+        null,
+        null
+      ],
+      [
+        "lotr:rusted_orc_plating",
+        "lotr:rusted_orc_plating",
+        "lotr:rusted_orc_plating"
+      ],
+      [
+        "lotr:rusted_orc_plating",
+        "lotr:rusted_orc_plating",
+        "lotr:rusted_orc_plating"
+      ]
+    ],
+    "output": {
+      "item": "lotr:rusted_orc_plating_wall",
+      "count": 6
     },
     "type": "shaped"
   },
@@ -55199,6 +57974,31 @@
     },
     "type": "shapeless"
   },
+  "sweet_berry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries",
+        "minecraft:sweet_berries"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:sweet_berry_pie",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "taurethrim_axe": {
     "title": "Taurethrim Crafting",
     "grid": [
@@ -56824,6 +59624,31 @@
     },
     "type": "shaped"
   },
+  "uruk_crossbow": {
+    "title": "Uruk Crafting",
+    "grid": [
+      [
+        "lotr:uruk_steel_ingot",
+        "lotr:uruk_steel_ingot",
+        "#forge:rods/wooden"
+      ],
+      [
+        "lotr:bowstring",
+        "minecraft:tripwire_hook",
+        "lotr:uruk_steel_ingot"
+      ],
+      [
+        "#forge:rods/wooden",
+        "lotr:bowstring",
+        "lotr:uruk_steel_ingot"
+      ]
+    ],
+    "output": {
+      "item": "lotr:uruk_crossbow",
+      "count": 1
+    },
+    "type": "shaped"
+  },
   "uruk_dagger": {
     "title": "Uruk Crafting",
     "grid": [
@@ -57021,6 +59846,31 @@
     "output": {
       "item": "lotr:uruk_pillar_slab",
       "count": 6
+    },
+    "type": "shaped"
+  },
+  "uruk_shield": {
+    "title": "Uruk Crafting",
+    "grid": [
+      [
+        "#minecraft:planks",
+        "lotr:uruk_steel_ingot",
+        "#minecraft:planks"
+      ],
+      [
+        "#minecraft:planks",
+        "#minecraft:planks",
+        "#minecraft:planks"
+      ],
+      [
+        null,
+        "#minecraft:planks",
+        null
+      ]
+    ],
+    "output": {
+      "item": "lotr:uruk_shield",
+      "count": 1
     },
     "type": "shaped"
   },
@@ -58245,6 +61095,31 @@
     ],
     "output": {
       "item": "lotr:wicker_fence_gate",
+      "count": 1
+    },
+    "type": "shaped"
+  },
+  "wildberry_pie": {
+    "title": "Crafting",
+    "grid": [
+      [
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket",
+        "minecraft:milk_bucket"
+      ],
+      [
+        "lotr:wildberry",
+        "lotr:wildberry",
+        "lotr:wildberry"
+      ],
+      [
+        "minecraft:wheat",
+        "minecraft:wheat",
+        "minecraft:wheat"
+      ]
+    ],
+    "output": {
+      "item": "lotr:wildberry_pie",
       "count": 1
     },
     "type": "shaped"
