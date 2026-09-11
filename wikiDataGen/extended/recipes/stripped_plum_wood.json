@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_plum_log"
+      "item": "lotrextended:stripped_plum_log"
     }
   },
   "result": {
-    "item": "lotr:stripped_plum_wood",
+    "item": "lotrextended:stripped_plum_wood",
     "count": 3
   }
 }

@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: item
 title: Bucket of Cheese Curds
-image: items/bucket_of_cheese_curds.png
+image: items/lotrextended/bucket_of_cheese_curds.png
 rarity: Common
 tab: Food
 renewable: true

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:smooth_morgond"
+      "item": "lotrextended:smooth_morgond"
     }
   },
   "result": {
-    "item": "lotr:smooth_morgond_wall",
+    "item": "lotrextended:smooth_morgond_wall",
     "count": 6
   }
 }

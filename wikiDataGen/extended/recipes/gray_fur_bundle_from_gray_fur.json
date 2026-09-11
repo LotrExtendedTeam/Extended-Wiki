@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:gray_fur"
+      "item": "lotrextended:gray_fur"
     }
   },
   "result": {
-    "item": "lotr:gray_fur_bundle"
+    "item": "lotrextended:gray_fur_bundle"
   }
 }

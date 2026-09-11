@@ -3,10 +3,10 @@
   "group": "wooden_button",
   "ingredients": [
     {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     }
   ],
   "result": {
-    "item": "lotr:ebony_button"
+    "item": "lotrextended:ebony_button"
   }
 }

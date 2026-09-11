@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_planks"
+      "item": "lotrextended:willow_planks"
     }
   },
   "result": {
-    "item": "lotr:willow_pressure_plate"
+    "item": "lotrextended:willow_pressure_plate"
   }
 }

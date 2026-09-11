@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgond_slab"
+      "item": "lotrextended:morgond_slab"
     }
   },
   "result": {
-    "item": "lotr:carved_morgond"
+    "item": "lotrextended:carved_morgond"
   }
 }

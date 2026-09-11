@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:bowstring"
+      "item": "lotrextended:bowstring"
     },
     "X": {
       "tag": "forge:ingots/bronze"
@@ -20,6 +20,6 @@
     }
   },
   "result": {
-    "item": "lotr:bronze_crossbow"
+    "item": "lotrextended:bronze_crossbow"
   }
 }

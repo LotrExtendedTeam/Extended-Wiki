@@ -3,13 +3,13 @@
   "table": "lotr:angmar",
   "ingredients": [
     {
-      "item": "lotr:red_angmar_brick"
+      "item": "lotrextended:red_angmar_brick"
     },
     {
-      "item": "lotr:moss_carpet"
+      "item": "lotrextended:moss_carpet"
     }
   ],
   "result": {
-    "item": "lotr:mossy_red_angmar_brick"
+    "item": "lotrextended:mossy_red_angmar_brick"
   }
 }

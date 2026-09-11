@@ -8,11 +8,11 @@
   ],
   "key": {
     "X": {
-      "item": "lotr:golden_rohan_beam"
+      "item": "lotrextended:golden_rohan_beam"
     }
   },
   "result": {
-    "item": "lotr:ornate_golden_rohan_beam",
+    "item": "lotrextended:ornate_golden_rohan_beam",
     "count": 3
   }
 }

@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:dorwinion_banner"
+      "item": "lotrextended:dorwinion_banner"
     }
   ],
   "result": {
-    "item": "lotr:dorwinion_banner_pattern"
+    "item": "lotrextended:dorwinion_banner_pattern"
   }
 }

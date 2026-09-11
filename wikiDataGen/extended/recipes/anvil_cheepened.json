@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " B ",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "lotrextended:anvil_iron_ingot"
+    },
+    "B": {
+      "tag": "lotrextended:anvil_iron_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil"
+  }
+}

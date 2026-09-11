@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:blue_mountains_banner"
+      "item": "lotrextended:blue_mountains_banner"
     }
   ],
   "result": {
-    "item": "lotr:blue_mountains_banner_pattern"
+    "item": "lotrextended:blue_mountains_banner_pattern"
   }
 }

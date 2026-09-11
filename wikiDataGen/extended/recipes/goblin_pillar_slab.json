@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:goblin_pillar"
+      "item": "lotrextended:goblin_pillar"
     }
   },
   "result": {
-    "item": "lotr:goblin_pillar_slab",
+    "item": "lotrextended:goblin_pillar_slab",
     "count": 6
   }
 }

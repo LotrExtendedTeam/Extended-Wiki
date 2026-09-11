@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_leaves"
+      "item": "lotrextended:willow_leaves"
     }
   },
   "result": {
-    "item": "lotr:fallen_willow_leaves",
+    "item": "lotrextended:fallen_willow_leaves",
     "count": 16
   }
 }

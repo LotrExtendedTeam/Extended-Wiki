@@ -14,10 +14,10 @@
       "tag": "forge:nuggets/iron"
     },
     "M": {
-      "item": "lotr:morgond"
+      "item": "lotrextended:morgond"
     }
   },
   "result": {
-    "item": "lotr:numenorean_lantern"
+    "item": "lotrextended:numenorean_lantern"
   }
 }

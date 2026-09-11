@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:ebony_log_slab"
+        "item": "lotrextended:ebony_log_slab"
       },
       {
-        "item": "lotr:stripped_ebony_log_slab"
+        "item": "lotrextended:stripped_ebony_log_slab"
       }
     ]
   ],
   "result": {
-    "item": "lotr:ebony_planks",
+    "item": "lotrextended:ebony_planks",
     "count": 2
   }
 }

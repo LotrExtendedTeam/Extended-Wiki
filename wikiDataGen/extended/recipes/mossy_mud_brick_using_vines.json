@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:mud_brick"
+      "item": "lotrextended:mud_brick"
     },
     {
       "item": "minecraft:vine"
     }
   ],
   "result": {
-    "item": "lotr:mossy_mud_brick"
+    "item": "lotrextended:mossy_mud_brick"
   }
 }

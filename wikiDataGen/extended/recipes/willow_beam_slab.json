@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_beam"
+      "item": "lotrextended:willow_beam"
     }
   },
   "result": {
-    "item": "lotr:willow_beam_slab",
+    "item": "lotrextended:willow_beam_slab",
     "count": 6
   }
 }

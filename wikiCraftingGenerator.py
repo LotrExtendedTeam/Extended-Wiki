@@ -69,6 +69,8 @@ TAG_REPLACEMENTS = {
     "forge:dyes/purple": "minecraft:purple_dye",
     "forge:string": "minecraft:string",
     "lotr:clay_balls": "minecraft:clay_ball",
+    "forge:crops/potato": "minecraft:potato",
+    "forge:crops/wheat": "minecraft:wheat",
     "forge:cobblestone": "minecraft:cobblestone",
 }
 
@@ -314,8 +316,10 @@ def format_item_url(item_id):
         return f"#"
 
 def format_image_path(item_id):
-    name = item_id.split(":")[-1]
-    return f"items/{name}.png"
+    if ":" in item_id:
+        namespace, name = item_id.split(":", 1)
+        return f"items/{namespace}/{name}.png"
+    return f"items/{item_id}.png"
 
 def is_valid_item_id(item_id):
     return isinstance(item_id, str) and ":" in item_id
@@ -329,12 +333,13 @@ def load_manual_item_edits(all_items):
         except Exception as e:
             log.warning(f"Failed to load existing items.json: {e}")
             
-    items_data = existing_items.copy()
+    items_data = {k: v for k, v in existing_items.items() if k in all_items}
     for item in sorted(all_items):
+        new_image_path = format_image_path(item)
         generated = {
             "name": format_item_name(item),
             "url": format_item_url(item),
-            "image": format_image_path(item)
+            "image": new_image_path
         }
 
         if item not in items_data:
@@ -344,6 +349,11 @@ def load_manual_item_edits(all_items):
             for key, value in generated.items():
                 if key not in items_data[item] or not items_data[item][key]:
                     items_data[item][key] = value
+            current_image = items_data[item].get("image", "")
+            if current_image.count("/") == 1:  # e.g., "items/item_name.png"
+                items_data[item]["image"] = new_image_path
+            if "blocks/" in current_image:
+                items_data[item]["image"] = new_image_path
         if ("tooltip" in items_data[item] and "name" in items_data[item] and items_data[item]["tooltip"] == items_data[item]["name"]):
             del items_data[item]["tooltip"]
     return items_data

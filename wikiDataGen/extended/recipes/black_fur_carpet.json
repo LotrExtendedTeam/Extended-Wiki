@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:black_fur"
+      "item": "lotrextended:black_fur"
     }
   },
   "result": {
-    "item": "lotr:black_fur_carpet"
+    "item": "lotrextended:black_fur_carpet"
   }
 }

@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_log"
+      "item": "lotrextended:plum_log"
     }
   },
   "result": {
-    "item": "lotr:plum_log_slab",
+    "item": "lotrextended:plum_log_slab",
     "count": 6
   }
 }

@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_planks"
+      "item": "lotrextended:plum_planks"
     },
     "I": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:plum_sign",
+    "item": "lotrextended:plum_sign",
     "count": 3
   }
 }

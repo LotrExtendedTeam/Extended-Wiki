@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:emerald_block"
+      "item": "lotrextended:emerald_block"
     }
   ],
   "result": {
-    "item": "lotr:emerald",
+    "item": "lotrextended:emerald",
     "count": 9
   }
 }

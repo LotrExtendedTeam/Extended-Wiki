@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgond_pillar"
+      "item": "lotrextended:morgond_pillar"
     }
   },
   "result": {
-    "item": "lotr:morgond_pillar_slab",
+    "item": "lotrextended:morgond_pillar_slab",
     "count": 6
   }
 }

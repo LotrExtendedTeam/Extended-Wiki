@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:galvorn_ingot"
+      "item": "lotrextended:galvorn_ingot"
     }
   },
   "result": {
-    "item": "lotr:galvorn_helmet"
+    "item": "lotrextended:galvorn_helmet"
   }
 }

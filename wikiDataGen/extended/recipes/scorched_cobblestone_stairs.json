@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:scorched_cobblestone"
+      "item": "lotrextended:scorched_cobblestone"
     }
   },
   "result": {
-    "item": "lotr:scorched_cobblestone_stairs",
+    "item": "lotrextended:scorched_cobblestone_stairs",
     "count": 4
   }
 }

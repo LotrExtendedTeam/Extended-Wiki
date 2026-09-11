@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_planks"
+      "item": "lotrextended:willow_planks"
     }
   },
   "result": {
-    "item": "lotr:willow_trapdoor",
+    "item": "lotrextended:willow_trapdoor",
     "count": 2
   }
 }

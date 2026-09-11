@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:plum_wood_slab"
+        "item": "lotrextended:plum_wood_slab"
       },
       {
-        "item": "lotr:stripped_plum_wood_slab"
+        "item": "lotrextended:stripped_plum_wood_slab"
       }
     ]
   ],
   "result": {
-    "item": "lotr:plum_planks",
+    "item": "lotrextended:plum_planks",
     "count": 2
   }
 }

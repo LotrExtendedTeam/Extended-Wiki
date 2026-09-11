@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:black_matted_fur_wall"
+      "item": "lotrextended:black_matted_fur_wall"
     }
   ],
   "result": {
-    "item": "lotr:black_fur",
+    "item": "lotrextended:black_fur",
     "count": 2
   }
 }

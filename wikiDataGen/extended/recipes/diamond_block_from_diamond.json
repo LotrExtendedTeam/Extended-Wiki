@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:diamond"
+      "item": "lotrextended:diamond"
     }
   },
   "result": {
-    "item": "lotr:diamond_block"
+    "item": "lotrextended:diamond_block"
   }
 }

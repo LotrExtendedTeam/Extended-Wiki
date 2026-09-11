@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:goblin_brick"
+      "item": "lotrextended:goblin_brick"
     }
   },
   "result": {
-    "item": "lotr:goblin_brick_wall",
+    "item": "lotrextended:goblin_brick_wall",
     "count": 6
   }
 }

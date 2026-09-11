@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:black_fur"
+      "item": "lotrextended:black_fur"
     }
   },
   "result": {
-    "item": "lotr:black_warg_fur_leggings"
+    "item": "lotrextended:black_warg_fur_leggings"
   }
 }

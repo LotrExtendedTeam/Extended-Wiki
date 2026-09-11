@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:taurethrim_brick"
+      "item": "lotrextended:taurethrim_brick"
     }
   },
   "result": {
-    "item": "lotr:taurethrim_brick_slab",
+    "item": "lotrextended:taurethrim_brick_slab",
     "count": 6
   }
 }

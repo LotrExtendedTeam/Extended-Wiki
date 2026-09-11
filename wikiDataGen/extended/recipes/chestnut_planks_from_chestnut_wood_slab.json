@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:chestnut_wood_slab"
+        "item": "lotrextended:chestnut_wood_slab"
       },
       {
-        "item": "lotr:stripped_chestnut_wood_slab"
+        "item": "lotrextended:stripped_chestnut_wood_slab"
       }
     ]
   ],
   "result": {
-    "item": "lotr:chestnut_planks",
+    "item": "lotrextended:chestnut_planks",
     "count": 2
   }
 }

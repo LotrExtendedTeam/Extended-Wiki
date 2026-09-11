@@ -10,10 +10,10 @@
       "tag": "minecraft:planks"
     },
     "X": {
-      "item": "lotr:taurethrim_brick"
+      "item": "lotrextended:taurethrim_brick"
     }
   },
   "result": {
-    "item": "lotr:taurethrim_crafting_table"
+    "item": "lotrextended:taurethrim_crafting_table"
   }
 }

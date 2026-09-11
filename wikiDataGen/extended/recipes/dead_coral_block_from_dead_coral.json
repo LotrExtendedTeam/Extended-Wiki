@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:dead_coral"
+      "item": "lotrextended:dead_coral"
     }
   },
   "result": {
-    "item": "lotr:dead_coral_block"
+    "item": "lotrextended:dead_coral_block"
   }
 }

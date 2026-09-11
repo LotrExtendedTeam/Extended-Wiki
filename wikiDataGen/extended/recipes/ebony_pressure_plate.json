@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     }
   },
   "result": {
-    "item": "lotr:ebony_pressure_plate"
+    "item": "lotrextended:ebony_pressure_plate"
   }
 }

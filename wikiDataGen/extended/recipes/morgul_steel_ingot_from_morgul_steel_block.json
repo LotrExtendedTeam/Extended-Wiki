@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:morgul_steel_block"
+      "item": "lotrextended:morgul_steel_block"
     }
   ],
   "result": {
-    "item": "lotr:morgul_steel_ingot",
+    "item": "lotrextended:morgul_steel_ingot",
     "count": 9
   }
 }

@@ -12,12 +12,12 @@ type: block
 title: Birdcages
 image: ```gif
 frames:
-  - blocks/wooden_birdcage.png
-  - blocks/bronze_birdcage.png
-  - blocks/iron_birdcage.png
-  - blocks/silver_birdcage.png
-  - blocks/golden_birdcage.png
-  - blocks/mithril_birdcage.png
+  - blocks/lotrextended/wooden_birdcage.png
+  - blocks/lotrextended/bronze_birdcage.png
+  - blocks/lotrextended/iron_birdcage.png
+  - blocks/lotrextended/silver_birdcage.png
+  - blocks/lotrextended/golden_birdcage.png
+  - blocks/lotrextended/mithril_birdcage.png
 output: blocks/birdcages.gif
 duration: 1.5
 ```

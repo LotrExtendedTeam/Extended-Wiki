@@ -10,16 +10,16 @@
       "item": "minecraft:milk_bucket"
     },
     "X": {
-      "item": "lotr:banana"
+      "item": "lotrextended:banana"
     },
     "S": {
       "tag": "forge:eggs"
     },
     "Z": {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     }
   },
   "result": {
-    "item": "lotr:banana_cake"
+    "item": "lotrextended:banana_cake"
   }
 }

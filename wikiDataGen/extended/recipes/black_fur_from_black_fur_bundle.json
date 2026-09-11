@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:black_fur_bundle"
+      "item": "lotrextended:black_fur_bundle"
     }
   ],
   "result": {
-    "item": "lotr:black_fur",
+    "item": "lotrextended:black_fur",
     "count": 4
   }
 }

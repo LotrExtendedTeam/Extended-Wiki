@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:cracked_red_rhunic_brick"
+      "item": "lotrextended:cracked_red_rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:cracked_red_rhunic_brick_stairs",
+    "item": "lotrextended:cracked_red_rhunic_brick_stairs",
     "count": 4
   }
 }

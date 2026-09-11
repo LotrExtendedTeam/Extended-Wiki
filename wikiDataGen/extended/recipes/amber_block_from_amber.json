@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:amber"
+      "item": "lotrextended:amber"
     }
   },
   "result": {
-    "item": "lotr:amber_block"
+    "item": "lotrextended:amber_block"
   }
 }

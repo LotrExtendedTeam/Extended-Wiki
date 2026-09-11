@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:chestnut_log"
+      "item": "lotrextended:chestnut_log"
     }
   },
   "result": {
-    "item": "lotr:chestnut_beam",
+    "item": "lotrextended:chestnut_beam",
     "count": 3
   }
 }

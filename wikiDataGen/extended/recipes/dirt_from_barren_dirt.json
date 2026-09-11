@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:barren_dirt"
+      "item": "lotrextended:barren_dirt"
     },
     {
       "tag": "forge:seeds"

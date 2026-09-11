@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:white_fur"
+      "item": "lotrextended:white_fur"
     },
     "X": {
       "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "lotr:white_fur_bed"
+    "item": "lotrextended:white_fur_bed"
   }
 }

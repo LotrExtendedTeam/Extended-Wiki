@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:opal"
+      "item": "lotrextended:opal"
     }
   },
   "result": {
-    "item": "lotr:opal_block"
+    "item": "lotrextended:opal_block"
   }
 }

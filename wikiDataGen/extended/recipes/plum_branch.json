@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_wood"
+      "item": "lotrextended:plum_wood"
     }
   },
   "result": {
-    "item": "lotr:plum_branch",
+    "item": "lotrextended:plum_branch",
     "count": 6
   }
 }

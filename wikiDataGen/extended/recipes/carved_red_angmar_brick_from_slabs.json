@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:red_angmar_brick_slab"
+      "item": "lotrextended:red_angmar_brick_slab"
     }
   },
   "result": {
-    "item": "lotr:carved_red_angmar_brick"
+    "item": "lotrextended:carved_red_angmar_brick"
   }
 }

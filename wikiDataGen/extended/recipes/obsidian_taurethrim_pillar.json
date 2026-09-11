@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:obsidian_shard"
+      "item": "lotrextended:obsidian_shard"
     }
   },
   "result": {
-    "item": "lotr:obsidian_taurethrim_pillar",
+    "item": "lotrextended:obsidian_taurethrim_pillar",
     "count": 3
   }
 }

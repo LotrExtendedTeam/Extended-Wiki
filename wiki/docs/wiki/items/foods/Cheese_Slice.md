@@ -14,8 +14,8 @@ type: food
 title: Cheese Slices
 image: ```gif
 frames:
-  - items/cheese_slice.png
-  - items/aged_cheese_slice.png
+  - items/lotrextended/cheese_slice.png
+  - items/lotrextended/aged_cheese_slice.png
 output: items/cheese_slices.gif
 duration: 1.5
 ```

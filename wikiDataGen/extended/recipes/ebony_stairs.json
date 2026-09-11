@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     }
   },
   "result": {
-    "item": "lotr:ebony_stairs",
+    "item": "lotrextended:ebony_stairs",
     "count": 4
   }
 }

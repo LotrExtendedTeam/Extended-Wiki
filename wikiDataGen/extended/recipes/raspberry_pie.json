@@ -10,13 +10,13 @@
       "item": "minecraft:milk_bucket"
     },
     "B": {
-      "item": "lotr:raspberry"
+      "item": "lotrextended:raspberry"
     },
     "W": {
       "item": "minecraft:wheat"
     }
   },
   "result": {
-    "item": "lotr:raspberry_pie"
+    "item": "lotrextended:raspberry_pie"
   }
 }

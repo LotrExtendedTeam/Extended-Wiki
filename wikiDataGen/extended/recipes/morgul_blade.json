@@ -11,10 +11,10 @@
       "tag": "forge:rods/wooden"
     },
     "#": {
-      "item": "lotr:morgul_steel_ingot"
+      "item": "lotrextended:morgul_steel_ingot"
     }
   },
   "result": {
-    "item": "lotr:morgul_blade"
+    "item": "lotrextended:morgul_blade"
   }
 }

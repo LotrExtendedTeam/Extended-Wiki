@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:red_rhunic_brick"
+      "item": "lotrextended:red_rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:carved_red_rhunic_brick"
+    "item": "lotrextended:carved_red_rhunic_brick"
   }
 }

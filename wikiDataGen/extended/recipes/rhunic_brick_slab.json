@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:rhunic_brick_slab",
+    "item": "lotrextended:rhunic_brick_slab",
     "count": 6
   }
 }

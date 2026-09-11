@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:chestnut_log"
+      "item": "lotrextended:chestnut_log"
     }
   },
   "result": {
-    "item": "lotr:chestnut_wood",
+    "item": "lotrextended:chestnut_wood",
     "count": 3
   }
 }

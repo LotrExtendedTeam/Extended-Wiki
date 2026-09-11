@@ -12,7 +12,7 @@ alias:
 ::infobox
 type: food
 title: Cheese Curds
-image: items/cheese_curds.png
+image: items/lotrextended/cheese_curds.png
 rarity: Common
 saturation: 0.8
 hunger: 2 

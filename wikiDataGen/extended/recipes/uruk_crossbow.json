@@ -8,7 +8,7 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:bowstring"
+      "item": "lotrextended:bowstring"
     },
     "X": {
       "tag": "forge:ingots/uruk_steel"
@@ -21,6 +21,6 @@
     }
   },
   "result": {
-    "item": "lotr:uruk_crossbow"
+    "item": "lotrextended:uruk_crossbow"
   }
 }

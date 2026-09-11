@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:red_angmar_brick"
+      "item": "lotrextended:red_angmar_brick"
     }
   },
   "result": {
-    "item": "lotr:red_angmar_brick_wall",
+    "item": "lotrextended:red_angmar_brick_wall",
     "count": 6
   }
 }

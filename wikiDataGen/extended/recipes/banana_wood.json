@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_log"
+      "item": "lotrextended:banana_log"
     }
   },
   "result": {
-    "item": "lotr:banana_wood",
+    "item": "lotrextended:banana_wood",
     "count": 3
   }
 }

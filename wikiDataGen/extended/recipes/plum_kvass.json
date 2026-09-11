@@ -2,25 +2,25 @@
   "type": "lotr:brewing",
   "ingredients": [
     {
-      "item": "lotr:plum"
+      "item": "lotrextended:plum"
     },
     {
-      "item": "lotr:plum"
+      "item": "lotrextended:plum"
     },
     {
-      "item": "lotr:plum"
+      "item": "lotrextended:plum"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     },
     {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     }
   ],
-  "result": "lotr:plum_kvass",
+  "result": "lotrextended:plum_kvass",
   "experience": 1.0,
   "brewtime": 12000
 }

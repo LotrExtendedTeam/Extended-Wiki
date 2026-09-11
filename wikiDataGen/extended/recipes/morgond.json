@@ -19,7 +19,7 @@
       "item": "minecraft:clay"
     },
     "O": {
-      "item": "lotr:obsidian_shard"
+      "item": "lotrextended:obsidian_shard"
     },
     "C": {
       "item": "minecraft:coal_block"
@@ -35,6 +35,6 @@
     }
   },
   "result": {
-    "item": "lotr:morgond"
+    "item": "lotrextended:morgond"
   }
 }

@@ -10,10 +10,10 @@
       "tag": "forge:rods/wooden"
     },
     "F": {
-      "item": "lotr:white_fur"
+      "item": "lotrextended:white_fur"
     }
   },
   "result": {
-    "item": "lotr:white_matted_fur_stairs"
+    "item": "lotrextended:white_matted_fur_stairs"
   }
 }

@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_log"
+      "item": "lotrextended:banana_log"
     }
   },
   "result": {
-    "item": "lotr:banana_beam",
+    "item": "lotrextended:banana_beam",
     "count": 3
   }
 }

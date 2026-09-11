@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:mossy_arnor_pillar"
+      "item": "lotrextended:mossy_arnor_pillar"
     }
   },
   "result": {
-    "item": "lotr:mossy_arnor_pillar_slab",
+    "item": "lotrextended:mossy_arnor_pillar_slab",
     "count": 6
   }
 }

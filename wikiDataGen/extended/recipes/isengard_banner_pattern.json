@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:isengard_banner"
+      "item": "lotrextended:isengard_banner"
     }
   ],
   "result": {
-    "item": "lotr:isengard_banner_pattern"
+    "item": "lotrextended:isengard_banner_pattern"
   }
 }

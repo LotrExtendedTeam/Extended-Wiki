@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     }
   },
   "result": {
-    "item": "lotr:ebony_slab",
+    "item": "lotrextended:ebony_slab",
     "count": 6
   }
 }

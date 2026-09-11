@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_log"
+      "item": "lotrextended:willow_log"
     }
   },
   "result": {
-    "item": "lotr:willow_beam",
+    "item": "lotrextended:willow_beam",
     "count": 3
   }
 }

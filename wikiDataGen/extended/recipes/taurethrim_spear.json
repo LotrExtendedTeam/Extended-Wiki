@@ -11,10 +11,10 @@
       "tag": "forge:rods/wooden"
     },
     "#": {
-      "item": "lotr:obsidian_shard"
+      "item": "lotrextended:obsidian_shard"
     }
   },
   "result": {
-    "item": "lotr:taurethrim_spear"
+    "item": "lotrextended:taurethrim_spear"
   }
 }

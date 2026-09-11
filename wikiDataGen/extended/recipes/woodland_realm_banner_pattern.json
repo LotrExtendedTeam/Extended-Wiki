@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:woodland_realm_banner"
+      "item": "lotrextended:woodland_realm_banner"
     }
   ],
   "result": {
-    "item": "lotr:woodland_realm_banner_pattern"
+    "item": "lotrextended:woodland_realm_banner_pattern"
   }
 }

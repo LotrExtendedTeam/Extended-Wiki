@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:topaz"
+      "item": "lotrextended:topaz"
     }
   },
   "result": {
-    "item": "lotr:topaz_block"
+    "item": "lotrextended:topaz_block"
   }
 }

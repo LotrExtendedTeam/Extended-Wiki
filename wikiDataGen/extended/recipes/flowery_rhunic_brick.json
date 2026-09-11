@@ -3,13 +3,13 @@
   "table": "lotr:rhunic",
   "ingredients": [
     {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     },
     {
       "item": "lotr:orange_chrysanthemum"
     }
   ],
   "result": {
-    "item": "lotr:flowery_rhunic_brick"
+    "item": "lotrextended:flowery_rhunic_brick"
   }
 }

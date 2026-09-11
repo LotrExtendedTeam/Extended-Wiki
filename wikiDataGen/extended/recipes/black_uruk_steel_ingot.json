@@ -14,7 +14,7 @@
     }
   ],
   "swappable": false,
-  "result": "lotr:black_uruk_steel_ingot",
+  "result": "lotrextended:black_uruk_steel_ingot",
   "experience": 0.7,
   "cookingtime": 200
 }

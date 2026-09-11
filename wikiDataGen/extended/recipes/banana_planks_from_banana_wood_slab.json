@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:banana_wood_slab"
+        "item": "lotrextended:banana_wood_slab"
       },
       {
-        "item": "lotr:stripped_banana_wood_slab"
+        "item": "lotrextended:stripped_banana_wood_slab"
       }
     ]
   ],
   "result": {
-    "item": "lotr:banana_planks",
+    "item": "lotrextended:banana_planks",
     "count": 2
   }
 }

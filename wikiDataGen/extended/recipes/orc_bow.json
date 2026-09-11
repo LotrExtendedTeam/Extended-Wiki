@@ -8,13 +8,13 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:bowstring"
+      "item": "lotrextended:bowstring"
     },
     "X": {
       "tag": "forge:ingots/orc_steel"
     }
   },
   "result": {
-    "item": "lotr:orc_bow"
+    "item": "lotrextended:orc_bow"
   }
 }

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:gray_matted_fur_slab"
+      "item": "lotrextended:gray_matted_fur_slab"
     }
   ],
   "result": {
-    "item": "lotr:gray_fur"
+    "item": "lotrextended:gray_fur"
   }
 }

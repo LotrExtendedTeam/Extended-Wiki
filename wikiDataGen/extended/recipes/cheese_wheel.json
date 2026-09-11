@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:cheese_curds"
+      "item": "lotrextended:cheese_curds"
     },
     "X": {
       "item": "lotr:salt"
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "lotr:cheese_wheel"
+    "item": "lotrextended:cheese_wheel"
   }
 }

@@ -8,13 +8,13 @@
   ],
   "key": {
     "X": {
-      "item": "lotr:rohan_beam"
+      "item": "lotrextended:rohan_beam"
     },
     "G": {
       "item": "minecraft:gold_nugget"
     }
   },
   "result": {
-    "item": "lotr:golden_rohan_beam"
+    "item": "lotrextended:golden_rohan_beam"
   }
 }

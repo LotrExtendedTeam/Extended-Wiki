@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:cracked_stone_pillar"
+      "item": "lotrextended:cracked_stone_pillar"
     }
   },
   "result": {
-    "item": "lotr:cracked_stone_pillar_slab",
+    "item": "lotrextended:cracked_stone_pillar_slab",
     "count": 6
   }
 }

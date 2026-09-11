@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:wildberry"
+      "item": "lotrextended:wildberry"
     },
     {
       "item": "minecraft:glass_bottle"
     }
   ],
   "result": {
-    "item": "lotr:bottle_of_poison"
+    "item": "lotrextended:bottle_of_poison"
   }
 }

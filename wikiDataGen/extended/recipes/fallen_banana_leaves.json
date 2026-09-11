@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_leaves"
+      "item": "lotrextended:banana_leaves"
     }
   },
   "result": {
-    "item": "lotr:fallen_banana_leaves",
+    "item": "lotrextended:fallen_banana_leaves",
     "count": 16
   }
 }

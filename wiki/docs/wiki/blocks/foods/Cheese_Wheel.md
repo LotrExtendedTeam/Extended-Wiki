@@ -15,8 +15,8 @@ type: block_food
 title: Cheese Wheels
 image: ```gif
 frames:
-  - items/cheese_wheel.png
-  - items/aged_cheese_wheel.png
+  - items/lotrextended/cheese_wheel.png
+  - items/lotrextended/aged_cheese_wheel.png
 output: blocks/cheese_wheels.gif
 duration: 1.5
 ```

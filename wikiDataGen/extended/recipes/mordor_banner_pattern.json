@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:mordor_banner"
+      "item": "lotrextended:mordor_banner"
     }
   ],
   "result": {
-    "item": "lotr:mordor_banner_pattern"
+    "item": "lotrextended:mordor_banner_pattern"
   }
 }

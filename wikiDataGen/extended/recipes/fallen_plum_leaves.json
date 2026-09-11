@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_leaves"
+      "item": "lotrextended:plum_leaves"
     }
   },
   "result": {
-    "item": "lotr:fallen_plum_leaves",
+    "item": "lotrextended:fallen_plum_leaves",
     "count": 16
   }
 }

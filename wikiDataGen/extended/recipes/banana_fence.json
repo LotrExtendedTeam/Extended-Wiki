@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_planks"
+      "item": "lotrextended:banana_planks"
     },
     "I": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:banana_fence",
+    "item": "lotrextended:banana_fence",
     "count": 3
   }
 }

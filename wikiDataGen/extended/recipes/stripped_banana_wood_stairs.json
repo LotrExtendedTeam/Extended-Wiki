@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_banana_wood"
+      "item": "lotrextended:stripped_banana_wood"
     }
   },
   "result": {
-    "item": "lotr:stripped_banana_wood_stairs",
+    "item": "lotrextended:stripped_banana_wood_stairs",
     "count": 4
   }
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:gilded_iron_ingot"
+      "item": "lotrextended:gilded_iron_ingot"
     }
   },
   "result": {
-    "item": "lotr:gilded_iron_block"
+    "item": "lotrextended:gilded_iron_block"
   }
 }

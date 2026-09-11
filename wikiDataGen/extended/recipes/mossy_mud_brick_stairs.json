@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:mossy_mud_brick"
+      "item": "lotrextended:mossy_mud_brick"
     }
   },
   "result": {
-    "item": "lotr:mossy_mud_brick_stairs",
+    "item": "lotrextended:mossy_mud_brick_stairs",
     "count": 4
   }
 }

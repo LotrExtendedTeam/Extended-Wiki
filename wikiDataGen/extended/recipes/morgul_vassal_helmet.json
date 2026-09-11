@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgul_steel_ingot"
+      "item": "lotrextended:morgul_steel_ingot"
     }
   },
   "result": {
-    "item": "lotr:morgul_vassal_helmet"
+    "item": "lotrextended:morgul_vassal_helmet"
   }
 }

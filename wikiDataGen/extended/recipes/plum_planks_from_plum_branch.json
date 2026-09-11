@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:plum_branch"
+        "item": "lotrextended:plum_branch"
       },
       {
-        "item": "lotr:stripped_plum_branch"
+        "item": "lotrextended:stripped_plum_branch"
       }
     ]
   ],
   "result": {
-    "item": "lotr:plum_planks",
+    "item": "lotrextended:plum_planks",
     "count": 2
   }
 }

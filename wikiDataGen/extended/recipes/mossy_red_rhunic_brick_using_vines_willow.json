@@ -3,13 +3,13 @@
   "table": "lotr:rhunic",
   "ingredients": [
     {
-      "item": "lotr:red_rhunic_brick"
+      "item": "lotrextended:red_rhunic_brick"
     },
     {
-      "item": "lotr:willow_vines"
+      "item": "lotrextended:willow_vines"
     }
   ],
   "result": {
-    "item": "lotr:mossy_red_rhunic_brick"
+    "item": "lotrextended:mossy_red_rhunic_brick"
   }
 }

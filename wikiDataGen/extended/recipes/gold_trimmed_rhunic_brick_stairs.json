@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:gold_trimmed_rhunic_brick"
+      "item": "lotrextended:gold_trimmed_rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:gold_trimmed_rhunic_brick_stairs",
+    "item": "lotrextended:gold_trimmed_rhunic_brick_stairs",
     "count": 4
   }
 }

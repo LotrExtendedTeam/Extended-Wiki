@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_wood"
+      "item": "lotrextended:willow_wood"
     }
   },
   "result": {
-    "item": "lotr:willow_branch",
+    "item": "lotrextended:willow_branch",
     "count": 6
   }
 }

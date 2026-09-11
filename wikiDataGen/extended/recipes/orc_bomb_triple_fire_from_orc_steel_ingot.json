@@ -6,7 +6,7 @@
   ],
   "key": {
     "B": {
-      "item": "lotr:orc_bomb_double_fire"
+      "item": "lotrextended:orc_bomb_double_fire"
     },
     "I": {
       "tag": "forge:ingots/orc_steel"
@@ -16,6 +16,6 @@
     }
   },
   "result": {
-    "item": "lotr:orc_bomb_triple_fire"
+    "item": "lotrextended:orc_bomb_triple_fire"
   }
 }

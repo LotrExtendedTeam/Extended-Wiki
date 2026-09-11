@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "lotr:pearl_block"
+      "item": "lotrextended:pearl_block"
     }
   ],
   "result": {
-    "item": "lotr:pearl",
+    "item": "lotrextended:pearl",
     "count": 9
   }
 }

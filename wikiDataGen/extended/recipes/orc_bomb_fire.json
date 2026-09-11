@@ -6,13 +6,13 @@
   ],
   "key": {
     "B": {
-      "item": "lotr:orc_bomb"
+      "item": "lotrextended:orc_bomb"
     },
     "L": {
       "item": "minecraft:lava_bucket"
     }
   },
   "result": {
-    "item": "lotr:orc_bomb_fire"
+    "item": "lotrextended:orc_bomb_fire"
   }
 }

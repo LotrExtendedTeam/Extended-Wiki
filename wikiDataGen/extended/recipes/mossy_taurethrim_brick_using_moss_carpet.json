@@ -3,13 +3,13 @@
   "table": "lotr:taurethrim",
   "ingredients": [
     {
-      "item": "lotr:taurethrim_brick"
+      "item": "lotrextended:taurethrim_brick"
     },
     {
-      "item": "lotr:moss_carpet"
+      "item": "lotrextended:moss_carpet"
     }
   ],
   "result": {
-    "item": "lotr:mossy_taurethrim_brick"
+    "item": "lotrextended:mossy_taurethrim_brick"
   }
 }

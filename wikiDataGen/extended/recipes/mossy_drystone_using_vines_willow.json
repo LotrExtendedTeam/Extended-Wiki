@@ -5,10 +5,10 @@
       "item": "lotr:drystone"
     },
     {
-      "item": "lotr:willow_vines"
+      "item": "lotrextended:willow_vines"
     }
   ],
   "result": {
-    "item": "lotr:mossy_drystone"
+    "item": "lotrextended:mossy_drystone"
   }
 }

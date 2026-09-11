@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:gundabad_orc_banner"
+      "item": "lotrextended:gundabad_orc_banner"
     }
   ],
   "result": {
-    "item": "lotr:gundabad_orc_banner_pattern"
+    "item": "lotrextended:gundabad_orc_banner_pattern"
   }
 }

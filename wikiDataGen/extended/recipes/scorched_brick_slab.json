@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:scorched_brick"
+      "item": "lotrextended:scorched_brick"
     }
   },
   "result": {
-    "item": "lotr:scorched_brick_slab",
+    "item": "lotrextended:scorched_brick_slab",
     "count": 6
   }
 }

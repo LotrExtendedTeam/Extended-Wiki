@@ -5,11 +5,11 @@
   ],
   "key": {
     "X": {
-      "item": "lotr:moss_block"
+      "item": "lotrextended:moss_block"
     }
   },
   "result": {
-    "item": "lotr:moss_carpet",
+    "item": "lotrextended:moss_carpet",
     "count": 3
   }
 }

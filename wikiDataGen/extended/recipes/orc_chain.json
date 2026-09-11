@@ -11,10 +11,10 @@
       "item": "lotr:orc_steel_ingot"
     },
     "N": {
-      "item": "lotr:orc_steel_nugget"
+      "item": "lotrextended:orc_steel_nugget"
     }
   },
   "result": {
-    "item": "lotr:orc_chain"
+    "item": "lotrextended:orc_chain"
   }
 }

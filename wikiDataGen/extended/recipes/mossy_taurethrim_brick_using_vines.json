@@ -3,13 +3,13 @@
   "table": "lotr:taurethrim",
   "ingredients": [
     {
-      "item": "lotr:taurethrim_brick"
+      "item": "lotrextended:taurethrim_brick"
     },
     {
       "item": "minecraft:vine"
     }
   ],
   "result": {
-    "item": "lotr:mossy_taurethrim_brick"
+    "item": "lotrextended:mossy_taurethrim_brick"
   }
 }

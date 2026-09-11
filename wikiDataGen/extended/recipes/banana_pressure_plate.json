@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_planks"
+      "item": "lotrextended:banana_planks"
     }
   },
   "result": {
-    "item": "lotr:banana_pressure_plate"
+    "item": "lotrextended:banana_pressure_plate"
   }
 }

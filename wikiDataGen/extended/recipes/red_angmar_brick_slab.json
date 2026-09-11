@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:red_angmar_brick"
+      "item": "lotrextended:red_angmar_brick"
     }
   },
   "result": {
-    "item": "lotr:red_angmar_brick_slab",
+    "item": "lotrextended:red_angmar_brick_slab",
     "count": 6
   }
 }

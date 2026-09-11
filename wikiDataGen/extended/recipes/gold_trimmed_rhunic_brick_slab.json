@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:gold_trimmed_rhunic_brick"
+      "item": "lotrextended:gold_trimmed_rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:gold_trimmed_rhunic_brick_slab",
+    "item": "lotrextended:gold_trimmed_rhunic_brick_slab",
     "count": 6
   }
 }

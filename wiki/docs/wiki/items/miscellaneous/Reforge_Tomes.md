@@ -20,7 +20,7 @@ Unique to reforge tomes among anvil applicable items is that they not consumed u
 ::infobox
 type: item
 title: Tome of the Warrior
-image: items/combat_tome.png
+image: items/lotrextended/combat_tome.png
 rarity: Common
 tab: Misc
 renewable: true
@@ -36,7 +36,7 @@ The Tome of the Warrior guarantees combat based modifiers upon reforging an item
 ::infobox
 type: item
 title: Tome of the Artisan
-image: items/artisan_tome.png
+image: items/lotrextended/artisan_tome.png
 rarity: Common
 tab: Misc
 renewable: true

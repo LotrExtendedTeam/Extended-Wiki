@@ -10,10 +10,10 @@
       "tag": "forge:rods/wooden"
     },
     "F": {
-      "item": "lotr:gray_fur"
+      "item": "lotrextended:gray_fur"
     }
   },
   "result": {
-    "item": "lotr:gray_matted_fur_stairs"
+    "item": "lotrextended:gray_matted_fur_stairs"
   }
 }

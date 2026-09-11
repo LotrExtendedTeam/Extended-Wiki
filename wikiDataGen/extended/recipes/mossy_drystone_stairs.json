@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:mossy_drystone"
+      "item": "lotrextended:mossy_drystone"
     }
   },
   "result": {
-    "item": "lotr:mossy_drystone_stairs",
+    "item": "lotrextended:mossy_drystone_stairs",
     "count": 4
   }
 }

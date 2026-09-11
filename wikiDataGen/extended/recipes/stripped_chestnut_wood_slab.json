@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_chestnut_wood"
+      "item": "lotrextended:stripped_chestnut_wood"
     }
   },
   "result": {
-    "item": "lotr:stripped_chestnut_wood_slab",
+    "item": "lotrextended:stripped_chestnut_wood_slab",
     "count": 6
   }
 }

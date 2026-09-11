@@ -13,10 +13,10 @@
       "item": "minecraft:milk_bucket"
     },
     "W": {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     }
   },
   "result": {
-    "item": "lotr:hobbit_pancake"
+    "item": "lotrextended:hobbit_pancake"
   }
 }

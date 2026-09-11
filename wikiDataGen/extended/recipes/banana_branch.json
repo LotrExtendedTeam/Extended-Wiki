@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_wood"
+      "item": "lotrextended:banana_wood"
     }
   },
   "result": {
-    "item": "lotr:banana_branch",
+    "item": "lotrextended:banana_branch",
     "count": 6
   }
 }

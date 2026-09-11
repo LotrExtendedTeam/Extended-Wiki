@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_log"
+      "item": "lotrextended:ebony_log"
     }
   },
   "result": {
-    "item": "lotr:ebony_beam",
+    "item": "lotrextended:ebony_beam",
     "count": 3
   }
 }

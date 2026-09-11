@@ -4,15 +4,15 @@
   "ingredients": [
     [
       {
-        "item": "lotr:chestnut_branch"
+        "item": "lotrextended:chestnut_branch"
       },
       {
-        "item": "lotr:stripped_chestnut_branch"
+        "item": "lotrextended:stripped_chestnut_branch"
       }
     ]
   ],
   "result": {
-    "item": "lotr:chestnut_planks",
+    "item": "lotrextended:chestnut_planks",
     "count": 2
   }
 }

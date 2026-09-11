@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgond"
+      "item": "lotrextended:morgond"
     }
   },
   "result": {
-    "item": "lotr:morgond_stairs",
+    "item": "lotrextended:morgond_stairs",
     "count": 4
   }
 }

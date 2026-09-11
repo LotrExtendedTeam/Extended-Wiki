@@ -3,10 +3,10 @@
   "group": "wooden_button",
   "ingredients": [
     {
-      "item": "lotr:plum_planks"
+      "item": "lotrextended:plum_planks"
     }
   ],
   "result": {
-    "item": "lotr:plum_button"
+    "item": "lotrextended:plum_button"
   }
 }

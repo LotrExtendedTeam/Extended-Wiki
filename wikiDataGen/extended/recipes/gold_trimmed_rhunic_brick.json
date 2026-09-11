@@ -11,10 +11,10 @@
       "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:gold_trimmed_rhunic_brick"
+    "item": "lotrextended:gold_trimmed_rhunic_brick"
   }
 }

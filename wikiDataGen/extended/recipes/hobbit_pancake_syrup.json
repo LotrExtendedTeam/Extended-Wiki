@@ -8,14 +8,14 @@
   ],
   "key": {
     "X": {
-      "item": "lotr:hobbit_pancake"
+      "item": "lotrextended:hobbit_pancake"
     },
     "Y": {
       "item": "lotr:maple_syrup"
     }
   },
   "result": {
-    "item": "lotr:hobbit_pancake_syrup",
+    "item": "lotrextended:hobbit_pancake_syrup",
     "count": 8
   }
 }

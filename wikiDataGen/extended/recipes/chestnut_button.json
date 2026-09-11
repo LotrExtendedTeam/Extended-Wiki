@@ -3,10 +3,10 @@
   "group": "wooden_button",
   "ingredients": [
     {
-      "item": "lotr:chestnut_planks"
+      "item": "lotrextended:chestnut_planks"
     }
   ],
   "result": {
-    "item": "lotr:chestnut_button"
+    "item": "lotrextended:chestnut_button"
   }
 }

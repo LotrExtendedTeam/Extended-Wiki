@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_log"
+      "item": "lotrextended:plum_log"
     }
   },
   "result": {
-    "item": "lotr:plum_beam",
+    "item": "lotrextended:plum_beam",
     "count": 3
   }
 }

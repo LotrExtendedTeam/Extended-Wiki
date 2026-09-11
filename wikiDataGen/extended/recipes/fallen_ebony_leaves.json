@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_leaves"
+      "item": "lotrextended:ebony_leaves"
     }
   },
   "result": {
-    "item": "lotr:fallen_ebony_leaves",
+    "item": "lotrextended:fallen_ebony_leaves",
     "count": 16
   }
 }

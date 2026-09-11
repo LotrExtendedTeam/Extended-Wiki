@@ -3,13 +3,13 @@
   "table": "lotr:angmar",
   "ingredients": [
     {
-      "item": "lotr:red_angmar_brick"
+      "item": "lotrextended:red_angmar_brick"
     },
     {
       "item": "minecraft:snowball"
     }
   ],
   "result": {
-    "item": "lotr:snowy_red_angmar_brick"
+    "item": "lotrextended:snowy_red_angmar_brick"
   }
 }

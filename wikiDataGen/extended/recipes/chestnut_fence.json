@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:chestnut_planks"
+      "item": "lotrextended:chestnut_planks"
     },
     "I": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:chestnut_fence",
+    "item": "lotrextended:chestnut_fence",
     "count": 3
   }
 }

@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:barren_dirt"
+      "item": "lotrextended:barren_dirt"
     }
   },
   "result": {
-    "item": "lotr:barren_dirt_slab",
+    "item": "lotrextended:barren_dirt_slab",
     "count": 6
   }
 }

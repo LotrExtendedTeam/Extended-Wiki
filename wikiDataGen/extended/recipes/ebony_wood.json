@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_log"
+      "item": "lotrextended:ebony_log"
     }
   },
   "result": {
-    "item": "lotr:ebony_wood",
+    "item": "lotrextended:ebony_wood",
     "count": 3
   }
 }

@@ -1,6 +1,6 @@
 {
   "type": "lotr:faction_shaped",
-  "table": "lotr:dwarven",
+  "table": "lotr:blue_mountains",
   "pattern": [
     "###",
     "#X ",
@@ -15,6 +15,6 @@
     }
   },
   "result": {
-    "item": "lotr:blue_dwarven_mattock"
+    "item": "lotrextended:blue_dwarven_mattock"
   }
 }

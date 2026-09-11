@@ -5,10 +5,10 @@
       "item": "lotr:drystone"
     },
     {
-      "item": "lotr:moss_block"
+      "item": "lotrextended:moss_block"
     }
   ],
   "result": {
-    "item": "lotr:mossy_drystone"
+    "item": "lotrextended:mossy_drystone"
   }
 }

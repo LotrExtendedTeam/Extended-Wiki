@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:dol_guldur_brick"
+      "item": "lotrextended:dol_guldur_brick"
     }
   },
   "result": {
-    "item": "lotr:dol_guldur_brick_slab",
+    "item": "lotrextended:dol_guldur_brick_slab",
     "count": 6
   }
 }

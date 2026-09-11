@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     }
   },
   "result": {
-    "item": "lotr:ebony_boat"
+    "item": "lotrextended:ebony_boat"
   }
 }

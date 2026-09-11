@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_planks"
+      "item": "lotrextended:willow_planks"
     },
     "I": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:willow_sign",
+    "item": "lotrextended:willow_sign",
     "count": 3
   }
 }

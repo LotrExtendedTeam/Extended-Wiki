@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:amethyst"
+      "item": "lotrextended:amethyst"
     }
   },
   "result": {
-    "item": "lotr:amethyst_block"
+    "item": "lotrextended:amethyst_block"
   }
 }

@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ebony_planks"
+      "item": "lotrextended:ebony_planks"
     },
     "I": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:ebony_fence",
+    "item": "lotrextended:ebony_fence",
     "count": 3
   }
 }

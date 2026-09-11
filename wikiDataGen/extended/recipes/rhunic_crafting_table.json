@@ -10,10 +10,10 @@
       "tag": "minecraft:planks"
     },
     "X": {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:rhunic_crafting_table"
+    "item": "lotrextended:rhunic_crafting_table"
   }
 }

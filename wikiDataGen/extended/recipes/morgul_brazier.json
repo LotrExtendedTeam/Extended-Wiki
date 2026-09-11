@@ -8,13 +8,13 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgul_torch"
+      "item": "lotrextended:morgul_torch"
     },
     "Y": {
       "tag": "forge:nuggets/orc_steel"
     }
   },
   "result": {
-    "item": "lotr:morgul_brazier"
+    "item": "lotrextended:morgul_brazier"
   }
 }

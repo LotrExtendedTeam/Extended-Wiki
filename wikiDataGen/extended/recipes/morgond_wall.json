@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:morgond"
+      "item": "lotrextended:morgond"
     }
   },
   "result": {
-    "item": "lotr:morgond_wall",
+    "item": "lotrextended:morgond_wall",
     "count": 6
   }
 }

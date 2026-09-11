@@ -1,12 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "coral",
   "ingredients": [
     {
-      "item": "lotr:coral_block"
+      "item": "lotrextended:coral_block"
     }
   ],
   "result": {
-    "item": "lotr:coral",
+    "item": "lotrextended:coral",
     "count": 9
   }
 }

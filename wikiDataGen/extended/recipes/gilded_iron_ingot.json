@@ -14,7 +14,7 @@
     }
   ],
   "swappable": false,
-  "result": "lotr:gilded_iron_ingot",
+  "result": "lotrextended:gilded_iron_ingot",
   "experience": 0.7,
   "cookingtime": 200
 }

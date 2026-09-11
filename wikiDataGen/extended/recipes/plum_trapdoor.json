@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:plum_planks"
+      "item": "lotrextended:plum_planks"
     }
   },
   "result": {
-    "item": "lotr:plum_trapdoor",
+    "item": "lotrextended:plum_trapdoor",
     "count": 2
   }
 }

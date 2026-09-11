@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:dunland_banner"
+      "item": "lotrextended:dunland_banner"
     }
   ],
   "result": {
-    "item": "lotr:dunland_banner_pattern"
+    "item": "lotrextended:dunland_banner_pattern"
   }
 }

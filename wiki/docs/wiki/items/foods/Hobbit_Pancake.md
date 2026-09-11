@@ -13,9 +13,9 @@ type: food
 title: Hobbit Pancake
 image: ```gif
 frames:
-  - items/hobbit_pancake.png
-  - items/hobbit_pancake_syrup.png
-  - items/hobbit_pancake_syrup_butter.png
+  - items/lotrextended/hobbit_pancake.png
+  - items/lotrextended/hobbit_pancake_syrup.png
+  - items/lotrextended/hobbit_pancake_syrup_butter.png
 output: items/hobbit_pancakes.gif
 duration: 1.5
 ```

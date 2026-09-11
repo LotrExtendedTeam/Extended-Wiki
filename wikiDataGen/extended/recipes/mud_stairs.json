@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:mud"
+      "item": "lotrextended:mud"
     }
   },
   "result": {
-    "item": "lotr:mud_stairs",
+    "item": "lotrextended:mud_stairs",
     "count": 4
   }
 }

@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_willow_log"
+      "item": "lotrextended:stripped_willow_log"
     }
   },
   "result": {
-    "item": "lotr:stripped_willow_wood",
+    "item": "lotrextended:stripped_willow_wood",
     "count": 3
   }
 }

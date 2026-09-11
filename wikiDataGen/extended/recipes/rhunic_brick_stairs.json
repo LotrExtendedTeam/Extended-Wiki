@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:rhunic_brick_stairs",
+    "item": "lotrextended:rhunic_brick_stairs",
     "count": 4
   }
 }

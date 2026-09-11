@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     },
     "X": {
       "tag": "minecraft:planks"
     }
   },
   "result": {
-    "item": "lotr:straw_bed"
+    "item": "lotrextended:straw_bed"
   }
 }

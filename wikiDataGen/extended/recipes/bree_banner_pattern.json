@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:bree_banner"
+      "item": "lotrextended:bree_banner"
     }
   ],
   "result": {
-    "item": "lotr:bree_banner_pattern"
+    "item": "lotrextended:bree_banner_pattern"
   }
 }

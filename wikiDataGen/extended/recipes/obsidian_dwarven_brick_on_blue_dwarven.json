@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:obsidian_shard"
+      "item": "lotrextended:obsidian_shard"
     }
   },
   "result": {
-    "item": "lotr:obsidian_dwarven_brick",
+    "item": "lotrextended:obsidian_dwarven_brick",
     "count": 4
   }
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:coral"
+      "item": "lotrextended:coral"
     }
   },
   "result": {
-    "item": "lotr:coral_block"
+    "item": "lotrextended:coral_block"
   }
 }

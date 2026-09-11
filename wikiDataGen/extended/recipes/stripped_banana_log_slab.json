@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_banana_log"
+      "item": "lotrextended:stripped_banana_log"
     }
   },
   "result": {
-    "item": "lotr:stripped_banana_log_slab",
+    "item": "lotrextended:stripped_banana_log_slab",
     "count": 6
   }
 }

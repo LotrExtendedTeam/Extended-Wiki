@@ -3,13 +3,13 @@
   "table": "lotr:rhunic",
   "ingredients": [
     {
-      "item": "lotr:rhunic_brick"
+      "item": "lotrextended:rhunic_brick"
     },
     {
-      "item": "lotr:moss_block"
+      "item": "lotrextended:moss_block"
     }
   ],
   "result": {
-    "item": "lotr:mossy_rhunic_brick"
+    "item": "lotrextended:mossy_rhunic_brick"
   }
 }

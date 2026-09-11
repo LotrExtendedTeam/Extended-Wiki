@@ -5,13 +5,13 @@
   ],
   "key": {
     "S": {
-      "item": "lotr:banana"
+      "item": "lotrextended:banana"
     },
     "X": {
-      "item": "minecraft:wheat"
+      "tag": "forge:crops/wheat"
     }
   },
   "result": {
-    "item": "lotr:banana_bread"
+    "item": "lotrextended:banana_bread"
   }
 }

@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:taurethrim_pillar"
+      "item": "lotrextended:taurethrim_pillar"
     }
   },
   "result": {
-    "item": "lotr:taurethrim_pillar_slab",
+    "item": "lotrextended:taurethrim_pillar_slab",
     "count": 6
   }
 }

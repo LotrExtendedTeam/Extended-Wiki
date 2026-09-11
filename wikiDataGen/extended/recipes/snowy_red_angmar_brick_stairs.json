@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:snowy_red_angmar_brick"
+      "item": "lotrextended:snowy_red_angmar_brick"
     }
   },
   "result": {
-    "item": "lotr:snowy_red_angmar_brick_stairs",
+    "item": "lotrextended:snowy_red_angmar_brick_stairs",
     "count": 4
   }
 }

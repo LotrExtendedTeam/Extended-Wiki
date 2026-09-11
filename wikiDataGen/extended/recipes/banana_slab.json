@@ -5,11 +5,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:banana_planks"
+      "item": "lotrextended:banana_planks"
     }
   },
   "result": {
-    "item": "lotr:banana_slab",
+    "item": "lotrextended:banana_slab",
     "count": 6
   }
 }

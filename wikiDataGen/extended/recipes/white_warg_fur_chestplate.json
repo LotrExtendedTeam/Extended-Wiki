@@ -8,10 +8,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:white_fur"
+      "item": "lotrextended:white_fur"
     }
   },
   "result": {
-    "item": "lotr:white_warg_fur_chestplate"
+    "item": "lotrextended:white_warg_fur_chestplate"
   }
 }

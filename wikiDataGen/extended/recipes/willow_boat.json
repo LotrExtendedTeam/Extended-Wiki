@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:willow_planks"
+      "item": "lotrextended:willow_planks"
     }
   },
   "result": {
-    "item": "lotr:willow_boat"
+    "item": "lotrextended:willow_boat"
   }
 }

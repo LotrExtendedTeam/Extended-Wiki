@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:mossy_rhunic_brick"
+      "item": "lotrextended:mossy_rhunic_brick"
     }
   },
   "result": {
-    "item": "lotr:mossy_rhunic_brick_wall",
+    "item": "lotrextended:mossy_rhunic_brick_wall",
     "count": 6
   }
 }

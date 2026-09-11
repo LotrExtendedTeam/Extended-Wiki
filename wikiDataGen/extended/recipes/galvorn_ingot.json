@@ -2,7 +2,7 @@
   "type": "lotr:dwarven_forge_alloy",
   "ingredient": [
     {
-      "item": "lotr:sky_iron"
+      "item": "lotrextended:sky_iron"
     }
   ],
   "alloy": [
@@ -11,7 +11,7 @@
     }
   ],
   "swappable": false,
-  "result": "lotr:galvorn_ingot",
+  "result": "lotrextended:galvorn_ingot",
   "experience": 0.7,
   "cookingtime": 200
 }

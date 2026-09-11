@@ -8,13 +8,13 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:bowstring"
+      "item": "lotrextended:bowstring"
     },
     "X": {
       "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "lotr:rivendell_bow"
+    "item": "lotrextended:rivendell_bow"
   }
 }

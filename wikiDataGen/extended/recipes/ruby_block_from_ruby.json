@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:ruby"
+      "item": "lotrextended:ruby"
     }
   },
   "result": {
-    "item": "lotr:ruby_block"
+    "item": "lotrextended:ruby_block"
   }
 }

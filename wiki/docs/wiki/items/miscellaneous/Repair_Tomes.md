@@ -17,7 +17,7 @@ Repair tomes are crafting modifier items that when applied to an item in an anvi
 ::infobox
 type: item
 title: Tome of the Smith
-image: items/smith_tome.png
+image: items/lotrextended/smith_tome.png
 rarity: Common
 tab: Misc
 renewable: true

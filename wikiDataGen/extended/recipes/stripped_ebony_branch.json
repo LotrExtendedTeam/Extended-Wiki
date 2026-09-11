@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:stripped_ebony_wood"
+      "item": "lotrextended:stripped_ebony_wood"
     }
   },
   "result": {
-    "item": "lotr:stripped_ebony_branch",
+    "item": "lotrextended:stripped_ebony_branch",
     "count": 6
   }
 }

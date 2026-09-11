@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:black_uruk_steel_ingot"
+      "item": "lotrextended:black_uruk_steel_ingot"
     }
   },
   "result": {
-    "item": "lotr:black_uruk_steel_block"
+    "item": "lotrextended:black_uruk_steel_block"
   }
 }

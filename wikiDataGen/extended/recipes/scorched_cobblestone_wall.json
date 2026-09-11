@@ -6,11 +6,11 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:scorched_cobblestone"
+      "item": "lotrextended:scorched_cobblestone"
     }
   },
   "result": {
-    "item": "lotr:scorched_cobblestone_wall",
+    "item": "lotrextended:scorched_cobblestone_wall",
     "count": 6
   }
 }

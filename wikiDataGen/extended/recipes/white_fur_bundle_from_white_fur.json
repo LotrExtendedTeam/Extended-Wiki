@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:white_fur"
+      "item": "lotrextended:white_fur"
     }
   },
   "result": {
-    "item": "lotr:white_fur_bundle"
+    "item": "lotrextended:white_fur_bundle"
   }
 }

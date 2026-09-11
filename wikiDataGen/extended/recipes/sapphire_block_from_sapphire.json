@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "lotr:sapphire"
+      "item": "lotrextended:sapphire"
     }
   },
   "result": {
-    "item": "lotr:sapphire_block"
+    "item": "lotrextended:sapphire_block"
   }
 }

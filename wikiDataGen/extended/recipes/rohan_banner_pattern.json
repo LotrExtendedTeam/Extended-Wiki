@@ -6,10 +6,10 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "lotr:rohan_banner"
+      "item": "lotrextended:rohan_banner"
     }
   ],
   "result": {
-    "item": "lotr:rohan_banner_pattern"
+    "item": "lotrextended:rohan_banner_pattern"
   }
 }
