@@ -2,9 +2,10 @@ import logging
 from pathlib import Path
 import re
 log = logging.getLogger("mkdocs.plugins")
-# Define the folders  to strip here directly
-strip_folders = ['items', 'blocks', 'entities', 'evil', 'good', 'passive', 'hostile','factions', 'misc', 'foods', 'utility', 'woods', 'stones', 
-                 'worldgen', 'world', 'biomes', 'decoration', 'documentation', 'datapacks', 'entitydata', 'structures']
+
+#Configuration
+PARENT_FOLDER = "wiki"  # The root folder under which subfolders will be flattened
+EXCLUDE_FOLDERS = {"keep_this", "archive"}  # Folders to keep intact (using a set for O(1) lookups)
 
 def on_pre_build(config):
     log.info(">>> Flatten Urls Processor: Present")
@@ -12,32 +13,32 @@ def on_pre_build(config):
 def on_files(files, config):
     for file in files:
         
-        # Skip directories mistakenly detected as files
-        if Path(file.abs_src_path).is_dir():
-            print(f"[flatten-urls] Skipping directory: {file.abs_src_path}")
+        # Skip directories and non-markdown files
+        if Path(file.abs_src_path).is_dir() or not file.src_path.endswith('.md'):
             continue
 
-        # Skip non-markdown files
-        if not file.src_path.endswith('.md'):
-            continue
+        path_parts = list(Path(file.src_path).parts)
 
-        parts = file.src_path.replace('\\', '/').split('/')
-        # Filter out folders specified in strip_folders
-        new_parts = [part for part in parts if part not in strip_folders]
-
-        # If nothing changed, continue without modifying
-        if parts == new_parts:
-            continue
+        # Check if the file is inside the target parent folder
+        if PARENT_FOLDER in path_parts:
+            parent_idx = path_parts.index(PARENT_FOLDER)
             
-        # Rebuild the dest_path and url
-        new_path = '/'.join(new_parts)
+            # Extract parts: prefix before parent, the parent itself, and remaining target parts
+            prefix = path_parts[:parent_idx + 1]
+            target_parts = path_parts[parent_idx + 1:]
 
-        # Set destination path to flattened structure with /index.html
-        file.dest_path = new_path.replace('.md', '/index.html')
+            # Retain only the filename and any directory present in EXCLUDE_FOLDERS
+            filtered_parts = [
+                part for part in target_parts[:-1] if part in EXCLUDE_FOLDERS
+            ] + [target_parts[-1]]
 
-        # Set the URL to the flattened structure with trailing slash
-        file.url = new_path.replace('.md', '/')
+            new_parts = prefix + filtered_parts
 
-        #print(f"[flatten-urls] Rewriting {file.src_path} -> {file.dest_path} ({file.url})")
+            # If the path structure was modified, update destination and URL properties
+            if new_parts != path_parts:
+                new_path = '/'.join(new_parts)
 
+                # Update MkDocs File attributes
+                file.dest_path = new_path.replace('.md', '/index.html')
+                file.url = new_path.replace('.md', '/')
     return files

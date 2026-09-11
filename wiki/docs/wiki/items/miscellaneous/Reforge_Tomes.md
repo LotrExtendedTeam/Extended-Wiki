@@ -13,7 +13,7 @@ alias:
 
 Reforge tomes are crafting modifier items that when applied to an item in an anvil, changes what modifiers can be obtained on Reforging.
 
-Unique to reforge tomes among anvil applicable items is that it is not consumed upon reforging.
+Unique to reforge tomes among anvil applicable items is that they not consumed upon reforging.
 
 ## Warrior Tome
 
