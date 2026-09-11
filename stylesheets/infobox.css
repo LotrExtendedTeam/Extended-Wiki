@@ -12,6 +12,11 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
+/* Ensure headers wait for floated right elements (like infoboxes) to clear */
+h1, h2, h3, h4, h5, h6, hr {
+    clear: right;
+}
+
 .infobox-header {
     background: #444;
     color: #fff;
