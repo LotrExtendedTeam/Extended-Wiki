@@ -352,8 +352,6 @@ def load_manual_item_edits(all_items):
             current_image = items_data[item].get("image", "")
             if current_image.count("/") == 1:  # e.g., "items/item_name.png"
                 items_data[item]["image"] = new_image_path
-            if "blocks/" in current_image:
-                items_data[item]["image"] = new_image_path
         if ("tooltip" in items_data[item] and "name" in items_data[item] and items_data[item]["tooltip"] == items_data[item]["name"]):
             del items_data[item]["tooltip"]
     return items_data
