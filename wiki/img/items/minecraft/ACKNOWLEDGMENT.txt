@@ -1,4 +1,4 @@
-All item textures included in this folder are sourced from Minecraft version 1.16.5.
+All item and rendered blocks images included in this folder are sourced from rendering blocks and items ingame using Minecraft version 1.16.5.
 
 These assets are the property of Mojang Studios and are used here for educational, reference, and non-commercial purposes.
 
