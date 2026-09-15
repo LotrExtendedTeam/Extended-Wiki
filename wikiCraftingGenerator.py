@@ -1,6 +1,8 @@
 import json
 import os
 import logging
+import shutil
+import argparse
 log = logging.getLogger("recipe_generator")
 logging.basicConfig(level=logging.INFO)
 
@@ -21,7 +23,9 @@ TAG_FOLDERS = [
 LOTR_RECIPES = "wikiDataGen/renewed/recipes"
 EXTENDED_RECIPES = "wikiDataGen/extended/recipes"
 
-# --- OUTPUT PATHS ---
+# --- IMAGE SOURCE & OUTPUT PATHS ---
+WIKI_IMAGE_DESTINATION = "wiki/docs/wiki/img/items"
+
 OUTPUT_FOLDER = "wiki/docs/hooks/craftingoutput"
 OUTPUT_RECIPES_FILE = OUTPUT_FOLDER+"/recipes.json"
 OUTPUT_TAGS_FILE = OUTPUT_FOLDER+"/tags.json"
@@ -37,7 +41,7 @@ TAG_REPLACEMENTS = {
     "forge:nuggets/iron": "minecraft:iron_nugget",
     "forge:nuggets/silver": "lotr:silver_nugget",
     "forge:nuggets/gold": "minecraft:gold_nugget",
-    "forge:nuggets/orc_steel": "lotr:orc_steel_nugget",
+    "forge:nuggets/orc_steel": "lotrextended:orc_steel_nugget",
     "forge:ingots/bronze": "lotr:bronze_ingot",
     "forge:ingots/copper": "lotr:copper_ingot",
     "forge:ingots/silver": "lotr:silver_ingot",
@@ -47,7 +51,7 @@ TAG_REPLACEMENTS = {
     "forge:ingots/orc_steel": "lotr:orc_steel_ingot",
     "forge:ingots/dwarven_steel": "lotr:dwarven_steel_ingot",
     "forge:ingots/elven_steel": "lotr:elven_steel_ingot",
-    "forge:ingots/morgul_steel": "lotr:morgul_steel_ingot",
+    "forge:ingots/morgul_steel": "lotrextended:morgul_steel_ingot",
     "forge:ingots/iron": "minecraft:iron_ingot",
     "forge:ingots/gold": "minecraft:gold_ingot",
     "forge:ingots/brick": "minecraft:brick",
@@ -77,6 +81,61 @@ TAG_REPLACEMENTS = {
 # --- UTILITIES ---
 def empty_grid():
     return [[None for _ in range(3)] for _ in range(3)]
+
+# --- IMAGE HANDLING ---
+def handle_item_image(item_id, source_root):
+    """
+    Checks if the image exists in the wiki folder. 
+    If not, searches source resolution folders from smallest to largest, copies it over, 
+    or logs a warning if missing.
+    """
+    if not ":" in item_id:
+        return f"items/{item_id}.png"
+    
+    namespace, name = item_id.split(":", 1)
+    relative_image_path = f"items/{namespace}/{name}.png"
+    wiki_target_path = os.path.join(WIKI_IMAGE_DESTINATION, namespace, f"{name}.png")
+    
+    # 1. Check if it already exists in the wiki folder
+    if os.path.exists(wiki_target_path):
+        return relative_image_path
+
+    # 2. Find matching source folders containing namespace and sort by resolution value ascending (smallest first)
+    if source_root and os.path.exists(source_root):
+        resolutionFolders = [f for f in os.listdir(source_root) if os.path.isdir(os.path.join(source_root, f))]
+        
+        # Filter folders that match the namespace pattern and extract their integer resolution suffix
+        matching_folders = []
+        for folder in resolutionFolders:
+            if folder.startswith(namespace + "_"):
+                try:
+                    res_val = int(folder.split("_")[-1])
+                    matching_folders.append((res_val, folder))
+                except ValueError:
+                    continue
+        
+        # Sort by resolution ascending (smallest first)
+        matching_folders.sort(key=lambda x: x[0])
+
+        copied = False
+        for _, folder_name in matching_folders:
+            source_file = os.path.join(source_root, folder_name, "items", namespace, f"{name}.png")
+            if not os.path.exists(source_file):
+                source_file = os.path.join(source_root, folder_name, f"{name}.png")
+
+            if os.path.exists(source_file):
+                os.makedirs(os.path.dirname(wiki_target_path), exist_ok=True)
+                shutil.copy(source_file, wiki_target_path)
+                log.info(f"Copied image for {item_id} from {folder_name} (Resolution up-scaling handled)")
+                copied = True
+                break
+        
+        if not copied:
+            log.warning(f"Missing image for item '{item_id}': Could not be found in wiki folder or any source resolution directories.")
+    elif source_root:
+        log.warning(f"Source image root path '{source_root}' does not exist.")
+
+    return relative_image_path
 
 # --- TAG HANDLING ---
 def merge_tag_folders(folders):
@@ -315,16 +374,10 @@ def format_item_url(item_id):
         # fallback for other namespaces
         return f"#"
 
-def format_image_path(item_id):
-    if ":" in item_id:
-        namespace, name = item_id.split(":", 1)
-        return f"items/{namespace}/{name}.png"
-    return f"items/{item_id}.png"
-
 def is_valid_item_id(item_id):
     return isinstance(item_id, str) and ":" in item_id
 
-def load_manual_item_edits(all_items):
+def load_manual_item_edits(all_items, source_root):
     existing_items = {}
     if os.path.exists(OUTPUT_ITEMS_FILE):
         try:
@@ -335,7 +388,7 @@ def load_manual_item_edits(all_items):
             
     items_data = {k: v for k, v in existing_items.items() if k in all_items}
     for item in sorted(all_items):
-        new_image_path = format_image_path(item)
+        new_image_path = handle_item_image(item, source_root)
         generated = {
             "name": format_item_name(item),
             "url": format_item_url(item),
@@ -420,6 +473,16 @@ def process_file(path):
     return recipe_id, recipe_data
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate recipe, tag, and item data for the wiki.")
+    parser.add_argument(
+        "--source-images", 
+        required=False, 
+        default=None,
+        help="Path pointing to the root folder containing resolution subfolders (e.g., lotr_16, lotr_32)"
+    )
+    args = parser.parse_args()
+    source_root = args.source_images
+
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
     # Merge and flatten tags
@@ -461,7 +524,7 @@ def main():
     resolved_tags_filtered = filter_unused_tags(flat_tags, valid_recipes)
 
     # Merge manually edited item data
-    items_data = load_manual_item_edits(all_items)
+    items_data = load_manual_item_edits(all_items, source_root)
     
     # Convert tags into structured objects and merge manually edited tag data
     resolved_tags = load_manual_tag_edits(resolved_tags_filtered)

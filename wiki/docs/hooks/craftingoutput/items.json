@@ -31,12 +31,12 @@
   },
   "lotr:ale": {
     "name": "Ale",
-    "image": "items/renewed/ale.png",
+    "image": "items/lotr/ale.png",
     "url": "#"
   },
   "lotr:ale_horn": {
     "name": "Ale Horn",
-    "image": "items/renewed/ale_horn.png",
+    "image": "items/lotr/ale_horn.png",
     "url": "#"
   },
   "lotr:alloy_forge": {
@@ -421,7 +421,7 @@
   },
   "lotr:beeswax": {
     "name": "Beeswax",
-    "image": "items/renewed/beeswax.png",
+    "image": "items/lotr/beeswax.png",
     "url": "#"
   },
   "lotr:birch_beam": {
@@ -496,17 +496,17 @@
   },
   "lotr:blackroot": {
     "name": "Blackroot",
-    "image": "items/renewed/blackroot.png",
+    "image": "items/lotr/blackroot.png",
     "url": "#"
   },
   "lotr:blackroot_stick": {
     "name": "Blackroot Stick",
-    "image": "items/renewed/blackroot_stick.png",
+    "image": "items/lotr/blackroot_stick.png",
     "url": "#"
   },
   "lotr:blubber": {
     "name": "Blubber",
-    "image": "items/renewed/blubber.png",
+    "image": "items/lotr/blubber.png",
     "url": "#"
   },
   "lotr:blubber_torch": {
@@ -776,7 +776,7 @@
   },
   "lotr:bronze_ingot": {
     "name": "Bronze Ingot",
-    "image": "items/renewed/bronze_ingot.png",
+    "image": "items/lotr/bronze_ingot.png",
     "url": "#"
   },
   "lotr:bronze_lantern": {
@@ -1756,7 +1756,7 @@
   },
   "lotr:cram": {
     "name": "Cram",
-    "image": "items/renewed/cram.png",
+    "image": "items/lotr/cram.png",
     "url": "#"
   },
   "lotr:culumalda_beam": {
@@ -2331,12 +2331,12 @@
   },
   "lotr:dwarf_bone": {
     "name": "Dwarf Bone",
-    "image": "items/renewed/dwarf_bone.png",
+    "image": "items/lotr/dwarf_bone.png",
     "url": "#"
   },
   "lotr:dwarfwort": {
     "name": "Dwarfwort",
-    "image": "items/renewed/dwarfwort.png",
+    "image": "items/lotr/dwarfwort.png",
     "url": "#"
   },
   "lotr:dwarven_axe": {
@@ -2461,7 +2461,7 @@
   },
   "lotr:edhelvir": {
     "name": "Edhelvir",
-    "image": "items/renewed/edhelvir.png",
+    "image": "items/lotr/edhelvir.png",
     "url": "#"
   },
   "lotr:edhelvir_block": {
@@ -2481,7 +2481,7 @@
   },
   "lotr:elf_bone": {
     "name": "Elf Bone",
-    "image": "items/renewed/elf_bone.png",
+    "image": "items/lotr/elf_bone.png",
     "url": "#"
   },
   "lotr:elven_forge": {
@@ -2756,7 +2756,7 @@
   },
   "lotr:flax_seeds": {
     "name": "Flax Seeds",
-    "image": "items/renewed/flax_seeds.png",
+    "image": "items/lotr/flax_seeds.png",
     "url": "#"
   },
   "lotr:four_leaf_clover": {
@@ -2766,7 +2766,7 @@
   },
   "lotr:fur": {
     "name": "Fur",
-    "image": "items/renewed/fur.png",
+    "image": "items/lotr/fur.png",
     "url": "#"
   },
   "lotr:fur_boots": {
@@ -2997,7 +2997,7 @@
   },
   "lotr:golden_ale_horn": {
     "name": "Golden Ale Horn",
-    "image": "items/renewed/golden_ale_horn.png",
+    "image": "items/lotr/golden_ale_horn.png",
     "url": "#"
   },
   "lotr:golden_gate": {
@@ -3187,7 +3187,7 @@
   },
   "lotr:green_apple": {
     "name": "Green Apple",
-    "image": "items/renewed/green_apple.png",
+    "image": "items/lotr/green_apple.png",
     "url": "#"
   },
   "lotr:green_clay_tiling": {
@@ -3527,7 +3527,7 @@
   },
   "lotr:hobbit_bone": {
     "name": "Hobbit Bone",
-    "image": "items/renewed/hobbit_bone.png",
+    "image": "items/lotr/hobbit_bone.png",
     "url": "#"
   },
   "lotr:hobbit_crafting_table": {
@@ -3642,7 +3642,7 @@
   },
   "lotr:horn": {
     "name": "Horn",
-    "image": "items/renewed/horn.png",
+    "image": "items/lotr/horn.png",
     "url": "#"
   },
   "lotr:ice_brick": {
@@ -3722,7 +3722,7 @@
   },
   "lotr:kine_of_araw_horn": {
     "name": "Kine Of Araw Horn",
-    "image": "items/renewed/kine_of_araw_horn.png",
+    "image": "items/lotr/kine_of_araw_horn.png",
     "url": "#"
   },
   "lotr:lairelosse_beam": {
@@ -4377,7 +4377,7 @@
   },
   "lotr:mallorn_stick": {
     "name": "Mallorn Stick",
-    "image": "items/renewed/mallorn_stick.png",
+    "image": "items/lotr/mallorn_stick.png",
     "url": "#"
   },
   "lotr:mallorn_sword": {
@@ -4412,7 +4412,7 @@
   },
   "lotr:man_flesh": {
     "name": "Man Flesh",
-    "image": "items/renewed/man_flesh.png",
+    "image": "items/lotr/man_flesh.png",
     "url": "#"
   },
   "lotr:maple_beam": {
@@ -4497,7 +4497,7 @@
   },
   "lotr:maple_syrup": {
     "name": "Maple Syrup",
-    "image": "items/renewed/maple_syrup.png",
+    "image": "items/lotr/maple_syrup.png",
     "url": "https://lotrminecraftmod.fandom.com/wiki/Maple_Syrup"
   },
   "lotr:maple_trapdoor": {
@@ -4632,7 +4632,7 @@
   },
   "lotr:mithril_axe": {
     "name": "Mithril Axe",
-    "image": "items/renewed/mithril_axe.png",
+    "image": "items/lotr/mithril_axe.png",
     "url": "#"
   },
   "lotr:mithril_bars": {
@@ -4647,22 +4647,22 @@
   },
   "lotr:mithril_boots": {
     "name": "Mithril Boots",
-    "image": "items/renewed/mithril_boots.png",
+    "image": "items/lotr/mithril_boots.png",
     "url": "#"
   },
   "lotr:mithril_chandelier": {
     "name": "Mithril Chandelier",
-    "image": "items/renewed/mithril_chandelier.png",
+    "image": "items/lotr/mithril_chandelier.png",
     "url": "#"
   },
   "lotr:mithril_chestplate": {
     "name": "Mithril Chestplate",
-    "image": "items/renewed/mithril_chestplate.png",
+    "image": "items/lotr/mithril_chestplate.png",
     "url": "#"
   },
   "lotr:mithril_dagger": {
     "name": "Mithril Dagger",
-    "image": "items/renewed/mithril_dagger.png",
+    "image": "items/lotr/mithril_dagger.png",
     "url": "#"
   },
   "lotr:mithril_gate": {
@@ -4672,82 +4672,82 @@
   },
   "lotr:mithril_helmet": {
     "name": "Mithril Helmet",
-    "image": "items/renewed/mithril_helmet.png",
+    "image": "items/lotr/mithril_helmet.png",
     "url": "#"
   },
   "lotr:mithril_hoe": {
     "name": "Mithril Hoe",
-    "image": "items/renewed/mithril_hoe.png",
+    "image": "items/lotr/mithril_hoe.png",
     "url": "#"
   },
   "lotr:mithril_ingot": {
     "name": "Mithril Ingot",
-    "image": "items/renewed/mithril_ingot.png",
+    "image": "items/lotr/mithril_ingot.png",
     "url": "#"
   },
   "lotr:mithril_leggings": {
     "name": "Mithril Leggings",
-    "image": "items/renewed/mithril_leggings.png",
+    "image": "items/lotr/mithril_leggings.png",
     "url": "#"
   },
   "lotr:mithril_mail": {
     "name": "Mithril Mail",
-    "image": "items/renewed/mithril_mail.png",
+    "image": "items/lotr/mithril_mail.png",
     "url": "#"
   },
   "lotr:mithril_nugget": {
     "name": "Mithril Nugget",
-    "image": "items/renewed/mithril_nugget.png",
+    "image": "items/lotr/mithril_nugget.png",
     "url": "#"
   },
   "lotr:mithril_pickaxe": {
     "name": "Mithril Pickaxe",
-    "image": "items/renewed/mithril_pickaxe.png",
+    "image": "items/lotr/mithril_pickaxe.png",
     "url": "#"
   },
   "lotr:mithril_ring": {
     "name": "Mithril Ring",
-    "image": "items/renewed/mithril_ring.png",
+    "image": "items/lotr/mithril_ring.png",
     "url": "#"
   },
   "lotr:mithril_shovel": {
     "name": "Mithril Shovel",
-    "image": "items/renewed/mithril_shovel.png",
+    "image": "items/lotr/mithril_shovel.png",
     "url": "#"
   },
   "lotr:mithril_spear": {
     "name": "Mithril Spear",
-    "image": "items/renewed/mithril_spear.png",
+    "image": "items/lotr/mithril_spear.png",
     "url": "#"
   },
   "lotr:mithril_sword": {
     "name": "Mithril Sword",
-    "image": "items/renewed/mithril_sword.png",
+    "image": "items/lotr/mithril_sword.png",
     "url": "#"
   },
   "lotr:mithril_trimmed_dwarven_boots": {
     "name": "Mithril Trimmed Dwarven Boots",
-    "image": "items/renewed/mithril_trimmed_dwarven_boots.png",
+    "image": "items/lotr/mithril_trimmed_dwarven_boots.png",
     "url": "#"
   },
   "lotr:mithril_trimmed_dwarven_brick": {
     "name": "Mithril Trimmed Dwarven Brick",
-    "image": "items/renewed/mithril_trimmed_dwarven_brick.png",
+    "image": "items/lotr/mithril_trimmed_dwarven_brick.png",
     "url": "#"
   },
   "lotr:mithril_trimmed_dwarven_chestplate": {
     "name": "Mithril Trimmed Dwarven Chestplate",
-    "image": "items/renewed/mithril_trimmed_dwarven_chestplate.png",
+    "image": "items/lotr/mithril_trimmed_dwarven_chestplate.png",
     "url": "#"
   },
   "lotr:mithril_trimmed_dwarven_helmet": {
     "name": "Mithril Trimmed Dwarven Helmet",
-    "image": "items/renewed/mithril_trimmed_dwarven_helmet.png",
+    "image": "items/lotr/mithril_trimmed_dwarven_helmet.png",
     "url": "#"
   },
   "lotr:mithril_trimmed_dwarven_leggings": {
     "name": "Mithril Trimmed Dwarven Leggings",
-    "image": "items/renewed/mithril_trimmed_dwarven_leggings.png",
+    "image": "items/lotr/mithril_trimmed_dwarven_leggings.png",
     "url": "#"
   },
   "lotr:mordor_axe": {
@@ -4912,12 +4912,7 @@
   },
   "lotr:morgul_shroom": {
     "name": "Morgul Shroom",
-    "image": "items/renewed/morgul_shroom.png",
-    "url": "#"
-  },
-  "lotr:morgul_steel_ingot": {
-    "name": "Morgul Steel Ingot",
-    "image": "items/lotr/morgul_steel_ingot.png",
+    "image": "items/lotr/morgul_shroom.png",
     "url": "#"
   },
   "lotr:mossy_angmar_brick": {
@@ -5422,7 +5417,7 @@
   },
   "lotr:orc_bone": {
     "name": "Orc Bone",
-    "image": "items/renewed/orc_bone.png",
+    "image": "items/lotr/orc_bone.png",
     "url": "#"
   },
   "lotr:orc_forge": {
@@ -5457,12 +5452,7 @@
   },
   "lotr:orc_steel_ingot": {
     "name": "Orc Steel Ingot",
-    "image": "items/renewed/orc_steel_ingot.png",
-    "url": "#"
-  },
-  "lotr:orc_steel_nugget": {
-    "name": "Orc Steel Nugget",
-    "image": "items/lotr/orc_steel_nugget.png",
+    "image": "items/lotr/orc_steel_ingot.png",
     "url": "#"
   },
   "lotr:orc_torch": {
@@ -5732,7 +5722,7 @@
   },
   "lotr:pipeweed_seeds": {
     "name": "Pipeweed Seeds",
-    "image": "items/renewed/pipeweed_seeds.png",
+    "image": "items/lotr/pipeweed_seeds.png",
     "url": "#"
   },
   "lotr:pocket_match": {
@@ -6352,7 +6342,7 @@
   },
   "lotr:salt": {
     "name": "Salt",
-    "image": "items/renewed/salt.png",
+    "image": "items/lotr/salt.png",
     "url": "#"
   },
   "lotr:salt_block": {
@@ -6402,7 +6392,7 @@
   },
   "lotr:silver_ingot": {
     "name": "Silver Ingot",
-    "image": "items/renewed/silver_ingot.png",
+    "image": "items/lotr/silver_ingot.png",
     "url": "#"
   },
   "lotr:silver_mallorn_torch": {
@@ -7387,7 +7377,7 @@
   },
   "lotr:sulfur": {
     "name": "Sulfur",
-    "image": "items/renewed/sulfur.png",
+    "image": "items/lotr/sulfur.png",
     "url": "#"
   },
   "lotr:sulfur_block": {
@@ -7397,12 +7387,12 @@
   },
   "lotr:suspicious_meat": {
     "name": "Suspicious Meat",
-    "image": "items/renewed/suspicious_meat.png",
+    "image": "items/lotr/suspicious_meat.png",
     "url": "#"
   },
   "lotr:swan_feather": {
     "name": "Swan Feather",
-    "image": "items/renewed/swan_feather.png",
+    "image": "items/lotr/swan_feather.png",
     "url": "#"
   },
   "lotr:thatch": {
@@ -7437,7 +7427,7 @@
   },
   "lotr:troll_bone": {
     "name": "Troll Bone",
-    "image": "items/renewed/troll_bone.png",
+    "image": "items/lotr/troll_bone.png",
     "url": "#"
   },
   "lotr:umbar_boots": {
@@ -7637,7 +7627,7 @@
   },
   "lotr:warg_bone": {
     "name": "Warg Bone",
-    "image": "items/renewed/warg_bone.png",
+    "image": "items/lotr/warg_bone.png",
     "url": "#"
   },
   "lotr:waterskin": {
