@@ -37478,19 +37478,19 @@
     "title": "Any Morgul Crafting",
     "grid": [
       [
-        "lotr:orc_steel_nugget",
-        "lotr:orc_steel_nugget",
-        "lotr:orc_steel_nugget"
+        "lotrextended:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget"
       ],
       [
-        "lotr:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget",
         "lotrextended:morgul_torch",
-        "lotr:orc_steel_nugget"
+        "lotrextended:orc_steel_nugget"
       ],
       [
-        "lotr:orc_steel_nugget",
-        "lotr:orc_steel_nugget",
-        "lotr:orc_steel_nugget"
+        "lotrextended:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget"
       ]
     ],
     "output": {
@@ -37514,7 +37514,7 @@
       ],
       [
         "lotr:candle",
-        "lotr:morgul_steel_ingot",
+        "lotrextended:morgul_steel_ingot",
         "lotr:candle"
       ]
     ],
@@ -44559,7 +44559,7 @@
       ],
       [
         null,
-        "lotr:orc_steel_nugget",
+        "lotrextended:orc_steel_nugget",
         null
       ],
       [
