@@ -373,16 +373,16 @@ def load_manual_tag_edits(resolved_tags):
             "items": items
         }
 
-    if tag_id not in tags_data:
-        tags_data[tag_id] = generated
-    else:
-        # Preserve manual edits, only fill missing
-        for key, value in generated.items():
-            if key not in tags_data[tag_id] or not tags_data[tag_id][key]:
-                tags_data[tag_id][key] = value
+        if tag_id not in tags_data:
+            tags_data[tag_id] = generated
+        else:
+            # Preserve manual edits, only fill missing
+            for key, value in generated.items():
+             if key not in tags_data[tag_id] or not tags_data[tag_id][key]:
+                    tags_data[tag_id][key] = value
 
-        # Always update items list (this should stay accurate)
-        tags_data[tag_id]["items"] = items
+            # Always update items list (this should stay accurate)
+            tags_data[tag_id]["items"] = items
 
     return tags_data
     
