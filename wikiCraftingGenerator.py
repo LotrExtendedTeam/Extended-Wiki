@@ -30,6 +30,8 @@ OUTPUT_FOLDER = "wiki/docs/hooks/craftingoutput"
 OUTPUT_RECIPES_FILE = OUTPUT_FOLDER+"/recipes.json"
 OUTPUT_TAGS_FILE = OUTPUT_FOLDER+"/tags.json"
 OUTPUT_ITEMS_FILE = OUTPUT_FOLDER+"/items.json"
+OVERRIDE_ITEMS_FILE = "wikiDataGen/items_override.json"
+MOD_ITEMS_FILE = "wikiDataGen/infobox_data.json"
 
 # --- MANUAL TAG OVERRIDES ---
 # e.g. {"minecraft:planks": "minecraft:oak_plank"} will replace #minecraft:planks with minecraft:oak_plank
@@ -378,35 +380,61 @@ def is_valid_item_id(item_id):
     return isinstance(item_id, str) and ":" in item_id
 
 def load_manual_item_edits(all_items, source_root):
-    existing_items = {}
-    if os.path.exists(OUTPUT_ITEMS_FILE):
+    mod_items = {}
+    if os.path.exists(MOD_ITEMS_FILE):
         try:
-            with open(OUTPUT_ITEMS_FILE, "r") as f:
-                existing_items = json.load(f)
+            with open(MOD_ITEMS_FILE, "r") as f:
+                mod_items = json.load(f)
+            log.info(f"Loaded {len(mod_items)} items from mod's items.json")
+        except Exception as e:
+            log.warning(f"Failed to load mod's items.json: {e}")
+
+    overrides_items = {}
+    if os.path.exists(OVERRIDE_ITEMS_FILE):
+        try:
+            with open(OVERRIDE_ITEMS_FILE, "r") as f:
+                overrides_items = json.load(f)
         except Exception as e:
             log.warning(f"Failed to load existing items.json: {e}")
-            
-    items_data = {k: v for k, v in existing_items.items() if k in all_items}
+    
+    items_data = {}
+    overrides_updated = False
+
     for item in sorted(all_items):
         new_image_path = handle_item_image(item, source_root)
-        generated = {
-            "name": format_item_name(item),
-            "url": format_item_url(item),
-            "image": new_image_path
-        }
 
-        if item not in items_data:
-            items_data[item] = generated
-        else:
-            # Fill only missing fields, keep manual edits
-            for key, value in generated.items():
-                if key not in items_data[item] or not items_data[item][key]:
-                    items_data[item][key] = value
-            current_image = items_data[item].get("image", "")
-            if current_image.count("/") == 1:  # e.g., "items/item_name.png"
-                items_data[item]["image"] = new_image_path
-        if ("tooltip" in items_data[item] and "name" in items_data[item] and items_data[item]["tooltip"] == items_data[item]["name"]):
-            del items_data[item]["tooltip"]
+        if item not in overrides_items:
+            overrides_items[item] = {
+                "name": format_item_name(item),
+                "url": format_item_url(item),
+                "image": new_image_path
+            }
+            overrides_updated = True
+
+        item_entry = overrides_items.get(item, {}).copy()
+        if item in mod_items:
+            for key in ["name", "url", "image"]:
+                if key in mod_items[item] and key not in item_entry:
+                    item_entry[key] = mod_items[item][key]
+
+        if "name" not in item_entry or not item_entry["name"]:
+            item_entry["name"] = format_item_name(item)
+        if "url" not in item_entry or not item_entry["url"]:
+            item_entry["url"] = format_item_url(item)
+        current_image = item_entry.get("image", "")
+        if "image" not in item_entry or not current_image or current_image.count("/") == 1:
+            item_entry["image"] = new_image_path
+        items_data[item] = item_entry
+
+    if overrides_updated:
+        try:
+            sorted_overrides = dict(sorted(overrides_items.items()))
+            with open(OVERRIDE_ITEMS_FILE, "w") as f:
+                json.dump(sorted_overrides, f, indent=2)
+            log.info("Added new items to the override items file.")
+        except Exception as e:
+            log.warning(f"Failed to save updated override items: {e}")
+    
     return items_data
 
 def load_manual_tag_edits(resolved_tags):

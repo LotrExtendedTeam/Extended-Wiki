@@ -11,18 +11,6 @@ def on_pre_build(config):
 
 def on_page_markdown(markdown_content, page: Page, config, files):
 
-    def markdown_to_html(text):
-        """Convert markdown text to HTML, handling inline markdown elements."""
-        if not text:
-            return text
-        # Create a markdown instance with common extensions
-        md = markdown.Markdown(extensions=['extra', 'codehilite', 'md_in_html'])
-        # Convert markdown to HTML and strip the wrapping <p> tags for inline content
-        html = md.convert(text).strip()
-        if html.startswith('<p>') and html.endswith('</p>') and html.count('<p>') == 1:
-            html = html[3:-4]  # Remove wrapping <p></p> tags
-        return html
-
     def render_infobox(match):
         block = match.group(1).strip()
         lines = block.splitlines()

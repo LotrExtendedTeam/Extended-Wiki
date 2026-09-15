@@ -2926,7 +2926,6 @@
   },
   "lotr:gold_bars": {
     "name": "Gold Bars",
-    "tooltip": "Gold Bears",
     "image": "items/lotr/gold_bars.png",
     "url": "#"
   },
@@ -11447,7 +11446,7 @@
   },
   "minecraft:clay": {
     "name": "Clay",
-    "image": "items/minecraft/clay_ball.png",
+    "image": "items/minecraft/clay.png",
     "url": "https://minecraft.wiki/w/Clay"
   },
   "minecraft:clay_ball": {
